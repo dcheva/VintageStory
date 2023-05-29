@@ -1,0 +1,241 @@
+Game engine:
+==============
+Originally based on ManicDigger (http://manicdigger.github.io/). About 95% of it has been rewritten
+
+Open source libraries:
+==============
+OpenTK
+OpenAL
+SharpZipLib
+Open.Nat
+SharpAvi
+Tavis.JsonPatch (modified)
+Mono.Nat
+Cairo Graphics
+Newtonsoft.Json
+SQLite3
+ZStd for .NET
+Some bits of code yoinked from 2008 Paint.NET for color blending
+...and more. See Lib, Lib32 and Lib64 folder for a full list
+
+Mouse cursors:
+==============
+http://www.rw-designer.com/cursor-set/runescape-ingame-cursors
+
+Models, Textures:
+==============
+Some textures licensed from lithos and his 32xLITHOS Texture Pack.
+Some textures licensed from monsterfisher and his 32x Conquest Texture Pack.
+Some textures made by Sitatop
+All other models and textures are by the VS Team or have been contributed free of charge and royalty free by the community <3
+
+Sounds (some of them were altered by the VS Team):
+==============
+extinguish: https://freesound.org/people/the_semen_incident/sounds/155660/
+falloop.org source: https://www.freesound.org/people/Equality_X12/sounds/324048/
+camera snap: http://freesound.org/people/thecheeseman/sounds/51360/
+swim sound: http://freesound.org/people/CGEffex/sounds/98335/
+icons: https://www.designcontest.com/free-icons/
+water splash, lava step: http://freesound.org/people/soundscalpel.com/sounds/110393/
+small splash: http://freesound.org/people/tran5ient/sounds/190080/
+large splashes & medium splash: http://freesound.org/people/CGEffex/sounds/98335/
+underwater: http://freesound.org/people/SomeAudioGuy/sounds/45122/
+glass break: http://freesound.org/people/unfa/sounds/221528/
+thunder: http://freesound.org/people/juskiddink/sounds/101934/
+deep snow steps: http://freesound.org/people/mallement/sounds/160599/
+anvil place: http://freesound.org/people/MrAuralization/sounds/274846/
+sand steps: http://freesound.org/people/DasDeer/sounds/161815/
+gravel steps: https://creativecommons.org/licenses/by/3.0/
+explosion: http://www.freesfx.co.uk/
+longthunder: http://soundbible.com/1907-Thunder.html
+tool breaking: http://freesound.org/people/HerbertBoland/sounds/33206/
+fireplace: https://www.freesound.org/people/leosalom/sounds/234288/
+lava: http://freesound.org/people/Audionautics/sounds/133901/
+hot metal: http://freesound.org/people/laspaziale/sounds/92738/
+anvil hits: http://freesound.org/people/MrAuralization/sounds/274846/
+vase breaking: http://freesound.org/people/deleted_user_7146007/sounds/383720/
+chicken idle: http://freesound.org/people/SquaredGlasses/sounds/253649/
+wolf attack: http://freesound.org/people/Jaylew1987/sounds/260776/
+wolf growl: http://freesound.org/people/newagesoup/sounds/338674/
+wolf howl: http://freesound.org/people/y89312/sounds/139901/
+bow draw and arrow hit: http://freesound.org/people/brendan89/sounds/321552/
+stone hit / thud: https://www.freesound.org/people/juskiddink/sounds/108617/
+wolf pup hurt: https://freesound.org/people/AustinXYZ/sounds/350593/
+wolf pup bark: http://freesound.org/people/colinpoh/sounds/146343/
+wolf pup howl: http://soundbible.com/2149-Dogs-Howling.html
+wolf pup flop: https://freesound.org/people/Piink_Aces/sounds/257824/
+sheep-bighorn-hurt: http://freesound.org/people/dobroide/sounds/18231/
+sheep bighorn-idle: http://freesound.org/people/masterstatesman/sounds/389528/
+pig-hurt: http://freesound.org/people/josepharaoh99/sounds/352698/
+pig-idle: http://freesound.org/people/tompallant/sounds/257858/
+pig-attack: http://freesound.org/people/josepharaoh99/sounds/352698/
+piglet-hurt: https://www.freesoundeffects.com/free-track/squeal3-466310/
+piglet-idle: https://www.freesoundeffects.com/free-track/squeal3-466310/
+locust-idle: https://freesound.org/people/InspectorJ/sounds/415873/
+quern: http://www.freesound.org/people/Thalamus_Lab/sounds/232102/
+buy/sell: https://freesound.org/people/kiddpark/sounds/201159/
+hyena-laugh/growl/hurt: http://soundbible.com/2191-Hyena-Laughing.html
+hyena-attack: https://freesound.org/people/cdangels/sounds/403206/
+fox-hurt/attack: https://freesound.org/people/Simon%20Spiers/sounds/431302/
+fox-growl: http://www.freesfx.co.uk/soundeffects/foxes/
+fox-yip: https://freesound.org/people/Benbojangles/sounds/156488/
+water pouring: https://creativecommons.org/licenses/by/3.0/
+writing: https://freesound.org/people/InspectorJ/sounds/398271/
+raccoon: https://averageoutdoorsman.com/wild-game-downloads/raccoon/
+water fall: https://freesound.org/people/JustinBW/sounds/70204/
+vinyl noise: https://freesound.org/people/lusiaspinetv/sounds/449549/
+hare idle and hurt: https://freesound.org/people/quetzalcontla/sounds/348514/
+translocator: https://freesound.org/people/_NOMINAL_/sounds/124626/
+repairing translocator: https://freesound.org/people/Eelke/sounds/387193/
+creature hit success by InspectorJ (www.jshaw.co.uk): https://freesound.org/people/InspectorJ/sounds/411089/
+wood creak: http://www.freesound.org/people/dheming/sounds/177779/
+woosh: https://freesound.org/people/speedygonzo/sounds/257656/
+distant lightning: https://freesound.org/people/chancemedia/sounds/360372/
+lightning: https://freesound.org/people/2887679652/sounds/135594/
+hail: https://freesound.org/people/hantorio/sounds/121944/
+wood switch: https://freesound.org/people/Benjamin152/sounds/445149/
+basket open/close: https://freesound.org/people/digifishmusic/sounds/30656/
+pumpkin hit/break: https://freesound.org/people/Katiemullen/sounds/249490/
+bell death sound (excerpt): https://freesound.org/people/sonidotv/sounds/505643/
+ore crusher: https://freesound.org/people/FST180081/sounds/441812/
+coke oven door: http://www.freesound.org/people/strikingtwice/sounds/260212/
+oboe: https://freesound.org/people/MTG/sounds/355077/
+bear: https://www.partnersinrhyme.com/soundfx/bearsounds.shtml
+drifter attack: https://freesound.org/people/nextmaking/sounds/86023/
+sling: https://freesound.org/people/JacksonML/sounds/394042/
+locust when hit by a hacking spear: https://freesound.org/people/guitar_paul1/sounds/272992/
+accordion voice: https://freesound.org/people/juskiddink/sounds/120690/
+trumpet voice: https://freesound.org/people/decadenizen/sounds/487488/
+eidolon awaken sound: https://freesound.org/people/Sphrea/sounds/352483/
+eidolon awake sound: https://freesound.org/people/Benboncan/sounds/137950/
+large door open and close: https://freesound.org/people/Aesterial-Arts/sounds/633243/ + https://freesound.org/people/InspectorJ/sounds/411790/
+metal sound: https://freesound.org/people/sandyrb/sounds/102496/
+
+
+Font: 
+==============
+daela bold: http://www.fontsquirrel.com/fonts/Daela?q%5Bterm%5D=chisel&q%5Bsearch_check%5D=Y
+
+
+Translation: 
+==============
+Italian:
+  DaveDevil
+  towersf
+  franciscono.enry
+Dutch:
+  AlteOgre
+  Meorin
+Portuguese:
+  Zaldaryon
+  ZilchPhoenix
+  plaic_
+Russian:
+  Heptagon-ru
+  Low3
+  DArkHekRoMaNT
+  zybillo
+  bit62042
+  p.taranov
+  rasperryice
+  mrlobaker
+  1aarklight1
+  scepsis
+  Liv Frog
+  Han_Salo
+  Minecrafter
+  insectdesign111
+German:
+  Monstanner
+  Haret01
+  Marco-MP
+  Erik3003
+  xBeathovenx
+  CreativeMD
+  DrKrieger
+  Daniel
+  deadzombie
+  Taija
+  Angelnoir
+  Fulgen301
+  michael-popp-88
+  Aki
+  minelpphynix2
+  chyper
+  skol
+  Tels
+  Niclas S.
+  RolfMeles
+  dKrisch
+French:
+  Jean Charles Passard
+  Mokradin
+  Drakker
+  ARandwulf
+  TriForMine
+  jbs04
+  Ailin78
+  roulito
+  liberodark
+  ernest33
+  bondnokey
+  Chronodrax
+  anthony.maayer
+  lolmamgamefr
+  mascettifabien
+  Aledark
+  Xandoria
+  Benoit67
+Ukrainian:
+  Yevhenii Vuksta
+  Mykola Sheredko
+  DearFox
+  Han_Salo
+  kozakoleksandr97
+  Minecrafter
+Polish:
+  Acheon72P
+  MrGREGhimself
+  Radiden
+  Kaperios
+  WuochiDemon
+  scorbiot
+  Adam_eM
+  Gabriel Kaszewski
+  kuballaszymanski
+  nheve
+  kchmiel
+  Lina Hinohana
+  qexow
+  Arczi08
+  K0cur
+Spanish:
+  RicardoMM00
+  Juan Pablo Ossa Zapata
+  Darce
+  ZulfBracket
+  SteelWool
+  socramazibi
+Swedish:
+  hasselkanin
+  Vilderos
+Chinese Simplified:
+  Kerocate_军喵
+  kousakak
+  KEKEKE YAW
+Romanian:
+  Lefter Mădălin
+  fruitshakes
+Slovakian:
+  daretmavi
+  Liv Frog
+Japanese:
+  kengo700
+  AllsAlla
+Vietnamese:
+  AndyVipEvil
+Esperanto:
+  RolfMeles
+  Schaumschatten
+Czech:
+  odyseus156

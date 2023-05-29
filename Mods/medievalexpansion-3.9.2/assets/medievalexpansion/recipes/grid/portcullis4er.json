@@ -1,0 +1,118 @@
+[
+    {
+        ingredientPattern: "_H_,T__,P__",
+        width: 3,
+        height: 3,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "T": {
+                type: "item",
+                code: "portcullispart",
+                quantity: 3
+            },
+            "P": {
+                type: "item",
+                code: "portcullispart"
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "portcullis4x3-model-closed-north"
+        }
+    },
+    {
+        ingredientPattern: "HP",
+        width: 2,
+        height: 1,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "P": {
+                type: "block",
+                code: "portcullis4x3-model-closed-north"
+            }
+        },
+        output: {
+            type: "item",
+            code: "portcullisdismantled",
+            quantity: 4
+        }
+    },
+    {
+        ingredientPattern: "_H_,PT_,P__",
+        width: 3,
+        height: 3,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "P": {
+                type: "item",
+                code: "portcullispart"
+            },
+            "T": {
+                type: "item",
+                code: "portcullispart",
+                quantity : 3
+            }
+
+        },
+        output: {
+            "type": "block",
+            "code": "portcullis4x4-model-closed-north"
+        }
+    },
+    {
+        ingredientPattern: "HP",
+        width: 2,
+        height: 1,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "P": {
+                type: "block",
+                code: "portcullis4x4-model-closed-north"
+            }
+        },
+        output: {
+            type: "item",
+            code: "portcullisdismantled",
+            quantity: 5
+        }
+    },
+    {
+        ingredientPattern: "_H_,XPX,P__",
+        width: 3,
+        height: 3,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "P": {
+                type: "item",
+                code: "portcullispart"
+            },
+            "X": {
+                type: "item",
+                code: "portcullispart",
+                quantity : 2
+            }
+
+        },
+        output: {
+            "type": "block",
+            "code": "portcullis4x5-model-closed-north"
+        }
+    },
+    {
+        ingredientPattern: "HP",
+        width: 2,
+        height: 1,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "P": {
+                type: "block",
+                code: "portcullis4x5-model-closed-north"
+            }
+        },
+        output: {
+            type: "item",
+            code: "portcullisdismantled",
+            quantity: 6
+        }
+    }
+]

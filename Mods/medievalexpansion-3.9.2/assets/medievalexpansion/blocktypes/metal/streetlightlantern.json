@@ -1,0 +1,85 @@
+﻿{
+	code: "streetlightlantern",
+	class: "BlockStreetLightLantern",
+	entityClass: "BEStreetLightLantern",
+	behaviors: [
+		
+	],
+	
+	attributesByType: {
+		"streetlightlantern": {
+			handbook: { exclude: true }
+		}
+	},	
+	variantgroups: [
+	],
+	shapebytype: {
+		"streetlightlantern": { base: "block/metal/streetlightlantern" }
+	},
+	"_comment": "Must declare textures so they get added to the block texture atlas",
+	textures: {
+		"copper": { "base": "game:block/metal/lantern/copper" },
+		"brass": { "base": "game:block/metal/lantern/brass" },
+		"blackbronze": { "base": "game:block/metal/lantern/blackbronze" },
+		"bismuth": { "base": "game:block/metal/lantern/bismuth" },
+		"tinbronze": { "base": "game:block/metal/lantern/tinbronze" },
+		"bismuthbronze": { "base": "game:block/metal/lantern/bismuthbronze" },
+		"iron": { "base": "game:block/metal/lantern/iron" },
+		"molybdochalkos": { "base": "game:block/metal/lantern/molybdochalkos" },
+		"silver": { "base": "game:block/metal/lantern/silver" },
+		"gold": { "base": "game:block/metal/lantern/gold" },
+		"steel": { "base": "game:block/metal/lantern/steel" },
+		"meteoriciron": { "base": "game:block/metal/lantern/meteoriciron" },
+
+		"deco-copper": { "base": "game:block/metal/lantern/copper-deco" },
+		"deco-brass": { "base": "game:block/metal/lantern/brass-deco" },
+		"deco-blackbronze": { "base": "game:block/metal/lantern/blackbronze-deco" },
+		"deco-bismuth": { "base": "game:block/metal/lantern/bismuth-deco" },
+		"deco-tinbronze": { "base": "game:block/metal/lantern/tinbronze-deco" },
+		"deco-bismuthbronze": { "base": "game:block/metal/lantern/bismuthbronze-deco" },
+		"deco-iron": { "base": "game:block/metal/lantern/iron-deco" },
+		"deco-molybdochalkos": { "base": "game:block/metal/lantern/molybdochalkos-deco" },
+		"deco-silver": { "base": "game:block/metal/lantern/silver-deco" },
+		"deco-gold": { "base": "game:block/metal/lantern/gold-deco" },
+		"deco-steel": { "base": "game:block/metal/lantern/steel-deco" },
+		"deco-meteoriciron": { "base": "game:block/metal/lantern/meteoriciron-deco" }
+	},
+	creativeinventory: {  },
+	creativeinventoryStacksByType: {
+	},
+	blockmaterial: "Metal",
+	lightAbsorption: 0,
+	lightHsv: [7, 3, 22],
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	replaceable: 500,
+	resistance: 1,
+	fpHandTransform: {
+		translation: { x: 0.3, y: -0.1, z: 0 },
+		rotation: { x: 0, y: -45, z: 0 },
+		scale: 1.18
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 1.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.59, y: -0.89, z: -0.83 },
+		rotation: { x: 0, y: -8, z: -96 },
+		scale: 0.55
+	},
+	groundTransform: {
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2
+	},
+	selectionboxbytype: {
+		"streetlightlantern": { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 1, z2: 0.75 },
+	},
+	collisionboxbytype: {
+		"streetlightlantern": { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 1, z2: 0.75 },
+	}
+}

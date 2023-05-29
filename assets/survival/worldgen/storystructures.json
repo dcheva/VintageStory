@@ -1,0 +1,21 @@
+{
+	structures: [
+		{
+			code: "resonancearchive",
+			group: "storystructure",
+			name: "Resonance Archive",
+			schematics: ["story/resoarchive"],
+			buildProtected: true,
+			buildProtectionName: "custommessage-sacred",
+			buildProtectionDesc: "Trader Perimenter",
+			placement: "underground",
+			minSpawnDist: 5000,
+			maxSpawnDist: 7000,
+			requireLandform: "hillplateu",
+			landformSizeX: 250,
+			landformSizeZ: 250,
+			minY: 0.1,
+			maxY: 0.2
+		}
+	]
+}

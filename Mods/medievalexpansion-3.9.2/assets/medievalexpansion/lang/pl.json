@@ -1,0 +1,265 @@
+{
+	"medievalexpansion:block-myshinyblock-gold-good": "Złoty Filar",
+	"medievalexpansion:block-myshinyblock-gold-used": "Stary Złoty Filar",
+	"medievalexpansion:block-myshinyblock-iron-good": "Żelazny Filar",
+	"medievalexpansion:block-myshinyblock-iron-used": "Stary Żelazny Filar",
+	"medievalexpansion:block-portcullis3x3-model-closed-north": "Żelazna Brama 3x3",
+	"medievalexpansion:block-portcullis3x4-model-closed-north": "Żelazna Brama 3x4",
+	"medievalexpansion:block-portcullis3x5-model-closed-north": "Żelazna Brama 3x5",
+	"medievalexpansion:block-portcullis4x3-model-closed-north": "Żelazna Brama 4x3",
+	"medievalexpansion:block-portcullis4x4-model-closed-north": "Żelazna Brama 4x4",
+	"medievalexpansion:block-portcullis4x5-model-closed-north": "Żelazna Brama 4x5",
+	"medievalexpansion:block-portcullis5x3-model-closed-north": "Żelazna Brama 5x3",
+	"medievalexpansion:block-portcullis5x4-model-closed-north": "Żelazna Brama 5x4",
+	"medievalexpansion:block-portcullis5x5-model-closed-north": "Żelazna Brama 5x5",
+
+	"medievalexpansion:block-gate3x3-model-oak-closed-north": "Bramka 3x3 Dąb",
+	"medievalexpansion:block-gate3x3-model-acacia-closed-north": "Brama 3x3 Akacja",
+	"medievalexpansion:block-gate3x3-model-aged-closed-north": "Brama 3x3 Starzona",
+	"medievalexpansion:block-gate3x3-model-birch-closed-north": "Brama 3x3 Brzoza",
+	"medievalexpansion:block-gate3x3-model-kapok-closed-north": "Brama 3x3 Kapok",
+	"medievalexpansion:block-gate3x3-model-maple-closed-north": "Brama 3x3 Klon",
+	"medievalexpansion:block-gate3x3-model-pine-closed-north": "Brama 3x3 Sosna",
+	"medievalexpansion:block-gate3x3-model-purpleheart-closed-north": "Brama 3x3 Amarant",
+	"medievalexpansion:block-gate3x3-model-walnut-closed-north": "Brama 3x3 Orzech włoski",
+	"medievalexpansion:block-gate3x3-model-redwood-closed-north": "Brama 3x3 Sekwoja",
+	"medievalexpansion:block-gate3x3-model-larch-closed-north": "Brama 3x3 Modrzew",
+	"medievalexpansion:block-gate3x3-model-ebony-closed-north": "Brama 3x3 Heban",
+	"medievalexpansion:block-gate3x3-model-baldcypress-closed-north": "Brama 3x3 Cypryśnik Błotny",
+
+	"medievalexpansion:block-gate4x4-model-oak-closed-north": "Bramka 4x4 Dąb",
+	"medievalexpansion:block-gate4x4-model-acacia-closed-north": "Brama 4x4 Akacja",
+	"medievalexpansion:block-gate4x4-model-aged-closed-north": "Brama 4x4 Starzona",
+	"medievalexpansion:block-gate4x4-model-birch-closed-north": "Brama 4x4 Brzoza",
+	"medievalexpansion:block-gate4x4-model-kapok-closed-north": "Brama 4x4 Kapok",
+	"medievalexpansion:block-gate4x4-model-maple-closed-north": "Brama 4x4 Klon",
+	"medievalexpansion:block-gate4x4-model-pine-closed-north": "Brama 4x4 Sosna",
+	"medievalexpansion:block-gate4x4-model-purpleheart-closed-north": "Brama 4x4 Amarant",
+	"medievalexpansion:block-gate4x4-model-walnut-closed-north": "Brama 4x4 Orzech włoski",
+	"medievalexpansion:block-gate4x4-model-redwood-closed-north": "Brama 4x4 Sekwoja",
+	"medievalexpansion:block-gate4x4-model-larch-closed-north": "Brama 4x4 Modrzew",
+	"medievalexpansion:block-gate4x4-model-ebony-closed-north": "Brama 4x4 Heban",
+	"medievalexpansion:block-gate4x4-model-baldcypress-closed-north": "Brama 4x4 Cypryśnik Błotny",
+
+	"medievalexpansion:block-gate5x5-model-oak-closed-north": "Bramka 5x5 Dąb",
+	"medievalexpansion:block-gate5x5-model-acacia-closed-north": "Brama 5x5 Akacja",
+	"medievalexpansion:block-gate5x5-model-aged-closed-north": "Brama 5x5 Starzona",
+	"medievalexpansion:block-gate5x5-model-birch-closed-north": "Brama 5x5 Brzoza",
+	"medievalexpansion:block-gate5x5-model-kapok-closed-north": "Brama 5x5 Kapok",
+	"medievalexpansion:block-gate5x5-model-maple-closed-north": "Brama 5x5 Klon",
+	"medievalexpansion:block-gate5x5-model-pine-closed-north": "Brama 5x5 Sosna",
+	"medievalexpansion:block-gate5x5-model-purpleheart-closed-north": "Brama 5x5 Amarant",
+	"medievalexpansion:block-gate5x5-model-walnut-closed-north": "Brama 5x5 Orzech włoski",
+	"medievalexpansion:block-gate5x5-model-redwood-closed-north": "Brama 5x5 Sekwoja",
+	"medievalexpansion:block-gate5x5-model-larch-closed-north": "GBrama 5x5 Modrzew",
+	"medievalexpansion:block-gate5x5-model-ebony-closed-north": "Brama 5x5 Heban",
+	"medievalexpansion:block-gate5x5-model-baldcypress-closed-north": "Brama 5x5 Cypryśnik Błotny",
+
+	"medievalexpansion:block-gate8x5-model-oak-closed-north": "Bramka 8x5 Dąb",
+	"medievalexpansion:block-gate8x5-model-acacia-closed-north": "Brama 8x5 Akacja",
+	"medievalexpansion:block-gate8x5-model-aged-closed-north": "Brama 8x5 Starzona",
+	"medievalexpansion:block-gate8x5-model-birch-closed-north": "Brama 8x5 Brzoza",
+	"medievalexpansion:block-gate8x5-model-kapok-closed-north": "Brama 8x5 Kapok",
+	"medievalexpansion:block-gate8x5-model-maple-closed-north": "Brama 8x5 Klon",
+	"medievalexpansion:block-gate8x5-model-pine-closed-north": "Brama 8x5 Sosna",
+	"medievalexpansion:block-gate8x5-model-purpleheart-closed-north": "Brama 8x5 Amarant",
+	"medievalexpansion:block-gate8x5-model-walnut-closed-north": "Brama 8x5 Orzech Włoski",
+	"medievalexpansion:block-gate8x5-model-redwood-closed-north": "Brama 8x5 Sekwoja",
+	"medievalexpansion:block-gate8x5-model-larch-closed-north": "Brama 8x5 Modrzew",
+	"medievalexpansion:block-gate8x5-model-ebony-closed-north": "Brama 8x5 Heban",
+	"medievalexpansion:block-gate8x5-model-baldcypress-closed-north": "Brama 8x5 Cypryśnik Błotny",
+
+	"medievalexpansion:block-drawbridge3x4-model-purpleheart-opened-north": "Most Zwodzony 3x4 Amarant",
+	"medievalexpansion:block-drawbridge3x5-model-purpleheart-opened-north": "Most Zwodzony 3x5 Amarant",
+	"medievalexpansion:block-drawbridge3x6-model-purpleheart-opened-north": "Most Zwodzony 3x6 Amarant",
+
+	"medievalexpansion:block-drawbridge4x5-model-purpleheart-opened-north": "Most Zwodzony 4x5 Amarant",
+	"medievalexpansion:block-drawbridge4x6-model-purpleheart-opened-north": "Most Zwodzony 4x6 Amarant",
+	"medievalexpansion:block-drawbridge4x7-model-purpleheart-opened-north": "Most Zwodzony 4x7 Amarant",
+
+	"medievalexpansion:block-drawbridge5x6-model-purpleheart-opened-north": "Most Zwodzony 5x6 Amarant",
+	"medievalexpansion:block-drawbridge5x7-model-purpleheart-opened-north": "Most Zwodzony 5x7 Amarant",
+
+	"medievalexpansion:block-drawbridge3x4-model-walnut-opened-north": "Most Zwodzony 3x4 Orzech Włoski",
+	"medievalexpansion:block-drawbridge3x5-model-walnut-opened-north": "Most Zwodzony 3x5 Orzech Włoski",
+	"medievalexpansion:block-drawbridge3x6-model-walnut-opened-north": "Most Zwodzony 3x6 Orzech Włoski",
+
+	"medievalexpansion:block-drawbridge4x5-model-walnut-opened-north": "Most Zwodzony 4x5 Orzech Włoski",
+	"medievalexpansion:block-drawbridge4x6-model-walnut-opened-north": "Most Zwodzony 4x6 Orzech Włoski",
+	"medievalexpansion:block-drawbridge4x7-model-walnut-opened-north": "Most Zwodzony 4x7 Orzech Włoski",
+
+	"medievalexpansion:block-drawbridge5x6-model-walnut-opened-north": "Most Zwodzony 5x6 Orzech Włoski",
+	"medievalexpansion:block-drawbridge5x7-model-walnut-opened-north": "Most Zwodzony 5x7 Orzech Włoski",
+
+	"medievalexpansion:block-drawbridge3x4-model-redwood-opened-north": "Most Zwodzony 3x4 Sekwoja",
+	"medievalexpansion:block-drawbridge3x5-model-redwood-opened-north": "Most Zwodzony 3x5 Sekwoja",
+	"medievalexpansion:block-drawbridge3x6-model-redwood-opened-north": "Most Zwodzony 3x6 Sekwoja",
+
+	"medievalexpansion:block-drawbridge4x5-model-redwood-opened-north": "Most Zwodzony 4x5 Sekwoja",
+	"medievalexpansion:block-drawbridge4x6-model-redwood-opened-north": "Most Zwodzony 4x6 Sekwoja",
+	"medievalexpansion:block-drawbridge4x7-model-redwood-opened-north": "Most Zwodzony 4x7 Sekwoja",
+
+	"medievalexpansion:block-drawbridge5x6-model-redwood-opened-north": "Most Zwodzony 5x6 Sekwoja",
+	"medievalexpansion:block-drawbridge5x7-model-redwood-opened-north": "Most Zwodzony 5x7 Sekwoja",
+
+	"medievalexpansion:block-drawbridge3x4-model-larch-opened-north": "Most Zwodzony 3x4 Modrzew",
+	"medievalexpansion:block-drawbridge3x5-model-larch-opened-north": "Most Zwodzony 3x5 Modrzew",
+	"medievalexpansion:block-drawbridge3x6-model-larch-opened-north": "Most Zwodzony 3x6 Modrzew",
+
+	"medievalexpansion:block-drawbridge4x5-model-larch-opened-north": "Most Zwodzony 4x5 Modrzew",
+	"medievalexpansion:block-drawbridge4x6-model-larch-opened-north": "Most Zwodzony 4x6 Modrzew",
+	"medievalexpansion:block-drawbridge4x7-model-larch-opened-north": "Most Zwodzony 4x7 Modrzew",
+
+	"medievalexpansion:block-drawbridge5x6-model-larch-opened-north": "Most Zwodzony 5x6 Modrzew",
+	"medievalexpansion:block-drawbridge5x7-model-larch-opened-north": "Most Zwodzony 5x7 Modrzew",
+
+	"medievalexpansion:block-drawbridge3x4-model-ebony-opened-north": "Most Zwodzony 3x4 Heban",
+	"medievalexpansion:block-drawbridge3x5-model-ebony-opened-north": "Most Zwodzony 3x5 Heban",
+	"medievalexpansion:block-drawbridge3x6-model-ebony-opened-north": "Most Zwodzony 3x6 Heban",
+
+	"medievalexpansion:block-drawbridge4x5-model-ebony-opened-north": "Most Zwodzony 4x5 Heban",
+	"medievalexpansion:block-drawbridge4x6-model-ebony-opened-north": "Most Zwodzony 4x6 Heban",
+	"medievalexpansion:block-drawbridge4x7-model-ebony-opened-north": "Most Zwodzony 4x7 Heban",
+
+	"medievalexpansion:block-drawbridge5x6-model-ebony-opened-north": "Most Zwodzony 5x6 Heban",
+	"medievalexpansion:block-drawbridge5x7-model-ebony-opened-north": "Most Zwodzony 5x7 Heban",
+
+	"medievalexpansion:block-drawbridge3x4-model-baldcypress-opened-north": "Most Zwodzony 3x4 Cypryśnik Błotny",
+	"medievalexpansion:block-drawbridge3x5-model-baldcypress-opened-north": "Most Zwodzony 3x5 Cypryśnik Błotny",
+	"medievalexpansion:block-drawbridge3x6-model-baldcypress-opened-north": "Most Zwodzony 3x6 Cypryśnik Błotny",
+
+	"medievalexpansion:block-drawbridge4x5-model-baldcypress-opened-north": "Most Zwodzony 4x5 Cypryśnik Błotny",
+	"medievalexpansion:block-drawbridge4x6-model-baldcypress-opened-north": "Most Zwodzony 4x6 Cypryśnik Błotny",
+	"medievalexpansion:block-drawbridge4x7-model-baldcypress-opened-north": "Most Zwodzony 4x7 Cypryśnik Błotny",
+
+	"medievalexpansion:block-drawbridge5x6-model-baldcypress-opened-north": "Most Zwodzony 5x6 Cypryśnik Błotny",
+	"medievalexpansion:block-drawbridge5x7-model-baldcypress-opened-north": "Most Zwodzony 5x7 Cypryśnik Błotny",
+
+	"medievalexpansion:block-drawbridge3x4-model-oak-opened-north": "Most Zwodzony 3x4 Dąb",
+	"medievalexpansion:block-drawbridge3x5-model-oak-opened-north": "Most Zwodzony 3x5 Dąb",
+	"medievalexpansion:block-drawbridge3x6-model-oak-opened-north": "Most Zwodzony 3x6 Dąb",
+
+	"medievalexpansion:block-drawbridge4x5-model-oak-opened-north": "Most Zwodzony 4x5 Dąb",
+	"medievalexpansion:block-drawbridge4x6-model-oak-opened-north": "Most Zwodzony 4x6 Dąb",
+	"medievalexpansion:block-drawbridge4x7-model-oak-opened-north": "Most Zwodzony 4x7 Dąb",
+
+	"medievalexpansion:block-drawbridge5x6-model-oak-opened-north": "Most Zwodzony 5x6 Dąb",
+	"medievalexpansion:block-drawbridge5x7-model-oak-opened-north": "Most Zwodzony 5x7 Dąb",
+
+	"medievalexpansion:block-drawbridge3x4-model-acacia-opened-north": "Most Zwodzony 3x4 Akacja",
+	"medievalexpansion:block-drawbridge3x5-model-acacia-opened-north": "Most Zwodzony 3x5 Akacja",
+	"medievalexpansion:block-drawbridge3x6-model-acacia-opened-north": "Most Zwodzony 3x6 Akacja",
+
+	"medievalexpansion:block-drawbridge4x5-model-acacia-opened-north": "Most Zwodzony 4x5 Akacja",
+	"medievalexpansion:block-drawbridge4x6-model-acacia-opened-north": "Most Zwodzony 4x6 Akacja",
+	"medievalexpansion:block-drawbridge4x7-model-acacia-opened-north": "Most Zwodzony 4x7 Akacja",
+
+	"medievalexpansion:block-drawbridge5x6-model-acacia-opened-north": "Most Zwodzony 5x6 Akacja",
+	"medievalexpansion:block-drawbridge5x7-model-acacia-opened-north": "Most Zwodzony 5x7 Akacja",
+
+	"medievalexpansion:block-drawbridge3x4-model-aged-opened-north": "Most Zwodzony 3x4 Starzony",
+	"medievalexpansion:block-drawbridge3x5-model-aged-opened-north": "Most Zwodzony 3x5 Starzony",
+	"medievalexpansion:block-drawbridge3x6-model-aged-opened-north": "Most Zwodzony 3x6 Starzony",
+
+	"medievalexpansion:block-drawbridge4x5-model-aged-opened-north": "Most Zwodzony 4x5 Starzony",
+	"medievalexpansion:block-drawbridge4x6-model-aged-opened-north": "Most Zwodzony 4x6 Starzony",
+	"medievalexpansion:block-drawbridge4x7-model-aged-opened-north": "Most Zwodzony 4x7 Starzony",
+
+	"medievalexpansion:block-drawbridge5x6-model-aged-opened-north": "Most Zwodzony 5x6 Starzony",
+	"medievalexpansion:block-drawbridge5x7-model-aged-opened-north": "Most Zwodzony 5x7 Starzony",
+
+	"medievalexpansion:block-drawbridge3x4-model-birch-opened-north": "Most Zwodzony 3x4 Brzoza",
+	"medievalexpansion:block-drawbridge3x5-model-birch-opened-north": "Most Zwodzony 3x5 Brzoza",
+	"medievalexpansion:block-drawbridge3x6-model-birch-opened-north": "Most Zwodzony 3x6 Brzoza",
+
+	"medievalexpansion:block-drawbridge4x5-model-birch-opened-north": "Most Zwodzony 4x5 Brzoza",
+	"medievalexpansion:block-drawbridge4x6-model-birch-opened-north": "Most Zwodzony 4x6 Brzoza",
+	"medievalexpansion:block-drawbridge4x7-model-birch-opened-north": "Most Zwodzony 4x7 Brzoza",
+
+	"medievalexpansion:block-drawbridge5x6-model-birch-opened-north": "Most Zwodzony 5x6 Brzoza",
+	"medievalexpansion:block-drawbridge5x7-model-birch-opened-north": "Most Zwodzony 5x7 Brzoza",
+
+	"medievalexpansion:block-drawbridge3x4-model-kapok-opened-north": "Most Zwodzony 3x4 Kapok",
+	"medievalexpansion:block-drawbridge3x5-model-kapok-opened-north": "Most Zwodzony 3x5 Kapok",
+	"medievalexpansion:block-drawbridge3x6-model-kapok-opened-north": "Most Zwodzony 3x6 Kapok",
+
+	"medievalexpansion:block-drawbridge4x5-model-kapok-opened-north": "Most Zwodzony 4x5 Kapok",
+	"medievalexpansion:block-drawbridge4x6-model-kapok-opened-north": "Most Zwodzony 4x6 Kapok",
+	"medievalexpansion:block-drawbridge4x7-model-kapok-opened-north": "Most Zwodzony 4x7 Kapok",
+
+	"medievalexpansion:block-drawbridge5x6-model-kapok-opened-north": "Most Zwodzony 5x6 Kapok",
+	"medievalexpansion:block-drawbridge5x7-model-kapok-opened-north": "Most Zwodzony 5x7 Kapok",
+
+	"medievalexpansion:block-drawbridge3x4-model-maple-opened-north": "Most Zwodzony 3x4 Klon",
+	"medievalexpansion:block-drawbridge3x5-model-maple-opened-north": "Most Zwodzony 3x5 Klon",
+	"medievalexpansion:block-drawbridge3x6-model-maple-opened-north": "Most Zwodzony 3x6 Klon",
+
+	"medievalexpansion:block-drawbridge4x5-model-maple-opened-north": "Most Zwodzony 4x5 Klon",
+	"medievalexpansion:block-drawbridge4x6-model-maple-opened-north": "Most Zwodzony 4x6 Klon",
+	"medievalexpansion:block-drawbridge4x7-model-maple-opened-north": "Most Zwodzony 4x7 Klon",
+
+	"medievalexpansion:block-drawbridge5x6-model-maple-opened-north": "Most Zwodzony 5x6 Klon",
+	"medievalexpansion:block-drawbridge5x7-model-maple-opened-north": "Most Zwodzony 5x7 Klon",
+
+	"medievalexpansion:block-drawbridge3x4-model-pine-opened-north": "Most Zwodzony 3x4 Sosna",
+	"medievalexpansion:block-drawbridge3x5-model-pine-opened-north": "Most Zwodzony 3x5 Sosna",
+	"medievalexpansion:block-drawbridge3x6-model-pine-opened-north": "Most Zwodzony 3x6 Sosna",
+
+	"medievalexpansion:block-drawbridge4x5-model-pine-opened-north": "Most Zwodzony 4x5 Sosna",
+	"medievalexpansion:block-drawbridge4x6-model-pine-opened-north": "Most Zwodzony 4x6 Sosna",
+	"medievalexpansion:block-drawbridge4x7-model-pine-opened-north": "Most Zwodzony 4x7 Sosna",
+
+	"medievalexpansion:block-drawbridge5x6-model-pine-opened-north": "Most Zwodzony 5x6 Sosna",
+	"medievalexpansion:block-drawbridge5x7-model-pine-opened-north": "Most Zwodzony 5x7 Sosna",
+
+	"medievalexpansion:block-floorplate-wood-up-north": "Płyta podłogowa Drewno",
+	"medievalexpansion:block-floorplate-stone-up-north": "Płyta posadzkowa Kamień",
+
+	"medievalexpansion:item-portcullispart": "Żelazna Brama- Część Żelazna",
+	"medievalexpansion:item-portcullisdismantled": "Żelazna Brama- Zdemontowana",
+
+	"medievalexpansion:item-repairkit-large-copper": "Duży zestaw naprawczy (miedziany)",
+	"medievalexpansion:item-repairkit-large-tinbronze": "Duży zestaw naprawczy (brąz cynowy)",
+	"medievalexpansion:item-repairkit-large-iron": "Duży zestaw naprawczy (żelazo)",
+	"medievalexpansion:item-repairkit-large-steel": "Duży zestaw naprawczy (stal)",
+
+	"medievalexpansion:restore-durability": "Przywrócenie trwałości: {0}",
+	"medievalexpansion:can-repair-constructions": "Może naprawiać konstrukcje",
+	"medievalexpansion:blockhelp-repair": "Naprawa",
+
+	"medievalexpansion:block-streetlight-north": "Lampion",
+	"medievalexpansion:block-waterwheelbase-north": "Koło wodne - podstawa",
+	"medievalexpansion:block-waterwheelpenstock-door-north": "Rynna z Włazem",
+	"medievalexpansion:block-waterwheelpenstock-normal-north": "Rynna",
+	"medievalexpansion:block-waterwheelpenstock-output-north": "Rynna- Wyjście",
+	"medievalexpansion:waterwheel-complete": "Koło wodne",
+	"medievalexpansion:item-waterwheelspin-oak": "Koło Wodne- Przekładnia",
+	"medievalexpansion:item-penstockhatch-oak": "Hatch for Penstock",
+	"medievalexpansion:waterwheel-requires-gear": "Wymaga przekładni",
+	"medievalexpansion:penstock-requires-hatch": "Wymaga rynny",
+	"medievalexpansion:waterwheel-requires-repair": "Konieczna naprawa",
+	"medievalexpansion:waterwheel-efficiency": "Wydajność: {0}%",
+	"medievalexpansion:waterwheel-durability": "Trwałość: {0}%",
+	"medievalexpansion:waterwheel-typ": "Typ: {0}",
+	"medievalexpansion:waterwheel-typ-undershot": "Podsiębierny",
+	"medievalexpansion:waterwheel-typ-breastshot": "Śródsiębierny",
+	"medievalexpansion:waterwheel-typ-overshot": "Nadsiębierny",
+
+	"medievalexpansion:waterwheel-usage-title": "Moc Mechaniczna Koła Wodnego ",
+	"medievalexpansion:waterwheel-usage-text": "<strong>Mechaniczna siła koła wodnego</strong><br><br>wymaga wody, aby zasilić koło wodne. Woda musi płynąć w odpowiednim kierunku, obroty są przeciwne do ruchu wskazówek zegara.<br/>Istnieją 3 warianty o maksymalnych wydajnościach: <br />- Przedsiębierny: 30%<br />- Śródsiębierny: 45%<br />- Nadsiębierny: 85%<br/><br/>Dla Nadsiębiernego musisz użyć Rynien, które muszą być podlewane. Rynna musi być umieszczona na górnej stronie koła.<br/><br/>W przypadku Śródsiębiernego woda musi unosić się na tym samym poziomie wysokości osi w stosunku do koła wodnego.<br/><br/>Administratorzy serwera mogą zmieniać wydajność za pomocą pliku konfiguracyjnego.",
+	"medievalexpansion:block-firebrazier-*": "Palenisko",
+	"medievalexpansion:block-firebrazier-creative-*": "Palenisko (Creative)",
+	"medievalexpansion:firebrazier-burningtime": "Czas spalania: {0}",
+	"medievalexpansion:blockhelp-firebrazier-fuel": "Dodaj paliwo",
+	"medievalexpansion:blockhelp-firebrazier-ignite": "Zapal",
+
+	"medievalexpansion:item-creature-aurochs-female": "Tur Leśny (Samica)",
+	"medievalexpansion:item-creature-aurochs-male": "Tur Leśny (Samiec)",
+	"medievalexpansion:item-creature-aurochs-lamb": "Tur Leśny (Cielak)",
+	"medievalexpansion:item-dead-creature-aurochs-male": "Martyw tur Leśny (Samiec)",
+	"medievalexpansion:item-dead-creature-aurochs-female": "Martwy Tur Leśny (Samica)",
+	"medievalexpansion:item-dead-creature-aurochs-lamb": "Martwy Tur Leśny (Cielak)"
+
+
+}
+

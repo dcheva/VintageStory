@@ -1,0 +1,44 @@
+[
+    {
+        ingredientPattern: "H,P,W",
+        width: 1,
+        height: 3,
+        ingredients: {
+            "H": {
+                type: "item", code: "game:hammer-*", isTool: true
+            },
+            "P": {
+                type: "item",
+                code: "game:plank-*",
+                quantity: 2
+            },
+            "W": {
+                type: "item",
+                code: "game:ingot-iron",
+                quantity: 2
+            }
+        },
+        output: {
+            "type": "item",
+            "code": "portcullispart"
+        }
+    },
+    {
+        ingredientPattern: "P,W",
+        width: 1,
+        height: 2,
+        ingredients: {
+            "P": {
+                type: "item", code: "game:hammer-*", isTool: true
+            },
+            "W": {
+                "type": "item",
+                "code": "portcullisdismantled"
+            }
+        },
+        output: {
+            "type": "item",
+            "code": "portcullispart"
+        }
+    }
+]

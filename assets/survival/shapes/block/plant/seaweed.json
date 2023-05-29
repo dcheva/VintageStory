@@ -1,0 +1,47 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Face",
+			"from": [ 0.0, -2.0, 8.0 ], 
+			"to": [ 16.0, 14.0, 8.0 ], 
+			"shade": false,
+			"climateColorMap": "climatePlantTint",
+			"rotationOrigin": [ 8.0, -2.0, 8.0 ],
+			"rotationY": -45.0,
+			"faces": {
+				"north": { "texture": "#weed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Face2",
+			"from": [ 0.0, -2.0, 8.0 ], 
+			"to": [ 16.0, 14.0, 8.0 ], 
+			"shade": false,
+			"climateColorMap": "climatePlantTint",
+			"rotationOrigin": [ 8.0, -2.0, 8.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"south": { "texture": "#weed", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+			}
+		}
+	]}

@@ -1,0 +1,274 @@
+{
+	"medievalexpansion:block-myshinyblock-gold-good": "Gold Pillar",
+	"medievalexpansion:block-myshinyblock-gold-used": "Old Gold Pillar",
+	"medievalexpansion:block-myshinyblock-iron-good": "Iron Pillar",
+	"medievalexpansion:block-myshinyblock-iron-used": "Old Iron Pillar",
+	"medievalexpansion:block-portcullis3x3-model-closed-north": "Fallgatter aus Eisen 3x3",
+	"medievalexpansion:block-portcullis3x4-model-closed-north": "Fallgatter aus Eisen 3x4",
+	"medievalexpansion:block-portcullis3x5-model-closed-north": "Fallgatter aus Eisen 3x5",
+	"medievalexpansion:block-portcullis4x3-model-closed-north": "Fallgatter aus Eisen 4x3",
+	"medievalexpansion:block-portcullis4x4-model-closed-north": "Fallgatter aus Eisen 4x4",
+	"medievalexpansion:block-portcullis4x5-model-closed-north": "Fallgatter aus Eisen 4x5",
+	"medievalexpansion:block-portcullis5x3-model-closed-north": "Fallgatter aus Eisen 5x3",
+	"medievalexpansion:block-portcullis5x4-model-closed-north": "Fallgatter aus Eisen 5x4",
+	"medievalexpansion:block-portcullis5x5-model-closed-north": "Fallgatter aus Eisen 5x5",
+
+	"medievalexpansion:block-gate3x3-model-oak-closed-north": "Tor 3x3 Eiche",
+	"medievalexpansion:block-gate3x3-model-acacia-closed-north": "Tor 3x3 Akazie",
+	"medievalexpansion:block-gate3x3-model-aged-closed-north": "Tor 3x3 Alt",
+	"medievalexpansion:block-gate3x3-model-birch-closed-north": "Tor 3x3 Birke",
+	"medievalexpansion:block-gate3x3-model-kapok-closed-north": "Tor 3x3 Wollbaum",
+	"medievalexpansion:block-gate3x3-model-maple-closed-north": "Tor 3x3 Ahorn",
+	"medievalexpansion:block-gate3x3-model-pine-closed-north": "Tor 3x3 Kiefer",
+	"medievalexpansion:block-gate3x3-model-purpleheart-closed-north": "Tor 3x3 Violetholz",
+	"medievalexpansion:block-gate3x3-model-walnut-closed-north": "Tor 3x3 Walnuss",
+	"medievalexpansion:block-gate3x3-model-redwood-closed-north": "Tor 3x3 Redwood",
+	"medievalexpansion:block-gate3x3-model-larch-closed-north": "Tor 3x3 L\u00e4rche",
+	"medievalexpansion:block-gate3x3-model-ebony-closed-north": "Tor 3x3 Ebenholz",
+	"medievalexpansion:block-gate3x3-model-baldcypress-closed-north": "Tor 3x3 Sumpfzypresse",
+
+	"medievalexpansion:block-gate4x4-model-oak-closed-north": "Tor 4x4 Eiche",
+	"medievalexpansion:block-gate4x4-model-acacia-closed-north": "Tor 4x4 Akazie",
+	"medievalexpansion:block-gate4x4-model-aged-closed-north": "Tor 4x4 Alt",
+	"medievalexpansion:block-gate4x4-model-birch-closed-north": "Tor 4x4 Birke",
+	"medievalexpansion:block-gate4x4-model-kapok-closed-north": "Tor 4x4 Wollbaum",
+	"medievalexpansion:block-gate4x4-model-maple-closed-north": "Tor 4x4 Ahorn",
+	"medievalexpansion:block-gate4x4-model-pine-closed-north": "Tor 4x4 Kiefer",
+	"medievalexpansion:block-gate4x4-model-purpleheart-closed-north": "Tor 4x4 Violetholz",
+	"medievalexpansion:block-gate4x4-model-walnut-closed-north": "Tor 4x4 Walnuss",
+	"medievalexpansion:block-gate4x4-model-redwood-closed-north": "Tor 4x4 Redwood",
+	"medievalexpansion:block-gate4x4-model-larch-closed-north": "Tor 4x4 L\u00e4rche",
+	"medievalexpansion:block-gate4x4-model-ebony-closed-north": "Tor 4x4 Ebenholz",
+	"medievalexpansion:block-gate4x4-model-baldcypress-closed-north": "Tor 4x4 Sumpfzypresse",
+
+	"medievalexpansion:block-gate5x5-model-oak-closed-north": "Tor 5x5 Eiche",
+	"medievalexpansion:block-gate5x5-model-acacia-closed-north": "Tor 5x5 Akazie",
+	"medievalexpansion:block-gate5x5-model-aged-closed-north": "Tor 5x5 Alt",
+	"medievalexpansion:block-gate5x5-model-birch-closed-north": "Tor 5x5 Birke",
+	"medievalexpansion:block-gate5x5-model-kapok-closed-north": "Tor 5x5 Wollbaum",
+	"medievalexpansion:block-gate5x5-model-maple-closed-north": "Tor 5x5 Ahorn",
+	"medievalexpansion:block-gate5x5-model-pine-closed-north": "Tor 5x5 Kiefer",
+	"medievalexpansion:block-gate5x5-model-purpleheart-closed-north": "Tor 5x5 Violetholz",
+	"medievalexpansion:block-gate5x5-model-walnut-closed-north": "Tor 5x5 Walnuss",
+	"medievalexpansion:block-gate5x5-model-redwood-closed-north": "Tor 5x5 Redwood",
+	"medievalexpansion:block-gate5x5-model-larch-closed-north": "Tor 5x5 L\u00e4rche",
+	"medievalexpansion:block-gate5x5-model-ebony-closed-north": "Tor 5x5 Ebenholz",
+	"medievalexpansion:block-gate5x5-model-baldcypress-closed-north": "Tor 5x5 Sumpfzypresse",
+
+	"medievalexpansion:block-gate8x5-model-oak-closed-north": "Tor 8x5 Eiche",
+	"medievalexpansion:block-gate8x5-model-acacia-closed-north": "Tor 8x5 Akazie",
+	"medievalexpansion:block-gate8x5-model-aged-closed-north": "Tor 8x5 Alt",
+	"medievalexpansion:block-gate8x5-model-birch-closed-north": "Tor 8x5 Birke",
+	"medievalexpansion:block-gate8x5-model-kapok-closed-north": "Tor 8x5 Wollbaum",
+	"medievalexpansion:block-gate8x5-model-maple-closed-north": "Tor 8x5 Ahorn",
+	"medievalexpansion:block-gate8x5-model-pine-closed-north": "Tor 8x5 Kiefer",
+	"medievalexpansion:block-gate8x5-model-purpleheart-closed-north": "Tor 8x5 Violetholz",
+	"medievalexpansion:block-gate8x5-model-walnut-closed-north": "Tor 8x5 Walnuss",
+	"medievalexpansion:block-gate8x5-model-redwood-closed-north": "Tor 8x5 Redwood",
+	"medievalexpansion:block-gate8x5-model-larch-closed-north": "Tor 8x5 L\u00e4rche",
+	"medievalexpansion:block-gate8x5-model-ebony-closed-north": "Tor 8x5 Ebenholz",
+	"medievalexpansion:block-gate8x5-model-baldcypress-closed-north": "Tor 8x5 Sumpfzypresse",
+
+	"medievalexpansion:block-drawbridge3x4-model-purpleheart-opened-north": "Zugbr\u00fccke 3x4 Violetholz",
+	"medievalexpansion:block-drawbridge3x5-model-purpleheart-opened-north": "Zugbr\u00fccke 3x5 Violetholz",
+	"medievalexpansion:block-drawbridge3x6-model-purpleheart-opened-north": "Zugbr\u00fccke 3x6 Violetholz",
+
+	"medievalexpansion:block-drawbridge4x5-model-purpleheart-opened-north": "Zugbr\u00fccke 4x5 Violetholz",
+	"medievalexpansion:block-drawbridge4x6-model-purpleheart-opened-north": "Zugbr\u00fccke 4x6 Violetholz",
+	"medievalexpansion:block-drawbridge4x7-model-purpleheart-opened-north": "Zugbr\u00fccke 4x7 Violetholz",
+
+	"medievalexpansion:block-drawbridge5x6-model-purpleheart-opened-north": "Zugbr\u00fccke 5x6 Violetholz",
+	"medievalexpansion:block-drawbridge5x7-model-purpleheart-opened-north": "Zugbr\u00fccke 5x7 Violetholz",
+
+	"medievalexpansion:block-drawbridge3x4-model-walnut-opened-north": "Zugbr\u00fccke 3x4 Walnuss",
+	"medievalexpansion:block-drawbridge3x5-model-walnut-opened-north": "Zugbr\u00fccke 3x5 Walnuss",
+	"medievalexpansion:block-drawbridge3x6-model-walnut-opened-north": "Zugbr\u00fccke 3x6 Walnuss",
+
+	"medievalexpansion:block-drawbridge4x5-model-walnut-opened-north": "Zugbr\u00fccke 4x5 Walnuss",
+	"medievalexpansion:block-drawbridge4x6-model-walnut-opened-north": "Zugbr\u00fccke 4x6 Walnuss",
+	"medievalexpansion:block-drawbridge4x7-model-walnut-opened-north": "Zugbr\u00fccke 4x7 Walnuss",
+
+	"medievalexpansion:block-drawbridge5x6-model-walnut-opened-north": "Zugbr\u00fccke 5x6 Walnuss",
+	"medievalexpansion:block-drawbridge5x7-model-walnut-opened-north": "Zugbr\u00fccke 5x7 Walnuss",
+
+	"medievalexpansion:block-drawbridge3x4-model-redwood-opened-north": "Zugbr\u00fccke 3x4 Redwood",
+	"medievalexpansion:block-drawbridge3x5-model-redwood-opened-north": "Zugbr\u00fccke 3x5 Redwood",
+	"medievalexpansion:block-drawbridge3x6-model-redwood-opened-north": "Zugbr\u00fccke 3x6 Redwood",
+
+	"medievalexpansion:block-drawbridge4x5-model-redwood-opened-north": "Zugbr\u00fccke 4x5 Redwood",
+	"medievalexpansion:block-drawbridge4x6-model-redwood-opened-north": "Zugbr\u00fccke 4x6 Redwood",
+	"medievalexpansion:block-drawbridge4x7-model-redwood-opened-north": "Zugbr\u00fccke 4x7 Redwood",
+
+	"medievalexpansion:block-drawbridge5x6-model-redwood-opened-north": "Zugbr\u00fccke 5x6 Redwood",
+	"medievalexpansion:block-drawbridge5x7-model-redwood-opened-north": "Zugbr\u00fccke 5x7 Redwood",
+
+	"medievalexpansion:block-drawbridge3x4-model-larch-opened-north": "Zugbr\u00fccke 3x4 L\u00e4rche",
+	"medievalexpansion:block-drawbridge3x5-model-larch-opened-north": "Zugbr\u00fccke 3x5 L\u00e4rche",
+	"medievalexpansion:block-drawbridge3x6-model-larch-opened-north": "Zugbr\u00fccke 3x6 L\u00e4rche",
+
+	"medievalexpansion:block-drawbridge4x5-model-larch-opened-north": "Zugbr\u00fccke 4x5 L\u00e4rche",
+	"medievalexpansion:block-drawbridge4x6-model-larch-opened-north": "Zugbr\u00fccke 4x6 L\u00e4rche",
+	"medievalexpansion:block-drawbridge4x7-model-larch-opened-north": "Zugbr\u00fccke 4x7 L\u00e4rche",
+
+	"medievalexpansion:block-drawbridge5x6-model-larch-opened-north": "Zugbr\u00fccke 5x6 L\u00e4rche",
+	"medievalexpansion:block-drawbridge5x7-model-larch-opened-north": "Zugbr\u00fccke 5x7 L\u00e4rche",
+
+	"medievalexpansion:block-drawbridge3x4-model-ebony-opened-north": "Zugbr\u00fccke 3x4 Ebenholz",
+	"medievalexpansion:block-drawbridge3x5-model-ebony-opened-north": "Zugbr\u00fccke 3x5 Ebenholz",
+	"medievalexpansion:block-drawbridge3x6-model-ebony-opened-north": "Zugbr\u00fccke 3x6 Ebenholz",
+
+	"medievalexpansion:block-drawbridge4x5-model-ebony-opened-north": "Zugbr\u00fccke 4x5 Ebenholz",
+	"medievalexpansion:block-drawbridge4x6-model-ebony-opened-north": "Zugbr\u00fccke 4x6 Ebenholz",
+	"medievalexpansion:block-drawbridge4x7-model-ebony-opened-north": "Zugbr\u00fccke 4x7 Ebenholz",
+
+	"medievalexpansion:block-drawbridge5x6-model-ebony-opened-north": "Zugbr\u00fccke 5x6 Ebenholz",
+	"medievalexpansion:block-drawbridge5x7-model-ebony-opened-north": "Zugbr\u00fccke 5x7 Ebenholz",
+
+	"medievalexpansion:block-drawbridge3x4-model-baldcypress-opened-north": "Zugbr\u00fccke 3x4 Sumpfzypresse",
+	"medievalexpansion:block-drawbridge3x5-model-baldcypress-opened-north": "Zugbr\u00fccke 3x5 Sumpfzypresse",
+	"medievalexpansion:block-drawbridge3x6-model-baldcypress-opened-north": "Zugbr\u00fccke 3x6 Sumpfzypresse",
+
+	"medievalexpansion:block-drawbridge4x5-model-baldcypress-opened-north": "Zugbr\u00fccke 4x5 Sumpfzypresse",
+	"medievalexpansion:block-drawbridge4x6-model-baldcypress-opened-north": "Zugbr\u00fccke 4x6 Sumpfzypresse",
+	"medievalexpansion:block-drawbridge4x7-model-baldcypress-opened-north": "Zugbr\u00fccke 4x7 Sumpfzypresse",
+
+	"medievalexpansion:block-drawbridge5x6-model-baldcypress-opened-north": "Zugbr\u00fccke 5x6 Sumpfzypresse",
+	"medievalexpansion:block-drawbridge5x7-model-baldcypress-opened-north": "Zugbr\u00fccke 5x7 Sumpfzypresse",
+
+	"medievalexpansion:block-drawbridge3x4-model-oak-opened-north": "Zugbr\u00fccke 3x4 Eiche",
+	"medievalexpansion:block-drawbridge3x5-model-oak-opened-north": "Zugbr\u00fccke 3x5 Eiche",
+	"medievalexpansion:block-drawbridge3x6-model-oak-opened-north": "Zugbr\u00fccke 3x6 Eiche",
+
+	"medievalexpansion:block-drawbridge4x5-model-oak-opened-north": "Zugbr\u00fccke 4x5 Eiche",
+	"medievalexpansion:block-drawbridge4x6-model-oak-opened-north": "Zugbr\u00fccke 4x6 Eiche",
+	"medievalexpansion:block-drawbridge4x7-model-oak-opened-north": "Zugbr\u00fccke 4x7 Eiche",
+
+	"medievalexpansion:block-drawbridge5x6-model-oak-opened-north": "Zugbr\u00fccke 5x6 Eiche",
+	"medievalexpansion:block-drawbridge5x7-model-oak-opened-north": "Zugbr\u00fccke 5x7 Eiche",
+
+	"medievalexpansion:block-drawbridge3x4-model-acacia-opened-north": "Zugbr\u00fccke 3x4 Akazie",
+	"medievalexpansion:block-drawbridge3x5-model-acacia-opened-north": "Zugbr\u00fccke 3x5 Akazie",
+	"medievalexpansion:block-drawbridge3x6-model-acacia-opened-north": "Zugbr\u00fccke 3x6 Akazie",
+
+	"medievalexpansion:block-drawbridge4x5-model-acacia-opened-north": "Zugbr\u00fccke 4x5 Akazie",
+	"medievalexpansion:block-drawbridge4x6-model-acacia-opened-north": "Zugbr\u00fccke 4x6 Akazie",
+	"medievalexpansion:block-drawbridge4x7-model-acacia-opened-north": "Zugbr\u00fccke 4x7 Akazie",
+
+	"medievalexpansion:block-drawbridge5x6-model-acacia-opened-north": "Zugbr\u00fccke 5x6 Akazie",
+	"medievalexpansion:block-drawbridge5x7-model-acacia-opened-north": "Zugbr\u00fccke 5x7 Akazie",
+
+	"medievalexpansion:block-drawbridge3x4-model-aged-opened-north": "Zugbr\u00fccke 3x4 Alt",
+	"medievalexpansion:block-drawbridge3x5-model-aged-opened-north": "Zugbr\u00fccke 3x5 Alt",
+	"medievalexpansion:block-drawbridge3x6-model-aged-opened-north": "Zugbr\u00fccke 3x6 Alt",
+
+	"medievalexpansion:block-drawbridge4x5-model-aged-opened-north": "Zugbr\u00fccke 4x5 Alt",
+	"medievalexpansion:block-drawbridge4x6-model-aged-opened-north": "Zugbr\u00fccke 4x6 Alt",
+	"medievalexpansion:block-drawbridge4x7-model-aged-opened-north": "Zugbr\u00fccke 4x7 Alt",
+
+	"medievalexpansion:block-drawbridge5x6-model-aged-opened-north": "Zugbr\u00fccke 5x6 Alt",
+	"medievalexpansion:block-drawbridge5x7-model-aged-opened-north": "Zugbr\u00fccke 5x7 Alt",
+
+	"medievalexpansion:block-drawbridge3x4-model-birch-opened-north": "Zugbr\u00fccke 3x4 Birke",
+	"medievalexpansion:block-drawbridge3x5-model-birch-opened-north": "Zugbr\u00fccke 3x5 Birke",
+	"medievalexpansion:block-drawbridge3x6-model-birch-opened-north": "Zugbr\u00fccke 3x6 Birke",
+
+	"medievalexpansion:block-drawbridge4x5-model-birch-opened-north": "Zugbr\u00fccke 4x5 Birke",
+	"medievalexpansion:block-drawbridge4x6-model-birch-opened-north": "Zugbr\u00fccke 4x6 Birke",
+	"medievalexpansion:block-drawbridge4x7-model-birch-opened-north": "Zugbr\u00fccke 4x7 Birke",
+
+	"medievalexpansion:block-drawbridge5x6-model-birch-opened-north": "Zugbr\u00fccke 5x6 Birke",
+	"medievalexpansion:block-drawbridge5x7-model-birch-opened-north": "Zugbr\u00fccke 5x7 Birke",
+
+	"medievalexpansion:block-drawbridge3x4-model-kapok-opened-north": "Zugbr\u00fccke 3x4 Wollbaum",
+	"medievalexpansion:block-drawbridge3x5-model-kapok-opened-north": "Zugbr\u00fccke 3x5 Wollbaum",
+	"medievalexpansion:block-drawbridge3x6-model-kapok-opened-north": "Zugbr\u00fccke 3x6 Wollbaum",
+
+	"medievalexpansion:block-drawbridge4x5-model-kapok-opened-north": "Zugbr\u00fccke 4x5 Wollbaum",
+	"medievalexpansion:block-drawbridge4x6-model-kapok-opened-north": "Zugbr\u00fccke 4x6 Wollbaum",
+	"medievalexpansion:block-drawbridge4x7-model-kapok-opened-north": "Zugbr\u00fccke 4x7 Wollbaum",
+
+	"medievalexpansion:block-drawbridge5x6-model-kapok-opened-north": "Zugbr\u00fccke 5x6 Wollbaum",
+	"medievalexpansion:block-drawbridge5x7-model-kapok-opened-north": "Zugbr\u00fccke 5x7 Wollbaum",
+
+	"medievalexpansion:block-drawbridge3x4-model-maple-opened-north": "Zugbr\u00fccke 3x4 Ahorn",
+	"medievalexpansion:block-drawbridge3x5-model-maple-opened-north": "Zugbr\u00fccke 3x5 Ahorn",
+	"medievalexpansion:block-drawbridge3x6-model-maple-opened-north": "Zugbr\u00fccke 3x6 Ahorn",
+
+	"medievalexpansion:block-drawbridge4x5-model-maple-opened-north": "Zugbr\u00fccke 4x5 Ahorn",
+	"medievalexpansion:block-drawbridge4x6-model-maple-opened-north": "Zugbr\u00fccke 4x6 Ahorn",
+	"medievalexpansion:block-drawbridge4x7-model-maple-opened-north": "Zugbr\u00fccke 4x7 Ahorn",
+
+	"medievalexpansion:block-drawbridge5x6-model-maple-opened-north": "Zugbr\u00fccke 5x6 Ahorn",
+	"medievalexpansion:block-drawbridge5x7-model-maple-opened-north": "Zugbr\u00fccke 5x7 Ahorn",
+
+	"medievalexpansion:block-drawbridge3x4-model-pine-opened-north": "Zugbr\u00fccke 3x4 Kiefer",
+	"medievalexpansion:block-drawbridge3x5-model-pine-opened-north": "Zugbr\u00fccke 3x5 Kiefer",
+	"medievalexpansion:block-drawbridge3x6-model-pine-opened-north": "Zugbr\u00fccke 3x6 Kiefer",
+
+	"medievalexpansion:block-drawbridge4x5-model-pine-opened-north": "Zugbr\u00fccke 4x5 Kiefer",
+	"medievalexpansion:block-drawbridge4x6-model-pine-opened-north": "Zugbr\u00fccke 4x6 Kiefer",
+	"medievalexpansion:block-drawbridge4x7-model-pine-opened-north": "Zugbr\u00fccke 4x7 Kiefer",
+
+	"medievalexpansion:block-drawbridge5x6-model-pine-opened-north": "Zugbr\u00fccke 5x6 Kiefer",
+	"medievalexpansion:block-drawbridge5x7-model-pine-opened-north": "Zugbr\u00fccke 5x7 Kiefer",
+
+	"medievalexpansion:block-floorplate-wood-up-north": "Bodenplatte aus Holz",
+	"medievalexpansion:block-floorplate-stone-up-north": "Bodenplatte aus Stein",
+
+	"medievalexpansion:item-portcullispart": "Fallgatter-Teil aus Eisen",
+	"medievalexpansion:item-portcullisdismantled": "Zerlegtes Fallgatter",
+
+	"medievalexpansion:item-repairkit-large-copper": "Gro\u00dfes Reperaturset (Kupfer)",
+	"medievalexpansion:item-repairkit-large-tinbronze": "Gro\u00dfes Reperaturset (Zinnbronze)",
+	"medievalexpansion:item-repairkit-large-iron": "Gro\u00dfes Reperaturset (Eisen)",
+	"medievalexpansion:item-repairkit-large-steel": "Gro\u00dfes Reperaturset (Stahl)",
+
+	"medievalexpansion:restore-durability": "Repariert {0} Haltbarkeit",
+	"medievalexpansion:can-repair-constructions": "Kann Konstruktionen reparieren",
+	"medievalexpansion:blockhelp-repair": "Reparieren",
+
+	"medievalexpansion:block-streetlight-north": "Stra\u00dfenlaterne",
+	"medievalexpansion:block-waterwheelbase-north": "Wasserrad-Vorrichtung",
+	"medievalexpansion:waterwheel-complete": "Wasserrad",
+	"medievalexpansion:block-waterwheelpenstock-door-north": "Gerinne mit Luke",
+	"medievalexpansion:block-waterwheelpenstock-normal-north": "Gerinne",
+	"medievalexpansion:block-waterwheelpenstock-output-north": "Gerinne-Ablauf",
+	"medievalexpansion:item-penstockhatch-oak": "Luke f\u00fcr Gerinne",
+	"medievalexpansion:item-waterwheelspin-oak": "Wasserrad-Antrieb",
+	"medievalexpansion:penstock-requires-hatch": "Luke fehlt",
+	"medievalexpansion:waterwheel-requires-gear": "Antrieb fehlt",
+	"medievalexpansion:waterwheel-requires-repair": "Reperatur notwendig",
+	"medievalexpansion:waterwheel-efficiency": "Effizienz: {0}%",
+	"medievalexpansion:waterwheel-durability": "Haltbarkeit: {0}%",
+	"medievalexpansion:waterwheel-typ": "Art:  {0}",
+	"medievalexpansion:waterwheel-typ-undershot": "Unterschl\u00e4chtig",
+	"medievalexpansion:waterwheel-typ-breastshot": "Mittelschl\u00e4chtig",
+	"medievalexpansion:waterwheel-typ-overshot": "Oberschl\u00e4chtig",
+
+	"medievalexpansion:waterwheel-usage-title": "Wasserrad - Mechanische Kraft",
+	"medievalexpansion:waterwheel-usage-text": "<strong>Wasserrad - Mechanische Kraft</strong><br><br>Ben\u00f6tigt Wasser in der korrekten Flussrichtung zum antreiben. Die Rotation ist gegen den Uhrzeigersinn.<br/>Es gibt 3 Effizienzen: <br />- Unterschl\u00e4chti: 30%<br />- Mittelschl\u00e4chtig: 45%<br />- Oberschl\u00e4chtig: 85% <br/><br/>Um den oberschl\u00e4chtigen Antrieb zu nutzen, muss das Gerinne oberhalb das Wasserrades verwendet werden und muss an Wasser anliegen.<br /><br/>Um mittelschl\u00e4chtigen Antrieb zu haben, muss das Wasser auf Achsenh\u00f6the zum Wasserrad fliesen.<br/><br/>Server Admins k\u00f6nnen die maximale Effiziens mit Hilfe der Config-Files \u00e4ndern und k\u00f6nnen daher abweichen.",
+	"medievalexpansion:block-firebrazier-normal-*": "Feuerkorb",
+	"medievalexpansion:block-firebrazier-creative-*": "Feuerkorb (Kreativ)",
+	"medievalexpansion:firebrazier-burningtime": "Brenndauer: {0}",
+	"medievalexpansion:blockhelp-firebrazier-fuel": "Brennstoff hinzuf\u00fcgen",
+	"medievalexpansion:blockhelp-firebrazier-ignite": "Entz\u00fcnden",
+
+	"medievalexpansion:item-creature-aurochs-female": "Auerochsen-Kuh",
+	"medievalexpansion:item-creature-aurochs-male": "Auerochsen-Bulle",
+	"medievalexpansion:item-creature-aurochs-lamb": "Auerochsen-Kalb",
+	"medievalexpansion:item-dead-creature-aurochs-male": "Tote Auerochsen-Kuh",
+	"medievalexpansion:item-dead-creature-aurochs-female": "Toter Auerochsen-Bulle",
+	"medievalexpansion:item-dead-creature-aurochs-lamb": "Totes Auerochsen-Kalb",
+
+	"medievalexpansion:block-grasicemixpile": "Keller-Eis Stapel",
+	"medievalexpansion:item-grasicemix": "Keller-Eis",
+	"medievalexpansion:blockhelp-grasicemix-addfuel": "Keller-Eis hinzuf\u00fcgen",
+	"medievalexpansion:blockhelp-grasicemix-removefuel": "Keller-Eis herausnehmen",
+
+	"medievalexpansion:aurochs-help-title": "Auerochsen domestizieren",
+	"medievalexpansion:aurochs-help-text": "<strong>Auerochsen domestizieren</strong><br><br>Auerochsen werden mit Hilfe eines gro\u00dfen Troges gef\u00fcttert: <br> - Trockenes Gras<br> - Heu<br/> - Kohl",
+	"medievalexpansion:cellarice-help-title": "Raum k\u00fchlen - Keller-Eis",
+	"medievalexpansion:cellarice-help-text": "<strong>Raum k\u00fchlen - Keller-Eis</strong><br><br>Das Keller-Eis kann auf einer Fl\u00e4che von 3x3x2 Bl\u00f6cken innerhalb eines Raumes gestapelt werden damit ein Raum gek\u00fchlt wird.<br>Innerhalb eines Raumens schmilzt das Keller-Eis \u00fcber einen langen Zeitraum.<br/><br/>Server Admins k\u00f6nnen die Multiplikatoren konfigurieren.",
+	"medievalexpansion:item-aurochsfood": "Auerochsen Futtermischung",
+	"medievalexpansion:aurochs-food": "Auerochsen Futtermischung aus Stroh"
+}

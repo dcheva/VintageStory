@@ -1,0 +1,57 @@
+[
+	{
+		name: "Crude door",
+		ingredientPattern: "AS,PS,PS",
+		ingredients: {
+			"A": { type: "item", code: "axe-*", isTool: true  },
+			"P": { type: "block", code: "log-placed-*-ud", name: "wood" },
+			"S": { type: "item", code: "stick" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "door-crude"  }
+	},
+	{
+		name: "Solid door",
+		ingredientPattern: "WW,WW,WW",
+		ingredients: {
+			"W": { type: "item", code: "plank-*", name: "wood" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "door-solid-{wood}"  }
+	},
+	{
+		name: "1x3 gate",
+		ingredientPattern: "WW_,WW_,WWN",
+		ingredients: {
+			"W": { type: "item", code: "plank-*", name: "wood", quantity: 2 },
+			"N": { type: "item", code: "metalnailsandstrips-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "door-1x3gate-{wood}"  }
+	},
+	{
+		name: "2x2 gate",
+		ingredientPattern: "N__,WWW,WWW",
+		ingredients: {
+			"W": { type: "item", code: "plank-*", name: "wood", quantity: 2 },
+			"N": { type: "item", code: "metalnailsandstrips-*", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "door-2x2gate-{wood}"  }
+	},
+	{
+		name: "2x4 gate",
+		ingredientPattern: "WWW,WWW,WWN",
+		ingredients: {
+			"W": { type: "item", code: "plank-*", name: "wood", quantity: 4 },
+			"N": { type: "item", code: "metalnailsandstrips-*", quantity: 10 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "door-2x4gate-{wood}"  }
+	}
+]

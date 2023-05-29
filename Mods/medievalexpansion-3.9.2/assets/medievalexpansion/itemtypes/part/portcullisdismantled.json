@@ -1,0 +1,8 @@
+﻿{
+	code: "portcullisdismantled",
+	creativeinventory: { "general": ["*"], "construction": ["*"] },
+	maxStackSize: 64,
+	texture: {
+        "base": "item/portcullisdismantled"
+    }
+}

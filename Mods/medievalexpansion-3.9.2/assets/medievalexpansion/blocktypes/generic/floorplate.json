@@ -1,0 +1,93 @@
+﻿{
+	"code": "floorplate",
+	"class": "FloorPlate",
+	"creativeinventory": { "general": ["*-up-north"] },
+	"entityClassByType": {
+        "*": "FloorPlateEntity"
+    },
+	"behaviors": [
+		{ "name": "Lockable" },
+        {
+            "name": "OmniRotatable",
+            "properties": {
+                "rotateH": true,
+                "rotateV": false,
+                "rotateV4": false,
+                "facing": "block"
+            }
+        }
+	],
+	"variantgroups": [
+		{ "code": "block", "states": [ "stone","wood"]},
+		{ "code": "state", "states": [ "up", "down" ]},
+		{ "loadFromProperties": "abstract/horizontalorientation" }
+    ],
+	"attributes": {
+		"handbook": { "groupBy": [ "floorplate-*" ] }
+	},
+	"shapebytype": {
+		"*": {
+			"base": "block/floor-plate-{state}",
+			"rotateY": 0
+		}
+	},
+	"blockmaterial": "Stone",
+	"drawtype": "json",
+
+	"texturesByType": {
+        "*-stone-*": {
+            "all": { "base": "game:block/stone/polishedrock/granite" }
+        },
+		"*-wood-*": {
+            "all": { "base": "game:block/wood/debarked/birch" }
+        }
+    },
+	"collisionBoxByType": {
+		"*-up-*": {
+			"x1": 0.4,
+			"y1": 0,
+			"z1": 0.4,
+			"x2": 0.6,
+			"y2": 0.001,
+			"z2": 0.6
+		},
+		"*-down-*": {
+			"x1": 0.4,
+			"y1": 0,
+			"z1": 0.4,
+			"x2": 0.6,
+			"y2": 0,
+			"z2": 0.6
+		}
+    },
+	"selectionBoxByType": {
+		"*": {
+			"x1": 0.4,
+			"y1": 0,
+			"z1": 0.4,
+			"x2": 0.6,
+			"y2": 0.06,
+			"z2": 0.6
+		}
+	},
+	"drops": [{ "code": "floorplate-{block}-up-north" }],
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"sounds": {
+		"place": "game:block/gravel",
+		"walk": "game:walk/{block}"
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 1.5
+	},
+	"groundTransform": {
+		"scale": 3
+	}
+}

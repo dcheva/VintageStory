@@ -1,0 +1,64 @@
+{
+	code: "stackrandomizer",
+	class: "ItemStackRandomizer",
+	variantgroups: [
+		{ code: "type", states: [
+			"library"
+		] },
+	],
+	attributesByType: {
+		"*-library": {
+			handbook: { exclude: true },
+			stacks: [
+				{ type: "item", code: "paper-parchment", quantity: { avg: 3, var: 2 }, chance: 5 },
+				{ type: "item", code: "book-rotten-gray", chance: 1 },
+				{ type: "item", code: "book-rotten-brown", chance: 1 },
+				{ type: "item", code: "book-rotten-rust", chance: 1 },
+				{ type: "item", code: "book-rotten-purple", chance: 1 },
+				{ type: "item", code: "book-rotten-green", chance: 1 },
+				{ type: "item", code: "clothes-head-glasses", chance: 1 },
+				{ type: "item", code: "inkandquill", chance: 1 },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "candlestub-single" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "candlestubs-bunch1" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "candlestubs-bunch2" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "candlestubs-bunch3" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "candlestubs-bunch4" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "bookshelves/large-book-closed" } },
+				
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "abacus1" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "abacus2" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "abacus3" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "abacus4" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "alidade" } },
+				
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "armillary1" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "armillary2" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "armillary3" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "astrolabe" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "diptych-dial" } },
+				
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "equi-dial" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "globe1" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "globe2" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "globe3" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "globe4" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "globe5" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "globe6" } },
+				
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "jonas-lamp/floor4" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "jonas-lamp/floor5" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "jonas-lamp/floor6" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "jonas-lamp/floor7" } },
+				
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "pile-drafting-instrument" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "machine6" } },
+				{ type: "item", code: "omokpiece-lead", chance: 1 },
+				{ type: "item", code: "omokpiece-gold", chance: 1 }
+			]
+		},
+	},
+	maxstacksize: 1,
+	texture: { base: "item/meta/randomizer/{type}" },
+	creativeinventory: { "meta": ["*"] },
+	materialDensity: 600
+}

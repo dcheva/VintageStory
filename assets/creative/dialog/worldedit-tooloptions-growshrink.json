@@ -1,0 +1,31 @@
+{
+	code: "worldedit-tooloptions-growshrink",
+	padding: 5,
+	posX: 110,
+	disableWorldInteract: false,
+	alignment: "FixedTop",
+	rows: [
+		{ elements: [
+			{
+				code: "std.growShrinkRadius",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "Radius",
+				param: "/we tr",
+			},
+			{
+				code: "std.growShrinkMode",
+				width: 250,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Mode",
+				values: ["0", "1"],
+				names: ["Any block", "Only selected block"],
+				param: "/we tm",
+			}
+		]
+		},
+	]
+}

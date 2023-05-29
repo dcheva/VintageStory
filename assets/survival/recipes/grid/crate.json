@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "WWW,P_P,WWW",
+	ingredients: {
+		"W": { type: "item", code: "plank-*", name: "wood", allowedVariants: ["birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"], quantity: 1 },
+		"P": { type: "block", code: "planks-*-ns", name: "wood", allowedVariants: ["birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"], quantity: 1 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-{wood}" }  }
+}

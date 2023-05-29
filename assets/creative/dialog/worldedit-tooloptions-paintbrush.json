@@ -1,0 +1,98 @@
+{
+	code: "worldedit-tooloptions-paintbrush",
+	padding: 5,
+	posX: 110,
+	disableWorldInteract: false,
+	alignment: "FixedTop",
+	rows: [
+		{ elements: [
+			{
+				code: "std.brushMode",
+				width: 225,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Mode",
+				values: ["0", "1", "2", "3"],
+				names: ["Fill", "Replace Non-Air", "Replace Air", "Replace Selected Block"],
+				param: "/we tm",
+			},
+			{
+				code: "std.brushShape",
+				width: 180,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Shape",
+				values: ["0", "1", "2", "3", "4", "5", "6", "7", "8"],
+				names: ["Ball", "Cuboid", "Cylinder", "Half ball up", "Half ball down", "Half ball north", "Half ball east", "Half ball south", "Half ball west"],
+				param: "/we ts",
+			},
+			{
+				code: "std.brushDim1",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "SizeX",
+				param: "/we tsx",
+			},
+			{
+				code: "std.brushDim2",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "SizeY",
+				param: "/we tsy",
+			},
+			{
+				code: "std.brushDim3",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "SizeZ",
+				param: "/we tsz",
+			}
+		]
+		}, { elements: [
+			
+			{
+				code: "std.brushDepthLimit",
+				width: 225,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Depth Limit",
+				values: ["0", "1", "2", "3", "4"],
+				names: ["No limit", "Top layer", "Top 2 layers", "Top 3 layers", "Top 4 layers"],
+				param: "/we tdl",
+			},
+
+			{
+				code: "std.brushcutoutDim1",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "CutoutX",
+				param: "/we tcx",
+			},
+			{
+				code: "std.brushcutoutDim2",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "CutoutY",
+				param: "/we tcy",
+			},
+			{
+				code: "std.brushcutoutDim3",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "CutoutZ",
+				param: "/we tcz",
+			}
+			
+		]
+		}
+	]
+}

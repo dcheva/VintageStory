@@ -1,0 +1,29 @@
+﻿[
+    {
+        ingredientPattern: "PPP,PSF,P_H",
+        width: 3,
+        height: 3,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "F": { 
+                type: "item", 
+                code: "game:flaxtwine",
+                quantity: 2
+            },
+            "S": { 
+                type: "item", 
+                code: "game:stick",
+                quantity: 2
+            },
+            "P": {
+                type: "item",
+                code: "game:plank-*",
+                quantity: 1
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "streetlight-north"
+        }
+    }
+]

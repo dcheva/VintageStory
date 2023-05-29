@@ -1,0 +1,46 @@
+{
+	"dungeons": [
+		{
+			code: "test",
+			tiles: [
+				{
+					code: "corridor-h",
+					schematics: ["test/corridor-h"],
+					constraints: [ ["*"], [], ["*"], [], [], [] ],
+					chance: 1,
+				},
+				{
+					code: "corner",
+					schematics: ["test/corner"],
+					constraints: [ [], [], ["*"], ["*"], [], [] ],
+					chance: 0.5,
+				},
+				{
+					code: "4way",
+					schematics: ["test/4way"],
+					constraints: [ ["*"], ["*"], ["*"], ["*"], [], [] ],
+					chance: 1,
+				},
+				{
+					code: "corridor-end",
+					schematics: ["test/corridor-end"],
+					constraints: [ [], ["*"], [], [], [], [] ],
+					chance: 0.25,
+				},
+				{
+					code: "room-end",
+					schematics: ["test/room-end"],
+					constraints: [ ["*"], [], [], [], [], [] ],
+					chance: 0.25,
+				},
+				{
+					code: "endcap",
+					schematics: ["test/endcap"],
+					constraints: [ [], ["*"], [], [], [], [] ],
+					chance: 0.1,
+					ignoreMaxTiles: true
+				}
+			]
+		}
+	]
+}

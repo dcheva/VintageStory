@@ -1,0 +1,46 @@
+{
+	code: "supportbeam-tarnishedmetal",
+	class: "BlockSupportBeam",
+	entityClass: "Generic",
+	entityBehaviors: [ { name: "SupportBeam" } ],
+	variantgroups: [
+		{ code: "metal", states: ["bismuthbronze", "blackbronze", "blistersteel", "brass", "copper", "iron", "lead", "rust", "rusty-iron"] },
+	],
+	creativeinventory: { "general": ["*"], "construction": ["*"] },
+	shape: { base: "block/metal/supportbeam" },
+	blockmaterial: "Wood",
+	drawtype: "json",
+	textures: {
+		material: { 
+			baseByType: {
+				"*-copper": "block/metal/tarnished/{metal}1",
+				"*": "block/metal/tarnished/{metal}" 
+			}
+		}
+	},
+	faceCullMode: "NeverCull",
+	sideOpaque: { all: false },
+	emitSideAo: { all: false },
+	rainPermeable: true,
+	lightAbsorption: 0,
+	resistance: 3.5,
+	sounds: {
+		"hit": "block/planks",
+		"break": "block/planks",
+		"place": "block/planks",
+		"walk": "walk/wood"
+	},
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 20,
+	},
+	maxStackSize: 32,
+	materialDensity: 600,
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	},
+	drops: []
+}

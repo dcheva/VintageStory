@@ -1,0 +1,101 @@
+﻿{
+	"code": "waterwheelbase",
+	"class": "WaterWheel",
+	"entityClass": "BEWaterWheel",
+	"entityBehaviors": [ { "name": "BEBehaviorWaterWheel" } ],
+	"behaviors": [
+		{ "name": "HorizontalOrientable" }
+	],
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "waterwheelbase-*" ]
+		},
+		"damagePerTick": 1.0
+	},
+	"variantgroups": [
+		{
+			"code": "side",
+			"loadFromProperties": "abstract/horizontalorientation"
+		}
+	],
+	"creativeinventory": {
+		"general": [ "*-north" ],
+		"mechanics": [ "*-north" ]
+	},
+	"shapebytype": {
+		"*-north": {
+			"base": "block/wood/waterwheel-base",
+			"rotateY": 90
+		},
+		"*-east": {
+			"base": "block/wood/waterwheel-base",
+			"rotateY": 0
+		},
+		"*-south": {
+			"base": "block/wood/waterwheel-base",
+			"rotateY": 270
+		},
+		"*-west": {
+			"base": "block/wood/waterwheel-base",
+			"rotateY": 180
+		}
+	},
+	"blockmaterial": "Wood",
+	"textures": {
+		"oak": { "base": "block/wood/oak-0-rotated" },
+		"aged": { "base": "block/wood/aged-0-rotated" },
+		"acacia": { "base": "block/wood/acacia-0-rotated" },
+		"metal2": { "base": "block/metal2" }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"rainPermeable": true,
+	"drops": [
+		{
+			"type": "block",
+			"code": "waterwheelbase-north"
+		}
+	],
+	"resistance": 3.5,
+	"lightAbsorption": 0,
+	"maxStackSize": 8,
+	"guiTransform": {
+		"scale": 1.0
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.2,
+			"y": -1,
+			"z": -1
+		},
+		"scale": 0.5
+	},
+	"groundTransform": {
+		"translation": {
+			"x": -0.08,
+			"y": 0.04,
+			"z": 0.2
+		},
+		"rotation": {
+			"x": -37,
+			"y": -44,
+			"z": 21
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.5,
+			"z": 0.1
+		},
+		"scale": 2.9
+	},
+	"sounds": {
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	}
+}

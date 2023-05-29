@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "name": "Medieval Map",
+  "modid": "medievalmap",
+  "version": "1.1.1",
+  "authors": ["Rangelost"],
+  "description": "Simplifies world map drawing.",
+  "side": "Client",
+  "dependencies": { 
+	"game": "1.18.0"
+  }
+}

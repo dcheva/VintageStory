@@ -1,0 +1,274 @@
+{
+	"medievalexpansion:block-myshinyblock-gold-good": "Gold Pillar",
+	"medievalexpansion:block-myshinyblock-gold-used": "Old Gold Pillar",
+	"medievalexpansion:block-myshinyblock-iron-good": "Iron Pillar",
+	"medievalexpansion:block-myshinyblock-iron-used": "Old Iron Pillar",
+	"medievalexpansion:block-portcullis3x3-model-closed-north": "Portcullis Iron 3x3",
+	"medievalexpansion:block-portcullis3x4-model-closed-north": "Portcullis Iron 3x4",
+	"medievalexpansion:block-portcullis3x5-model-closed-north": "Portcullis Iron 3x5",
+	"medievalexpansion:block-portcullis4x3-model-closed-north": "Portcullis Iron 4x3",
+	"medievalexpansion:block-portcullis4x4-model-closed-north": "Portcullis Iron 4x4",
+	"medievalexpansion:block-portcullis4x5-model-closed-north": "Portcullis Iron 4x5",
+	"medievalexpansion:block-portcullis5x3-model-closed-north": "Portcullis Iron 5x3",
+	"medievalexpansion:block-portcullis5x4-model-closed-north": "Portcullis Iron 5x4",
+	"medievalexpansion:block-portcullis5x5-model-closed-north": "Portcullis Iron 5x5",
+
+	"medievalexpansion:block-gate3x3-model-oak-closed-north": "Gate 3x3 Oak",
+	"medievalexpansion:block-gate3x3-model-acacia-closed-north": "Gate 3x3 Acazia",
+	"medievalexpansion:block-gate3x3-model-aged-closed-north": "Gate 3x3 Aged",
+	"medievalexpansion:block-gate3x3-model-birch-closed-north": "Gate 3x3 Birch",
+	"medievalexpansion:block-gate3x3-model-kapok-closed-north": "Gate 3x3 Kapok",
+	"medievalexpansion:block-gate3x3-model-maple-closed-north": "Gate 3x3 Maple",
+	"medievalexpansion:block-gate3x3-model-pine-closed-north": "Gate 3x3 Pine",
+	"medievalexpansion:block-gate3x3-model-purpleheart-closed-north": "Gate 3x3 Purpleheart",
+	"medievalexpansion:block-gate3x3-model-walnut-closed-north": "Gate 3x3 Walnut",
+	"medievalexpansion:block-gate3x3-model-redwood-closed-north": "Gate 3x3 Redwood",
+	"medievalexpansion:block-gate3x3-model-larch-closed-north": "Gate 3x3 Larch",
+	"medievalexpansion:block-gate3x3-model-ebony-closed-north": "Gate 3x3 Ebony",
+	"medievalexpansion:block-gate3x3-model-baldcypress-closed-north": "Gate 3x3 Bald Cypress",
+
+	"medievalexpansion:block-gate4x4-model-oak-closed-north": "Gate 4x4 Oak",
+	"medievalexpansion:block-gate4x4-model-acacia-closed-north": "Gate 4x4 Acazia",
+	"medievalexpansion:block-gate4x4-model-aged-closed-north": "Gate 4x4 Aged",
+	"medievalexpansion:block-gate4x4-model-birch-closed-north": "Gate 4x4 Birch",
+	"medievalexpansion:block-gate4x4-model-kapok-closed-north": "Gate 4x4 Kapok",
+	"medievalexpansion:block-gate4x4-model-maple-closed-north": "Gate 4x4 Maple",
+	"medievalexpansion:block-gate4x4-model-pine-closed-north": "Gate 4x4 Pine",
+	"medievalexpansion:block-gate4x4-model-purpleheart-closed-north": "Gate 4x4 Purpleheart",
+	"medievalexpansion:block-gate4x4-model-walnut-closed-north": "Gate 4x4 Walnut",
+	"medievalexpansion:block-gate4x4-model-redwood-closed-north": "Gate 4x4 Redwood",
+	"medievalexpansion:block-gate4x4-model-larch-closed-north": "Gate 4x4 Larch",
+	"medievalexpansion:block-gate4x4-model-ebony-closed-north": "Gate 4x4 Ebony",
+	"medievalexpansion:block-gate4x4-model-baldcypress-closed-north": "Gate 4x4 Bald Cypress",
+
+	"medievalexpansion:block-gate5x5-model-oak-closed-north": "Gate 5x5 Oak",
+	"medievalexpansion:block-gate5x5-model-acacia-closed-north": "Gate 5x5 Acazia",
+	"medievalexpansion:block-gate5x5-model-aged-closed-north": "Gate 5x5 Aged",
+	"medievalexpansion:block-gate5x5-model-birch-closed-north": "Gate 5x5 Birch",
+	"medievalexpansion:block-gate5x5-model-kapok-closed-north": "Gate 5x5 Kapok",
+	"medievalexpansion:block-gate5x5-model-maple-closed-north": "Gate 5x5 Maple",
+	"medievalexpansion:block-gate5x5-model-pine-closed-north": "Gate 5x5 Pine",
+	"medievalexpansion:block-gate5x5-model-purpleheart-closed-north": "Gate 5x5 Purpleheart",
+	"medievalexpansion:block-gate5x5-model-walnut-closed-north": "Gate 5x5 Walnut",
+	"medievalexpansion:block-gate5x5-model-redwood-closed-north": "Gate 5x5 Redwood",
+	"medievalexpansion:block-gate5x5-model-larch-closed-north": "Gate 5x5 Larch",
+	"medievalexpansion:block-gate5x5-model-ebony-closed-north": "Gate 5x5 Ebony",
+	"medievalexpansion:block-gate5x5-model-baldcypress-closed-north": "Gate 5x5 Bald Cypress",
+
+	"medievalexpansion:block-gate8x5-model-oak-closed-north": "Gate 8x5 Oak",
+	"medievalexpansion:block-gate8x5-model-acacia-closed-north": "Gate 8x5 Acazia",
+	"medievalexpansion:block-gate8x5-model-aged-closed-north": "Gate 8x5 Aged",
+	"medievalexpansion:block-gate8x5-model-birch-closed-north": "Gate 8x5 Birch",
+	"medievalexpansion:block-gate8x5-model-kapok-closed-north": "Gate 8x5 Kapok",
+	"medievalexpansion:block-gate8x5-model-maple-closed-north": "Gate 8x5 Maple",
+	"medievalexpansion:block-gate8x5-model-pine-closed-north": "Gate 8x5 Pine",
+	"medievalexpansion:block-gate8x5-model-purpleheart-closed-north": "Gate 8x5 Purpleheart",
+	"medievalexpansion:block-gate8x5-model-walnut-closed-north": "Gate 8x5 Walnut",
+	"medievalexpansion:block-gate8x5-model-redwood-closed-north": "Gate 8x5 Redwood",
+	"medievalexpansion:block-gate8x5-model-larch-closed-north": "Gate 8x5 Larch",
+	"medievalexpansion:block-gate8x5-model-ebony-closed-north": "Gate 8x5 Ebony",
+	"medievalexpansion:block-gate8x5-model-baldcypress-closed-north": "Gate 8x5 Bald Cypress",
+
+	"medievalexpansion:block-drawbridge3x4-model-purpleheart-opened-north": "Drawbridge 3x4 Purpleheart",
+	"medievalexpansion:block-drawbridge3x5-model-purpleheart-opened-north": "Drawbridge 3x5 Purpleheart",
+	"medievalexpansion:block-drawbridge3x6-model-purpleheart-opened-north": "Drawbridge 3x6 Purpleheart",
+
+	"medievalexpansion:block-drawbridge4x5-model-purpleheart-opened-north": "Drawbridge 4x5 Purpleheart",
+	"medievalexpansion:block-drawbridge4x6-model-purpleheart-opened-north": "Drawbridge 4x6 Purpleheart",
+	"medievalexpansion:block-drawbridge4x7-model-purpleheart-opened-north": "Drawbridge 4x7 Purpleheart",
+
+	"medievalexpansion:block-drawbridge5x6-model-purpleheart-opened-north": "Drawbridge 5x6 Purpleheart",
+	"medievalexpansion:block-drawbridge5x7-model-purpleheart-opened-north": "Drawbridge 5x7 Purpleheart",
+
+	"medievalexpansion:block-drawbridge3x4-model-walnut-opened-north": "Drawbridge 3x4 Walnut",
+	"medievalexpansion:block-drawbridge3x5-model-walnut-opened-north": "Drawbridge 3x5 Walnut",
+	"medievalexpansion:block-drawbridge3x6-model-walnut-opened-north": "Drawbridge 3x6 Walnut",
+
+	"medievalexpansion:block-drawbridge4x5-model-walnut-opened-north": "Drawbridge 4x5 Walnut",
+	"medievalexpansion:block-drawbridge4x6-model-walnut-opened-north": "Drawbridge 4x6 Walnut",
+	"medievalexpansion:block-drawbridge4x7-model-walnut-opened-north": "Drawbridge 4x7 Walnut",
+
+	"medievalexpansion:block-drawbridge5x6-model-walnut-opened-north": "Drawbridge 5x6 Walnut",
+	"medievalexpansion:block-drawbridge5x7-model-walnut-opened-north": "Drawbridge 5x7 Walnut",
+
+	"medievalexpansion:block-drawbridge3x4-model-redwood-opened-north": "Drawbridge 3x4 Redwood",
+	"medievalexpansion:block-drawbridge3x5-model-redwood-opened-north": "Drawbridge 3x5 Redwood",
+	"medievalexpansion:block-drawbridge3x6-model-redwood-opened-north": "Drawbridge 3x6 Redwood",
+
+	"medievalexpansion:block-drawbridge4x5-model-redwood-opened-north": "Drawbridge 4x5 Redwood",
+	"medievalexpansion:block-drawbridge4x6-model-redwood-opened-north": "Drawbridge 4x6 Redwood",
+	"medievalexpansion:block-drawbridge4x7-model-redwood-opened-north": "Drawbridge 4x7 Redwood",
+
+	"medievalexpansion:block-drawbridge5x6-model-redwood-opened-north": "Drawbridge 5x6 Redwood",
+	"medievalexpansion:block-drawbridge5x7-model-redwood-opened-north": "Drawbridge 5x7 Redwood",
+
+	"medievalexpansion:block-drawbridge3x4-model-larch-opened-north": "Drawbridge 3x4 Larch",
+	"medievalexpansion:block-drawbridge3x5-model-larch-opened-north": "Drawbridge 3x5 Larch",
+	"medievalexpansion:block-drawbridge3x6-model-larch-opened-north": "Drawbridge 3x6 Larch",
+
+	"medievalexpansion:block-drawbridge4x5-model-larch-opened-north": "Drawbridge 4x5 Larch",
+	"medievalexpansion:block-drawbridge4x6-model-larch-opened-north": "Drawbridge 4x6 Larch",
+	"medievalexpansion:block-drawbridge4x7-model-larch-opened-north": "Drawbridge 4x7 Larch",
+
+	"medievalexpansion:block-drawbridge5x6-model-larch-opened-north": "Drawbridge 5x6 Larch",
+	"medievalexpansion:block-drawbridge5x7-model-larch-opened-north": "Drawbridge 5x7 Larch",
+
+	"medievalexpansion:block-drawbridge3x4-model-ebony-opened-north": "Drawbridge 3x4 Ebony",
+	"medievalexpansion:block-drawbridge3x5-model-ebony-opened-north": "Drawbridge 3x5 Ebony",
+	"medievalexpansion:block-drawbridge3x6-model-ebony-opened-north": "Drawbridge 3x6 Ebony",
+
+	"medievalexpansion:block-drawbridge4x5-model-ebony-opened-north": "Drawbridge 4x5 Ebony",
+	"medievalexpansion:block-drawbridge4x6-model-ebony-opened-north": "Drawbridge 4x6 Ebony",
+	"medievalexpansion:block-drawbridge4x7-model-ebony-opened-north": "Drawbridge 4x7 Ebony",
+
+	"medievalexpansion:block-drawbridge5x6-model-ebony-opened-north": "Drawbridge 5x6 Ebony",
+	"medievalexpansion:block-drawbridge5x7-model-ebony-opened-north": "Drawbridge 5x7 Ebony",
+
+	"medievalexpansion:block-drawbridge3x4-model-baldcypress-opened-north": "Drawbridge 3x4 Bald Cypress",
+	"medievalexpansion:block-drawbridge3x5-model-baldcypress-opened-north": "Drawbridge 3x5 Bald Cypress",
+	"medievalexpansion:block-drawbridge3x6-model-baldcypress-opened-north": "Drawbridge 3x6 Bald Cypress",
+
+	"medievalexpansion:block-drawbridge4x5-model-baldcypress-opened-north": "Drawbridge 4x5 Bald Cypress",
+	"medievalexpansion:block-drawbridge4x6-model-baldcypress-opened-north": "Drawbridge 4x6 Bald Cypress",
+	"medievalexpansion:block-drawbridge4x7-model-baldcypress-opened-north": "Drawbridge 4x7 Bald Cypress",
+
+	"medievalexpansion:block-drawbridge5x6-model-baldcypress-opened-north": "Drawbridge 5x6 Bald Cypress",
+	"medievalexpansion:block-drawbridge5x7-model-baldcypress-opened-north": "Drawbridge 5x7 Bald Cypress",
+
+	"medievalexpansion:block-drawbridge3x4-model-oak-opened-north": "Drawbridge 3x4 Oak",
+	"medievalexpansion:block-drawbridge3x5-model-oak-opened-north": "Drawbridge 3x5 Oak",
+	"medievalexpansion:block-drawbridge3x6-model-oak-opened-north": "Drawbridge 3x6 Oak",
+
+	"medievalexpansion:block-drawbridge4x5-model-oak-opened-north": "Drawbridge 4x5 Oak",
+	"medievalexpansion:block-drawbridge4x6-model-oak-opened-north": "Drawbridge 4x6 Oak",
+	"medievalexpansion:block-drawbridge4x7-model-oak-opened-north": "Drawbridge 4x7 Oak",
+
+	"medievalexpansion:block-drawbridge5x6-model-oak-opened-north": "Drawbridge 5x6 Oak",
+	"medievalexpansion:block-drawbridge5x7-model-oak-opened-north": "Drawbridge 5x7 Oak",
+
+	"medievalexpansion:block-drawbridge3x4-model-acacia-opened-north": "Drawbridge 3x4 Acazia",
+	"medievalexpansion:block-drawbridge3x5-model-acacia-opened-north": "Drawbridge 3x5 Acazia",
+	"medievalexpansion:block-drawbridge3x6-model-acacia-opened-north": "Drawbridge 3x6 Acazia",
+
+	"medievalexpansion:block-drawbridge4x5-model-acacia-opened-north": "Drawbridge 4x5 Acazia",
+	"medievalexpansion:block-drawbridge4x6-model-acacia-opened-north": "Drawbridge 4x6 Acazia",
+	"medievalexpansion:block-drawbridge4x7-model-acacia-opened-north": "Drawbridge 4x7 Acazia",
+
+	"medievalexpansion:block-drawbridge5x6-model-acacia-opened-north": "Drawbridge 5x6 Acazia",
+	"medievalexpansion:block-drawbridge5x7-model-acacia-opened-north": "Drawbridge 5x7 Acazia",
+
+	"medievalexpansion:block-drawbridge3x4-model-aged-opened-north": "Drawbridge 3x4 Aged",
+	"medievalexpansion:block-drawbridge3x5-model-aged-opened-north": "Drawbridge 3x5 Aged",
+	"medievalexpansion:block-drawbridge3x6-model-aged-opened-north": "Drawbridge 3x6 Aged",
+
+	"medievalexpansion:block-drawbridge4x5-model-aged-opened-north": "Drawbridge 4x5 Aged",
+	"medievalexpansion:block-drawbridge4x6-model-aged-opened-north": "Drawbridge 4x6 Aged",
+	"medievalexpansion:block-drawbridge4x7-model-aged-opened-north": "Drawbridge 4x7 Aged",
+
+	"medievalexpansion:block-drawbridge5x6-model-aged-opened-north": "Drawbridge 5x6 Aged",
+	"medievalexpansion:block-drawbridge5x7-model-aged-opened-north": "Drawbridge 5x7 Aged",
+
+	"medievalexpansion:block-drawbridge3x4-model-birch-opened-north": "Drawbridge 3x4 Birch",
+	"medievalexpansion:block-drawbridge3x5-model-birch-opened-north": "Drawbridge 3x5 Birch",
+	"medievalexpansion:block-drawbridge3x6-model-birch-opened-north": "Drawbridge 3x6 Birch",
+
+	"medievalexpansion:block-drawbridge4x5-model-birch-opened-north": "Drawbridge 4x5 Birch",
+	"medievalexpansion:block-drawbridge4x6-model-birch-opened-north": "Drawbridge 4x6 Birch",
+	"medievalexpansion:block-drawbridge4x7-model-birch-opened-north": "Drawbridge 4x7 Birch",
+
+	"medievalexpansion:block-drawbridge5x6-model-birch-opened-north": "Drawbridge 5x6 Birch",
+	"medievalexpansion:block-drawbridge5x7-model-birch-opened-north": "Drawbridge 5x7 Birch",
+
+	"medievalexpansion:block-drawbridge3x4-model-kapok-opened-north": "Drawbridge 3x4 Kapok",
+	"medievalexpansion:block-drawbridge3x5-model-kapok-opened-north": "Drawbridge 3x5 Kapok",
+	"medievalexpansion:block-drawbridge3x6-model-kapok-opened-north": "Drawbridge 3x6 Kapok",
+
+	"medievalexpansion:block-drawbridge4x5-model-kapok-opened-north": "Drawbridge 4x5 Kapok",
+	"medievalexpansion:block-drawbridge4x6-model-kapok-opened-north": "Drawbridge 4x6 Kapok",
+	"medievalexpansion:block-drawbridge4x7-model-kapok-opened-north": "Drawbridge 4x7 Kapok",
+
+	"medievalexpansion:block-drawbridge5x6-model-kapok-opened-north": "Drawbridge 5x6 Kapok",
+	"medievalexpansion:block-drawbridge5x7-model-kapok-opened-north": "Drawbridge 5x7 Kapok",
+
+	"medievalexpansion:block-drawbridge3x4-model-maple-opened-north": "Drawbridge 3x4 Maple",
+	"medievalexpansion:block-drawbridge3x5-model-maple-opened-north": "Drawbridge 3x5 Maple",
+	"medievalexpansion:block-drawbridge3x6-model-maple-opened-north": "Drawbridge 3x6 Maple",
+
+	"medievalexpansion:block-drawbridge4x5-model-maple-opened-north": "Drawbridge 4x5 Maple",
+	"medievalexpansion:block-drawbridge4x6-model-maple-opened-north": "Drawbridge 4x6 Maple",
+	"medievalexpansion:block-drawbridge4x7-model-maple-opened-north": "Drawbridge 4x7 Maple",
+
+	"medievalexpansion:block-drawbridge5x6-model-maple-opened-north": "Drawbridge 5x6 Maple",
+	"medievalexpansion:block-drawbridge5x7-model-maple-opened-north": "Drawbridge 5x7 Maple",
+
+	"medievalexpansion:block-drawbridge3x4-model-pine-opened-north": "Drawbridge 3x4 Pine",
+	"medievalexpansion:block-drawbridge3x5-model-pine-opened-north": "Drawbridge 3x5 Pine",
+	"medievalexpansion:block-drawbridge3x6-model-pine-opened-north": "Drawbridge 3x6 Pine",
+
+	"medievalexpansion:block-drawbridge4x5-model-pine-opened-north": "Drawbridge 4x5 Pine",
+	"medievalexpansion:block-drawbridge4x6-model-pine-opened-north": "Drawbridge 4x6 Pine",
+	"medievalexpansion:block-drawbridge4x7-model-pine-opened-north": "Drawbridge 4x7 Pine",
+
+	"medievalexpansion:block-drawbridge5x6-model-pine-opened-north": "Drawbridge 5x6 Pine",
+	"medievalexpansion:block-drawbridge5x7-model-pine-opened-north": "Drawbridge 5x7 Pine",
+
+	"medievalexpansion:block-floorplate-wood-up-north": "Floorplate Wood",
+	"medievalexpansion:block-floorplate-stone-up-north": "Floorplate Stone",
+
+	"medievalexpansion:item-portcullispart": "Portcullis-Part Iron",
+	"medievalexpansion:item-portcullisdismantled": "Portcullis dismantled",
+
+	"medievalexpansion:item-repairkit-large-copper": "Large Repairkit (Copper)",
+	"medievalexpansion:item-repairkit-large-tinbronze": "Large Repairkit (Tinbronze)",
+	"medievalexpansion:item-repairkit-large-iron": "Large Repairkit (Iron)",
+	"medievalexpansion:item-repairkit-large-steel": "Large Repairkit (Steel)",
+
+	"medievalexpansion:restore-durability": "Restore durability: {0}",
+	"medievalexpansion:can-repair-constructions": "Can repair constructions",
+	"medievalexpansion:blockhelp-repair": "Repair",
+
+	"medievalexpansion:block-streetlight-north": "Lamppost",
+	"medievalexpansion:block-waterwheelbase-north": "Waterwheel-Base",
+	"medievalexpansion:block-waterwheelpenstock-door-north": "Flume with hatch",
+	"medievalexpansion:block-waterwheelpenstock-normal-north": "Flume",
+	"medievalexpansion:block-waterwheelpenstock-output-north": "Flume-Ouput",
+	"medievalexpansion:waterwheel-complete": "Waterwheel",
+	"medievalexpansion:item-waterwheelspin-oak": "Waterwheel-Gear",
+	"medievalexpansion:item-penstockhatch-oak": "Hatch for Penstock",
+	"medievalexpansion:waterwheel-requires-gear": "Requires gear",
+	"medievalexpansion:penstock-requires-hatch": "Requires hatch",
+	"medievalexpansion:waterwheel-requires-repair": "Repair necessary",
+	"medievalexpansion:waterwheel-efficiency": "Efficiency: {0}%",
+	"medievalexpansion:waterwheel-durability": "Durability: {0}%",
+	"medievalexpansion:waterwheel-typ": "Type: {0}",
+	"medievalexpansion:waterwheel-typ-undershot": "Undershot",
+	"medievalexpansion:waterwheel-typ-breastshot": "Breastshot",
+	"medievalexpansion:waterwheel-typ-overshot": "Overshot",
+
+	"medievalexpansion:waterwheel-usage-title": "Waterwheel Mechanical Power",
+	"medievalexpansion:waterwheel-usage-text": "<strong>Waterwheel mechanical power</strong><br><br>Requires water to empower the Waterwheel. The Water must float in the correct direction, rotation is counter clockwise.<br/>There are 3 variants with max efficencies: <br />- Undershot: 30%<br />- Breastshot: 45%<br />- Overshot: 85%<br/><br/>For Overshot you must use the Flume elements, which must be watered. The Flume must be placed on the upper side of the wheel.<br/><br/>For Breastshot the water must float on the same height-level of the axle to the Waterwheel.<br/><br/>Server admins can change the efficencies by configfile.",
+	"medievalexpansion:block-firebrazier-normal-*": "Firebrazier",
+	"medievalexpansion:block-firebrazier-creative-*": "Firebrazier (Creative)",
+	"medievalexpansion:firebrazier-burningtime": "Burningtime: {0}",
+	"medievalexpansion:blockhelp-firebrazier-fuel": "Add fuel",
+	"medievalexpansion:blockhelp-firebrazier-ignite": "Ignite",
+
+	"medievalexpansion:item-creature-aurochs-female": "Aurochs cow",
+	"medievalexpansion:item-creature-aurochs-male": "Aurochs bull",
+	"medievalexpansion:item-creature-aurochs-lamb": "Aurochs calf",
+	"medievalexpansion:item-dead-creature-aurochs-male": "Dead aurochs bull",
+	"medievalexpansion:item-dead-creature-aurochs-female": "Dead aurochs cow",
+	"medievalexpansion:item-dead-creature-aurochs-lamb": "Dead aurochs calf",
+
+	"medievalexpansion:block-grasicemixpile": "Pile of cellar ice",
+	"medievalexpansion:item-grasicemix": "Cellar ice",
+	"medievalexpansion:blockhelp-grasicemix-addfuel": "Add cellar ice",
+	"medievalexpansion:blockhelp-grasicemix-removefuel": "Remove cellar ice",
+
+	"medievalexpansion:aurochs-help-title": "Aurochs domestication",
+	"medievalexpansion:aurochs-help-text": "<strong>Aurochs domestication</strong><br><br>Aurochs need a large trough and are fed with: <br> - Dry grass<br> - Hay<br/> - Caggage",
+	"medievalexpansion:cellarice-help-title": "Room cooling - cellar ice",
+	"medievalexpansion:cellarice-help-text": "<strong>Room cooling - cellar ice</strong><br><br>Cellar ice is pileable of an area of 3x3x2 blocks for an optimal support inside a room.<br/> Placed inside a room it will cool the room and the cellar ice will melt down over a long time.<br/><br/>Server admins can change the multiplier by configfile.",
+	"medievalexpansion:item-aurochsfood": "Aurochs food mix",
+	"medievalexpansion:aurochs-food": "Aurochs food mixed of straw"
+}

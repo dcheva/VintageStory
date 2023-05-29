@@ -1,0 +1,45 @@
+﻿[
+    {
+        ingredientPattern: "S,P",
+        width: 1,
+        height: 2,
+        ingredients: {
+            "S": { 
+                type: "item", 
+                code: "game:stick",
+                quantity: 1
+            },
+            "P": {
+                type: "item",
+                code: "game:plank-*",
+                quantity: 3
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "floorplate-wood-up-north"
+        }
+    },
+    {
+        ingredientPattern: "S,P",
+        width: 1,
+        height: 2,
+        ingredients: {
+            "S": { 
+                type: "item", 
+                code: "game:stick",
+                quantity: 1
+            },
+            "P": {
+                type: "block",
+                allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"],
+                code: "game:cobblestoneslab-*-down-free",
+                quantity: 1
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "floorplate-stone-up-north"
+        }
+    }
+]

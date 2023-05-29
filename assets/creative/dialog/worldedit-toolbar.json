@@ -1,0 +1,40 @@
+{
+	code: "worldedit-toolbar",
+	padding: 5,
+	alignment: "LeftFixed",
+	disableWorldInteract: false,
+	posY: 60,
+	rows: [
+		{ elements: [
+			{
+				code: "tooltype",
+				type: "select",
+				width: 30,
+				height: 518,
+				mode: "buttons",
+				icons: ["none", "move", "repeat", "select", "paintbrush", "airbrush", "line", "eraser", "floodfill", "raiselower", "growshrink", "erode", "import", "tree", "worldedit/chiselbrush"],
+				values: ["-1", "move", "repeat", "select", "paint brush", "air brush", "line", "eraser", "flood fill", "raise/lower", "grow/shrink", "erode", "import", "treegen", "chiselbrush"],
+				names: ["None", "Move", "Repeat/Mirror", "Select", "Paint brush", "Air brush", "Line", "Eraser", "Flood Fill", "Raise/Lower", "Grow/Shrink", "Erode", "Import", "Tree", "Chisel Brush"],
+				tooltips: [
+					"Disable Tool Drawing",
+					"Move Tool\n\nRequires magic wand item in your hands.\n\nLeft click: No effect\nRight click: Move to given position",
+					"Repeat Tool\n\nRequires magic wand item in your hands.\n\nLeft click: No effect\nRight click: Mirror/Repeat to given position",
+					"Select Tool\n\nRequires magic wand item in your hands.\n\nLeft click (manual mode): Select start position\nRight click (manual mode): Select end position\n\nLeft click (magic mode): No effect\nRight click (magic mode): Grow selection at the aimed position until only edge blocks are found (by default soil and air)",
+					"Paint brush\n\nBrush for placing many blocks in various shapes\n\nLeft click: No effect\nRight click: Places blocks in given shape of currently selected block in your hotbar",
+					"Air brush\n\nTool to sprinkle individual blocks across a surface\n\nLeft click: Randomly remove a bunch of blocks within a given radius, only works in draw mode 'Replace'\nRight click: Randomly place a bunch of blocks within a given radius",
+					"Line\n\nTool for creating lines of blocks\n\nLeft click: Marks the select position as the start point of the line\nRight click: Draws the line from chosen start point to selected point",
+					"Eraser\n\nBrush for remove many blocks in various shapes\n\nLeft click: Removes blocks in given shape of currently selected block in your hotbar\nRight click: No effect",
+					"Flood fill\n\nTool for fills in 1 block deep basins\n\nLeft click: Tries to flood delete an area\nRight click: Try to flood fill using currently selected block in your hotbar",
+					"Raise/Lower\n\nTool to raise/lower terrain\n\nLeft click: Lower Terrain\nRight click: Raise Terrain (will place the block you have currently selected in your hotbar)",
+					"Grow/Shrink\n\nTool to grow or shrink an area in every direction\n\nLeft click: Shrinks all shapes inside given radius\nRight click: Grows all shapes inside given radius",
+					"Erode\n\nApplies an erosion effect on the targeted area\n\nLeft click: No effect\nRight click: Erode an area by averaging the height of the terrain",
+					"Import\n\nFor importing external bock schematics. When active you can also drag and drop schematics into the game to import them.\n\nLeft click: No effect\nRight click: Import one of the supplied blockdata files at the selected position. Must have a block in hands to place.",
+					"Tree\n\nPlace trees using the inbuilt tree generator\n\nLeft click: No effect\nRight click: Places a tree at given selected position",
+					"Chisel brush Tool\n\nVarious operations you can run on chiseled blocks"
+				],
+				getvalue: ["/we t"],
+				setvalue: ["/we t {value}"]
+			}
+		] },
+	]
+}

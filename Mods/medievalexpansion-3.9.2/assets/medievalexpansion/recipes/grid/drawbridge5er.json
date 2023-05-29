@@ -1,0 +1,51 @@
+[
+    {
+        ingredientPattern: "RTH,RTW",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "W": { type: "item", code: "game:saw-**", isTool: true },
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "T": {
+                type: "item",
+                code: "game:plank-*",
+                name: "wood",
+                quantity: 15
+            },
+            "R": {
+                type: "item",
+                code: "game:rope",
+                quantity: 6
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "drawbridge5x6-model-{wood}-opened-north"
+        }
+    }
+    ,
+    {
+        ingredientPattern: "TRH,RTW",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "W": { type: "item", code: "game:saw-**", isTool: true },
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "T": {
+                type: "item",
+                code: "game:plank-*",
+                name: "wood",
+                quantity: 18
+            },
+            "R": {
+                type: "item",
+                code: "game:rope",
+                quantity: 7
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "drawbridge5x7-model-{wood}-opened-north"
+        }
+    }
+]

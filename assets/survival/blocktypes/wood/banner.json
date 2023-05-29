@@ -1,0 +1,59 @@
+{
+	code: "banner",
+	class: "BlockClutter",
+	variantgroups: [
+		{ code: "part", states: ["segment", "banner"] }
+	],
+	entityBehaviors: [ { name: "ShapeFromAttributes" } ],
+	behaviorsByType: {
+		"*-segment": [
+			{ name: "WrenchOrientable" },
+		],
+		"*": [
+			{ name: "WrenchOrientable" },
+			{ name: "Multiblock", properties: { sizex: 1, sizey: 3, sizez: 1, cposition: { x: 0, y: 0, z: 0 } } },
+		]
+	},
+	attributes: {
+		shapeBasePath: "block/wood/banner",
+		canChisel: false,
+		overrideTextureGroups: {
+			wood: {
+				mossy: { base: "block/wood/debarked/mossy", rotation: 90 },
+				aged: { base: "block/wood/debarked/aged", rotation: 90 },
+				agedplanks: { base: "block/wood/planks/aged/generic1", rotation: 90 },
+				veryaged: { base: "block/wood/debarked/veryagedrotten", rotation: 90 },
+				charred: { base: "block/wood/charred", rotation: 90 }
+			}
+		},
+		typesByType: {
+			"*-segment": [
+				{ code: "segment", shapePath: "segment", randomize: false, textureFlipCode: "aged", textureFlipGroupCode: "wood" },
+			],
+			"*-banner": [
+				{ code: "hansa-ground-fish", shapePath: "ground", textureFlipCode: "aged", textureFlipGroupCode: "wood", textures: { "symboltop": { base: "block/cloth/banner/hansa/fish-top" }, "symbolbot": { base: "block/cloth/banner/hansa/fish-bottom" }, "pennon1": { base: "block/cloth/banner/magnolia" }, "pennon2": { base: "block/cloth/banner/mahogany" }, "pennon3": { base: "block/cloth/banner/cadet-grey" } } },
+				{ code: "hansa-ground-keys", shapePath: "ground", textureFlipCode: "aged", textureFlipGroupCode: "wood", textures: { "symboltop": { base: "block/cloth/banner/hansa/keys-top" }, "symbolbot": { base: "block/cloth/banner/hansa/keys-bottom" }, "pennon1": { base: "block/cloth/banner/budgreen" }, "pennon2": { base: "block/cloth/linen/gray" }, "pennon3": { base: "block/cloth/banner/budgreen" } } },
+				{ code: "hansa-ground-largefish", shapePath: "ground", textureFlipCode: "aged", textureFlipGroupCode: "wood", textures: { "symboltop": { base: "block/cloth/banner/hansa/largefish-top" }, "symbolbot": { base: "block/cloth/banner/hansa/largefish-bottom" }, "pennon1": { base: "block/cloth/banner/budgreen" }, "pennon2": { base: "block/cloth/banner/budgreen" }, "pennon3": { base: "block/cloth/banner/budgreen" } } },
+				{ code: "hansa-ground-ship", shapePath: "ground", textureFlipCode: "aged", textureFlipGroupCode: "wood", textures: { "symboltop": { base: "block/cloth/banner/hansa/ship-top" }, "symbolbot": { base: "block/cloth/banner/hansa/ship-bottom" }, "pennon1": { base: "block/cloth/banner/cadet-grey" }, "pennon2": { base: "block/cloth/banner/mahogany" }, "pennon3": { base: "block/cloth/banner/magnolia" } } },
+				{ code: "hansa-ground-town", shapePath: "ground", textureFlipCode: "aged", textureFlipGroupCode: "wood", textures: { "symboltop": { base: "block/cloth/banner/hansa/town-top" }, "symbolbot": { base: "block/cloth/banner/hansa/town-bottom" }, "pennon1": { base: "block/cloth/banner/mahogany" }, "pennon2": { base: "block/cloth/banner/mahogany" }, "pennon3": { base: "block/cloth/banner/mahogany" } } },
+
+				{ code: "hansa-wall-fish", shapePath: "wall", textureFlipCode: "aged", textureFlipGroupCode: "wood", textures: { "symboltop": { base: "block/cloth/banner/hansa/fish-top" }, "symbolbot": { base: "block/cloth/banner/hansa/fish-bottom" }, "fringes": { base: "block/cloth/banner/magnolia" } } },
+				{ code: "hansa-wall-keys", shapePath: "wall", textureFlipCode: "aged", textureFlipGroupCode: "wood", textures: { "symboltop": { base: "block/cloth/banner/hansa/keys-top" }, "symbolbot": { base: "block/cloth/banner/hansa/keys-bottom" }, "fringes": { base: "block/cloth/banner/budgreen" } } },
+				{ code: "hansa-wall-largefish", shapePath: "wall", textureFlipCode: "aged", textureFlipGroupCode: "wood", textures: { "symboltop": { base: "block/cloth/banner/hansa/largefish-top" }, "symbolbot": { base: "block/cloth/banner/hansa/largefish-bottom" }, "fringes": { base: "block/cloth/banner/budgreen" } } },
+				{ code: "hansa-wall-ship", shapePath: "wall", textureFlipCode: "aged", textureFlipGroupCode: "wood", textures: { "symboltop": { base: "block/cloth/banner/hansa/ship-top" }, "symbolbot": { base: "block/cloth/banner/hansa/ship-bottom" } } },
+				{ code: "hansa-wall-town", shapePath: "wall", textureFlipCode: "aged", textureFlipGroupCode: "wood", textures: { "symboltop": { base: "block/cloth/banner/hansa/town-top" }, "symbolbot": { base: "block/cloth/banner/hansa/town-bottom" }, "fringes": { base: "block/cloth/banner/mahogany" } } }
+			]
+		}
+	},
+	faceCullMode: "NeverCull",
+	creativeinventory: { "general": [""] },
+	shape: { base: "game:block/basic/cube" },
+	replaceable: 90,
+	drops: [],
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	sideao: { all: false },
+	emitsideao: { all: false },
+	lightAbsorption: 1,
+	collisionSelectionBox: { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 1, z2: 0.875 }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "code",
+  "modid": "tradercamps",
+  "name": "Trader Camps",
+  "description": "More trader camps, less individuals",
+  "authors": [ "CoB", "WickedSchnitzel" ],
+  "version": "1.0.5",
+    "dependencies": {
+	"game": "1.18.0-pre.1",
+	"survival": "1.18.0-pre.1"
+	},
+	"RequiredOnClient": false,
+	"RequiredOnServer": true,
+  "website": "https://www.vintagestory.online"
+}

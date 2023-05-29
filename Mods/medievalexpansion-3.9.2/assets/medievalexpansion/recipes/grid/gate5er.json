@@ -1,0 +1,20 @@
+[
+    {
+        ingredientPattern: "H_P,PPP",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "P": {
+                type: "item",
+                code: "game:plank-*",
+                name: "wood",
+                quantity: 4
+            },
+        },
+        output: {
+            "type": "block",
+            "code": "gate5x5-model-{wood}-closed-north"
+        }
+    },
+]

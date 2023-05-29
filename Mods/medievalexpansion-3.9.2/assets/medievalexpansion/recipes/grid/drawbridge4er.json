@@ -1,0 +1,75 @@
+[
+    {
+        ingredientPattern: "HRR,WTT",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "W": { type: "item", code: "game:saw-**", isTool: true },
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "T": {
+                type: "item",
+                code: "game:plank-*",
+                name: "wood",
+                quantity: 9
+            },
+            "R": {
+                type: "item",
+                code: "game:rope",
+                quantity: 3
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "drawbridge4x5-model-{wood}-opened-north"
+        }
+    },
+    {
+        ingredientPattern: "HRT,WRT",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "W": { type: "item", code: "game:saw-**", isTool: true },
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "T": {
+                type: "item",
+                code: "game:plank-*",
+                name: "wood",
+                quantity: 11
+            },
+            "R": {
+                type: "item",
+                code: "game:rope",
+                quantity: 4
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "drawbridge4x6-model-{wood}-opened-north"
+        }
+    }
+    ,
+    {
+        ingredientPattern: "HTR,WRT",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "W": { type: "item", code: "game:saw-**", isTool: true },
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "T": {
+                type: "item",
+                code: "game:plank-*",
+                name: "wood",
+                quantity: 13
+            },
+            "R": {
+                type: "item",
+                code: "game:rope",
+                quantity: 5
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "drawbridge4x7-model-{wood}-opened-north"
+        }
+    }
+]

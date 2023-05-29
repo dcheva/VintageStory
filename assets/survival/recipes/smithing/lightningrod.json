@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "ingot-*", name: "metal", allowedVariants: ["copper"] },
+	pattern: [[
+		"________###",
+		"_______#___",
+		"###########",
+		"_______#___",
+		"________###",
+	]],
+	name: "Lightningrod",
+	output: { type: "block", code: "lightningrod"  }
+}

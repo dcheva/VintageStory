@@ -1,0 +1,29 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "aurochsfood",
+      "content": {
+        "type": "item",
+        "code": "medievalexpansion:aurochsfood"
+      },
+      "quantityPerFillLevel": 1,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/large/bellpepperfill1",
+        "block/wood/trough/large/bellpepperfill1",
+        "block/wood/trough/large/bellpepperfill2",
+        "block/wood/trough/large/bellpepperfill2",
+        "block/wood/trough/large/bellpepperfill3",
+        "block/wood/trough/large/bellpepperfill3",
+        "block/wood/trough/large/bellpepperfill4",
+        "block/wood/trough/large/bellpepperfill4"
+      ],
+      "foodFor": [ "medievalexpansion:aurochs-*" ],
+      "foodForDesc": "medievalexpansion:aurochs-food"
+    },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "Server"
+  }
+]

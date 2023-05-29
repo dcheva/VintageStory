@@ -1,0 +1,370 @@
+﻿{
+  "code": "extended-door",
+  "class": "BlockGeneric",
+  "entityClass": "Generic",
+  "behaviors": [
+    { "name": "Door" },
+    { "name": "BlockEntityInteract" },
+    { "name": "Lockable" }
+  ],
+  "entityBehaviors": [ { "name": "Door" } ],
+  "variantgroups": [
+    {
+      "code": "style",
+      "states": [ "2x3gate", "3x3gate", "3x4gate", "3x5gate" ]
+    },
+    {
+      "code": "wood",
+      "states": [ "aged" ],
+      "loadFromProperties": "block/wood"
+    }
+  ],
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "extended-door-{material}-*" ]
+    },
+    "widthByType": {
+      "extended-door-2x3gate-*": 2,
+      "extended-door-3x3gate-*": 3,
+      "extended-door-3x4gate-*": 3,
+      "extended-door-3x5gate-*": 3,
+      "*": 1
+    },
+    "heightByType": {
+      "extended-door-2x3gate-*": 3,
+      "extended-door-3x3gate-*": 3,
+      "extended-door-3x4gate-*": 4,
+      "extended-door-3x5gate-*": 5,
+      "*": 2
+    },
+    "openSoundByType": {
+      "extended-door-*": "medievalexpansion:sounds/gate_open",
+      "*": "game:sounds/block/door"
+    },
+    "closeSoundByType": {
+      "extended-door-*": "medievalexpansion:sounds/gate_close",
+      "*": "game:sounds/block/door"
+    },
+    "breakOnTriggerChanceByType": {
+      "door-log-*": 0.10
+    },
+    "easingSpeedByType": {
+      //"door-1x3gate-*": 3,
+      "extended-door-2x3gate-*": 0.85,
+      "extended-door-3x3gate-*": 0.85,
+      "extended-door-3x4gate-*": 0.65,
+      "extended-door-3x5gate-*": 0.65,
+      //"door-2x4gate-*": 1,
+      "*": 10
+    }
+  },
+  "creativeinventoryByType": {
+    "*": {
+      "general": [ "*" ],
+      "decorative": [ "*" ]
+    }
+  },
+  "shape": { "base": "block/wood/door/{style}" },
+  "texturesByType": {
+    "extended-door-*": {
+
+      "metal2": { "base": "block/metal2" },
+      "oak90rotated": {
+        "base": "game:block/wood/debarked/{wood}",
+        "rotation": 90,
+        "blendedOverlays": [
+          {
+            "base": "game:block/wood/door/overlay-tall",
+            "blendMode": "Overlay"
+          }
+        ]
+      }
+    }
+  },
+  "__comment": "Needs to be no cull pass because for double doors we flip x coords, but indices don't change so i believe that inverts the winding order, making the graphics card believe the face is facing the other direction",
+  "renderPass": "OpaqueNoCull",
+  "faceCullMode": "NeverCull",
+  "blockmaterial": "Wood",
+  "sideAo": { "all": false },
+  "heldTpIdleAnimation": "holdunderarm",
+  "replaceable": 500,
+  "resistance": 3.5,
+  "lightAbsorption": 0,
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "guiTransformByType": {
+    "extended-door-2x3gate-*": {
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "scale": 0.8
+    },
+    "extended-door-3x3gate-*": {
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "scale": 0.7
+    },
+    "extended-door-3x4gate-*": {
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "scale": 0.7
+    },
+    "extended-door-3x5gate-*": {
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "scale": 0.6
+    },
+    "*": {
+      "origin": {
+        "x": 0.49,
+        "y": 1,
+        "z": 0.8
+      },
+      "scale": 0.73
+    }
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": -0.77,
+      "y": 0.18,
+      "z": 0.72
+    },
+    "rotation": {
+      "x": 98,
+      "y": 42,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.7,
+      "z": 1
+    },
+    "scale": 1.11
+  },
+  "tpHandTransformByType": {
+    "extended-door-2x3gate-*": {
+      "translation": {
+        "x": -0.94,
+        "y": -1.42,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 13,
+        "y": 11,
+        "z": 59
+      },
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "scale": 0.71
+    },
+    "extended-door-3x3gate-*": {
+      "translation": {
+        "x": -0.94,
+        "y": -1.42,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 13,
+        "y": 11,
+        "z": 59
+      },
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "scale": 0.65
+    },
+    "extended-door-3x4gate-*": {
+      "translation": {
+        "x": -0.94,
+        "y": -1.42,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 13,
+        "y": 11,
+        "z": 59
+      },
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "scale": 0.6
+    },
+    "extended-door-3x5gate-*": {
+      "translation": {
+        "x": -0.94,
+        "y": -1.42,
+        "z": -1.4
+      },
+      "rotation": {
+        "x": 13,
+        "y": 11,
+        "z": 59
+      },
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "scale": 0.55
+    },
+    "*": {
+      "translation": {
+        "x": -0.74,
+        "y": -1.22,
+        "z": -1.3
+      },
+      "rotation": {
+        "x": 8,
+        "y": 11,
+        "z": 59
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1,
+        "z": 1
+      },
+      "scale": 0.71
+    }
+  },
+  "groundTransformByType": {
+    "extended-door-2x3gate-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 0.85
+      },
+      "scale": 3
+    },
+    "extended-door-3x3gate-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 0.85
+      },
+      "scale": 3
+    },
+    "extended-door-3x4gate-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 0.85
+      },
+      "scale": 3
+    },
+    "extended-door-3x5gate-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 1,
+        "y": 1,
+        "z": 0.85
+      },
+      "scale": 3
+    },
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1,
+        "z": 0.85
+      },
+      "scale": 3
+    }
+  },
+  "selectionbox": {
+    "x1": 0,
+    "y1": 0,
+    "z1": 0.375,
+    "x2": 1,
+    "y2": 1,
+    "z2": 0.775
+  },
+  "collisionbox": {
+    "x1": 0,
+    "y1": 0,
+    "z1": 0.375,
+    "x2": 1,
+    "y2": 1,
+    "z2": 0.775
+  },
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 25
+  },
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "materialDensity": 600
+}

@@ -1,0 +1,295 @@
+{
+	code: "worldedit-settings",
+	sizeMultiplier: 0.75,
+	padding: 5,
+	disableWorldInteract: false,
+	alignment: "RightFixed",
+	rows: [
+		{
+			height: 30,
+			topPadding: 10,
+			bottomPadding: 3,
+			elements: [
+				{
+					width: 350,
+					type: "text",
+					text: "Controls"
+				}
+			]
+		},
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "flymode",
+					label: "Fly Mode",
+					type: "select",
+					mode: "dropdown",
+					values: ["0", "1", "2"],
+					names: ["Off", "On", "On + NoClip"],
+				}
+			]
+		},
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "pickingrange",
+					label: "Picking range",
+					type: "select",
+					mode: "dropdown",
+					values: ["4.5", "10", "20", "50", "100", "200", "500"],
+					names: ["4.5 (default)", "10", "20", "50", "100", "200", "500"],
+				}
+			]
+		},
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "movespeed",
+					label: "Movement Speed",
+					type: "select",
+					mode: "dropdown",
+					values: ["0.1", "0.25", "0.5", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+					names: ["0.1", "0.25", "0.5", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+				},
+			]
+		},
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "axislock",
+					label: "Movement Axis Lock",
+					type: "select",
+					mode: "dropdown",
+					values: ["0", "1", "2", "3"],
+					names: ["-", "X", "Y", "Z"],
+				},
+			]
+		},
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "liquidselectable",
+					label: "Liquid Selectable",
+					type: "switch",
+				}
+			]
+		},
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "serveroverloadprotection",
+					label: "Server overload protection",
+					type: "switch",
+				}
+			]
+		},		
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "tooloffsetmode",
+					label: "Tool Offset Mode",
+					type: "select",
+					mode: "dropdown",
+					values: ["0", "1"],
+					names: ["Center", "Attach"],
+				}
+			]
+		},
+		{
+			height: 30,
+			topPadding: 10,
+			bottomPadding: 3,
+			elements: [
+				{
+					width: 350,
+					type: "text",
+					text: "Ambient"
+				}
+			]
+		},
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "timeofday",
+					label: "Time of Day",
+					type: "slider",
+					minValue: 0,
+					maxValue: 24,
+					step: 1
+				}
+			]
+		},
+		{
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "foglevel",
+					label: "Normal Fog Level",
+					type: "slider",
+					minValue: 0,
+					maxValue: 200,
+					step: 1
+				}
+			]
+		},
+		
+		{
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "flatfoglevel",
+					label: "Flat Fog Level",
+					type: "slider",
+					minValue: -500,
+					maxValue: 500,
+					step: 1
+				}
+			]
+		},
+
+		{
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "flatfoglevelypos",
+					label: "Flat Fog Vertical Pos.",
+					type: "slider",
+					minValue: -100,
+					maxValue: 100,
+					step: 1
+				}
+			]
+		},
+
+		
+		{
+			height: 20, 
+			elements: [
+				{
+					width: 350,
+					code: "fogred",
+					label: "Fog Red",
+					type: "slider",
+					minValue: 0,
+					maxValue: 255,
+					step: 1
+				}
+			]
+		},
+		{
+			height: 20, 
+			elements: [
+				{
+					width: 350,
+					code: "foggreen",
+					label: "Fog Green",
+					type: "slider",
+					minValue: 0,
+					maxValue: 255,
+					step: 1
+				}
+			]
+		},
+		{
+			height: 20, 
+			elements: [
+				{
+					width: 350,
+					code: "fogblue",
+					label: "Fog Blue",
+					type: "slider",
+					minValue: 0,
+					maxValue: 255,
+					step: 1
+				}
+			]
+		},
+		
+
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "cloudypos",
+					label: "Cloud Y Position",
+					type: "slider",
+					minValue: 0,
+					maxValue: 255,
+					step: 1
+				}
+			]
+		},
+		{
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "precipitation",
+					label: "Rain",
+					type: "slider",
+					minValue: -100,
+					maxValue: 100,
+					step: 1
+				}
+			]
+		},
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "ambientparticles",
+					label: "Ambient Particles",
+					type: "switch",
+				}
+			]
+		},
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 350,
+					code: "overrideambient",
+					label: "Override default values",
+					tooltip: "Override default ambient values, forever fixed precipitation and forever fixed clouds",
+					type: "switch",
+				}
+			]
+		},
+		{ 
+			height: 30, 
+			topPadding: 30,
+			elements: [
+				{
+					width: 350,
+					code: "weatherpattern",
+					label: "Weather pattern",
+					type: "select",
+					mode: "dropdown",
+					values: ["altocumulus", "clearsky", "cumulonimbus", "cumulus", "scumulus", "stronghaze", "mediumhaze", "overcast", "overcastundulating", "stratusl", "stratusc", "cirrocumulus", "cirrocumulusm"],
+					names: ["Altocumulus clouds", "Clear Sky", "Cumulonimbus clouds", "Cumulus clouds and clear sky", "Small cumulus clouds and clear sky", "Strong haze", "Medium haze", "Overcast", "Overcast with undulating clouds", "Light Stratus clouds", "Light Stratus clouds with mist", "Cirrocumulus clouds", "Cirrocumulus clouds with mist" ],
+				}
+			]
+		}
+	]
+}

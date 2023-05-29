@@ -1,0 +1,23 @@
+{
+	code: "echochamber",
+	class: "EntityEchoChamber",
+	hitboxSize: { x: 10, y: 80 },
+	eyeHeight: 1.8,
+	knockbackResistance: 1,
+	attributes: { skinBaseTextureKey: "seraph" },
+	client: {
+		size: 20,
+		renderer: "EchoChamber",
+		pitchStep: false,
+		shape: { base: "entity/structure/echochamber" },
+		behaviors: [
+		],
+	},
+	server: {
+		behaviors: [
+		]
+	},
+	sounds: {
+		hurt: "player/slap"
+	}
+}

@@ -1,0 +1,192 @@
+﻿{
+	"code": "portcullis3x3",
+	"class": "Portcullis",
+	"creativeinventory": { "general": [ "*-model-closed-north" ] },
+	"entityClassByType": {
+		"*-model-*": "PortcullisEntity",
+		"*-spacer*": null
+	},
+	"behaviors": [
+		{ "name": "Lockable" },
+		{
+			"name": "OmniRotatable",
+			"properties": {
+				"rotateH": true,
+				"rotateV": false,
+				"rotateV4": false,
+				"facing": "block"
+			}
+		}
+	],
+	"variantgroups": [
+		{
+			"code": "block",
+			"states": [ "model", "spacer" ]
+		},
+		{
+			"code": "state",
+			"states": [ "closed", "opened" ]
+		},
+		{ "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"attributes": {
+		"lastFieldIndex": 2,
+		"lastrowIndex": 1,
+		"rowsToCheck": 3,
+		"fieldsToCheck": 3,
+		"spacerBlockName": "spacer",
+		"animKey": "switch",
+		"animOpenLength": 120,
+		"animCloseLength": 50,
+		"openSound": "portcullis_open",
+		"closeSound": "portcullis_close"
+	},
+	"shapebytype": {
+		"*-model-*-north": {
+			"base": "block/portcullis-33-{state}",
+			"rotateY": 0
+		},
+		"*-model-*-east": {
+			"base": "block/portcullis-33-{state}",
+			"rotateY": 270
+		},
+		"*-model-*-south": {
+			"base": "block/portcullis-33-{state}",
+			"rotateY": 180
+		},
+		"*-model-*-west": {
+			"base": "block/portcullis-33-{state}",
+			"rotateY": 90
+		},
+		"*-spacer*-west": {
+			"base": "block/spacer",
+			"rotateY": 90
+		},
+		"*-spacer*-south": {
+			"base": "block/spacer",
+			"rotateY": 180
+		},
+		"*-spacer*-north": {
+			"base": "block/spacer",
+			"rotateY": 0
+		},
+		"*-spacer*-east": {
+			"base": "block/spacer",
+			"rotateY": 270
+		}
+	},
+	"blockmaterial": "Stone",
+	"drawtype": "json",
+
+	"texturesByType": {
+		"*-model-*": {
+			"all": { "base": "block/metal2" }
+		},
+		"*-spacer*": {
+			"all": { "base": "block/metal2" }
+		}
+	},
+	"collisionBoxByType": {
+		"*-closed-south": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.25,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.5
+		},
+		"*-closed-north": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.5,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.75
+		},
+		"*-closed-west": {
+			"x1": 0.5,
+			"y1": 0,
+			"z1": 0,
+			"x2": 0.75,
+			"y2": 1,
+			"z2": 1
+		},
+		"*-closed-east": {
+			"x1": 0.25,
+			"y1": 0,
+			"z1": 0,
+			"x2": 0.5,
+			"y2": 1,
+			"z2": 1
+		},
+		"*-opened-*": null
+	},
+	"selectionBoxByType": {
+		"*-south": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.5,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.8125,
+			"rotateY": 180
+		},
+		"*-north": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.5,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.8125,
+			"rotateY": 0
+		},
+		"*-west": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.5,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.8125,
+			"rotateY": 90
+		},
+		"*-east": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.5,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.8125,
+			"rotateY": 270
+		}
+	},
+	"drops": [ { "code": "portcullis3x3-model-closed-north" } ],
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"faceCullMode": "NeverCull",
+	"sounds": {
+		"place": "game:block/anvil",
+		"walk": "game:walk/stone"
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"guiTransform": {
+		"translation": {
+			"x": -14,
+			"y": 10,
+			"z": 0
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 2
+		},
+		"scale": 0.2
+	},
+	"groundTransform": {
+		"scale": 0.4
+	}
+}

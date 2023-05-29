@@ -1,0 +1,21 @@
+﻿[
+    {
+        ingredientPattern: "WHW,WWW",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "W": {
+                type: "item",
+                code: "game:ingot-*",
+                name: "metal",
+                allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"],
+                quantity: 1
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "firebrazier-normal-cold"
+        }
+    }
+]

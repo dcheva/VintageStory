@@ -1,0 +1,158 @@
+[
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-plain", quantity: 1 },
+			"M": { type: "item", code: "leather-plain", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-brickred"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-red", quantity: 1 },
+			"M": { type: "item", code: "leather-red", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-cherryred"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-yellow", quantity: 1 },
+			"M": { type: "item", code: "leather-plain", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-darkbeige"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-gray", quantity: 1 },
+			"M": { type: "item", code: "leather-black", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-darkgray"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-green", quantity: 1 },
+			"M": { type: "item", code: "leather-black", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-darkgreen"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-green", quantity: 1 },
+			"M": { type: "item", code: "leather-gray", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-darkolive"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-gray", quantity: 1 },
+			"M": { type: "item", code: "leather-gray", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-gray"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-yellow", quantity: 1 },
+			"M": { type: "item", code: "leather-green", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-olive"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-orange", quantity: 1 },
+			"M": { type: "item", code: "leather-orange", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-orange"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-orange", quantity: 1 },
+			"M": { type: "item", code: "leather-plain", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-orangebrown"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-purple", quantity: 1 },
+			"M": { type: "item", code: "leather-purple", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-purple"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-orange", quantity: 1 },
+			"M": { type: "item", code: "leather-purple", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-purpleorange"  }
+	},
+	{
+		ingredientPattern: "L	P	M",
+		ingredients: {
+			"L": { type: "item", code: "leather-blue", quantity: 1 },
+			"M": { type: "item", code: "leather-green", quantity: 1 },
+			"P": { type: "item", code: "paper-parchment", quantity: 8 }
+		},
+		width: 1,
+		height: 3,
+		name: "backpack",
+		output: { type: "item", code: "book-normal-teal"  }
+	}
+]

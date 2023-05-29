@@ -1,0 +1,8 @@
+﻿{
+	code: "portcullispart",
+	creativeinventory: { "general": ["*"], "construction": ["*"] },
+	maxStackSize: 8,
+	texture: {
+        "base": "item/portcullispart"
+    }
+}

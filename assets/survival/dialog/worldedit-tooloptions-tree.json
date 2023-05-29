@@ -1,0 +1,39 @@
+{
+	code: "worldedit-tooloptions-tree",
+	padding: 5,
+	posX: 110,
+	disableWorldInteract: false,
+	alignment: "FixedTop",
+	rows: [
+		{ elements: [
+			{
+				code: "std.treeToolMinTreeSize",
+				width: 150,
+				height: 30,
+				type: "numberinput",
+				label: "Min. Size",
+				param: "/we tsizemin",
+			},
+			{
+				code: "std.treeToolMaxTreeSize",
+				width: 150,
+				height: 30,
+				type: "numberinput",
+				label: "Max. Size",
+				param: "/we tsizemax",
+			},
+			{
+				code: "std.treeToolTreeVariant",
+				width: 300,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Tree variant",
+				values: ["acacia", "baldcypress", "baldcypressswamp", "bamboo-grown-brown", "bamboo-grown-green", "bristleconepine", "crimsonkingmaple", "dwarfbirch", "ebony", "englishoak", "ferntree-normal-trunk", "fir", "greenspirecypress", "himalayanbirch", "japanesemaple", "kapok", "largekapok", "larch", "deepforestlarch", "mountainmaple", "mountainpine", "norwaymaple", "oldenglishoak", "oldkapok", "pricklymoses", "purpleheart", "redwoodpine", "riverbirch", "scotspine", "silverbirch", "sugarmaple", "sugarmaplesmall", "truemulga", "walnut", "fruittree-pinkapple", "fruittree-redapple", "fruittree-yellowapple", "fruittree-cherry", "fruittree-mango", "fruittree-olive", "fruittree-orange", "fruittree-peach", "fruittree-pear", "fruittree-breadfruit", "fruittree-lychee", "fruittree-pomegranate"],
+				names: ["Acacia", "Bald cypress", "Bald cypress (swamp)", "Bamboo (brown)", "Bamboo (green)", "Bristlecone pine", "Crimson King Maple", "Dwarf birch", "Ebony", "English oak", "Fern Tree", "Fir", "Greenspire cypress", "Himalayan birch", "Japanese maple", "Kapok", "Kapok (large)", "Larch", "Larch (deep forest)", "Mountain maple", "Mountain pine", "Norway maple", "Old english oak", "Old kapok", "Prickly moses", "Purpleheart", "Redwood pine", "River birch", "Scots pine", "Silver birch", "Sugar maple", "Sugar maple (small)", "True mulga", "Walnut", "Pink apple tree", "Red apple tree", "Yellow apple tree", "Cherry tree", "Mango tree", "Olive tree", "Orange tree", "Peach tree", "Pear tree", "Breadfruit tree", "Lychee tree", "Pomegranate treee"],
+				param: "/we tv",
+			}
+		]
+		},
+	]
+}

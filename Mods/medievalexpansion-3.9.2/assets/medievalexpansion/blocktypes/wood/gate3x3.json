@@ -1,0 +1,216 @@
+﻿{
+	"code": "gate3x3",
+	"class": "Gate",
+	"behaviors": [
+		{ "name": "Lockable" },
+		{
+			"name": "OmniRotatable",
+			"properties": {
+				"rotateH": true,
+				"rotateV": false,
+				"rotateV4": false,
+				"facing": "block"
+			}
+		}
+	],
+	"creativeinventory": { "general": [ "*-model-{wood}-closed-north" ] },
+	"entityClassByType": {
+		"*-model-*": "GateEntity",
+		"*-spacer*": null
+	},
+	"variantgroups": [
+		{
+			"code": "block",
+			"states": [ "model", "spacer" ]
+		},
+		{
+			"code": "wood",
+			"states": [ "aged" ],
+			"loadFromProperties": "block/wood"
+		},
+		{
+			"code": "state",
+			"states": [ "closed", "opened" ]
+		},
+		{ "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"drops": [ { "code": "gate3x3-model-{wood}-closed-north" } ],
+	"attributes": {
+		"lastFieldIndex": 2,
+		"lastrowIndex": 1,
+		"rowsToCheck": 3,
+		"fieldsToCheck": 3,
+		"spacerBlockName": "spacer",
+		"animKey": "switch",
+		"animOpenLength": 95,
+		"animCloseLength": 95,
+		"openSound": "gate_open",
+		"closeSound": "gate_close",
+		"handbook": { "groupBy": [ "gate3x3-*" ] }
+	},
+	"shapebytype": {
+		"*-model-*-north": {
+			"base": "block/gate-33-{state}",
+			"rotateY": 0
+		},
+		"*-model-*-east": {
+			"base": "block/gate-33-{state}",
+			"rotateY": 270
+		},
+		"*-model-*-south": {
+			"base": "block/gate-33-{state}",
+			"rotateY": 180
+		},
+		"*-model-*-west": {
+			"base": "block/gate-33-{state}",
+			"rotateY": 90
+		},
+		"*-spacer*-west": {
+			"base": "block/spacer",
+			"rotateY": 90
+		},
+		"*-spacer*-south": {
+			"base": "block/spacer",
+			"rotateY": 180
+		},
+		"*-spacer*-north": {
+			"base": "block/spacer",
+			"rotateY": 0
+		},
+		"*-spacer*-east": {
+			"base": "block/spacer",
+			"rotateY": 270
+		}
+	},
+	"faceCullMode": "NeverCull",
+	"renderer": "Shape",
+	"blockmaterial": "Wood",
+	"drawtype": "json",
+	"texturesByType": {
+		"*model*-north": {
+			"metal2": { "base": "block/metal2" },
+			"oak90rotated": { "base": "block/wood/{wood}-90-rotated" }
+		},
+		"*model*-east": {
+			"metal2": { "base": "block/metal2" },
+			"oak90rotated": { "base": "block/wood/{wood}-90-rotated" }
+		},
+		"*model*-south": {
+			"metal2": { "base": "block/metal2" },
+			"oak90rotated": { "base": "block/wood/{wood}-270-rotated" }
+		},
+		"*model*-west": {
+			"metal2": { "base": "block/metal2" },
+			"oak90rotated": { "base": "block/wood/{wood}-270-rotated" }
+		},
+		"*spacer*": {
+			"all": { "base": "block/wood/{wood}-0-rotated" }
+		}
+	},
+	"collisionBoxByType": {
+		"*-closed-south": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.5,
+			"rotateY": 180
+		},
+		"*-closed-north": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.5,
+			"rotateY": 0
+		},
+		"*-closed-west": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.5,
+			"rotateY": 90
+		},
+		"*-closed-east": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.5,
+			"rotateY": 270
+		},
+		"*-opened-*": null
+	},
+	"selectionBoxByType": {
+		"*-south": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.5,
+			"rotateY": 180
+		},
+		"*-north": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.5,
+			"rotateY": 0
+		},
+		"*-west": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.5,
+			"rotateY": 90
+		},
+		"*-east": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0.0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.5,
+			"rotateY": 270
+		}
+	},
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/stone"
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sideao": { "all": false },
+	"guiTransform": {
+		"translation": {
+			"x": -14,
+			"y": 10,
+			"z": 0
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 2
+		},
+		"scale": 0.2
+	},
+	"groundTransform": {
+		"scale": 0.4
+	}
+}

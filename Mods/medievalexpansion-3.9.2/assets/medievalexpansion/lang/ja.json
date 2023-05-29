@@ -1,0 +1,279 @@
+{
+	// Japanese localization file for 'Medieval expansion'.
+	// Mod Version: 3.8.1
+	// Translated By: Macoto Hino
+	// Machine translation using PCOT and DeepL.	
+	
+	"medievalexpansion:block-myshinyblock-gold-good": "金の柱",
+	"medievalexpansion:block-myshinyblock-gold-used": "古い金の柱",
+	"medievalexpansion:block-myshinyblock-iron-good": "鉄の柱",
+	"medievalexpansion:block-myshinyblock-iron-used": "古い鉄の柱",
+	"medievalexpansion:block-portcullis3x3-model-closed-north": "鉄の落とし格子3x3",
+	"medievalexpansion:block-portcullis3x4-model-closed-north": "鉄の落とし格子3x4",
+	"medievalexpansion:block-portcullis3x5-model-closed-north": "鉄の落とし格子3x5",
+	"medievalexpansion:block-portcullis4x3-model-closed-north": "鉄の落とし格子4x3",
+	"medievalexpansion:block-portcullis4x4-model-closed-north": "鉄の落とし格子4x4",
+	"medievalexpansion:block-portcullis4x5-model-closed-north": "鉄の落とし格子4x5",
+	"medievalexpansion:block-portcullis5x3-model-closed-north": "鉄の落とし格子5x3",
+	"medievalexpansion:block-portcullis5x4-model-closed-north": "鉄の落とし格子5x4",
+	"medievalexpansion:block-portcullis5x5-model-closed-north": "鉄の落とし格子5x5",
+
+	"medievalexpansion:block-gate3x3-model-oak-closed-north": "オークの門3x3",
+	"medievalexpansion:block-gate3x3-model-acacia-closed-north": "アカシアの門3x3",
+	"medievalexpansion:block-gate3x3-model-aged-closed-north": "古びた門3x3",
+	"medievalexpansion:block-gate3x3-model-birch-closed-north": "シラカバの門3x3",
+	"medievalexpansion:block-gate3x3-model-kapok-closed-north": "カポックの門3x3",
+	"medievalexpansion:block-gate3x3-model-maple-closed-north": "カエデの門3x3",
+	"medievalexpansion:block-gate3x3-model-pine-closed-north": "マツの門3x3",
+	"medievalexpansion:block-gate3x3-model-purpleheart-closed-north": "パープルハートの門3x3",
+	"medievalexpansion:block-gate3x3-model-walnut-closed-north": "クルミの門3x3",
+	"medievalexpansion:block-gate3x3-model-redwood-closed-north": "レッドウッドの門3x3",
+	"medievalexpansion:block-gate3x3-model-larch-closed-north": "カラマツの門3x3",
+	"medievalexpansion:block-gate3x3-model-ebony-closed-north": "コクタンの門3x3",
+	"medievalexpansion:block-gate3x3-model-baldcypress-closed-north": "ヌマスギの門3x3",
+
+	"medievalexpansion:block-gate4x4-model-oak-closed-north": "オークの門4x4",
+	"medievalexpansion:block-gate4x4-model-acacia-closed-north": "アカシアの門4x4",
+	"medievalexpansion:block-gate4x4-model-aged-closed-north": "古びた門4x4",
+	"medievalexpansion:block-gate4x4-model-birch-closed-north": "シラカバの門4x4",
+	"medievalexpansion:block-gate4x4-model-kapok-closed-north": "カポックの門4x4",
+	"medievalexpansion:block-gate4x4-model-maple-closed-north": "カエデの門4x4",
+	"medievalexpansion:block-gate4x4-model-pine-closed-north": "マツの門4x4",
+	"medievalexpansion:block-gate4x4-model-purpleheart-closed-north": "パープルハートの門4x4",
+	"medievalexpansion:block-gate4x4-model-walnut-closed-north": "クルミの門4x4",
+	"medievalexpansion:block-gate4x4-model-redwood-closed-north": "レッドウッドの門4x4",
+	"medievalexpansion:block-gate4x4-model-larch-closed-north": "カラマツの門4x4",
+	"medievalexpansion:block-gate4x4-model-ebony-closed-north": "コクタンの門4x4",
+	"medievalexpansion:block-gate4x4-model-baldcypress-closed-north": "ヌマスギの門4x4",
+
+	"medievalexpansion:block-gate5x5-model-oak-closed-north": "オークの門5x5",
+	"medievalexpansion:block-gate5x5-model-acacia-closed-north": "アカシアの門5x5",
+	"medievalexpansion:block-gate5x5-model-aged-closed-north": "古びた門5x5",
+	"medievalexpansion:block-gate5x5-model-birch-closed-north": "シラカバの門5x5",
+	"medievalexpansion:block-gate5x5-model-kapok-closed-north": "カポックの門5x5",
+	"medievalexpansion:block-gate5x5-model-maple-closed-north": "カエデの門5x5",
+	"medievalexpansion:block-gate5x5-model-pine-closed-north": "マツの門5x5",
+	"medievalexpansion:block-gate5x5-model-purpleheart-closed-north": "パープルハートの門5x5",
+	"medievalexpansion:block-gate5x5-model-walnut-closed-north": "クルミの門5x5",
+	"medievalexpansion:block-gate5x5-model-redwood-closed-north": "レッドウッドの門5x5",
+	"medievalexpansion:block-gate5x5-model-larch-closed-north": "カラマツの門5x5",
+	"medievalexpansion:block-gate5x5-model-ebony-closed-north": "コクタンの門5x5",
+	"medievalexpansion:block-gate5x5-model-baldcypress-closed-north": "ヌマスギの門5x5",
+
+	"medievalexpansion:block-gate8x5-model-oak-closed-north": "オークの門8x5",
+	"medievalexpansion:block-gate8x5-model-acacia-closed-north": "アカシアの門8x5",
+	"medievalexpansion:block-gate8x5-model-aged-closed-north": "古びた門8x5",
+	"medievalexpansion:block-gate8x5-model-birch-closed-north": "シラカバの門8x5",
+	"medievalexpansion:block-gate8x5-model-kapok-closed-north": "カポックの門8x5",
+	"medievalexpansion:block-gate8x5-model-maple-closed-north": "カエデの門8x5",
+	"medievalexpansion:block-gate8x5-model-pine-closed-north": "マツの門8x5",
+	"medievalexpansion:block-gate8x5-model-purpleheart-closed-north": "パープルハートの門8x5",
+	"medievalexpansion:block-gate8x5-model-walnut-closed-north": "クルミの門8x5",
+	"medievalexpansion:block-gate8x5-model-redwood-closed-north": "レッドウッドの門8x5",
+	"medievalexpansion:block-gate8x5-model-larch-closed-north": "カラマツの門8x5",
+	"medievalexpansion:block-gate8x5-model-ebony-closed-north": "コクタンの門8x5",
+	"medievalexpansion:block-gate8x5-model-baldcypress-closed-north": "ヌマスギの門8x5",
+
+	"medievalexpansion:block-drawbridge3x4-model-purpleheart-opened-north": "パープルハートの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-purpleheart-opened-north": "パープルハートの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-purpleheart-opened-north": "パープルハートの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-purpleheart-opened-north": "パープルハートの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-purpleheart-opened-north": "パープルハートの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-purpleheart-opened-north": "パープルハートの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-purpleheart-opened-north": "パープルハートの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-purpleheart-opened-north": "パープルハートの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-walnut-opened-north": "クルミの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-walnut-opened-north": "クルミの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-walnut-opened-north": "クルミの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-walnut-opened-north": "クルミの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-walnut-opened-north": "クルミの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-walnut-opened-north": "クルミの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-walnut-opened-north": "クルミの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-walnut-opened-north": "クルミの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-redwood-opened-north": "レッドウッドの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-redwood-opened-north": "レッドウッドの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-redwood-opened-north": "レッドウッドの跳ね橋3x6",
+	
+	"medievalexpansion:block-drawbridge4x5-model-redwood-opened-north": "レッドウッドの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-redwood-opened-north": "レッドウッドの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-redwood-opened-north": "レッドウッドの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-redwood-opened-north": "レッドウッドの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-redwood-opened-north": "レッドウッドの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-larch-opened-north": "カラマツの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-larch-opened-north": "カラマツの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-larch-opened-north": "カラマツの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-larch-opened-north": "カラマツの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-larch-opened-north": "カラマツの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-larch-opened-north": "カラマツの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-larch-opened-north": "カラマツの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-larch-opened-north": "カラマツの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-ebony-opened-north": "コクタンの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-ebony-opened-north": "コクタンの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-ebony-opened-north": "コクタンの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-ebony-opened-north": "コクタンの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-ebony-opened-north": "コクタンの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-ebony-opened-north": "コクタンの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-ebony-opened-north": "コクタンの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-ebony-opened-north": "コクタンの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-baldcypress-opened-north": "ヌマスギの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-baldcypress-opened-north": "ヌマスギの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-baldcypress-opened-north": "ヌマスギの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-baldcypress-opened-north": "ヌマスギの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-baldcypress-opened-north": "ヌマスギの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-baldcypress-opened-north": "ヌマスギの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-baldcypress-opened-north": "ヌマスギの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-baldcypress-opened-north": "ヌマスギの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-oak-opened-north": "オークの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-oak-opened-north": "オークの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-oak-opened-north": "オークの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-oak-opened-north": "オークの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-oak-opened-north": "オークの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-oak-opened-north": "オークの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-oak-opened-north": "オークの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-oak-opened-north": "オークの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-acacia-opened-north": "アカシアの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-acacia-opened-north": "アカシアの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-acacia-opened-north": "アカシアの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-acacia-opened-north": "アカシアの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-acacia-opened-north": "アカシアの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-acacia-opened-north": "アカシアの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-acacia-opened-north": "アカシアの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-acacia-opened-north": "アカシアの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-aged-opened-north": "古びた跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-aged-opened-north": "古びた跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-aged-opened-north": "古びた跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-aged-opened-north": "古びた跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-aged-opened-north": "古びた跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-aged-opened-north": "古びた跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-aged-opened-north": "古びた跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-aged-opened-north": "古びた跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-birch-opened-north": "シラカバの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-birch-opened-north": "シラカバの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-birch-opened-north": "シラカバの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-birch-opened-north": "シラカバの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-birch-opened-north": "シラカバの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-birch-opened-north": "シラカバの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-birch-opened-north": "シラカバの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-birch-opened-north": "シラカバの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-kapok-opened-north": "カポックの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-kapok-opened-north": "カポックの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-kapok-opened-north": "カポックの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-kapok-opened-north": "カポックの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-kapok-opened-north": "カポックの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-kapok-opened-north": "カポックの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-kapok-opened-north": "カポックの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-kapok-opened-north": "カポックの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-maple-opened-north": "カエデの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-maple-opened-north": "カエデの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-maple-opened-north": "カエデの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-maple-opened-north": "カエデの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-maple-opened-north": "カエデの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-maple-opened-north": "カエデの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-maple-opened-north": "カエデの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-maple-opened-north": "カエデの跳ね橋5x7",
+
+	"medievalexpansion:block-drawbridge3x4-model-pine-opened-north": "マツの跳ね橋3x4",
+	"medievalexpansion:block-drawbridge3x5-model-pine-opened-north": "マツの跳ね橋3x5",
+	"medievalexpansion:block-drawbridge3x6-model-pine-opened-north": "マツの跳ね橋3x6",
+
+	"medievalexpansion:block-drawbridge4x5-model-pine-opened-north": "マツの跳ね橋4x5",
+	"medievalexpansion:block-drawbridge4x6-model-pine-opened-north": "マツの跳ね橋4x6",
+	"medievalexpansion:block-drawbridge4x7-model-pine-opened-north": "マツの跳ね橋4x7",
+
+	"medievalexpansion:block-drawbridge5x6-model-pine-opened-north": "マツの跳ね橋5x6",
+	"medievalexpansion:block-drawbridge5x7-model-pine-opened-north": "マツの跳ね橋5x7",
+
+	"medievalexpansion:block-floorplate-wood-up-north": "木材の床",
+	"medievalexpansion:block-floorplate-stone-up-north": "石材の床",
+
+	"medievalexpansion:item-portcullispart": "鉄の落とし格子の部品",
+	"medievalexpansion:item-portcullisdismantled": "解体された落とし格子",
+
+	"medievalexpansion:item-repairkit-large-copper": "大規模な修理キット(銅)",
+	"medievalexpansion:item-repairkit-large-tinbronze": "大規模な修理キット(スズ青銅)",
+	"medievalexpansion:item-repairkit-large-iron": "大規模な修理キット(鉄)",
+	"medievalexpansion:item-repairkit-large-steel": "大規模な修理キット(鋼)",
+
+	"medievalexpansion:restore-durability": "耐久性を回復: {0}",
+	"medievalexpansion:can-repair-constructions": "構造物を修理出来ます",
+	"medievalexpansion:blockhelp-repair": "修理する",
+
+	"medievalexpansion:block-streetlight-north": "街灯柱",
+	"medievalexpansion:block-waterwheelbase-north": "水車の土台",
+	"medievalexpansion:block-waterwheelpenstock-door-north": "ハッチ付き水路",
+	"medievalexpansion:block-waterwheelpenstock-normal-north": "水路",
+	"medievalexpansion:block-waterwheelpenstock-output-north": "水路の排出口",
+	"medievalexpansion:waterwheel-complete": "水車",
+	"medievalexpansion:item-waterwheelspin-oak": "水車の歯車",
+	"medievalexpansion:item-penstockhatch-oak": "水圧管のハッチ",
+	"medievalexpansion:waterwheel-requires-gear": "歯車が必要です",
+	"medievalexpansion:penstock-requires-hatch": "ハッチが必要です",
+	"medievalexpansion:waterwheel-requires-repair": "修理が必要です",
+	"medievalexpansion:waterwheel-efficiency": "効率: {0}%",
+	"medievalexpansion:waterwheel-durability": "耐久性: {0}%",
+	"medievalexpansion:waterwheel-typ": "Type: {0}",
+	"medievalexpansion:waterwheel-typ-undershot": "アンダーショット",
+	"medievalexpansion:waterwheel-typ-breastshot": "ブレストショット",
+	"medievalexpansion:waterwheel-typ-overshot": "オーバーショット",
+
+	"medievalexpansion:waterwheel-usage-title": "水車の機械的動力",
+	"medievalexpansion:waterwheel-usage-text": "<strong>水車の機械的動力</strong><br><br>水車に力を与えるには水が必要です。 水は正しい方向に流す必要があり、回転は反時計回りです。<br/>最大効率の3つのバリエーションがあります: <br />- アンダーショット: 30%<br />- ブレストショット: 45%<br />- オーバーショット: 85%<br/><br/>オーバーショットの場合、水を排出する為の水路が必要です。水路は水車の上側に配置する必要があります。<br/><br/>ブレストショットの場合、水は水車と同じ高さの車軸に流す必要があります。<br/><br/>サーバー管理者は、設定ファイルによって効率を変更出来ます。",
+	"medievalexpansion:block-firebrazier-normal-*": "焚き火台",
+	"medievalexpansion:block-firebrazier-creative-*": "焚き火台(クリエイティブ専用)",
+	"medievalexpansion:firebrazier-burningtime": "燃焼時間: {0}",
+	"medievalexpansion:blockhelp-firebrazier-fuel": "燃料を追加する",
+	"medievalexpansion:blockhelp-firebrazier-ignite": "着火する",
+
+	"medievalexpansion:item-creature-aurochs-female": "オーロックスのメス",
+	"medievalexpansion:item-creature-aurochs-male": "オーロックスのオス",
+	"medievalexpansion:item-creature-aurochs-lamb": "オーロックスの子牛",
+	"medievalexpansion:item-dead-creature-aurochs-male": "死んだオーロックスのオス",
+	"medievalexpansion:item-dead-creature-aurochs-female": "死んだオーロックスのメス",
+	"medievalexpansion:item-dead-creature-aurochs-lamb": "死んだオーロックスの小牛",
+
+	"medievalexpansion:block-grasicemixpile": "セラーアイスの山",
+	"medievalexpansion:item-grasicemix": "セラーアイス",
+	"medievalexpansion:blockhelp-grasicemix-addfuel": "セラーアイスを追加する",
+	"medievalexpansion:blockhelp-grasicemix-removefuel": "セラーアイスを取り除く",
+
+	"medievalexpansion:aurochs-help-title": "オーロックスの家畜化",
+	"medievalexpansion:aurochs-help-text": "<strong>オーロックスの家畜化</strong><br><br>オーロックスには大きな餌入れに以下が必要: <br> - 枯れ草<br> - 干し草<br/> - キャベツ",
+	"medievalexpansion:cellarice-help-title": "部屋の冷却-セラーアイス",
+	"medievalexpansion:cellarice-help-text": "<strong>部屋の冷却-セラーアイス</strong><br><br>セラーアイスは、3×3×2ブロックの面積を積み上げ可能で、室内で最適な支援を得ることが出来ます。<br/>室内に置くと部屋が冷え、セラーアイスは長い時間をかけて溶けていきます。<br/><br/>サーバー管理者は、設定ファイルによって効率を変更出来ます。",
+	"medievalexpansion:item-aurochsfood": "オーロックスフードミックス",
+	"medievalexpansion:aurochs-food": "オーロックスのシチュー"
+}

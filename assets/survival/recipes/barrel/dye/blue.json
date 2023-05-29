@@ -1,0 +1,20 @@
+[
+	{
+		code: "dye-blue",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "waterportion", litres: 4 },
+			{ type: "item", code: "crushed-lapislazuli", quantity: 1 }
+		],
+		output: { type: "item", code: "dye-blue", litres: 4 }
+	},
+	{
+		code: "dye-blue",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "waterportion", litres: 4 },
+			{ type: "block", code: "flower-cornflower-free", quantity: 4 }
+		],
+		output: { type: "item", code: "dye-blue", litres: 4 }
+	}
+]

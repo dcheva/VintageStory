@@ -1,0 +1,13 @@
+#!/usr/bin/xdg-open
+[Desktop Entry]
+Name=Vintage Story ${VERSION}
+Name[de]=Vintage Story ${VERSION}
+GenericName=Sandbox Game
+GenericName[de]=Sandbox Spiel
+Exec=bash run.sh
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Game;
+Path=${APPDATA}/${INST_DIR}
+Icon=${APPDATA}/${INST_DIR}/assets/gameicon.xpm

@@ -1,0 +1,47 @@
+{
+	code: "boat",
+	class: "ItemBoat",
+	variantgroups: [
+		{ code: "type", states: ["raft"] },
+		{ code: "material", states: ["aged", "bamboo"], loadFromProperties: "block/wood" }
+	],
+	shapeByType: {
+		"*-bamboo": { base: "entity/water/boat/raft-bamboo" },
+		"*": { base: "entity/water/boat/raft" }
+	},
+	texturesByType: {
+		"*-bamboo": {},
+		"*": {
+			"material": { base: "game:block/wood/debarked/{material}" }
+		}
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	maxstacksize: 1,
+	materialDensity: 1,
+	liquidSelectable: 1,
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransform: {
+		translation: { x: 4.0, y: 7.0, z: 0.0 },
+		rotation: { x: -32.0, y: -35.0, z: -180.0 },
+		origin: { x: 0.5, y: 0.0, z: 0.5 },
+		scale: 0.6
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.4, z: 0.46 },
+		rotation: { x: 9, y: -8, z: 88 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.06
+	},
+	groundTransform: {
+		translation: { x: 0.0, y: 0.0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 6.3
+	},
+	tpHandTransform: {
+		translation: { x: -0.8, y: 0.2, z: -0.7 },
+		rotation: { x: 98, y: -54, z: -21 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.52
+	}
+}

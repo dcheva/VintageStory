@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 12,
+	"textureHeight": 12,
+	"textureSizes": {
+	},
+	"textures": {
+		"waterportion": "game:block/liquid/waterportion"
+	},
+	"elements": [
+		{
+			"name": "food",
+			"from": [ 1.0, 7.0, 0.0 ], 
+			"to": [ 15.0, 8.0, 16.0 ], 
+			"renderPass": 4,
+			"rotationOrigin": [ -1.0, 6.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#waterportion", "uv": [ 0.0, 0.0, 14.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#waterportion", "uv": [ 0.0, 0.0, 16.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#waterportion", "uv": [ 0.0, 0.0, 14.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#waterportion", "uv": [ 0.0, 0.0, 16.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#waterportion", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "autoUv": false },
+				"down": { "texture": "#waterportion", "uv": [ 0.0, 0.0, 14.0, 16.0 ], "enabled": false }
+			}
+		}
+	]}

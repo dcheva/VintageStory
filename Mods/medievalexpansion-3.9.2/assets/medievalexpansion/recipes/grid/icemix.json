@@ -1,0 +1,110 @@
+﻿[
+  {
+    "ingredientPattern": "ABC",
+    "width": 3,
+    "height": 1,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true
+      },
+      "B": {
+        "type": "block",
+        "code": "game:glacierice",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:drygrass",
+        "quantity": 32
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "grasicemix",
+      "quantity": 16
+    }
+  },
+  {
+    "ingredientPattern": "ABC",
+    "width": 3,
+    "height": 1,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true
+      },
+      "B": {
+        "type": "block",
+        "code": "game:lakeice",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:drygrass",
+        "quantity": 32
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "grasicemix",
+      "quantity": 16
+    }
+  },
+  {
+    "ingredientPattern": "ABC",
+    "width": 3,
+    "height": 1,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true
+      },
+      "B": {
+        "type": "block",
+        "code": "game:glacierice",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "lazytweaks:straw",
+        "quantity": 32
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "grasicemix",
+      "quantity": 16
+    }
+  },
+  {
+    "ingredientPattern": "ABC",
+    "width": 3,
+    "height": 1,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true
+      },
+      "B": {
+        "type": "block",
+        "code": "game:lakeice",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "lazytweaks:straw",
+        "quantity": 32
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "grasicemix",
+      "quantity": 16
+    }
+  }
+]

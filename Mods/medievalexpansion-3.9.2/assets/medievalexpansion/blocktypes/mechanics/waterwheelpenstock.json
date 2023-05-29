@@ -1,0 +1,66 @@
+﻿{
+	code: "waterwheelpenstock",
+	class: "WaterWheelPenstock",
+	entityClass: "BEWaterWheelPenstock",
+	entityBehaviors: [{ name: "BEBehaviorWaterWheelPenstock", properties:	{spreadDelay: 250} }],
+	behaviors: [
+		{name: "HorizontalOrientable"}
+	],
+	attributes: {
+		handbook: {
+			groupBy: ["waterwheelpenstock-{model}-*"]
+		},
+	},
+	variantgroups: [
+		{ code:"model", states: [ "normal", "door", "output" ] },
+		{ code:"side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	creativeinventory: { "general": ["*-north"], "mechanics": ["*-north"] },
+	shapebytype: {
+		"*-north": { base: "block/wood/waterwheel-penstock-{model}", rotateY: 0 },
+		"*-east": { base: "block/wood/waterwheel-penstock-{model}", rotateY: -90 },
+		"*-south": { base: "block/wood/waterwheel-penstock-{model}", rotateY: 180 },
+		"*-west": { base: "block/wood/waterwheel-penstock-{model}", rotateY: 90 }
+	},
+	blockmaterial: "Wood",
+	textures: {
+		plainoak: { base:  "game:block/wood/plainoak" },
+		metal2: { base:  "game:block/metal/plate/steel" },
+		steel:  { base:   "game:block/metal/plate/steel" },
+		wooden:  { base:   "game:block/wood/door/bottom_left" }
+	},
+	sidesolid: {
+		all: true
+	},
+	sideopaque: {
+		all: false
+	},
+	dropsByType: {
+		"*-output-*": [{type: "block", code: "waterwheelpenstock-output-north"}],
+		"*-normal-*": [{type: "block", code: "waterwheelpenstock-normal-north"}],
+		"*-door-*": [{type: "block", code: "waterwheelpenstock-door-north"}],
+	},
+	resistance: 3.5,
+	maxStackSize: 8,
+	lightAbsorption: 1,
+	snowCoverage: false,
+	guiTransform: {
+		scale: 1.0
+	},
+	tpHandTransform: {
+		translation: { x: -1.2, y: -1, z: -1 },
+		scale: 0.5
+	},
+	groundTransform: {
+		translation: { x: -0.08, y: 0.04, z: 0.2 },
+		rotation: { x: -37, y: -44, z: 21 },
+		origin: { x: 0.5, y: 0.5, z: 0.1 },
+		scale: 2.9
+	},
+	sounds: {
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	}
+}

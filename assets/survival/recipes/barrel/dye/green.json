@@ -1,0 +1,20 @@
+[
+	{
+		code: "dye-green",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "waterportion", litres: 4 },
+			{ type: "item", code: "drygrass", quantity: 4 }
+		],
+		output: { type: "item", code: "dye-green", litres: 4 }
+	},
+	{
+		code: "dye-green",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "waterportion", litres: 4 },
+			{ type: "block", code: "flower-lilyofthevalley-free", quantity: 4 }
+		],
+		output: { type: "item", code: "dye-green", litres: 4 }
+	}
+]

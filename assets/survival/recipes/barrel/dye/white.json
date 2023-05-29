@@ -1,0 +1,11 @@
+[
+	{
+		code: "dye-white",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "waterportion", litres: 4 },
+			{ type: "item", code: "powderedborax", quantity: 2 }
+		],
+		output: { type: "item", code: "dye-white", litres: 4 }
+	}
+]

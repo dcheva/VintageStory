@@ -1,0 +1,108 @@
+{
+	code: "locustnest-cage",
+	class: "BlockLocustNest",
+	entityClass: "LocustNest",
+	creativeinventory: { general: [""], clutter: [""] },
+	creativeinventoryStacks: [
+		{
+			tabs: [ "general", "decorative" ],
+			stacks: [
+				{ type: "block", code: "locustnest-cage" },
+				{ type: "block", code: "locustnest-cage", attributes: { spawnOnlyAfterImport: true } },
+			]
+		}
+	],
+	blockmaterial: "Metal",
+	drawtype: "json",
+	shape: { base: "block/locustnest/cage/cage1" },
+	lightAbsorption: 0,
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	replaceable: 300,
+	resistance: 20,
+	materialDensity: 300,
+	drops: [
+		{ type: "item", code: "rope", quantity: { avg: 1.5, var: 1 } }, 
+		{ type: "block", code: "metal-scraps", quantity: { avg: 1, var: 0.5 } }, 
+		{ type: "item", code: "gear-rusty", quantity: { avg: 0.5 }, dropModbyStat: "rustyGearDropRate" },
+		{ type: "item", code: "ore-lignite", quantity: { avg: 3, var: 5 }, },
+		{
+		type: "item",
+			code: "jonasparts-connector01",
+			quantity: { avg: 0.008 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasparts-cylinder01",
+			quantity: { avg: 0.008 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasparts-cylinder02",
+			quantity: { avg: 0.009 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasparts-tank01",
+			quantity: { avg: 0.01 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasparts-tank02",
+			quantity: { avg: 0.011 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasparts-valve01",
+			quantity: { avg: 0.012 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasframes-gearbox01",
+			quantity: { avg: 0.014 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasframes-gearbox02",
+			quantity: { avg: 0.017 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasframes-oscillator01",
+			quantity: { avg: 0.021 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasframes-spring01",
+			quantity: { avg: 0.026 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasframes-joint01",
+			quantity: { avg: 0.033 },
+			lastDrop: true
+		},	
+		{ 
+			type: "item",
+			code: "jonasframes-gears01",
+			quantity: { avg: 0.05 },
+			lastDrop: true
+		},
+		{ 
+			type: "item",
+			code: "jonasframes-gears02",
+			quantity: { avg: 0.1 },
+			lastDrop: true
+		}
+	]
+}

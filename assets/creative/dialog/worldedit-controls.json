@@ -1,0 +1,28 @@
+{
+	code: "worldedit-controls",
+	padding: 8,
+	disableWorldInteract: false,
+	alignment: "LeftFixed",
+	rows: [
+		{ 
+			height: 30, 
+			elements: [
+				{
+					width: 30,
+					code: "undo",
+					type: "button",
+					tooltip: "Undo",
+					icon: "undo"
+				},
+				{
+					width: 30,
+					code: "redo",
+					tooltip: "Redo",
+					type: "button",
+					icon: "redo"
+				}
+			]
+		},
+
+	]
+}

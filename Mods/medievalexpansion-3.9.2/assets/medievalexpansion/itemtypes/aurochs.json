@@ -1,0 +1,64 @@
+﻿{
+	"code": "creature",
+	"class": "ItemCreature",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{
+		  "code": "type",
+		  "states": [ "aurochs-male", "aurochs-female", "aurochs-lamb" ]
+		}
+	],
+	shapeByType: {		
+		"*-aurochs-male": { base: "entity/land/cow-male" },
+		"*-aurochs-female": { base: "entity/land/cow-female" },
+		"*-aurochs-lamb": { base: "entity/land/cow-lamb" }
+	},
+	texturesByType: {
+		"*-aurochs-male": {
+			"skin": { "base": "entity/cow-male" }
+		},
+		"*-aurochs-female": {
+			"skin": { "base": "entity/cow-female2" }
+		},
+		"*-aurochs-lamb": {
+			"skin": { "base": "entity/cow-female2" }
+		},
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"creatures": [ "*" ]
+	},
+	guiTransformByType: {
+		"creature-aurochs-male": {
+			translation: { x: -0.9, y: -0.9, z: -0.7 },
+			rotation: { x: -180, y: 0, z: 0 },
+			scale: 0.45
+		},
+		"creature-aurochs-female": {
+			translation: { x: -0.9, y: -0.9, z: -0.7 },
+			rotation: { x: -180, y: 0, z: 0 },
+			scale: 0.45
+		},
+		"creature-aurochs-lamb": {
+			translation: { x: -0.4, y: 0, z: -0.6 },
+			rotation: { x: -160, y: -26, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.73
+		},
+	},
+	fpHandTransformByType: {
+		"creature-aurochs-male": {
+			translation: { x: 0.2, y: 0, z: 0 },
+			rotation: { x: -8, y: -63, z: -7 }
+		},
+		"creature-aurochs-female": {
+			translation: { x: 0.2, y: 0, z: 0 },
+			rotation: { x: -8, y: -63, z: -7 }
+		},
+		"creature-aurochs-lamb": {
+			translation: { x: 0.4, y: 0, z: 0 },
+			rotation: { x: -8, y: -63, z: -7 }
+		}
+	}
+}

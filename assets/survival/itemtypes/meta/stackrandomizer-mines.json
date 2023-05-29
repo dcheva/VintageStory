@@ -1,0 +1,71 @@
+{
+	code: "stackrandomizer",
+	class: "ItemStackRandomizer",
+	variantgroups: [
+		{ code: "type", states: [
+			"mines"
+		] },
+	],
+	attributesByType: {
+		"*-mines": {
+			handbook: { exclude: true },
+			stacks: [
+				{ type: "item", code: "paper-parchment", quantity: { avg: 3, var: 2 }, chance: 5 },
+				{ type: "item", code: "book-rotten-gray", chance: 1 },
+				{ type: "item", code: "book-rotten-brown", chance: 1 },
+				{ type: "item", code: "book-rotten-rust", chance: 1 },
+				{ type: "item", code: "book-rotten-purple", chance: 1 },
+				{ type: "item", code: "book-rotten-green", chance: 1 },
+				{ type: "item", code: "blastingpowder", chance: 1 },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "block-tackle" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "candlestubs-bunch1" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "candlestubs-bunch2" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "candlestubs-bunch3" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "candlestubs-bunch4" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "locust-body" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "locust-full" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "locust-lamp" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "locust-limbs1" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "locust-limbs2" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "locust-parts" } },
+
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "machine3" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "machine8" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "mech-part6" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "music-box2" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "music-box3" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "pile-tools1" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "pile-tools2" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "pile-tools3" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "pile-tools4" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "pile-woodworkingtools" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "pulley" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "rubble-wood1" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "rubble-wood2" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "rubble-wood3" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "rubble-wood4" } },
+				
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "tool-axe" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "tool-hammer" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "tool-knife" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "tool-pickaxe" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "tool-saw" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "tool-shovel" } },
+				
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "lantern/ground1" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "lantern/ground2" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "lantern/ground3" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "lantern/ground4" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "lantern/ground5" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "lantern/ground6" } },
+				
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "grinding-stone" } },
+				{ type: "block", code: "clutter", chance: 1, attributes: { type: "pile-medical" } },
+			]
+		},
+	},
+	maxstacksize: 1,
+	texture: { base: "item/meta/randomizer/{type}" },
+	creativeinventory: { "meta": ["*"] },
+	materialDensity: 600
+}

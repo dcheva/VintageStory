@@ -1,0 +1,52 @@
+{
+	code: "worldedit-tooloptions-floodfill",
+	padding: 5,
+	posX: 110,
+	disableWorldInteract: false,
+	alignment: "FixedTop",
+	rows: [
+		{ elements: [
+			{
+				code: "std.floodFillSearchRadius",
+				width: 170,
+				height: 30,
+				type: "numberinput",
+				label: "Max Distance",
+				param: "/we tr",
+			},
+			{
+				width: 150,
+				code: "std.floodFillCheckEnclosure",
+				label: "Check enclosed",
+				type: "switch",
+				param: "/we tce",
+			},
+			{
+				code: "std.floodFillMode",
+				width: 160,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Mode",
+				values: ["2", "3", "1"],
+				names: ["Flat (2D)", "Cubic (3D)", "Cubic, not up (3D)"],
+				param: "/we tm",
+			},
+			{
+				width: 150,
+				code: "std.ignoreWater",
+				label: "Ignore water",
+				type: "switch",
+				param: "/we iw",
+			},
+			{
+				width: 150,
+				code: "std.ignorePlants",
+				label: "Ignore plants",
+				type: "switch",
+				param: "/we ip",
+			}
+		]
+		}
+	]
+}

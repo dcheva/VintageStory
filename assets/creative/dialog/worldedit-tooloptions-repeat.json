@@ -1,0 +1,104 @@
+{
+	code: "worldedit-tooloptions-repeat",
+	padding: 5,
+	posX: 110,
+	disableWorldInteract: false,
+	alignment: "FixedTop",
+	rows: [
+		{ elements: [
+			{
+				code: "std.repeatMode",
+				width: 180,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Mode",
+				values: ["0", "1"],
+				names: ["Repeat", "Mirror"],
+				param: "/we tm",
+			},
+			{
+				code: "std.repeatSelectionMode",
+				width: 200,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Mode",
+				values: ["0", "1", "2"],
+				names: ["Keep Current Selection", "Move Selection", "Grow Selection"],
+				param: "/we sm",
+			},
+			{
+				code: "std.moveAmount",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "Amount",
+				param: "/we am",
+			},
+			{
+				width: 40,
+				code: "north",
+				type: "button",
+				tooltip: "Move North",
+				text: "North",
+				param: "/we north",
+				fontSize: 16,
+				paddingLeft: 10
+			},
+			{
+				width: 40,
+				code: "south",
+				type: "button",
+				tooltip: "Move south",
+				text: "South",
+				param: "/we south",
+				fontSize: 16,
+				paddingLeft: 10
+			},
+			
+			
+			{
+				width: 35,
+				code: "east",
+				type: "button",
+				tooltip: "Move east",
+				text: "East",
+				param: "/we east",
+				fontSize: 16,
+				paddingLeft: 20
+			},
+			{
+				width: 40,
+				code: "west",
+				type: "button",
+				tooltip: "Move west",
+				text: "West",
+				param: "/we west",
+				fontSize: 16,
+				paddingLeft: 0
+			},
+			
+			{
+				width: 24,
+				code: "up",
+				type: "button",
+				tooltip: "Move up",
+				text: "Up",
+				param: "/we up",
+				fontSize: 16,
+				paddingLeft: 13
+			},
+			{
+				width: 30,
+				code: "down",
+				type: "button",
+				tooltip: "Move down",
+				text: "Down",
+				param: "/we down",
+				fontSize: 16
+			}
+		]
+		},
+	]
+}

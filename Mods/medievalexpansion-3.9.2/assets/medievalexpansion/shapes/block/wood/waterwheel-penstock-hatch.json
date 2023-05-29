@@ -1,0 +1,87 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"steel": "game:block/metal/plate/steel",
+		"wooden": "game:block/wood/door/bottom_left"
+	},
+	"elements": [
+		{
+			"name": "steelpart",
+			"from": [ 0.0, 11.0, 1.0 ], 
+			"to": [ 16.0, 13.0, 2.0 ], 
+			"rotationOrigin": [ 0.0, 11.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#steel", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+				"east": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+				"south": { "texture": "#steel", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+				"west": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+				"up": { "texture": "#steel", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+				"down": { "texture": "#steel", "uv": [ 0.0, 0.0, 16.0, 1.0 ] }
+			},
+			"children": [
+				{
+					"name": "woodhatch",
+					"from": [ 1.5, -9.0, 0.1 ], 
+					"to": [ 14.5, 5.0, 0.9 ], 
+					"rotationOrigin": [ 1.0, -9.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#wooden", "uv": [ 0.0, 0.0, 16.0, 14.0 ], "autoUv": false },
+						"east": { "texture": "#wooden", "uv": [ 0.0, 0.0, 0.5, 14.0 ] },
+						"south": { "texture": "#wooden", "uv": [ 0.0, 0.0, 16.0, 14.0 ], "autoUv": false },
+						"west": { "texture": "#wooden", "uv": [ 0.0, 0.0, 0.5, 14.0 ] },
+						"up": { "texture": "#wooden", "uv": [ 0.0, 13.0, 15.5, 15.5 ], "autoUv": false },
+						"down": { "texture": "#wooden", "uv": [ 0.0, 0.0, 13.0, 0.5 ] }
+					}
+				},
+				{
+					"name": "steelLeft",
+					"from": [ 1.0, -10.0, 0.0 ], 
+					"to": [ 2.0, 0.0, 1.0 ], 
+					"rotationOrigin": [ 1.0, -10.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 10.0 ] },
+						"east": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 10.0 ] },
+						"south": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 10.0 ] },
+						"west": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 10.0 ] },
+						"up": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "steelRight",
+					"from": [ 14.0, -10.0, 0.0 ], 
+					"to": [ 15.0, 0.0, 1.0 ], 
+					"rotationOrigin": [ 14.0, -10.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 10.0 ] },
+						"east": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 10.0 ] },
+						"south": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 10.0 ] },
+						"west": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 10.0 ] },
+						"up": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "steelRight5",
+					"from": [ 2.0, -10.0, 0.0 ], 
+					"to": [ 14.0, -9.0, 1.0 ], 
+					"rotationOrigin": [ 2.0, -10.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#steel", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
+						"east": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"south": { "texture": "#steel", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
+						"west": { "texture": "#steel", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#steel", "uv": [ 0.0, 0.0, 12.0, 1.0 ] },
+						"down": { "texture": "#steel", "uv": [ 0.0, 0.0, 12.0, 1.0 ] }
+					}
+				}
+			]
+		}
+	]}

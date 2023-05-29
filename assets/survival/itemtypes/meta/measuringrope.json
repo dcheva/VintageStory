@@ -1,0 +1,13 @@
+{
+	code: "measuringrope",
+	class: "ItemMeasuringRope",
+	textures: {
+		"flat": { base: "item/resource/measuringrope" }
+	},
+	shape: {
+		voxelizeTexture: true
+	},
+	creativeinventory: { "general": ["*"], "meta": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 510
+}

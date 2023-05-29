@@ -1,0 +1,74 @@
+[
+    {
+        ingredientPattern: "RHR,TWT",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "W": { type: "item", code: "game:saw-**", isTool: true },
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "T": {
+                type: "item",
+                code: "game:plank-*",
+                name: "wood",
+                quantity: 5
+            },
+            "R": {
+                type: "item",
+                code: "game:rope",
+                quantity: 2
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "drawbridge3x4-model-{wood}-opened-north"
+        }
+    },
+    {
+        ingredientPattern: "AHB,AWB",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "W": { type: "item", code: "game:saw-**", isTool: true },
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "A": {
+                type: "item",
+                code: "game:plank-*",
+                name: "wood",
+                quantity: 6
+            },
+            "B": {
+                type: "item",
+                code: "game:rope",
+                quantity: 3
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "drawbridge3x5-model-{wood}-opened-north"
+        }
+    },
+    {
+        ingredientPattern: "BHA,BWA",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "W": { type: "item", code: "game:saw-**", isTool: true },
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "A": {
+                type: "item",
+                code: "game:plank-*",
+                name: "wood",
+                quantity: 8
+            },
+            "B": {
+                type: "item",
+                code: "game:rope",
+                quantity: 4
+            }
+        },
+        output: {
+            "type": "block",
+            "code": "drawbridge3x6-model-{wood}-opened-north"
+        }
+    }
+]

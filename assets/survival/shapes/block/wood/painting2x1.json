@@ -1,0 +1,129 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"0": [16,16],
+		"painting": [32,16]
+	},
+	"textures": {
+		"0": "block/wood/planks/generic",
+		"painting": "block/painting/sodhouse"
+	},
+	"elements": [
+		{
+			"name": "Left",
+			"from": [ -16.0, 0.0, 15.0 ], 
+			"to": [ -15.0, 16.0, 16.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 16.0 ] },
+				"east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 16.0 ] },
+				"south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 16.0 ] },
+				"west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 16.0 ] },
+				"up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Right",
+			"from": [ 15.0, 0.0, 15.0 ], 
+			"to": [ 16.0, 16.0, 16.0 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 16.0 ] },
+				"east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 16.0 ] },
+				"south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 16.0 ] },
+				"west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 16.0 ] },
+				"up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Top",
+			"from": [ 0.0, 15.0, 15.0 ], 
+			"to": [ 15.0, 16.0, 16.0 ], 
+			"rotationOrigin": [ -1.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"south": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"up": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"down": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Bottom",
+			"from": [ 0.0, 0.0, 15.0 ], 
+			"to": [ 15.0, 1.0, 16.0 ], 
+			"rotationOrigin": [ -1.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"south": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"up": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"down": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Canvas",
+			"from": [ 0.0, 1.0, 15.9 ], 
+			"to": [ 15.0, 15.0, 15.9 ], 
+			"renderPass": 1,
+			"zOffset": 1,
+			"rotationOrigin": [ 7.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#painting", "uv": [ 1.0, 1.0, 16.0, 15.0 ] },
+				"east": { "texture": "#painting", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
+				"south": { "texture": "#painting", "uv": [ 1.0, 1.0, 16.0, 15.0 ], "enabled": false },
+				"west": { "texture": "#painting", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
+				"up": { "texture": "#painting", "uv": [ 0.0, 0.0, 15.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#painting", "uv": [ 0.0, 0.0, 15.0, 0.5 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Bottom6",
+			"from": [ -15.0, 0.0, 15.0 ], 
+			"to": [ 0.0, 1.0, 16.0 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"south": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"up": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"down": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Top7",
+			"from": [ -15.0, 15.0, 15.0 ], 
+			"to": [ 0.0, 16.0, 16.0 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"south": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"up": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] },
+				"down": { "texture": "#0", "uv": [ 0.0, 0.0, 15.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Canvas8",
+			"from": [ -15.0, 1.0, 15.9 ], 
+			"to": [ 0.0, 15.0, 15.9 ], 
+			"renderPass": 1,
+			"rotationOrigin": [ 7.0, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#painting", "uv": [ 16.0, 1.0, 31.0, 15.0 ] },
+				"east": { "texture": "#painting", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
+				"south": { "texture": "#painting", "uv": [ 1.0, 1.0, 16.0, 15.0 ], "enabled": false },
+				"west": { "texture": "#painting", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
+				"up": { "texture": "#painting", "uv": [ 0.0, 0.0, 15.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#painting", "uv": [ 0.0, 0.0, 15.0, 0.5 ], "enabled": false }
+			}
+		}
+	]}

@@ -1,0 +1,119 @@
+{
+	code: "tallplant",
+	class: "BlockReeds",
+	entityClassByType: {
+		"*-harvested-*": "Transient"
+	},
+	attributes: {
+		climateColorMapForMap: "climatePlantTint", 
+		seasonColorMapForMap: "seasonalFoliage",
+		transientPropsByType: {
+			"tallplant-coopersreed-*": {
+				convertFrom: "*-harvested-{cover}", 
+				convertTo: "tallplant-coopersreed-land-normal-{cover}", 
+				inGameHours: "168",
+				resetBelowTemperature: -4,
+				stopBelowTemperature: 2
+			},
+			"tallplant-papyrus-*": {
+				convertFrom: "*-harvested-{cover}", 
+				convertTo: "tallplant-papyrus-land-normal-{cover}", 
+				inGameHours: "132",
+				resetBelowTemperature: 4,
+				stopBelowTemperature: 6
+			}
+		}
+	},
+	allowedVariants: [ 
+		"*-land-*", 
+		"*-water-normal-free",
+		"*-water-harvested-free",
+		"*-ice-normal-free",
+		"*-ice-harvested-free",
+	],
+	variantgroups: [
+		{ code: "type", states: ["coopersreed", "papyrus"] },
+		{ code: "habitat", states: ["land", "water", "ice"] },
+		{ code: "state", states: ["normal", "harvested"] },
+		{ code: "cover", states: ["free", "snow"] },
+	],
+	creativeinventory: { 
+		"general": ["*-land-normal-free"], 
+		"flora": ["*-land-normal-free"] 
+	},
+	shapeByType: {
+		"tallplant-papyrus-*-harvested-*": { base: "block/plant/reedpapyrus/papyrus-harvested" },		
+		"tallplant-papyrus-*": { base: "block/plant/reedpapyrus/papyrus-medium", alternates: [ { base: "block/plant/reedpapyrus/papyrus-tall" } ] },
+		
+		"tallplant-coopersreed-*": { base: "block/plant/reedpapyrus/coopersreed-{state}*" }
+	},
+	lod2shapeByType: {
+		"tallplant-coopersreed-*": { base: "block/plant/reedpapyrus/coopersreed-lod2-{state}*" }
+	},
+	drawtypeByType: {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	renderpass: "OpaqueNoCull",
+	matterstate: "solid",
+	blockmaterial: "plant",
+	faceCullMode: "NeverCull",
+	randomDrawOffset: true,
+	randomizeRotations: true,
+	texturesByType: {
+		"tallplant-papyrus-*": {
+			northCross: { base: "block/plant/flower/petal/{type}-{state}*" },
+			southCross: { base: "block/plant/flower/petal/{type}-{state}*" },
+			northTintedCross: { base: "block/plant/flower/stem/{type}-{state}*" },
+			southTintedCross: { base: "block/plant/flower/stem/{type}-{state}*" }
+		},
+		"tallplant-coopersreed-*": { 
+			"cobs1": { base: "block/plant/reeds/lod2-1" },
+			"cobs2": { base: "block/plant/reeds/lod2-2" }
+		}
+	},
+	sideopaqueByType: {
+		"*-snow": { all: false, down: true },
+		"*": { all: false }
+	},
+	sidesolid: { all : false },
+	emitsideao: { all: false },
+	sideao: { all: true },
+	replaceable: 3000,
+	lightAbsorption: 0,
+	resistance: 1,
+	collisionbox: null,
+	selectionbox: {
+		x1: 0, y1: 0, z1: 0,
+		x2: 1, y2: 1, z2: 1
+	},
+	guitransform: {
+		rotation: { x: 0, y: 0, z: 0 }
+	},
+	sounds: {
+		place: "block/plant",
+		break: "block/plant",
+		hit: "block/plant"
+	},
+	rainPermeableByType: {
+		"*-land-*": true
+	},
+	materialDensity: 200,
+	frostable: true,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	guiTransform: {
+		translation: { x: 0, y: -1.5, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 1.2, z: 0.5 },
+		scale: 0.65
+	},
+	dropsByType: {
+		"*coopersreed-*-normal-*": [ { type: "item", code: "cattailtops" } ],
+		"*coopersreed-*-harvested-*":  [ { type: "item", code: "cattailroot" } ],
+		"*papyrus-*-normal-*":  [ { type: "item", code: "papyrustops" } ],
+		"*papyrus-*-harvested-*":  [ { type: "item", code: "papyrusroot" } ]
+	}
+}

@@ -1,0 +1,45 @@
+{
+	code: "boat",
+	class: "EntityBoat",
+	variantgroups: [
+		{ code: "type", states: ["raft"] },
+		{ code: "material", states: ["aged", "bamboo"], loadFromProperties: "block/wood" }
+	],
+	hitboxSize: { x: 2, y: 0.6, z: 2.0 },
+	client: {
+		size: 1,
+		renderer: "Shape",
+		shapeByType: {
+			"*-bamboo": { base: "entity/water/boat/raft-bamboo" },
+			"*": { base: "entity/water/boat/raft" }
+		},
+		texturesByType: {
+			"*-bamboo": {},
+			"*": {
+				"material": { base: "game:block/wood/debarked/{material}" }
+			}
+		},
+		behaviors: [
+			{ code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.5,
+				gravityFactor: 1.0
+			}, 
+			{ code: "interpolateposition" },
+			{ code: "floatupwhenstuck" },
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.5,
+				gravityFactor: 1.0
+			},
+			{ code: "floatupwhenstuck" },
+		],
+	},
+	sounds: {
+	}
+}

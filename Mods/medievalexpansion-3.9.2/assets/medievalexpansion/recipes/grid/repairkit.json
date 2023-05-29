@@ -1,0 +1,39 @@
+[
+    {
+        ingredientPattern: "_H,LP,RW",
+        width: 2,
+        height: 3,
+        ingredients: {
+            "H": {
+                type: "item", code: "game:hammer-*", isTool: true
+            },
+            "L": {
+                type: "item",
+                code: "game:leather-plain",
+                quantity: 3
+            },
+             "R": {
+                type: "item",
+                code: "game:rope",
+                quantity: 1
+            },
+            "P": {
+                type: "item",
+                code: "game:plank-*",
+                quantity: 2
+            },
+            "W": {
+                type: "item",
+                code: "game:ingot-*",
+                name: "metal",
+                allowedVariants: ["copper", "tinbronze", "iron", "steel"],
+                quantity: 4
+            }
+        },
+        output: {
+            "type": "item",
+            "code": "repairkit-large-{metal}"
+        }
+    },
+
+]

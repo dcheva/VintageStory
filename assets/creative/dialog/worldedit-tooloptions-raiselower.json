@@ -1,0 +1,39 @@
+{
+	code: "worldedit-tooloptions-raiselower",
+	padding: 5,
+	posX: 110,
+	disableWorldInteract: false,
+	alignment: "FixedTop",
+	rows: [
+		{ elements: [
+			{
+				code: "std.raiseLowerMode",
+				width: 150,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Mode",
+				values: ["0", "1", "2", "3"],
+				names: ["Uniform", "Pyramid", "Gaussian", "Perlin"],
+				param: "/we tm",
+			},
+			{
+				code: "std.raiseLowerDepth",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "Depth",
+				param: "/we tdepth",
+			},
+			{
+				code: "std.raiseLowerRadius",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "Radius",
+				param: "/we tr",
+			}
+		]
+		},
+	]
+}

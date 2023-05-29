@@ -1,0 +1,114 @@
+[
+  {
+    "name": "2x3 gate",
+    ingredientPattern: "NH_,PP_",
+    width: 3,
+    height: 2,
+    ingredients: {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "wood",
+        "quantity": 2
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 10
+      }
+    },
+    output: {
+      "type": "block",
+      "code": "extended-door-2x3gate-{wood}"
+    }
+  },
+  {
+    "name": "3x3 gate",
+    "ingredientPattern": "NH_,P_P",
+    "width": 3,
+    "height": 2,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "wood",
+        "quantity": 3
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 12
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "extended-door-3x3gate-{wood}"
+    }
+  },
+  {
+    "name": "3x4 gate",
+    "ingredientPattern": "NH_,PP_,PP_",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "wood",
+        "quantity": 2
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 14
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "extended-door-3x4gate-{wood}"
+    }
+  },
+  {
+    "name": "3x5 gate",
+    "ingredientPattern": "NH_,PP_,PP_",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "wood",
+        "quantity": 3
+      },
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 16
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "extended-door-3x5gate-{wood}"
+    }
+  }
+]

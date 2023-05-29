@@ -1,0 +1,26 @@
+[
+  {
+    "file": "medievalexpansion:recipes/grid/icemix.json",
+    "op": "add",
+    "path": "/2/enabled",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "bth",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "file": "medievalexpansion:recipes/grid/icemix.json",
+    "op": "add",
+    "path": "/3/enabled",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "bth",
+        "invert": true
+      }
+    ]
+  }
+]

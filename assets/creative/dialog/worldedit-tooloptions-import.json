@@ -1,0 +1,84 @@
+{
+	code: "worldedit-tooloptions-import",
+	padding: 5,
+	posX: 110,
+	disableWorldInteract: false,
+	alignment: "FixedTop",
+	rows: [
+		{ elements: [
+			{
+				code: "std.pasteToolFilenames",
+				width: 200,
+				height: 30,
+				type: "input",
+				label: "File name",
+				param: "/we ims",
+			},
+			{
+				code: "fromclipboard",
+				width: 150,
+				height: 30,
+				type: "button",
+				text: "From Clipboard",
+				tooltip: "Load a schematic from the game internal clipboard",
+				label: "or",
+				fontSize: 16,
+				param: "/we imc",
+				paddingLeft: -10
+			},
+			{
+				code: "rotatecw",
+				width: 100,
+				height: 30,
+				type: "button",
+				text: "Rot. 90 CW",
+				tooltip: "Rotate the current schematic clockwise by 90 degrees",
+				fontSize: 15,
+				param: "/we imr 90",
+				paddingLeft: 10
+			},
+			{
+				code: "rotateccw",
+				width: 100,
+				height: 30,
+				type: "button",
+				text: "Rot. 90 CCW",
+				tooltip: "Rotate the current schematic counter clockwise by 90 degrees",
+				fontSize: 15,
+				param: "/we imr 270"
+			}			
+		]
+		},
+		
+		
+		
+		{ elements: [
+
+			{
+				code: "std.pasteToolOrigin",
+				width: 290,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Paste Origin Point",
+				values: ["0", "1", "2"],
+				names: ["Start Position", "BottomCenter", "TopCenter"],
+				param: "/we imo",
+				paddingLeft: 0
+			},
+			{
+				code: "std.importReplaceMode",
+				width: 290,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Replace Mode",
+				values: ["0", "1", "2", "3"],
+				names: ["By replaceable value", "Replace all", "Replace all no air", "Replace only air"],
+				param: "/we tm",
+			}			
+		]
+		},		
+		
+	]
+}

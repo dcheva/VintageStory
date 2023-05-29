@@ -1,0 +1,63 @@
+{
+	code: "worldedit-tooloptions-airbrush",
+	padding: 5,
+	alignment: "None",
+	disableWorldInteract: false,
+	posX: 110,
+	rows: [
+		{ elements: [
+			{
+				code: "std.airBrushMode",
+				width: 225,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Mode",
+				values: ["0", "3"],
+				names: ["Add/Place anywhere", "Add/Place only on selected block"],
+				param: "/we tm",
+			},			
+			{
+				code: "std.airBrushRadius",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "Radius",
+				param: "/we tr",
+			},
+			{
+				code: "std.airBrushQuantity",
+				width: 150,
+				height: 30,
+				type: "numberinput",
+				label: "Quantity",
+				param: "/we tq",
+			},
+		]
+		}, { elements: [
+			{
+				code: "std.airBrushPlaceMode",
+				width: 250,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Place Mode",
+				values: ["0", "1"],
+				names: ["Replace blocks", "Add blocks"],
+				param: "/we tmp",
+			},
+			{
+				code: "std.airBrushApply",
+				width: 250,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Directional Apply",
+				values: ["0", "1"],
+				names: ["Any face", "Only on selected face"],
+				param: "/we ta",
+			}
+		]
+		},
+	]
+}

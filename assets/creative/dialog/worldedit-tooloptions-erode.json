@@ -1,0 +1,39 @@
+{
+	code: "worldedit-tooloptions-erode",
+	padding: 5,
+	posX: 110,
+	disableWorldInteract: false,
+	alignment: "FixedTop",
+	rows: [
+		{ elements: [
+			{
+				code: "std.erodeToolBrushRadius",
+				width: 120,
+				height: 30,
+				type: "numberinput",
+				label: "Radius",
+				param: "/we tr",
+			},
+			{
+				code: "std.erodeToolKernelRadius",
+				width: 170,
+				height: 30,
+				type: "numberinput",
+				label: "Kernel Radius",
+				param: "/we tkr",
+			},
+			{
+				code: "std.erodeToolIterations",
+				width: 250,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Amount of iterations",
+				values: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+				names: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+				param: "/we ti",
+			}
+		]
+		},
+	]
+}

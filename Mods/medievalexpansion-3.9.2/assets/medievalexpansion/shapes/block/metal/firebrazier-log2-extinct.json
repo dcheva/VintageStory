@@ -1,0 +1,101 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"log": "game:block/wood/firepit/log",
+		"iron": "game:block/metal/anvil/iron",
+		"fire_extinct": "game:block/wood/firepit/fire_extinct",
+		"ground": "game:block/wood/firepit/ground"
+	},
+	"elements": [
+		{
+			"name": "log1",
+			"from": [ 4.0, 5.0, 4.0 ], 
+			"to": [ 12.0, 7.0, 6.0 ], 
+			"rotationOrigin": [ 4.0, 5.0, 4.0 ],
+			"faces": {
+				"north": { "texture": "#log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"east": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+				"south": { "texture": "#log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"west": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+				"up": { "texture": "#log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"down": { "texture": "#log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] }
+			},
+			"children": [
+				{
+					"name": "log2",
+					"from": [ 5.0, 2.0, 0.0 ], 
+					"to": [ 7.0, 4.0, 8.0 ], 
+					"rotationOrigin": [ 5.0, 2.0, 0.0 ],
+					"rotationX": 22.5,
+					"rotationY": -2.13443399843527E-7,
+					"rotationZ": 15.999999246692399,
+					"faces": {
+						"north": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"east": { "texture": "#log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+						"south": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"west": { "texture": "#log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+						"up": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 8.0 ] },
+						"down": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 8.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "log3",
+			"from": [ 4.0, 5.0, 10.0 ], 
+			"to": [ 12.0, 7.0, 12.0 ], 
+			"rotationOrigin": [ 4.0, 5.0, 10.0 ],
+			"rotationX": -22.5,
+			"rotationY": -12.0,
+			"rotationZ": 10.0,
+			"faces": {
+				"north": { "texture": "#log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"east": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+				"south": { "texture": "#log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"west": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+				"up": { "texture": "#log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] },
+				"down": { "texture": "#log", "uv": [ 0.0, 0.0, 8.0, 2.0 ] }
+			},
+			"children": [
+				{
+					"name": "log4",
+					"from": [ 0.9618, 1.8676, 2.9303 ], 
+					"to": [ 9.9618, 3.8676, 4.9303 ], 
+					"rotationOrigin": [ 0.9618, 1.8676, 2.9303 ],
+					"rotationX": -71.29036991282922,
+					"rotationY": 74.20152473017599,
+					"rotationZ": 83.02432132248553,
+					"faces": {
+						"north": { "texture": "#log", "uv": [ 0.0, 0.0, 9.0, 2.0 ] },
+						"east": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"south": { "texture": "#log", "uv": [ 0.0, 0.0, 9.0, 2.0 ] },
+						"west": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"up": { "texture": "#log", "uv": [ 0.0, 0.0, 9.0, 2.0 ] },
+						"down": { "texture": "#log", "uv": [ 0.0, 0.0, 9.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "log5",
+					"from": [ 6.37, -0.96, -3.17 ], 
+					"to": [ 8.37, 8.04, -1.17 ], 
+					"rotationOrigin": [ 6.3749, -0.9583, -3.1665 ],
+					"rotationX": 15.0,
+					"faces": {
+						"north": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 9.0 ] },
+						"east": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 9.0 ] },
+						"south": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 9.0 ] },
+						"west": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 9.0 ] },
+						"up": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"down": { "texture": "#log", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+					}
+				}
+			]
+		}
+	]}

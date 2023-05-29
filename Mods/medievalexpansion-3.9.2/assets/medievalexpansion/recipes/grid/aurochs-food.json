@@ -1,0 +1,36 @@
+﻿[
+  {
+    "ingredientPattern": "CCC",
+    "width": 3,
+    "height": 1,
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:drygrass",
+        "quantity": 8
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "medievalexpansion:aurochsfood",
+      "quantity": 3
+    }
+  },
+  {
+    "ingredientPattern": "CCC",
+    "width": 3,
+    "height": 1,
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "game:hay-normal-*",
+        "quantity": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "medievalexpansion:aurochsfood",
+      "quantity": 3
+    }
+  }
+]

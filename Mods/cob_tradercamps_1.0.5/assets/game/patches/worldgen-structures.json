@@ -1,0 +1,179 @@
+[
+// MEDIUM
+{
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "cob_tradercamps",
+      "group": "trader",
+      "minGroupDistance": 630,
+      "name": "CoB Trader Camps",
+      "chance": 0.84,
+      "schematics": [
+        "tradeoutposts/settlement/unlocked/*"
+      ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-low-normal",
+		"forestfloor-1"
+      ],
+	  "postPass": true,
+      "placement": "surface",
+	  "offsetY": -1
+    },
+    "file": "game:worldgen/structures.json",
+	"condition": {
+      "when": "TraderCampSetup",
+	"isValue": "1" }
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "cob_tradercamps",
+      "group": "trader",
+      "minGroupDistance": 630,
+      "name": "CoB Trader Camps",
+      "chance": 0.84,
+      "schematics": [
+        "tradeoutposts/settlement/unlocked/*"
+      ],
+      "buildProtected": false,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-low-normal",
+		"forestfloor-1"
+      ],
+	  "postPass": true,
+      "placement": "surface",
+	  "offsetY": -1
+    },
+    "file": "game:worldgen/structures.json",
+	"condition": {
+      "when": "TraderCampSetup",
+	"isValue": "2" }
+  },
+// HIGH
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "cob_tradercamps",
+      "group": "trader",
+      "minGroupDistance": 470,
+      "name": "CoB Trader Camps",
+      "chance": 0.87,
+      "schematics": [
+        "tradeoutposts/settlement/unlocked/*"
+      ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-low-normal",
+		"forestfloor-1"
+      ],
+	  "postPass": true,
+      "placement": "surface",
+	  "offsetY": -1
+    },
+    "file": "game:worldgen/structures.json",
+	"condition": {
+      "when": "TraderCampSetup",
+	"isValue": "3" }
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "cob_tradercamps",
+      "group": "trader",
+      "minGroupDistance": 470,
+      "name": "CoB Trader Camps",
+      "chance": 0.87,
+      "schematics": [
+        "tradeoutposts/settlement/unlocked/*"
+      ],
+      "buildProtected": false,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-low-normal",
+		"forestfloor-1"
+      ],
+	  "postPass": true,
+      "placement": "surface",
+	  "offsetY": -1
+    },
+    "file": "game:worldgen/structures.json",
+	"condition": {
+      "when": "TraderCampSetup",
+	"isValue": "4" }
+  },
+// LOW
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "cob_tradercamps",
+      "group": "trader",
+      "minGroupDistance": 920,
+      "name": "CoB Trader Camps",
+      "chance": 0.78,
+      "schematics": [
+        "tradeoutposts/settlement/unlocked/*"
+      ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-low-normal",
+		"forestfloor-1"
+      ],
+	  "postPass": true,
+      "placement": "surface",
+	  "offsetY": -1
+    },
+    "file": "game:worldgen/structures.json",
+	"condition": {
+      "when": "TraderCampSetup",
+	"isValue": "5" }
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "cob_tradercamps",
+      "group": "trader",
+      "minGroupDistance": 920,
+      "name": "CoB Trader Camps",
+      "chance": 0.78,
+      "schematics": [
+        "tradeoutposts/settlement/unlocked/*"
+      ],
+      "buildProtected": false,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "soil-medium-normal",
+        "soil-low-normal",
+		"forestfloor-1"
+      ],
+	  "postPass": true,
+      "placement": "surface",
+	  "offsetY": -1
+    },
+    "file": "game:worldgen/structures.json",
+	"condition": {
+      "when": "TraderCampSetup",
+	"isValue": "6" }
+  }
+]

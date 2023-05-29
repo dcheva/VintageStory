@@ -1,0 +1,295 @@
+{
+	code: "animalbot",
+	class: "EntityAnimalBot",
+	variantgroups: [
+		{ code: "type", states: [
+			"wolf-male", "wolf-male-gray", 
+			"chicken-hen", "chicken-rooster", "chicken-baby", 
+			"hyena-male", "hyena-female", "hyena-pup", 
+			"sheep-bighorn-male", "sheep-bighorn-female", "sheep-bighorn-lamb", 
+			"bell", 
+			"locust-corrupt", "locust-corrupt-hacked", "locust-bronze-hacked", "locust-sawblade", 
+			"drifter-normal", "drifter-deep", "drifter-tainted", "drifter-corrupt", "drifter-nightmare", 
+			"hare-female-lightgrey", "fox-male", "fox-female", "fox-pup", "boar", "sow", "piglet", "bear-male-brown", "raccoon-male", "raccoon-female"
+		] },
+	],
+	hitboxSizeByType: {
+		"*-wolf-male": { x: 1.2, y: 1 },
+		"*-wolf-male-gray": { x: 1.2, y: 1 },
+		"*-hyena-male": { x: 1.2, y: 1 },
+		"*-hyena-female": { x: 1.2, y: 1 },
+		"*-hyena-pup": { x: 0.6, y: 0.5 },
+		"*-chicken-hen": { x: 0.75, y: 0.6 },
+		"*-chicken-rooster": { x: 0.75, y: 0.6 },
+		"*-chicken-baby": { x: 0.3, y: 0.2 },
+		
+		"*-sheep-bighorn-male": { x: 1.3, y: 1.4 },
+		"*-sheep-bighorn-female": { x: 1.3, y: 1.4 },
+		"*-sheep-bighorn-lamb": { x: 1.0, y: 0.5 },
+		"*-bell-normal": { x: 0.75, y: 0.75 },
+		"*-locust-*": { x: 0.65, y: 0.6 },
+		
+		"*-hare-female-lightgrey": { x: 0.75, y: 0.5 },
+		"*-fox-female": { x: 0.75, y: 0.75 },
+		"*-fox-male": { x: 0.75, y: 0.75 },
+		
+		"*-fox-pup": { x: 0.6, y: 0.5 },
+		"*-piglet": { x: 0.6, y: 0.5 },
+		"*-boar": { x: 0.99, y: 0.8 },
+		"*-sow": { x: 0.99, y: 0.8 },
+		
+		"*-drifter-*": { x: 0.6, y: 1.3 },
+		"*-raccoon-*": { x: 0.75, y: 0.75 },
+		
+	},
+	collisionBoxSizeByType: {
+		"*-bear-male-brown": { x: 1.2, y: 1.2 },
+	},
+	deadCollisionBoxSizeByType: {
+		"*-bear-male-brown": { x: 1.2, y: 0.75 },
+	},
+	selectionBoxSizeByType: {
+		"*-bear-male-brown": { x: 1.5, y: 1.8 },
+		"*-bear-male-polar": { x: 2.2, y: 2 }
+	},
+	deadSelectionBoxSizeByType: {
+		"*-black": { x: 1.2, y: 1 },
+		"*-brown": { x: 1.2, y: 1 },
+		"*-sun": { x: 1.2, y: 1 },
+		"*-panda": { x: 1.2, y: 1 },
+		"*-polar": { x: 1.7, y: 1.5 },
+	},
+	eyeHeightByType: {
+		"*-wolf-male": 0.9,
+		"*-wolf-male-gray": 0.9,
+		"*-hyena-male": 0.9,
+		"*-hyena-female": 0.9,
+		"*-hyena-pup": 0.4,
+		"*-chicken-hen": 0.3,
+		"*-chicken-rooster": 0.3,
+		"*-chicken-baby": 0.15,
+		"*-sheep-bighorn-male": 1.4,
+		"*-sheep-bighorn-female": 1.4,
+		"*-sheep-bighorn-lamb": 0.4,
+
+		"*-hare-female-lightgrey": 0.6,
+		"*-fox-*": 0.7,
+
+		"*-bell-normal": 0.75,
+		"*-locust-*": 0.3,
+		"*-drifter-*": 1.2,
+		"*-piglet": 0.4,
+		"*-boar": 0.7,
+		"*-sow": 0.7,
+		"*-bear-*": 0.9,
+		"*-raccoon-*": 0.7,
+	},
+	drops: [],
+	client: {
+		renderer: "Shape",
+		sizeByType: {
+			"*-bear-male-brown": 1.25,
+			"*-bear-male-polar": 1.4,
+			"*-bear-male-panda": 0.8,
+			"*-bell": 1.3,
+			"*-locust-*": 1.2
+		},
+		shapeByType: {
+			"*-locust-corrupt": { base: "entity/land/locust-corrupt" },
+			"*-locust-corrupt-hacked": { base: "entity/land/locust-corrupt" },
+			"*-locust-bronze-hacked": { base: "entity/land/locust-bronze" },
+			"*-locust-sawblade": { base: "entity/land/locust-corrupt-sawblade" },
+			"*-drifter-normal": { base: "entity/land/drifter/surface" },
+			"*-drifter-deep": { base: "entity/land/drifter/surface" },
+			"*-drifter-tainted": { base: "entity/land/drifter/spiked1", alternates: [{ base: "entity/land/drifter/spiked2" }] },
+			"*-drifter-corrupt": { base: "entity/land/drifter/deerhorn" },
+			"*-drifter-nightmare": { base: "entity/land/drifter/knife" },
+			
+			"*-hare-female-lightgrey": { base: "entity/land/hare-female" },
+			
+			"*-wolf-male-gray": { base: "entity/land/wolf-male" },
+			"*-piglet": { base: "entity/land/pig-wild-piglet" },
+			
+			"*-boar": { base: "entity/land/pig-wild-male" },
+			"*-sow": { base: "entity/land/pig-wild-female" },
+			
+			"*-bear-*": { base: "entity/land/bear" },
+			
+			"*": { base: "entity/land/{type}" },
+		},
+		textureByType: {
+			"*-hyena-pup": { base: "entity/hyena/pup" },
+			"*-hyena-male": { base: "entity/hyena/hyena-male1" },
+			"*-hyena-female": { base: "entity/hyena/hyena-female1" },
+			
+			"*-sheep-bighorn-lamb": { base: "entity/sheep/sheep-bighorn-lamb" },
+			"*-sheep-bighorn-male": { base: "entity/sheep/sheep-bighorn-male" },
+			"*-sheep-bighorn-female": { base: "entity/sheep/sheep-bighorn-female" },
+			
+			"*-bell": { base: "entity/bell" },
+			"*-locust-corrupt": { base: "entity/locust/corrupt" },
+			"*-locust-sawblade": { base: "entity/locust/sawblade" },
+			"*-wolf-male": { base: "entity/wolf/wolf1", alternates: [ { base: "entity/wolf/wolf2" }, { base: "entity/wolf/wolf3" }, { base: "entity/wolf/wolf4" }, { base: "entity/wolf/wolf5" }, { base: "entity/wolf/wolf6" }, { base: "entity/wolf/wolf7" }, { base: "entity/wolf/wolf8" }, { base: "entity/wolf/wolf9" } ] },
+			"*-wolf-male-gray": { base: "entity/wolf/wolf2" },
+			"*-chicken-hen": { base: "entity/chicken/hen1", alternates: [ { base: "entity/chicken/hen2" }, { base: "entity/chicken/hen3" }, { base: "entity/chicken/hen4" }, { base: "entity/chicken/hen5" }, { base: "entity/chicken/hen6" }, { base: "entity/chicken/hen7" }, { base: "entity/chicken/hen8" } ] },
+			"*-chicken-baby": { base: "entity/chicken/babychick1", alternates: [ { base: "entity/chicken/babychick2" }, { base: "entity/chicken/babychick3" }, { base: "entity/chicken/babychick4" }, { base: "entity/chicken/babychick5" }, { base: "entity/chicken/babychick6" }, { base: "entity/chicken/babychick7" }, { base: "entity/chicken/babychick8" } ] },
+			"*-chicken-rooster": { base: "entity/chicken/rooster1", alternates: [ { base: "entity/chicken/rooster2" }, { base: "entity/chicken/rooster3" }, { base: "entity/chicken/rooster4" }, { base: "entity/chicken/rooster5" } ] },
+			
+			"*-drifter-normal": { base: "entity/drifter/surface1", alternates: [ { base: "entity/drifter/surface2" }, {base: "entity/drifter/surface3" }] },
+			"*-drifter-deep": { base: "entity/drifter/deep1", alternates: [ { base: "entity/drifter/deep2" } ] },
+			"*-drifter-corrupt": { base: "entity/drifter/spiked1", alternates: [ { base: "entity/drifter/spiked2" } ] },
+			"*-drifter-nightmare": { base: "entity/drifter/deep1", alternates: [ { base: "entity/drifter/deep2" } ] },
+			
+			"*-hare-female-lightgrey": { base: "entity/hare/female-lightgrey" },
+			"*-fox-female": { base: "entity/fox/forest-female" },
+			"*-fox-male": { base: "entity/fox/forest-male" },
+			"*-fox-pup": { base: "entity/fox/forest-pup" },
+			
+			"*-piglet": { base: "entity/pig/pig-wild-piglet" },
+			"*-boar": { base: "entity/pig/pig-wild-male1", alternates: [ { base: "entity/pig/pig-wild-male2" }, { base: "entity/pig/pig-wild-male3" }, { base: "entity/pig/pig-wild-male4" }, { base: "entity/pig/pig-wild-male5" } ] },
+			"*-sow": { base: "entity/pig/pig-wild-female1" },
+			
+			"*-bear-male-black": { base: "entity/bear/black1" },
+			"*-bear-male-brown": { base: "entity/bear/brown1", alternates: [ { base: "entity/bear/brown2" }, { base: "entity/bear/brown3" } ] },
+			"*-bear-male-sun": { base: "entity/bear/sun1" },
+			"*-bear-male-panda": { base: "entity/bear/panda1" },
+			"*-bear-male-polar": { base: "entity/bear/polar1" },
+			
+			"*-raccoon-*": { base: "entity/raccoon/{type}*" },
+			
+			"*": { base: "entity/{type}/{type}*" },
+		},
+		texturesByType: {
+			"*-bronze-hacked": {
+				"skin": { base: "entity/locust/bronze-hacked" }
+			},
+			"*-corrupt-hacked": {
+				"skin": { base: "entity/locust/corrupt-hacked" }
+			}
+		},
+		behaviors: [
+			{ code: "controlledphysics", stepHeight: 1.1251 }, 
+			{ code: "interpolateposition" },
+			{ code: "floatupwhenstuck", onlyWhenDead: true }
+		],
+		animations: [
+			{
+				code: "hurt",
+				animation: "hurt", 
+				animationSpeed: 2.2,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "die",
+				animation: "death", 
+				animationSpeed: 1.25,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "eat",
+				animation: "eat", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "walk",
+				animation: "walk", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "cry",
+				animation: "cry", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "shamble",
+				animation: "shamble", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "lowshamble",
+				animation: "lowshamble", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "sleep",
+				animation: "sleep", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "sit",
+				animation: "sit", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "listen",
+				animation: "listen", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "hide",
+				animation: "hide", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "idletwitch",
+				animation: "idletwitch", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{
+				code: "drill",
+				animation: "drill", 
+				animationSpeed: 1,
+				weight: 10,
+				blendMode: "AddAverage" 
+			},
+			{ 
+				code: "idle", 
+				animation: "idle",
+				blendMode: "AddAverage",
+				easeOutSpeed: 4,
+				triggeredBy: { defaultAnim: true },
+			}
+		]
+	},
+	server: {
+		behaviors: [
+			{ code: "controlledphysics", stepHeight: 1.1251 },
+			{ code: "health", currenthealth: 100, maxhealth: 100, },
+			{ code: "floatupwhenstuck", onlyWhenDead: true },
+			{ code: "breathe" },
+		],
+	},
+	soundsByType: {
+		"*-wolf-male": {
+			hurt: "creature/wolf/hurt",
+			death: "creature/wolf/hurt"
+		},
+		"*-chicken-hen": {
+			hurt: "creature/chicken/hurt",
+			death: "creature/chicken/hurt"
+		}
+	},
+	idleSoundChance: 0
+}

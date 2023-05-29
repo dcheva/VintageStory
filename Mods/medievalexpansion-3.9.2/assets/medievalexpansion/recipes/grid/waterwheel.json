@@ -1,0 +1,94 @@
+﻿[
+    {
+        ingredientPattern: "FIH,PMP,_IR",
+        width: 3,
+        height: 3,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "I": { type: "item", code: "game:metalplate-iron", quantity: 4},
+            "M": { type: "item", code: "game:metalplate-brass"},
+            "P": { type: "item", code: "game:plank-*", quantity: 6},
+            "R": { type: "item", code: "game:resin", quantity: 4 },
+            "F": { type: "item", code: "game:fat" }
+        },
+        output: {
+            "type": "block",
+            "code": "waterwheelbase-north"
+        }
+    },
+    {
+        ingredientPattern: "RGI,GHG,XGP",
+        width: 3,
+        height: 3,
+        ingredients: {
+            "G": { type: "item", code: "game:largegearsection-wood", quantity: 2 },
+            "R": { type: "item", code: "game:resin", quantity: 10 },
+            "I": { type: "item", code: "game:metalplate-iron", quantity: 8},
+            "X": { type: "item", code: "game:saw-*", isTool: true },
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+            "P": { type: "item", code: "game:plank-*", quantity: 20 }
+        },
+        output: {
+            "type": "item",
+            "code": "waterwheelspin-oak"
+        }
+    },
+    {
+        ingredientPattern: "PXP,P_P",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "X": { type: "item", code: "game:saw-*", isTool: true },
+            "P": { type: "item", code: "game:plank-*", quantity: 2 }
+        },
+        output: {
+            "type": "block",
+            "code": "waterwheelpenstock-output-north"
+        }
+    },
+     {
+        ingredientPattern: "PXP,PPP",
+        width: 3,
+        height: 2,
+        ingredients: {
+            "X": { type: "item", code: "game:saw-*", isTool: true },
+            "P": { type: "item", code: "game:plank-*", quantity: 2 }
+        },
+        output: {
+            "type": "block",
+            "code": "waterwheelpenstock-normal-north"
+        }
+    },
+    {
+        ingredientPattern: "OXO,PPP,S_H",
+        width: 3,
+        height: 3,
+        ingredients: {
+            "S": { type: "item", code: "game:metalplate-steel", quantity: 1},
+            "X": { type: "item", code: "game:saw-*", isTool: true },
+            "H": { type: "item", code: "game:hammer-*", isTool: true },
+            "P": { type: "item", code: "game:plank-*", quantity: 2 },
+            "O": { type: "item", code: "game:plank-*", quantity: 4 }
+        },
+        output: {
+            "type": "block",
+            "code": "waterwheelpenstock-door-north"
+        }
+    },
+    {
+        ingredientPattern: "PPX,PPH,R_I",
+        width: 3,
+        height: 3,
+        ingredients: {
+            "R": { type: "item", code: "game:resin", quantity: 4 },
+            "I": { type: "item", code: "game:metalplate-steel", quantity: 2},
+            "X": { type: "item", code: "game:saw-*", isTool: true },
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+            "P": { type: "item", code: "game:plank-*", quantity: 5 }
+        },
+        output: {
+            "type": "item",
+            "code": "penstockhatch-oak"
+        }
+    }
+]

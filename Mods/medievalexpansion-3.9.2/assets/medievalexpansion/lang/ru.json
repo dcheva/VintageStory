@@ -1,0 +1,273 @@
+{
+	"medievalexpansion:block-myshinyblock-gold-good": "Золотая колонна ",
+	"medievalexpansion:block-myshinyblock-gold-used": "Старая золотая колонна ",
+	"medievalexpansion:block-myshinyblock-iron-good": "Железная колонна",
+	"medievalexpansion:block-myshinyblock-iron-used": "Старая железная колонна",
+
+	"medievalexpansion:block-portcullis3x3-model-closed-north": "Железная опускная решетка 3x3",
+	"medievalexpansion:block-portcullis3x4-model-closed-north": "Железная опускная решетка 3x4",
+	"medievalexpansion:block-portcullis3x5-model-closed-north": "Железная опускная решетка 3x5",
+	"medievalexpansion:block-portcullis4x3-model-closed-north": "Железная опускная решетка 4x3",
+	"medievalexpansion:block-portcullis4x4-model-closed-north": "Железная опускная решетка 4x4",
+	"medievalexpansion:block-portcullis4x5-model-closed-north": "Железная опускная решетка 4x5",
+	"medievalexpansion:block-portcullis5x3-model-closed-north": "Железная опускная решетка 5x3",
+	"medievalexpansion:block-portcullis5x4-model-closed-north": "Железная опускная решетка 5x4",
+	"medievalexpansion:block-portcullis5x5-model-closed-north": "Железная опускная решетка 5x5",
+
+	"medievalexpansion:block-gate3x3-model-oak-closed-north": "Ворота 3x3 из дуба",
+	"medievalexpansion:block-gate3x3-model-acacia-closed-north": "Ворота 3x3 из акации",
+	"medievalexpansion:block-gate3x3-model-aged-closed-north": "Ворота 3x3 из древних досок",
+	"medievalexpansion:block-gate3x3-model-birch-closed-north": "Ворота 3x3 из березы",
+	"medievalexpansion:block-gate3x3-model-kapok-closed-north": "Ворота 3x3 из капока",
+	"medievalexpansion:block-gate3x3-model-maple-closed-north": "Ворота 3x3 из клёна",
+	"medievalexpansion:block-gate3x3-model-pine-closed-north": "Ворота 3x3 из сосны",
+	"medievalexpansion:block-gate3x3-model-purpleheart-closed-north": "Ворота 3x3 из пелтогина",
+	"medievalexpansion:block-gate3x3-model-walnut-closed-north": "Ворота 3x3 из грецкого ореха",
+	"medievalexpansion:block-gate3x3-model-redwood-closed-north": "Ворота 3x3 из секвойи",
+	"medievalexpansion:block-gate3x3-model-larch-closed-north": "Ворота 3x3 из лиственницы",
+	"medievalexpansion:block-gate3x3-model-ebony-closed-north": "Ворота 3x3 из чёрного дерева",
+	"medievalexpansion:block-gate3x3-model-baldcypress-closed-north": "Ворота 3x3 из болотного кипариса",
+
+	"medievalexpansion:block-gate4x4-model-oak-closed-north": "Ворота 4x4 из дуба",
+	"medievalexpansion:block-gate4x4-model-acacia-closed-north": "Ворота 4x4 из акации",
+	"medievalexpansion:block-gate4x4-model-aged-closed-north": "Ворота 4x4 из древних досок",
+	"medievalexpansion:block-gate4x4-model-birch-closed-north": "Ворота 4x4 из березы",
+	"medievalexpansion:block-gate4x4-model-kapok-closed-north": "Ворота 4x4 из капока",
+	"medievalexpansion:block-gate4x4-model-maple-closed-north": "Ворота 4x4 из клёна",
+	"medievalexpansion:block-gate4x4-model-pine-closed-north": "Ворота 4x4 из сосны",
+	"medievalexpansion:block-gate4x4-model-purpleheart-closed-north": "Ворота 4x4 из пелтогина",
+	"medievalexpansion:block-gate4x4-model-walnut-closed-north": "Ворота 4x4 из грецкого ореха",
+	"medievalexpansion:block-gate4x4-model-redwood-closed-north": "Ворота 4x4 из секвойи",
+	"medievalexpansion:block-gate4x4-model-larch-closed-north": "Ворота 4x4 из лиственницы",
+	"medievalexpansion:block-gate4x4-model-ebony-closed-north": "Ворота 4x4 из чёрного дерева",
+	"medievalexpansion:block-gate4x4-model-baldcypress-closed-north": "Ворота 4x4 из болотного кипариса",
+
+	"medievalexpansion:block-gate5x5-model-oak-closed-north": "Ворота 5x5 из дуба",
+	"medievalexpansion:block-gate5x5-model-acacia-closed-north": "Ворота 5x5 из акации",
+	"medievalexpansion:block-gate5x5-model-aged-closed-north": "Ворота 5x5 из древних досок",
+	"medievalexpansion:block-gate5x5-model-birch-closed-north": "Ворота 5x5 из березы",
+	"medievalexpansion:block-gate5x5-model-kapok-closed-north": "Ворота 5x5 из капока",
+	"medievalexpansion:block-gate5x5-model-maple-closed-north": "Ворота 5x5 из клёна",
+	"medievalexpansion:block-gate5x5-model-pine-closed-north": "Ворота 5x5 из сосны",
+	"medievalexpansion:block-gate5x5-model-purpleheart-closed-north": "Ворота 5x5 из пелтогина",
+	"medievalexpansion:block-gate5x5-model-walnut-closed-north": "Ворота 5x5 из грецкого ореха",
+	"medievalexpansion:block-gate5x5-model-redwood-closed-north": "Ворота 5x5 из секвойи",
+	"medievalexpansion:block-gate5x5-model-larch-closed-north": "Ворота 5x5 из лиственницы",
+	"medievalexpansion:block-gate5x5-model-ebony-closed-north": "Ворота 5x5 из чёрного дерева",
+	"medievalexpansion:block-gate5x5-model-baldcypress-closed-north": "Ворота 5x5 из болотного кипариса",
+
+	"medievalexpansion:block-gate8x5-model-oak-closed-north": "Ворота 8x5 из дуба",
+	"medievalexpansion:block-gate8x5-model-acacia-closed-north": "Ворота 8x5 из акации",
+	"medievalexpansion:block-gate8x5-model-aged-closed-north": "Ворота 8x5 из древних досок",
+	"medievalexpansion:block-gate8x5-model-birch-closed-north": "Ворота 8x5 из березы",
+	"medievalexpansion:block-gate8x5-model-kapok-closed-north": "Ворота 8x5 из капока",
+	"medievalexpansion:block-gate8x5-model-maple-closed-north": "Ворота 8x5 из клёна",
+	"medievalexpansion:block-gate8x5-model-pine-closed-north": "Ворота 8x5 из сосны",
+	"medievalexpansion:block-gate8x5-model-purpleheart-closed-north": "Ворота 8x5 из пелтогина",
+	"medievalexpansion:block-gate8x5-model-walnut-closed-north": "Ворота 8x5 из грецкого ореха",
+	"medievalexpansion:block-gate8x5-model-redwood-closed-north": "Ворота 8x5 из секвойи",
+	"medievalexpansion:block-gate8x5-model-larch-closed-north": "Ворота 8x5 из лиственницы",
+	"medievalexpansion:block-gate8x5-model-ebony-closed-north": "Ворота 8x5 из чёрного дерева",
+	"medievalexpansion:block-gate8x5-model-baldcypress-closed-north": "Ворота 8x5 из болотного кипариса",
+
+	"medievalexpansion:block-drawbridge3x4-model-purpleheart-opened-north": "Подъёмный мост 3x4 из пелтогина",
+	"medievalexpansion:block-drawbridge3x5-model-purpleheart-opened-north": "Подъёмный мост 3x5 из пелтогина",
+	"medievalexpansion:block-drawbridge3x6-model-purpleheart-opened-north": "Подъёмный мост 3x6 из пелтогина",
+
+	"medievalexpansion:block-drawbridge4x5-model-purpleheart-opened-north": "Подъёмный мост 4x5 из пелтогина",
+	"medievalexpansion:block-drawbridge4x6-model-purpleheart-opened-north": "Подъёмный мост 4x6 из пелтогина",
+	"medievalexpansion:block-drawbridge4x7-model-purpleheart-opened-north": "Подъёмный мост 4x7 из пелтогина",
+
+	"medievalexpansion:block-drawbridge5x6-model-purpleheart-opened-north": "Подъёмный мост 5x6 из пелтогина",
+	"medievalexpansion:block-drawbridge5x7-model-purpleheart-opened-north": "Подъёмный мост 5x7 из пелтогина",
+
+	"medievalexpansion:block-drawbridge3x4-model-walnut-opened-north": "Подъёмный мост 3x4 из грецкого ореха",
+	"medievalexpansion:block-drawbridge3x5-model-walnut-opened-north": "Подъёмный мост 3x5 из грецкого ореха",
+	"medievalexpansion:block-drawbridge3x6-model-walnut-opened-north": "Подъёмный мост 3x6 из грецкого ореха",
+
+	"medievalexpansion:block-drawbridge4x5-model-walnut-opened-north": "Подъёмный мост 4x5 из грецкого ореха",
+	"medievalexpansion:block-drawbridge4x6-model-walnut-opened-north": "Подъёмный мост 4x6 из грецкого ореха",
+	"medievalexpansion:block-drawbridge4x7-model-walnut-opened-north": "Подъёмный мост 4x7 из грецкого ореха",
+
+	"medievalexpansion:block-drawbridge5x6-model-walnut-opened-north": "Подъёмный мост 5x6 из грецкого ореха",
+	"medievalexpansion:block-drawbridge5x7-model-walnut-opened-north": "Подъёмный мост 5x7 из грецкого ореха",
+
+	"medievalexpansion:block-drawbridge3x4-model-redwood-opened-north": "Подъёмный мост 3x4 из секвойи",
+	"medievalexpansion:block-drawbridge3x5-model-redwood-opened-north": "Подъёмный мост 3x5 из секвойи",
+	"medievalexpansion:block-drawbridge3x6-model-redwood-opened-north": "Подъёмный мост 3x6 из секвойи",
+
+	"medievalexpansion:block-drawbridge4x5-model-redwood-opened-north": "Подъёмный мост 4x5 из секвойи",
+	"medievalexpansion:block-drawbridge4x6-model-redwood-opened-north": "Подъёмный мост 4x6 из секвойи",
+	"medievalexpansion:block-drawbridge4x7-model-redwood-opened-north": "Подъёмный мост 4x7 из секвойи",
+
+	"medievalexpansion:block-drawbridge5x6-model-redwood-opened-north": "Подъёмный мост 5x6 из секвойи",
+	"medievalexpansion:block-drawbridge5x7-model-redwood-opened-north": "Подъёмный мост 5x7 из секвойи",
+
+	"medievalexpansion:block-drawbridge3x4-model-larch-opened-north": "Подъёмный мост 3x4 из лиственницы",
+	"medievalexpansion:block-drawbridge3x5-model-larch-opened-north": "Подъёмный мост 3x5 из лиственницы",
+	"medievalexpansion:block-drawbridge3x6-model-larch-opened-north": "Подъёмный мост 3x6 из лиственницы",
+
+	"medievalexpansion:block-drawbridge4x5-model-larch-opened-north": "Подъёмный мост 4x5 из лиственницы",
+	"medievalexpansion:block-drawbridge4x6-model-larch-opened-north": "Подъёмный мост 4x6 из лиственницы",
+	"medievalexpansion:block-drawbridge4x7-model-larch-opened-north": "Подъёмный мост 4x7 из лиственницы",
+
+	"medievalexpansion:block-drawbridge5x6-model-larch-opened-north": "Подъёмный мост 5x6 из лиственницы",
+	"medievalexpansion:block-drawbridge5x7-model-larch-opened-north": "Подъёмный мост 5x7 из лиственницы",
+
+	"medievalexpansion:block-drawbridge3x4-model-ebony-opened-north": "Подъёмный мост 3x4 из чёрного дерева",
+	"medievalexpansion:block-drawbridge3x5-model-ebony-opened-north": "Подъёмный мост 3x5 из чёрного дерева",
+	"medievalexpansion:block-drawbridge3x6-model-ebony-opened-north": "Подъёмный мост 3x6 из чёрного дерева",
+
+	"medievalexpansion:block-drawbridge4x5-model-ebony-opened-north": "Подъёмный мост 4x5 из чёрного дерева",
+	"medievalexpansion:block-drawbridge4x6-model-ebony-opened-north": "Подъёмный мост 4x6 из чёрного дерева",
+	"medievalexpansion:block-drawbridge4x7-model-ebony-opened-north": "Подъёмный мост 4x7 из чёрного дерева",
+
+	"medievalexpansion:block-drawbridge5x6-model-ebony-opened-north": "Подъёмный мост 5x6 из чёрного дерева",
+	"medievalexpansion:block-drawbridge5x7-model-ebony-opened-north": "Подъёмный мост 5x7 из чёрного дерева",
+
+	"medievalexpansion:block-drawbridge3x4-model-baldcypress-opened-north": "Подъёмный мост 3x4 из болотного кипариса",
+	"medievalexpansion:block-drawbridge3x5-model-baldcypress-opened-north": "Подъёмный мост 3x5 из болотного кипариса",
+	"medievalexpansion:block-drawbridge3x6-model-baldcypress-opened-north": "Подъёмный мост 3x6 из болотного кипариса",
+
+	"medievalexpansion:block-drawbridge4x5-model-baldcypress-opened-north": "Подъёмный мост 4x5 из болотного кипариса",
+	"medievalexpansion:block-drawbridge4x6-model-baldcypress-opened-north": "Подъёмный мост 4x6 из болотного кипариса",
+	"medievalexpansion:block-drawbridge4x7-model-baldcypress-opened-north": "Подъёмный мост 4x7 из болотного кипариса",
+
+	"medievalexpansion:block-drawbridge5x6-model-baldcypress-opened-north": "Подъёмный мост 5x6 из болотного кипариса",
+	"medievalexpansion:block-drawbridge5x7-model-baldcypress-opened-north": "Подъёмный мост 5x7 из болотного кипариса",
+
+	"medievalexpansion:block-drawbridge3x4-model-oak-opened-north": "Подъёмный мост 3x4 из дуба",
+	"medievalexpansion:block-drawbridge3x5-model-oak-opened-north": "Подъёмный мост 3x5 из дуба",
+	"medievalexpansion:block-drawbridge3x6-model-oak-opened-north": "Подъёмный мост 3x6 из дуба",
+
+	"medievalexpansion:block-drawbridge4x5-model-oak-opened-north": "Подъёмный мост 4x5 из дуба",
+	"medievalexpansion:block-drawbridge4x6-model-oak-opened-north": "Подъёмный мост 4x6 из дуба",
+	"medievalexpansion:block-drawbridge4x7-model-oak-opened-north": "Подъёмный мост 4x7 из дуба",
+
+	"medievalexpansion:block-drawbridge5x6-model-oak-opened-north": "Подъёмный мост 5x6 из дуба",
+	"medievalexpansion:block-drawbridge5x7-model-oak-opened-north": "Подъёмный мост 5x7 из дуба",
+
+	"medievalexpansion:block-drawbridge3x4-model-acacia-opened-north": "Подъёмный мост 3x4 из акации",
+	"medievalexpansion:block-drawbridge3x5-model-acacia-opened-north": "Подъёмный мост 3x5 из акации",
+	"medievalexpansion:block-drawbridge3x6-model-acacia-opened-north": "Подъёмный мост 3x6 из акации",
+
+	"medievalexpansion:block-drawbridge4x5-model-acacia-opened-north": "Подъёмный мост 4x5 из акации",
+	"medievalexpansion:block-drawbridge4x6-model-acacia-opened-north": "Подъёмный мост 4x6 из акации",
+	"medievalexpansion:block-drawbridge4x7-model-acacia-opened-north": "Подъёмный мост 4x7 из акации",
+
+	"medievalexpansion:block-drawbridge5x6-model-acacia-opened-north": "Подъёмный мост 5x6 из акации",
+	"medievalexpansion:block-drawbridge5x7-model-acacia-opened-north": "Подъёмный мост 5x7 из акации",
+
+	"medievalexpansion:block-drawbridge3x4-model-aged-opened-north": "Подъёмный мост 3x4 из древних досок",
+	"medievalexpansion:block-drawbridge3x5-model-aged-opened-north": "Подъёмный мост 3x5 из древних досок",
+	"medievalexpansion:block-drawbridge3x6-model-aged-opened-north": "Подъёмный мост 3x6 из древних досок",
+
+	"medievalexpansion:block-drawbridge4x5-model-aged-opened-north": "Подъёмный мост 4x5 из древних досок",
+	"medievalexpansion:block-drawbridge4x6-model-aged-opened-north": "Подъёмный мост 4x6 из древних досок",
+	"medievalexpansion:block-drawbridge4x7-model-aged-opened-north": "Подъёмный мост 4x7 из древних досок",
+
+	"medievalexpansion:block-drawbridge5x6-model-aged-opened-north": "Подъёмный мост 5x6 из древних досок",
+	"medievalexpansion:block-drawbridge5x7-model-aged-opened-north": "Подъёмный мост 5x7 из древних досок",
+
+	"medievalexpansion:block-drawbridge3x4-model-birch-opened-north": "Подъёмный мост 3x4 из березы",
+	"medievalexpansion:block-drawbridge3x5-model-birch-opened-north": "Подъёмный мост 3x5 из березы",
+	"medievalexpansion:block-drawbridge3x6-model-birch-opened-north": "Подъёмный мост 3x6 из березы",
+
+	"medievalexpansion:block-drawbridge4x5-model-birch-opened-north": "Подъёмный мост 4x5 из березы",
+	"medievalexpansion:block-drawbridge4x6-model-birch-opened-north": "Подъёмный мост 4x6 из березы",
+	"medievalexpansion:block-drawbridge4x7-model-birch-opened-north": "Подъёмный мост 4x7 из березы",
+
+	"medievalexpansion:block-drawbridge5x6-model-birch-opened-north": "Подъёмный мост 5x6 из березы",
+	"medievalexpansion:block-drawbridge5x7-model-birch-opened-north": "Подъёмный мост 5x7 из березы",
+
+	"medievalexpansion:block-drawbridge3x4-model-kapok-opened-north": "Подъёмный мост 3x4 из капока",
+	"medievalexpansion:block-drawbridge3x5-model-kapok-opened-north": "Подъёмный мост 3x5 из капока",
+	"medievalexpansion:block-drawbridge3x6-model-kapok-opened-north": "Подъёмный мост 3x6 из капока",
+
+	"medievalexpansion:block-drawbridge4x5-model-kapok-opened-north": "Подъёмный мост 4x5 из капока",
+	"medievalexpansion:block-drawbridge4x6-model-kapok-opened-north": "Подъёмный мост 4x6 из капока",
+	"medievalexpansion:block-drawbridge4x7-model-kapok-opened-north": "Подъёмный мост 4x7 из капока",
+
+	"medievalexpansion:block-drawbridge5x6-model-kapok-opened-north": "Подъёмный мост 5x6 из капока",
+	"medievalexpansion:block-drawbridge5x7-model-kapok-opened-north": "Подъёмный мост 5x7 из капока",
+
+	"medievalexpansion:block-drawbridge3x4-model-maple-opened-north": "Подъёмный мост 3x4 из клена",
+	"medievalexpansion:block-drawbridge3x5-model-maple-opened-north": "Подъёмный мост 3x5 из клена",
+	"medievalexpansion:block-drawbridge3x6-model-maple-opened-north": "Подъёмный мост 3x6 из клена",
+
+	"medievalexpansion:block-drawbridge4x5-model-maple-opened-north": "Подъёмный мост 4x5 из клена",
+	"medievalexpansion:block-drawbridge4x6-model-maple-opened-north": "Подъёмный мост 4x6 из клена",
+	"medievalexpansion:block-drawbridge4x7-model-maple-opened-north": "Подъёмный мост 4x7 из клена",
+
+	"medievalexpansion:block-drawbridge5x6-model-maple-opened-north": "Подъёмный мост 5x6 из клена",
+	"medievalexpansion:block-drawbridge5x7-model-maple-opened-north": "Подъёмный мост 5x7 из клена",
+
+	"medievalexpansion:block-drawbridge3x4-model-pine-opened-north": "Подъёмный мост 3x4 из сосны",
+	"medievalexpansion:block-drawbridge3x5-model-pine-opened-north": "Подъёмный мост 3x5 из сосны",
+	"medievalexpansion:block-drawbridge3x6-model-pine-opened-north": "Подъёмный мост 3x6 из сосны",
+
+	"medievalexpansion:block-drawbridge4x5-model-pine-opened-north": "Подъёмный мост 4x5 из сосны",
+	"medievalexpansion:block-drawbridge4x6-model-pine-opened-north": "Подъёмный мост 4x6 из сосны",
+	"medievalexpansion:block-drawbridge4x7-model-pine-opened-north": "Подъёмный мост 4x7 из сосны",
+
+	"medievalexpansion:block-drawbridge5x6-model-pine-opened-north": "Подъёмный мост 5x6 из сосны",
+	"medievalexpansion:block-drawbridge5x7-model-pine-opened-north": "Подъёмный мост 5x7 из сосны",
+
+	"medievalexpansion:block-floorplate-wood-up-north": "Деревянная нажимная плита",
+	"medievalexpansion:block-floorplate-stone-up-north": "Каменная нажимная плита",
+
+	"medievalexpansion:item-portcullispart": "Железная решетка",
+	"medievalexpansion:item-portcullisdismantled": "Разобранная решетка",
+
+	"medievalexpansion:item-repairkit-large-copper": "Большой ремонтный набор из меди",
+	"medievalexpansion:item-repairkit-large-tinbronze": "Большой ремонтный набор из оловянной бронзы",
+	"medievalexpansion:item-repairkit-large-iron": "Большой ремонтный набор из железа",
+	"medievalexpansion:item-repairkit-large-steel": "Большой ремонтный набор из стали",
+
+	"medievalexpansion:restore-durability": "Восстанавливает прочности: {0}",
+	"medievalexpansion:can-repair-constructions": "Может чинить конструкции",
+	"medievalexpansion:blockhelp-repair": "Починить",
+
+	"medievalexpansion:block-streetlight-north": "Фонарный столб",
+	"medievalexpansion:block-waterwheelbase-north": "Основа водяного колеса",
+	"medievalexpansion:block-waterwheelpenstock-door-north": "Желоб с затвором",
+	"medievalexpansion:block-waterwheelpenstock-normal-north": "Желоб",
+	"medievalexpansion:block-waterwheelpenstock-output-north": "Сток желоба",
+	"medievalexpansion:waterwheel-complete": "Водяное колесо",
+	"medievalexpansion:item-waterwheelspin-oak": "Главное колесо",
+	"medievalexpansion:item-penstockhatch-oak": "Затвор для желоба",
+	"medievalexpansion:waterwheel-requires-gear": "Требуется главное колесо",
+	"medievalexpansion:penstock-requires-hatch": "Требуется затвор",
+	"medievalexpansion:waterwheel-requires-repair": "Требуется ремонт",
+	"medievalexpansion:waterwheel-efficiency": "Эффективность: {0}%",
+	"medievalexpansion:waterwheel-durability": "Прочность: {0}%",
+	"medievalexpansion:waterwheel-typ": "Тип: {0}",
+	"medievalexpansion:waterwheel-typ-undershot": "Подливное",
+	"medievalexpansion:waterwheel-typ-breastshot": "Среднебойное",
+	"medievalexpansion:waterwheel-typ-overshot": "Наливное",
+
+	"medievalexpansion:waterwheel-usage-title": "Энергия водяного колеса",
+	"medievalexpansion:waterwheel-usage-text": "<strong>Энергия водяного колеса</strong><br><br>Для запуска водяного колеса требуется поток воды. Вода должна течь в нужном направлении: так, чтобы колесо крутилось в направлении против часовой стрелки.<br/>Существует три варианта установки колеса: <br />- Подливное: 30%<br />- Среднебойное: 45%<br />- Наливное: 85%<br/>В процентах указана эффективность работы колеса.<br/><br/>Для наливного варианта, вам придется использовать Желоб, по которому течет вода. Желоб размещается на уровне верхней части колеса.<br/><br/>Для среднебойного варианта, вода подается на том же уровне, на котором установлена колесная ось.<br/><br/>При игре на сервере, эффективность каждого вида колеса может быть изменена при помощи файла конфигурации.",
+	"medievalexpansion:block-firebrazier-normal-*": "Жаровня",
+	"medievalexpansion:block-firebrazier-creative-*": "Жаровня (Творческий режим)",
+	"medievalexpansion:firebrazier-burningtime": "Время горения: {0}",
+	"medievalexpansion:blockhelp-firebrazier-fuel": "Добавьте горючее",
+	"medievalexpansion:blockhelp-firebrazier-ignite": "Подожгите",
+
+	"medievalexpansion:item-creature-aurochs-female": "Зубр (самка)",
+	"medievalexpansion:item-creature-aurochs-male": "Зубр (самец)",
+	"medievalexpansion:item-creature-aurochs-lamb": "Зубр (детеныш)",
+	"medievalexpansion:item-dead-creature-aurochs-male": "Мертвый зубр (самец)",
+	"medievalexpansion:item-dead-creature-aurochs-female": "Мертвый зубр (самка)",
+	"medievalexpansion:item-dead-creature-aurochs-lamb": "Мертвый зубр (детеныш)",
+
+	"medievalexpansion:block-grasicemixpile": "Куча подвального льда",
+	"medievalexpansion:item-grasicemix": "Подвальный лед",
+	"medievalexpansion:blockhelp-grasicemix-addfuel": "Добавить подвальный лед",
+	"medievalexpansion:blockhelp-grasicemix-removefuel": "Убрать подвальный лед",
+
+	"medievalexpansion:aurochs-help-title": "Одомашнивание зубров",
+	"medievalexpansion:aurochs-help-text": "<strong>Одомашнивание зубров</strong><br><br>Зубрам требуется большое корыто, они питаются: <br> - Сухой травой<br> - Сеном<br/> - Капустой",
+	"medievalexpansion:cellarice-help-title": "Охлажение помещений - подвальный лед",
+	"medievalexpansion:cellarice-help-text": "<strong>Охлаждение комнаты - подвальный лёд</strong><br><br>Подвальный лёд размещается кучей 3x3x2 блока для оптимального воздействия.<br/>Помещённый внутри, он охлаждает комнату и тает.<br/><br/>Администраторы сервера могут изменять множитель в файле конфигурации."
+}

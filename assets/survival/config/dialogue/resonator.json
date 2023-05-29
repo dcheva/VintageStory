@@ -1,0 +1,231 @@
+{
+	components: [
+		{
+			code: "intro",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "(The resonator hums quietly)" }
+			],
+		},
+		{
+			code: "main",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Search for a recent recording.", jumpTo: "startup" },
+				{ value: "Search for something old.", condition: { variable: "player.heardalchemist", isValue: "true" }, jumpTo: "engineer" },
+				{ value: "Listen to the old alchemist again", condition: { variable: "player.heardalchemist", isValue: "true" }, jumpTo: "alchemist2" },
+			],
+		},
+		{
+			code: "startup",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "(You hear the soft whirring of small machinery. Then from deep within the resonator you hear an echo, growing louder and clearer. The resonator produces these disembodied sounds as if they were right in front of you.)" }
+			],
+		},
+		{
+			code: "continue",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "(Continue)", jumpTo: "first" }
+			],
+		},
+		{
+			code: "first",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "(A voice whispers) What do you reckon it's here for? (Another voice hisses) Quiet, damn you. It can hear you. We'll have to find a way around." }
+			],
+		},
+		{
+			code: "search1",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Search for a different recording.", jumpTo: "second" }
+			],
+		},
+		{
+			code: "second",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "(Silence, then the scraping of metal on stone. A clicking, rhythmic sound drawing closer and fading away.)" },
+			],
+		},
+		{
+			code: "search2",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Keep searching.", jumpTo: "third" }
+			],
+		},
+		{
+			code: "third",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "(An old man's voice. Somehow familiar) Look, you see that? Rubedo is not limited to gold. The principle itself scales to greater heights, depending on your tools. When flux is integrated into the process instead of being the end point, what pathways could that open up? And what if we add blood to the mix? Not just any blood, of course. My own wretched blood.", setVariables: { "player.heardalchemist": "true" } },
+			],
+		},
+		{
+			code: "search3",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Search for more from the old alchemist.", jumpTo: "alchemist2" }
+			],
+		},
+		{
+			code: "alchemist2",
+			owner: "resonator",
+			type: "talk",
+			setVariables: { "player.heardalchemist": "true" },
+			text: [
+				{ value: "Aren't you listening? I said there's too many missing. Sure, we were dying like mayflies and mind you, some things are a bit hazy for me towards the end, but even so. They can't have all perished and they can't have all turned. I cannot be the only one. But where are they? That's what it always comes back to." }
+			],
+		},
+		{
+			code: "continue2",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "(Search for related recordings)", jumpTo: "alchemist3" }
+			],
+		},
+		{
+			code: "alchemist3",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "No, they hardly know anything. Of course it pains me to see them suffer. They're like... little lost children huddled in their homes. But it's for the best. It's all for the best. We had all the knowledge in the world. And worlds beyond! And what good did it do us? No. Best leave them to it. Let them think of me as some mad old sorcerer and leave me in peace." }
+			],
+		},
+		{
+			code: "continue3",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "(Continue searching)", jumpTo: "alchemist4" }
+			],
+		},
+		{
+			code: "alchemist4",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "Forgive me my ramblings. I... had lost hope, honestly. It became nothing more a goal to chase. To keep me sane over all these years. But here we are. And here you all are, somewhere out there. The world has changed. But if the Archives still stand and you're hearing this message, well you must already know this. Come find me, my friends. There is much to discuss." }
+			],
+		},
+		{
+			code: "continue4",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "(...)", jumpTo: "main" }
+			]
+		},
+		{
+			code: "engineer",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "(A confident voice speaks) Oh, that's right. You're new here. Well it's not as complicated as it seems. You see, all sounds are remembered, even this conversation now. Like memories in your head, they bounce around within the Chamber. Only, our memory is flawed and fails with time. In the Chamber, these sounds will never fade. And scribes like yourself can listen in and write what they hear. In this way, we have codified all of history, to be accessed whenever we wish." }
+			],
+		},
+		{
+			code: "continue5",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "(Continue listening)", jumpTo: "engineer2" }
+			]
+		},
+		{
+			code: "engineer2",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "Understandable, but no. The Chamber isn't listening. It's only a receptacle. You see that little worm in the corner there? It's hearing everything we say, sending it straight to the Chamber. A bit unnerving, eh? You get used to it. In desperate times like these you never know when they might come in handy. Calling for help if something goes wrong, or at the very least helping us find out what happened later." }
+			],
+		},
+		{
+			code: "continue6",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "(Continue listening)", jumpTo: "engineer3" }
+			]
+		},
+		{
+			code: "engineer3",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "Well, let me clarify: The sound isn't exactly written down on the cylinder. We tried that route, but the sound always got muddled. No, what these cylinders do is provide directions. Like a map, they tell the resonator exactly where to find the sound within the Chamber. And with that, the resonator synchronizes with the Chamber to play the sound as though it were right in front of you. No accounting for any issues with the bell's recordings, though." }
+			],
+		},
+		{
+			code: "continue7",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "(Continue listening)", jumpTo: "engineer4" }
+			]
+		},
+		{
+			code: "engineer4",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "It's an incredible feat, no doubt about that. And I'm pleased to have done my part in realizing and maintaining it. Though at times I can't help but feel such monumental efforts and resources should have been used elsewhere." }
+			],
+		},
+		{
+			code: "continue8",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "(Continue listening)", jumpTo: "engineer5" }
+			]
+		},
+		{
+			code: "engineer5",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "(A second voice responds) Oh come now, what could be more important, short of the Great Machine itself? Our libraries are gone. Our history hoarded by nobles or left to the Rot. This is the last, greatest repository of knowledge in the world! And one that will be perserved for all posterity. If Falx doesn't succeed, if we don't survive this, these archives will stand tall for any who come after." }
+			],
+		},
+		{
+			code: "continue9",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "(Continue listening)", jumpTo: "engineer6" }
+			]
+		},
+		{
+			code: "engineer6",
+			owner: "resonator",
+			type: "talk",
+			text: [
+				{ value: "(The first voice) If Falx doesn't succeed? Just who do you think will be left to find this if we fail?" }
+			],
+		},
+		{
+			code: "continue10",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "(...)", jumpTo: "main" }
+			]
+		},
+	]
+}

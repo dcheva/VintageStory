@@ -1,0 +1,83 @@
+﻿{
+	"code": "repairkit",
+	"creativeinventory": {
+		"general": [ "*" ],
+		"construction": [ "*" ]
+	},
+	"class": "ItemRepairKit",
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+
+			"properties": {
+				"layout": "Stacking",
+				"placeRemoveSound": "game:sounds/block/ceramicplace",
+				"stackingModel": "medievalexpansion:shapes/item/repairkit-large-stack",
+				"modelItemsToStackSizeRatio": 35,
+				"stackingCapacity": 32,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 4,
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.25,
+					"z2": 1
+				},
+				"cbScaleYByLayer": 0.125
+			}
+		}
+	],
+	"variantgroups": [
+		{
+			"code": "kittype",
+			"states": [ "large" ]
+		},
+		{
+			"code": "metal",
+			"states": [ "copper", "tinbronze", "iron", "steel" ]
+		}
+	],
+	"attributesByType": {
+		"*-large-copper": {
+			"handbook": { "groupBy": [ "repairkit-*" ] },
+			"repairDurability": 550,
+			"canRepairConstructions": true
+		},
+		"*-large-tinbronze": {
+			"handbook": { "groupBy": [ "repairkit-*" ] },
+			"repairDurability": 1000,
+			"canRepairConstructions": true
+		},
+		"*-large-iron": {
+			"handbook": { "groupBy": [ "repairkit-*" ] },
+			"repairDurability": 1800,
+			"canRepairConstructions": true
+		},
+		"*-large-steel": {
+			"handbook": { "groupBy": [ "repairkit-*" ] },
+			"repairDurability": 4000,
+			"canRepairConstructions": true
+		}
+	},
+	"maxStackSize": 8,
+	"shape": {
+		"base": "item/repairkit-{kittype}"
+
+	},
+	"fpHandTransform": {
+		"rotation": {
+			"x": 33,
+			"y": 35,
+			"z": 20
+		}
+	},
+	"guiTransform": {
+		"rotation": {
+			"x": 131,
+			"y": 34,
+			"z": -26
+		}
+	}
+}

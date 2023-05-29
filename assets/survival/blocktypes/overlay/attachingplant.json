@@ -1,0 +1,42 @@
+{
+	code: "attachingplant",
+	behaviors: [ {name: "Decor", properties: {sides: ["north", "east", "south", "west", "up", "down"], notFullFace:true, thickness: 0.0 }} ],
+	attributes: {
+		handbook: {
+			exclude: true
+		}
+	},
+	variantgroups: [
+		{ code:"type", states: ["moss", "spottymoss", "lichen", "barnacle", "mold"] }
+	],
+	renderPass: "Transparent",
+	drawtype: "surfacelayer",
+	randomizeRotations: true,
+	shapeInventory: {
+		base: "block/basic/layers/0voxel", rotateX: 90
+	},
+	doNotRenderAtLod2: true,
+	sidesolid: { all: false },
+	sideopaque: { all: false },
+	blockmaterial: "Plant",
+	creativeinventory: { "general": ["*"], "decorative": ["*"] },
+	replaceable: 5500,
+	resistance: 0,
+	lightAbsorption: 0,
+	texturesByType: {
+		"*-lichen": { all: {  base: "block/plant/lichen/lace/side*" } },
+		"*-moss": { all: {  base: "block/overlay/moss*" } },
+		"*-mold": { all: {  base: "block/overlay/mold/mold*" } },
+		"*-spottymoss": { all: {  base: "block/overlay/spottymoss/normal*" } },
+		"*-barnacle": { all: {  base: "block/overlay/lichen*" } },
+	},
+	drops: [],
+	combustibleProps: {
+		burnTemperature: 150,
+		burnDuration: 2,
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.5, z: 0 }
+	},
+	materialDensity: 400
+}

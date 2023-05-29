@@ -1,0 +1,202 @@
+{
+	code: "worldedit-tooloptions-select",
+	padding: 5,
+	posX: 110,
+	disableWorldInteract: false,
+	alignment: "FixedTop",
+	rows: [
+		{ elements: [
+			{
+				code: "std.selectmagicSelect",
+				width: 220,
+				height: 30,
+				type: "select",
+				mode: "dropdown",
+				label: "Selection Mode",
+				values: ["0", "1"],
+				names: ["Manual", "Magic"],
+				param: "/we magic",
+				tooltip: "Manual: Left and right mouse click to select the corner points\nMagic: Tries to automatically find the boundaries (suited for vanilla superflat worlds)"
+			},
+			{
+				width: 30,
+				code: "grownorth",
+				type: "button",
+				tooltip: "Grow selection north",
+				text: "N+",
+				param: "/we gn 1",
+				fontSize: 16,
+				paddingLeft: 10
+			},
+			{
+				width: 30,
+				code: "shrinknorth",
+				type: "button",
+				tooltip: "Shrink selection north",
+				text: "N-",
+				param: "/we gn -1",
+				fontSize: 16
+			},
+			{
+				width: 30,
+				code: "groweast",
+				type: "button",
+				tooltip: "Grow selection east",
+				text: "E+",
+				param: "/we ge 1",
+				fontSize: 16,
+				paddingLeft: 10
+			},
+			{
+				width: 30,
+				code: "shrinkeast",
+				type: "button",
+				tooltip: "Shrink selection east",
+				text: "E-",
+				param: "/we ge -1",
+				fontSize: 16
+			},
+			{
+				width: 30,
+				code: "growsouth",
+				type: "button",
+				tooltip: "Grow selection south",
+				text: "S+",
+				param: "/we gs 1",
+				fontSize: 16,
+				paddingLeft: 10
+			},
+			{
+				width: 30,
+				code: "shrinksouth",
+				type: "button",
+				tooltip: "Shrink selection south",
+				text: "S-",
+				param: "/we gs -1",
+				fontSize: 16
+			},
+			{
+				width: 30,
+				code: "growwest",
+				type: "button",
+				tooltip: "Grow selection west",
+				text: "W+",
+				param: "/we gw 1",
+				fontSize: 16,
+				paddingLeft: 10
+			},
+			{
+				width: 30,
+				code: "shrinkwest",
+				type: "button",
+				tooltip: "Shrink selection west",
+				text: "W-",
+				param: "/we gw -1",
+				fontSize: 16
+			},
+			{
+				width: 30,
+				code: "growup",
+				type: "button",
+				tooltip: "Grow selection up",
+				text: "U+",
+				param: "/we gu 1",
+				fontSize: 16,
+				paddingLeft: 10
+			},
+			{
+				width: 30,
+				code: "shrinkup",
+				type: "button",
+				tooltip: "Shrink selection up",
+				text: "U-",
+				param: "/we gu -1",
+				fontSize: 16
+			},
+			{
+				width: 30,
+				code: "growdown",
+				type: "button",
+				tooltip: "Grow selection down",
+				text: "D+",
+				param: "/we gd 1",
+				fontSize: 16,
+				paddingLeft: 10
+			},
+			{
+				width: 30,
+				code: "shrinkdown",
+				type: "button",
+				tooltip: "Shrink selection down",
+				text: "D-",
+				param: "/we gd -1",
+				fontSize: 16
+			}
+		]
+		},
+		{
+			elements: [
+				{
+					width: 75,
+					code: "copy",
+					type: "button",
+					tooltip: "Copies the current selection into the clipboard",
+					text: "Copy",
+					param: "/we mcopy",
+					fontSize: 16
+				},			
+				{
+					width: 75,
+					code: "clear",
+					type: "button",
+					tooltip: "Clears the current selection",
+					text: "Clear",
+					param: "/we mc",
+					fontSize: 16,
+					paddingLeft: 20
+				},
+				{
+					width: 75,
+					code: "removecontents",
+					type: "button",
+					tooltip: "Remove all blocks inside the selected area",
+					text: "Delete",
+					param: "/we mdelete",
+					fontSize: 16,
+					paddingLeft: 20
+				},
+				{
+					width: 75,
+					code: "relight",
+					type: "button",
+					tooltip: "Relight selected area",
+					text: "Relight",
+					param: "/we mre",
+					fontSize: 16,
+					paddingLeft: 20
+				},
+				{
+					code: "rotatecw",
+					width: 100,
+					height: 30,
+					type: "button",
+					text: "Rot. 90 CW",
+					tooltip: "Rotate the current selection clockwise by 90 degrees",
+					fontSize: 15,
+					param: "/we mr 90",
+					paddingLeft: 10
+				},
+				{
+					code: "rotateccw",
+					width: 100,
+					height: 30,
+					type: "button",
+					text: "Rot. 90 CCW",
+					tooltip: "Rotate the current selection counter clockwise by 90 degrees",
+					fontSize: 15,
+					param: "/we mr 270"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,132 @@
+﻿{
+	"code": "streetlight",
+	"class": "Streetlight",
+	"creativeinventory": { "general": [ "*-north" ] },
+	"behaviors": [
+		{ "name": "Lockable" },
+		{ "name": "HorizontalOrientable" }
+	],
+	"variantgroups": [
+		{ "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"attributes": {
+		"canChisel": false
+	},
+	"shapebytype": {
+		"*-west": {
+			"base": "block/streetlight",
+			"rotateY": 180
+		},
+		"*-east": {
+			"base": "block/streetlight",
+			"rotateY": 0
+		},
+		"*-north": {
+			"base": "block/streetlight",
+			"rotateY": 90
+		},
+		"*-south": {
+			"base": "block/streetlight",
+			"rotateY": -90
+		}
+	},
+	"drops": [ { "code": "streetlight-north" } ],
+	"faceCullMode": "NeverCull",
+	"renderer": "Shape",
+	"blockmaterial": "Wood",
+	"drawtype": "json",
+
+	"texturesByType": {
+		"*": {
+			"rope": { "base": "game:block/locustnest/stalagmite/rope" },
+			"ropedcloth": { "base": "game:block/cloth/ropedcloth" },
+			"oak-h": { "base": "block/wood/bark/oak-h" }
+		}
+	},
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"sounds": {
+		"place": "game:block/planks"
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 9,
+			"z": 0
+		},
+		"rotation": {
+			"x": -13,
+			"y": -43,
+			"z": 0
+		},
+		"origin": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"scale": 0.51
+	},
+	"fpHandTransform": {
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 1
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 90
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 1
+	},
+	"collisionBoxByType": {
+		"streetlight-*": {
+			"x1": 0.25,
+			"y1": 0,
+			"z1": 0.25,
+			"x2": 0.75,
+			"y2": 1,
+			"z2": 0.75
+		}
+	},
+	"selectionBoxByType": {
+		"streetlight-*": {
+			"x1": 0.25,
+			"y1": 0,
+			"z1": 0.25,
+			"x2": 0.75,
+			"y2": 1,
+			"z2": 0.75
+		}
+	}
+}

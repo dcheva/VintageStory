@@ -1,0 +1,136 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["face"] },
+		{ code: "face", combine: "SelectiveMultiply", onVariant: "category", states: [
+			"leather-reinforced-mask", "hunter-mask", "malefactor-mask", "forlorn-veil",
+			"tailor-mask", "sheepskull", "crow", "hummingbird", "corroded", "cat", "festivecat",
+			"marketeer", "rotwalker", "rottenking", "surgeon", "miner", "forgotten", "survivor"
+		] },
+	],
+	heldTpIdleAnimationByType: {  
+		"*-corroded": "holdunderarm"
+	},
+	shapeByType: { 
+		"@.*-(malefactor-mask|sheepskull|crow|hummingbird|corroded|cat|festivecat|marketeer|rotwalker|rottenking|surgeon|forgotten)": {
+			base: "entity/humanoid/seraph/clothing/face/{face}" 
+		},
+		"*": {
+			base: "entity/humanoid/seraph" 
+		}
+	},
+	storageFlags: 128,
+	attributesByType: {
+		"@.*-(malefactor-mask|sheepskull|crow|cat|festivecat|marketeer|forgotten|surgeon|rotwalker)": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			disableElements: ["hidefacialhair"],
+			warmth: 0.25
+		},
+		"@.*-(corroded|rottenking)": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			disableElements: ["hidefacialhair", "hideme", "Hair"],
+			warmth: 0.25
+		},
+		"*-hummingbird": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			disableElements: ["hidefacialhair", "hideme"],
+			warmth: 0.25
+		},
+		"*": {
+			clothescategory: "face",
+			disableElements: ["hidefacialhair"],
+			warmth: 0.25
+		}
+	},
+	texturesByType: {
+		"@.*-(malefactor-mask|sheepskull|crow|hummingbird|corroded|cat|festivecat|marketeer|rotwalker|rottenking|surgeon|forgotten)": {
+			"seraph": { base: "block/transparent" }
+		},
+		"*": {
+			"seraph": { base: "entity/humanoid/seraphclothes/{category}/{face}" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	renderAlphaTest: 0.25,
+	guiTransformByType: {
+		"*-forlorn-veil": {
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.75
+		},
+		"*-malefactor-mask": {
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.45, y: 1.66, z: 0.5 },
+			scale: 3
+		},
+		"*-marketeer": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.5, y: 1.74, z: 0.6 },
+			scale: 3.23
+		},				
+		"@.*-(sheepskull|crow|hummingbird|corroded|marketeer|rotwalker|rottenking|surgeon|forgotten)": {
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.5, y: 1.62, z: 0.6 },
+			scale: 3.23
+		},
+		"@.*-(cat|festivecat)": {
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.5, y: 1.68, z: 0.6 },
+			scale: 3.23
+		},
+		"*-corroded": {
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.56, y: 1.68, z: 0.59 },
+			scale: 3.23
+		},
+		"*": {
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.5, y: 1.62, z: 0.5 },
+			scale: 3.23
+		}
+	},
+	tpHandTransformByType: {
+		"@.*-(malefactor-mask|sheepskull|crow|hummingbird|cat|festivecat|marketeer|rotwalker|rottenking|surgeon|forgotten)": {
+			translation: { x: -0.55, y: -2.2, z: -0.94 },
+			rotation: { x: -89, y: 180, z: 102 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.7
+		},
+		"*-corroded": {
+			translation: { x: -0.82, y: -2.2, z: -0.5 },
+			rotation: { x: 18, y: 169, z: 30 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 0.64
+		},
+		"*": {
+			translation: { x: -0.8, y: -2.7, z: -0.9 },
+			rotation: { x: 51, y: 149, z: 42 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.55
+		},
+	},
+	groundTransform: {
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 1.5, z: 0.5299 },
+		scale: 2.58
+	},
+	fpHandTransformByType: {
+	"@.*-(malefactor-mask|sheepskull|crow|hummingbird|corroded|cat|festivecat|marketeer|rotwalker|rottenking|surgeon|forgotten)": {
+		translation: { x: 0.08, y: -1.71, z: -0.5 },
+		rotation: { x: 12, y: 42, z: -29 },
+		origin: { x: 0.5, y: 1, z: 0.5 },
+		scale: 2.5
+	},
+		"*": {
+			translation: { x: 0.08, y: -0.21, z: -0.5 },
+			rotation: { x: 180, y: 42, z: -29 },
+			origin: { x: 0.5, y: 1, z: 0.5 },
+			scale: 2.5
+		},
+	}
+}
