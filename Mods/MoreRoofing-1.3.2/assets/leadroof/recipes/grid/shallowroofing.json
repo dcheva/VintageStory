@@ -1,0 +1,463 @@
+[
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "game:slantedroofing-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "shallowroofinglower-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "leadroof:slantedroofing-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "shallowroofinglower-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "game:slantedroofingridge-*-ns-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "shallowroofingridgelower-{rooftype}-ns-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "leadroof:slantedroofingridge-*-ns-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "shallowroofingridgelower-{rooftype}-ns-free", "quantity": 1  }
+	},
+	
+	
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "game:slantedroofingtip-*-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "shallowroofingtiplower-{rooftype}-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "leadroof:slantedroofingtip-*-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "shallowroofingtiplower-{rooftype}-free", "quantity": 1  }
+	},
+	
+	
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "game:slantedroofingcornerinner-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "shallowroofingcornerinnerlower-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "leadroof:slantedroofingcornerinner-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "shallowroofingcornerinnerlower-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "game:slantedroofingcornerouter-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "shallowroofingcornerouterlower-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "leadroof:slantedroofingcornerouter-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "shallowroofingcornerouterlower-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	
+	
+	
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofinglower-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "game:slantedroofing-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofinglower-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "leadroof:slantedroofing-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingupper-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "game:slantedroofing-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingupper-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "leadroof:slantedroofing-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingridgelower-*-ns-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "game:slantedroofingridge-{rooftype}-ns-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingridgelower-*-ns-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "leadroof:slantedroofingridge-{rooftype}-ns-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingridgeupper-*-ns-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "game:slantedroofingridge-{rooftype}-ns-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingridgeupper-*-ns-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "leadroof:slantedroofingridge-{rooftype}-ns-free", "quantity": 1  }
+	},
+	
+	
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingtiplower-*-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "game:slantedroofingtip-{rooftype}-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingtiplower-*-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "leadroof:slantedroofingtip-{rooftype}-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingtipupper-*-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "game:slantedroofingtip-{rooftype}-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingtipupper-*-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "leadroof:slantedroofingtip-{rooftype}-free", "quantity": 1  }
+	},
+	
+	
+	
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingcornerinnerlower-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "game:slantedroofingcornerinner-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingcornerinnerlower-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "leadroof:slantedroofingcornerinner-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingcornerinnerupper-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "game:slantedroofingcornerinner-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingcornerinnerupper-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "leadroof:slantedroofingcornerinner-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingcornerouterlower-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "game:slantedroofingcornerouter-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingcornerouterlower-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "leadroof:slantedroofingcornerouter-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingcornerouterupper-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "copper", "slate", "thatch", "agedthatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "game:slantedroofingcornerouter-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"R": { "type": "block", "code": "shallowroofingcornerouterupper-*-east-free", "name": "rooftype", "quantity": 1, "allowedVariants": [ "lead", "zinc", "molybdochalkos" ] }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "leadroof:slantedroofingcornerouter-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	
+	
+	
+	{
+		"ingredientPattern": "R",
+		"ingredients": {
+			"R": { "type": "block", "code": "shallowroofinglower-*-east-free", name: "rooftype", "quantity": 1, "allowedVariants": [ "agedthatch", "thatch", "bamboo", "fireclay", "blueclay", "redclay", "brownclay", "slate", "copper", "zinc", "lead", "molybdochalkos"] }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "block", "code": "shallowroofingupper-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "R",
+		"ingredients": {
+			"R": { "type": "block", "code": "shallowroofingupper-*-east-free", name: "rooftype", "quantity": 1, "allowedVariants": [ "agedthatch", "thatch", "bamboo", "fireclay", "blueclay", "redclay", "brownclay", "slate", "copper", "zinc", "lead", "molybdochalkos"] }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "block", "code": "shallowroofinglower-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	
+	{
+		"ingredientPattern": "R",
+		"ingredients": {
+			"R": { "type": "block", "code": "shallowroofingridgelower-*-ns-free", name: "rooftype", "quantity": 1, "allowedVariants": [ "agedthatch", "thatch", "bamboo", "fireclay", "blueclay", "redclay", "brownclay", "slate", "copper", "zinc", "lead", "molybdochalkos"] }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "block", "code": "shallowroofingridgeupper-{rooftype}-ns-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "R",
+		"ingredients": {
+			"R": { "type": "block", "code": "shallowroofingridgeupper-*-ns-free", name: "rooftype", "quantity": 1, "allowedVariants": [ "agedthatch", "thatch", "bamboo", "fireclay", "blueclay", "redclay", "brownclay", "slate", "copper", "zinc", "lead", "molybdochalkos"] }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "block", "code": "shallowroofingridgelower-{rooftype}-ns-free", "quantity": 1  }
+	},
+	
+	
+	
+	{
+		"ingredientPattern": "R",
+		"ingredients": {
+			"R": { "type": "block", "code": "shallowroofingtiplower-*-free", name: "rooftype", "quantity": 1, "allowedVariants": [ "agedthatch", "thatch", "bamboo", "fireclay", "blueclay", "redclay", "brownclay", "slate", "copper", "zinc", "lead", "molybdochalkos"] }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "block", "code": "shallowroofingtipupper-{rooftype}-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "R",
+		"ingredients": {
+			"R": { "type": "block", "code": "shallowroofingtipupper-*-free", name: "rooftype", "quantity": 1, "allowedVariants": [ "agedthatch", "thatch", "bamboo", "fireclay", "blueclay", "redclay", "brownclay", "slate", "copper", "zinc", "lead", "molybdochalkos"] }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "block", "code": "shallowroofingtiplower-{rooftype}-free", "quantity": 1  }
+	},
+	
+	
+	
+	{
+		"ingredientPattern": "R",
+		"ingredients": {
+			"R": { "type": "block", "code": "shallowroofingcornerinnerlower-*-east-free", name: "rooftype", "quantity": 1, "allowedVariants": [ "agedthatch", "thatch", "bamboo", "fireclay", "blueclay", "redclay", "brownclay", "slate", "copper", "zinc", "lead", "molybdochalkos"] }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "block", "code": "shallowroofingcornerinnerupper-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "R",
+		"ingredients": {
+			"R": { "type": "block", "code": "shallowroofingcornerinnerupper-*-east-free", name: "rooftype", "quantity": 1, "allowedVariants": [ "agedthatch", "thatch", "bamboo", "fireclay", "blueclay", "redclay", "brownclay", "slate", "copper", "zinc", "lead", "molybdochalkos"] }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "block", "code": "shallowroofingcornerinnerlower-{rooftype}-east-free", "quantity": 1  }
+	},
+
+	
+	
+	{
+		"ingredientPattern": "R",
+		"ingredients": {
+			"R": { "type": "block", "code": "shallowroofingcornerouterlower-*-east-free", name: "rooftype", "quantity": 1, "allowedVariants": [ "agedthatch", "thatch", "bamboo", "fireclay", "blueclay", "redclay", "brownclay", "slate", "copper", "zinc", "lead", "molybdochalkos"] }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "block", "code": "shallowroofingcornerouterupper-{rooftype}-east-free", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "R",
+		"ingredients": {
+			"R": { "type": "block", "code": "shallowroofingcornerouterupper-*-east-free", name: "rooftype", "quantity": 1, "allowedVariants": [ "agedthatch", "thatch", "bamboo", "fireclay", "blueclay", "redclay", "brownclay", "slate", "copper", "zinc", "lead", "molybdochalkos"] }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "block", "code": "shallowroofingcornerouterlower-{rooftype}-east-free", "quantity": 1  }
+	}
+
+]

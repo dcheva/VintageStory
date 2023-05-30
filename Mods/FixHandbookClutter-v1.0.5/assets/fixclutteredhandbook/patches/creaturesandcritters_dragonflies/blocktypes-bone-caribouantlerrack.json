@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": { "handbook": { "groupBy": ["caribouantlerrack-*"] } },
+    "file": "game:blocktypes/bone/caribouantlerrack.json",
+    "dependsOn": [{ "modid": "dragonflies" }],
+    "side": "server"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "value": {
+      "groupByByType": {
+        "*-lamelar-*": ["armor-{bodypart}-lamelar-*"],
+        "*-lamelarar-*": ["armor-{bodypart}-lamelarar-*"],
+        "*-segment-*": ["armor-{bodypart}-segment-*"],
+        "*-samura-*": ["armor-{bodypart}-samura-*"]
+      }
+    },
+    "file": "tonwexp:itemtypes/wearable/body.json",
+    "dependsOn": [{ "modid": "tonwexp" }],
+    "side": "server"
+  }
+]

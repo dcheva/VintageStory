@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "file": "lichen:blocktypes/wickertable.json",
+    "value": {},
+    "dependsOn": [{"modid": "lichen"}],
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "file": "lichen:blocktypes/wickertable.json",
+    "value": { "groupBy": ["wickertable-*"] },
+    "dependsOn": [{"modid": "lichen"}],
+    "side": "server"
+  }
+]

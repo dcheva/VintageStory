@@ -1,0 +1,12 @@
+{
+  "type": "content",
+  "side": "server",
+  "modid": "ruinvariants",
+  "name": "Ruin Variants",
+  "description": "The underground ruins are now built of the same rock types in which they generated",
+  "authors": ["Craluminum2413"],
+  "version": "1.0.1",
+  "dependencies": {
+    "game": "1.17.0-pre.1"
+  }
+}

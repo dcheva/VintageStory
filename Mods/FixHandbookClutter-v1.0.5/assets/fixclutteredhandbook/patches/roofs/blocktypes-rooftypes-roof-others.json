@@ -1,0 +1,10 @@
+[
+  {
+		"op": "add",
+		"path": "/attributes/handbook/groupBy",
+		"file": "blocks:blocktypes/rooftypes/roof-others.json",
+		"value": ["*-hangover-*"],
+		"dependsOn":[{"modid":"shinglesandthethings"}],
+    "side": "server"
+	}
+]

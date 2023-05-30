@@ -1,0 +1,187 @@
+{
+	code: "shallowroofingupper",
+	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "east", drop: { type: "block", code: "shallowroofingupper-{material}-east-free" }  }}],
+	variantgroups: [
+		{ code: "material", states: ["copper", "zinc", "lead", "molybdochalkos", "slate", "agedthatch", "thatch", "fireclay", "blueclay", "redclay", "brownclay", "bamboo"] },
+		{ loadFromProperties: "abstract/horizontalorientation" },
+		{ code: "cover", states: ["free", "snow"] },
+	],
+	shapeByType: { 
+		"@.*-(agedthatch|thatch)-north-.*": { base: "block/shallowroofing/main/thatch-shallowupper-{cover}", rotateY: 90 },
+		"@.*-(agedthatch|thatch)-west-.*": { base: "block/shallowroofing/main/thatch-shallowupper-{cover}", rotateY: 180 },
+		"@.*-(agedthatch|thatch)-south-.*": { base: "block/shallowroofing/main/thatch-shallowupper-{cover}", rotateY: 270 },
+		"@.*-(agedthatch|thatch)-east-.*": { base: "block/shallowroofing/main/thatch-shallowupper-{cover}", rotateY: 0 },
+		
+		"@.*-(fire|blue|red|brown)clay-north-.*": { base: "block/shallowroofing/main/shingles-clay-shallowupper-{cover}", rotateY: 90 },
+		"@.*-(fire|blue|red|brown)clay-west-.*": { base: "block/shallowroofing/main/shingles-clay-shallowupper-{cover}", rotateY: 180 },
+		"@.*-(fire|blue|red|brown)clay-south-.*": { base: "block/shallowroofing/main/shingles-clay-shallowupper-{cover}", rotateY: 270 },
+		"@.*-(fire|blue|red|brown)clay-east-.*": { base: "block/shallowroofing/main/shingles-clay-shallowupper-{cover}", rotateY: 0 },
+		
+		"*-bamboo-north-*": { base: "block/shallowroofing/main/bamboo-shallowupper-{cover}", rotateY: 90 },
+		"*-bamboo-west-*": { base: "block/shallowroofing/main/bamboo-shallowupper-{cover}", rotateY: 180 },
+		"*-bamboo-south-*": { base: "block/shallowroofing/main/bamboo-shallowupper-{cover}", rotateY: 270 },
+		"*-bamboo-east-*": { base: "block/shallowroofing/main/bamboo-shallowupper-{cover}", rotateY: 0 },
+		
+		"*-north-*": { base: "block/shallowroofing/main/shingles-clay-shallowupper-{cover}", rotateY: 90 },
+		"*-west-*": { base: "block/shallowroofing/main/shingles-clay-shallowupper-{cover}", rotateY: 180 },
+		"*-south-*": { base: "block/shallowroofing/main/shingles-clay-shallowupper-{cover}", rotateY: 270 },
+		"*-east-*": { base: "block/shallowroofing/main/shingles-clay-shallowupper-{cover}", rotateY: 0 }
+	},
+	texturesByType: {
+		"*-slate-*": {
+			"red": { "base":"game:block/stone/shingles/slate*" }
+		},
+		"*-fireclay-*": {
+			"red": { "base":"game:block/clay/shingles/fire" }
+		},
+		"*-blueclay-*": {
+			"red": { "base":"game:block/clay/shingles/blue" }
+		},
+		"*-redclay-*": {
+			"red": { "base":"game:block/clay/shingles/red" }
+		},
+		"*-brownclay-*": {
+			"red": { "base":"game:block/clay/shingles/brown" }
+		},
+		"*-thatch-*": {
+			"normal-side": { "base": "game:block/hay/normal-side" },
+			"bamboo-side": { "base": "game:block/hay/bamboo-side" },
+			"normal-top": { "base": "game:block/hay/normal-top" },
+			"straw1": { "base": "game:block/plant/grassroofing/straw1" }
+		},
+		"*-agedthatch-*": {
+			"normal-side": { base: "game:block/hay/aged-side" },
+			"normal-top": { base: "game:block/hay/aged-top" },
+			"bamboo-side": { base: "game:block/hay/bamboo-side" },
+			"straw1": { base: "game:block/plant/grassroofing/straw-winter" }
+		},
+		"*-bamboo-*": {
+			"bamboosmooth": { "base": "game:block/wood/planks/bamboosmooth" },
+			"bamboo-side": { "base": "game:block/wood/planks/bamboo-side" },
+			"bamboo-top": { "base": "game:block/wood/planks/bamboo-top" }
+		},
+		"*-lead-*": {
+			"red": { "base":"block/metal/shingles/lead*" }
+		},
+		"*-zinc-*": {
+			"red": { "base":"block/metal/shingles/zinc*" }
+		},
+		"*-copper-*": {
+			"red": { "base":"game:block/metal/shingles/copper*" }
+		},
+		"*-molybdochalkos-*": {
+			"red": { "base":"block/metal/shingles/molybdochalkos*" }
+		}
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolid: { all: false, down: true },
+	sideopaque: { all: false },
+	blockmaterialByType: {
+		"*-agedthatch-*": "Plant",
+		"*-thatch-*": "Plant",
+		"*-bamboo-*": "Wood",
+		"*-copper-*": "Metal",
+		"*-lead-*": "Metal",
+		"*-zinc-*": "Metal",
+		"*-molybdochalkos-*": "Metal",
+		"*-fireclay-*": "Ceramic",
+		"*-blueclay-*": "Ceramic",
+		"*-redclay-*": "Ceramic",
+		"*-brownclay-*": "Ceramic",
+		"*-slate-*": "Stone"
+	},
+	creativeinventory: { "general": ["*-east-free"], "decorative": ["*-east-free"] },
+	replaceable: 300,
+	resistance: 2,
+	lightAbsorption: 99,
+	emitSideAo: {
+		all: true
+	},
+	sideAoByType: { "*-sod-*": { all: false } },
+	collisionSelectionBoxesByType: {
+		"*-north-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.75, z2: 1, rotateY: 90 }, { x1: 0.625, y1: 0.75, z1: 0, x2: 1, y2: 1, z2: 1, rotateY: 90 } ],
+		"*-west-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.75, z2: 1, rotateY: 180 }, { x1: 0.625, y1: 0.75, z1: 0, x2: 1, y2: 1, z2: 1, rotateY: 180 } ],
+		"*-south-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.75, z2: 1, rotateY: 270 }, { x1: 0.625, y1: 0.75, z1: 0, x2: 1, y2: 1, z2: 1, rotateY: 270 } ],
+		"*-east-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.75, z2: 1 }, { x1: 0.625, y1: 0.75, z1: 0, x2: 1, y2: 1, z2: 1 } ]
+	},
+	soundsByType: {
+		"*-agedthatch-*": {
+			place: "game:block/plant",
+			break: "game:block/plant",
+			hit: "game:block/plant",
+		},
+		"*-thatch-*": {
+			place: "game:block/plant",
+			break: "game:block/plant",
+			hit: "game:block/plant",
+		},
+		"*-bamboo-*": {
+			place: "game:block/planks",
+			break: "game:block/planks",
+			hit: "game:block/planks",
+		},
+		"*-copper-*": {
+			"place": "game:block/chute",
+			"break": "game:block/chute",
+			"hit": "game:block/chute",
+			"walk": "game:walk/stone"
+		},
+		"*-lead-*": {
+			"place": "game:block/chute",
+			"break": "game:block/chute",
+			"hit": "game:block/chute",
+			"walk": "game:walk/stone"
+		},
+		"*-zinc-*": {
+			"place": "game:block/chute",
+			"break": "game:block/chute",
+			"hit": "game:block/chute",
+			"walk": "game:walk/stone"
+		},
+		"*-molybdochalkos-*": {
+			"place": "game:block/chute",
+			"break": "game:block/chute",
+			"hit": "game:block/chute",
+			"walk": "game:walk/stone"
+		},
+		"*-slate-*": {
+			walk: "game:walk/stone",
+			place: "game:block/ceramicplace"
+		},
+		"*-fireclay-*": {
+			walk: "game:walk/stone",
+			place: "game:block/ceramicplace"
+		},
+		"*-blueclay-*": {
+			walk: "game:walk/stone",
+			place: "game:block/ceramicplace"
+		},
+		"*-redclay-*": {
+			walk: "game:walk/stone",
+			place: "game:block/ceramicplace"
+		},
+		"*-brownclay-*": {
+			walk: "game:walk/stone",
+			place: "game:block/ceramicplace"
+		}
+	},
+	guiTransformByType: {
+		"*-thatch-*": {
+			rotation: { x: -22.6, y: -40, z: 0 },
+			origin: { x: 0.29, y: 0.54, z: 0.44 },
+			scale: 0.85
+		},
+		"*-agedthatch-*": {
+			rotation: { x: -22.6, y: -40, z: 0 },
+			origin: { x: 0.29, y: 0.54, z: 0.44 },
+			scale: 0.85
+		},
+		"*": {
+			rotation: { x: -22.6, y: -40, z: 0 },
+			origin: { x: 0.53, y: 0.55, z: 0.46 },
+			scale: 0.85
+		}
+	}
+}

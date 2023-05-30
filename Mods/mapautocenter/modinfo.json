@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "name": "Map Autocenter",
+  "modid": "mapautocenter",
+  "version": "1.1.0",
+  "authors": ["Rangelost"],
+  "description": "Automatically centers the world map on the player when opened.",
+  "side": "Client",
+  "dependencies": { 
+	"game": "1.18.0"
+  }
+}

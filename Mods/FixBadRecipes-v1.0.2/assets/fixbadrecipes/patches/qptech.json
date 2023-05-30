@@ -1,0 +1,13 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/X",
+    "file": "machines:recipes/grid/industrial/lv/washplant.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 3
+    },
+    "dependsOn": [{ "modid": "qptech" }]
+  }
+]

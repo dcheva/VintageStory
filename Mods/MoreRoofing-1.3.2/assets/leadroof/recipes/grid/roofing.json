@@ -1,0 +1,637 @@
+[
+	{
+		"ingredientPattern": "__H,_H_,H__",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-lead" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "slantedroofing-lead-east-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H_,H_H",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-lead" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingridge-lead-ns-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H_,HHH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-lead" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingtip-lead-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H,H_,_H",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-lead" }
+		},
+		"width": 2,
+		"height": 3,
+		"output": { "type": "block", "code": "slantedroofingcornerinner-lead-east-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H,HH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-lead" }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingcornerouter-lead-east-free", "quantity": 3  }
+	},
+	
+	{
+		"ingredientPattern": "__H,_H_,H__",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "slantedroofing-zinc-east-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H_,H_H",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingridge-zinc-ns-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H_,HHH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingtip-zinc-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H,H_,_H",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 2,
+		"height": 3,
+		"output": { "type": "block", "code": "slantedroofingcornerinner-zinc-east-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H,HH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingcornerouter-zinc-east-free", "quantity": 3  }
+	},
+	
+	{
+		"ingredientPattern": "__H,_H_,H__",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "slantedroofing-zinc-east-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H_,H_H",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingridge-zinc-ns-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H_,HHH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingtip-zinc-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H,H_,_H",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 2,
+		"height": 3,
+		"output": { "type": "block", "code": "slantedroofingcornerinner-zinc-east-free", "quantity": 3  }
+	},
+
+	{
+		"ingredientPattern": "__H,_H_,H__",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "slantedroofing-molybdochalkos-east-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H_,H_H",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingridge-molybdochalkos-ns-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H_,HHH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingtip-molybdochalkos-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H,H_,_H",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 2,
+		"height": 3,
+		"output": { "type": "block", "code": "slantedroofingcornerinner-molybdochalkos-east-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H,HH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingcornerouter-molybdochalkos-east-free", "quantity": 3  }
+	},
+	
+	{
+		"ingredientPattern": "__H,_H_,H__",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "slantedroofing-molybdochalkos-east-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H_,H_H",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingridge-molybdochalkos-ns-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H_,HHH",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "slantedroofingtip-molybdochalkos-free", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "_H,H_,_H",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 2,
+		"height": 3,
+		"output": { "type": "block", "code": "slantedroofingcornerinner-molybdochalkos-east-free", "quantity": 3  }
+	},
+
+
+	{
+		"ingredientPattern": "_HP,_P_,P__",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-copper" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "sheetroofingmain-copper-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP_,P_P",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-copper" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingridge-copper-ns-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP_,PPP",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-copper" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingtip-copper-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP,P_,_P",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-copper" }
+		},
+		"width": 2,
+		"height": 3,
+		"output": { "type": "block", "code": "sheetroofingcornerinner-copper-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP,PP",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-copper" }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingcornerouter-copper-east-free", "quantity": 4  }
+	},
+	
+	
+	{
+		"ingredientPattern": "_HP,_P_,P__",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-lead" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "sheetroofingmain-lead-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP_,P_P",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-lead" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingridge-lead-ns-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP_,PPP",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-lead" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingtip-lead-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP,P_,_P",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-lead" }
+		},
+		"width": 2,
+		"height": 3,
+		"output": { "type": "block", "code": "sheetroofingcornerinner-lead-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP,PP",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-lead" }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingcornerouter-lead-east-free", "quantity": 4  }
+	},
+	
+	
+	
+	{
+		"ingredientPattern": "_HP,_P_,P__",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "sheetroofingmain-zinc-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP_,P_P",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingridge-zinc-ns-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP_,PPP",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingtip-zinc-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP,P_,_P",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 2,
+		"height": 3,
+		"output": { "type": "block", "code": "sheetroofingcornerinner-zinc-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP,PP",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-zinc" }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingcornerouter-zinc-east-free", "quantity": 4  }
+	},
+
+
+
+	{
+		"ingredientPattern": "_HP,_P_,P__",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "sheetroofingmain-molybdochalkos-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP_,P_P",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingridge-molybdochalkos-ns-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP_,PPP",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingtip-molybdochalkos-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP,P_,_P",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 2,
+		"height": 3,
+		"output": { "type": "block", "code": "sheetroofingcornerinner-molybdochalkos-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "HP,PP",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "game:metalplate-molybdochalkos" }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "sheetroofingcornerouter-molybdochalkos-east-free", "quantity": 4  }
+	},
+
+
+
+	
+	{
+		"ingredientPattern": "__W,AW_,W__",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:log-placed-*-ud", "name": "material", "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofing-{material}-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "__W,_WA,W__",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:log-placed-*-ud", "name": "material", "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofing-{material}-east-free", "quantity": 4  }
+	},
+
+	{
+		"ingredientPattern": "W__,AW_,__W",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:log-placed-*-ud", "name": "material", "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofing-{material}-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "W__,_WA,__W",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:log-placed-*-ud", "name": "material", "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofing-{material}-east-free", "quantity": 4  }
+	},
+
+	{
+		"ingredientPattern": "_A_,_W_,W_W",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:log-placed-*-ud", "name": "material", "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofingridge-{material}-ns-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "_A_,_W_,WWW",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:log-placed-*-ud", "name": "material", "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofingtip-{material}-free", "quantity": 4  }
+	},
+
+	{
+		"ingredientPattern": "__W,AW_,__W",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:log-placed-*-ud", "name": "material", "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofingcornerinner-{material}-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "W__,_WA,W__",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:log-placed-*-ud", "name": "material", "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofingcornerinner-{material}-east-free", "quantity": 4  }
+	},
+
+	{
+		"ingredientPattern": "AW,WW",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:log-placed-*-ud", "name": "material", "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "shakeroofingcornerouter-{material}-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "WA,WW",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:log-placed-*-ud", "name": "material", "allowedVariants": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "shakeroofingcornerouter-{material}-east-free", "quantity": 4  }
+	},
+	
+	
+	{
+		"ingredientPattern": "__W,AW_,W__",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:logsection-placed-*-ud", "name": "material", "allowedVariants": ["redwood"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofing-{material}-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "__W,_WA,W__",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:logsection-placed-*-ud", "name": "material", "allowedVariants": ["redwood"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofing-{material}-east-free", "quantity": 4  }
+	},
+
+	{
+		"ingredientPattern": "W__,AW_,__W",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:logsection-placed-*-ud", "name": "material", "allowedVariants": ["redwood"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofing-{material}-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "W__,_WA,__W",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:logsection-placed-*-ud", "name": "material", "allowedVariants": ["redwood"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofing-{material}-east-free", "quantity": 4  }
+	},
+
+	{
+		"ingredientPattern": "_A_,_W_,W_W",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:logsection-placed-*-ud", "name": "material", "allowedVariants": ["redwood"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofingridge-{material}-ns-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "_A_,_W_,WWW",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:logsection-placed-*-ud", "name": "material", "allowedVariants": ["redwood"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofingtip-{material}-free", "quantity": 4  }
+	},
+
+	{
+		"ingredientPattern": "__W,AW_,__W",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:logsection-placed-*-ud", "name": "material", "allowedVariants": ["redwood"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofingcornerinner-{material}-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "W__,_WA,W__",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:logsection-placed-*-ud", "name": "material", "allowedVariants": ["redwood"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "shakeroofingcornerinner-{material}-east-free", "quantity": 4  }
+	},
+
+	{
+		"ingredientPattern": "AW,WW",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:logsection-placed-*-ud", "name": "material", "allowedVariants": ["redwood"] }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "shakeroofingcornerouter-{material}-east-free", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "WA,WW",
+		"ingredients":  {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"W": { "type": "block", "code": "game:logsection-placed-*-ud", "name": "material", "allowedVariants": ["redwood"] }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "shakeroofingcornerouter-{material}-east-free", "quantity": 4  }
+	}
+]

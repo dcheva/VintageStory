@@ -1,0 +1,38 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/C",
+    "file": "tradeomat:recipes/grid/tomat-crate.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 8
+    },
+    "dependsOn": [{ "modid": "tradeomat" }]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "file": "tradeomat:recipes/grid/tomat-crate.json",
+    "value": "B_B,CC_",
+    "dependsOn": [{ "modid": "tradeomat" }]
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "file": "tradeomat:recipes/grid/tomat-crate.json",
+    "value": 3,
+    "dependsOn": [{ "modid": "tradeomat" }]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/C",
+    "file": "tradeomat:recipes/grid/tomat-tall.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 8
+    },
+    "dependsOn": [{ "modid": "tradeomat" }]
+  }
+]

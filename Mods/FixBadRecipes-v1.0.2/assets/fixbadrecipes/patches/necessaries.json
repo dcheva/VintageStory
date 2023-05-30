@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "file": "necessaries:recipes/grid/trashcan.json",
+    "value": "SHS,B_B,SBS",
+    "dependsOn": [{ "modid": "necessaries" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B/quantity",
+    "file": "necessaries:recipes/grid/trashcan.json",
+    "value": 2,
+    "dependsOn": [{ "modid": "necessaries" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/S",
+    "file": "necessaries:recipes/grid/trashcan.json",
+    "value": {
+      "type": "item",
+      "code": "game:stick"
+    },
+    "dependsOn": [{ "modid": "necessaries" }]
+  }
+]

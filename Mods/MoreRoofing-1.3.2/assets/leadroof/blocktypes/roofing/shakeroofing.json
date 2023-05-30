@@ -1,0 +1,56 @@
+{
+	"code": "shakeroofing",
+	"behaviors": [{ "name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east", "drop": { "type": "block", "code": "shakeroofing-{material}-east-free" }  }}],
+	"variantgroups": [
+		{ "code": "material", "states": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "walnut", "ebony", "purpleheart"] },
+		{ "loadFromProperties": "abstract/horizontalorientation" },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"shapeByType": { 
+		"*-north-*": { "base": "block/roofing/main/shakes-wood-{cover}", "rotateY": 90 },
+		"*-west-*": { "base": "block/roofing/main/shakes-wood-{cover}", "rotateY": 180 },
+		"*-south-*": { "base": "block/roofing/main/shakes-wood-{cover}", "rotateY": 270 },
+		"*-east-*": { "base": "block/roofing/main/shakes-wood-{cover}", "rotateY": 0 }
+	},
+	"texturesByType": {
+		"*": {
+			"material": { "base": "game:block/wood/planks/{material}*" }
+		}
+	},
+	"drawtype": "json",
+	"faceCullMode": "neverCull",
+	"renderpass": "OpaqueNoCull",
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false},
+	"blockmaterialByType": {
+		"*": "Wood"
+	},
+	"creativeinventory": { "general": ["*-east-free"], "decorative": ["*-east-free"] },
+	"replaceable": 300,
+	"resistance": 2,
+	"lightAbsorption": 99,
+	"emitSideAo": {
+		"all": true
+	},
+	"collisionSelectionBoxesByType": {
+		"*-north-*": [ { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.5625, "z2": 1, "rotateY": 90 }, { "x1": 0.625, "y1": 0.5625, "z1": 0, "x2": 1, "y2": 1, "z2": 1, "rotateY": 90 } ],
+		"*-west-*": [ { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.5625, "z2": 1, "rotateY": 180 }, { "x1": 0.625, "y1": 0.5625, "z1": 0, "x2": 1, "y2": 1, "z2": 1, "rotateY": 180 } ],
+		"*-south-*": [ { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.5625, "z2": 1, "rotateY": 270 }, { "x1": 0.625, "y1": 0.5625, "z1": 0, "x2": 1, "y2": 1, "z2": 1, "rotateY": 270 } ],
+		"*-east-*": [ { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.5625, "z2": 1 }, { "x1": 0.625, "y1": 0.5625, "z1": 0, "x2": 1, "y2": 1, "z2": 1 } ]
+	},
+	"soundsByType": {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks",
+            "walk": "game:walk/wood"
+		}
+	},
+	"guiTransformByType": {
+		"*": {
+			"rotation": { "x": -22.6, "y": -40, "z": 0 },
+			"origin": { "x": 0.53, "y": 0.55, "z": 0.46 },
+			"scale": 0.85
+		}
+	}
+}

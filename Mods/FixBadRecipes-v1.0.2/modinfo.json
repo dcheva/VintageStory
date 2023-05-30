@@ -1,0 +1,13 @@
+{
+    "type": "content",
+    "name": "Fix Bad Recipes",
+    "modid": "fixbadrecipes",
+    "version": "1.0.2",
+
+    "description": "Fixes recipes that require ingredients that are not always compatible with every mod.",
+    "authors": [ "Craluminum2413" ],
+
+    "dependencies": {
+		"game": "1.16.0"
+    }
+}

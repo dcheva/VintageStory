@@ -1,0 +1,58 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/C",
+    "file": "zeekea:recipes/grid/freezer.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 8
+    },
+    "dependsOn": [{ "modid": "zeekea" }]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/C",
+    "file": "zeekea:recipes/grid/tall_locker.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "name": "wood",
+      "quantity": 8
+    },
+    "dependsOn": [{ "modid": "zeekea" }]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/B",
+    "file": "zeekea:recipes/grid/bell.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 4
+    },
+    "dependsOn": [{ "modid": "zeekea" }]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S",
+    "file": "zeekea:recipes/grid/cabinetbottom.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 4
+    },
+    "dependsOn": [{ "modid": "zeekea" }]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S",
+    "file": "zeekea:recipes/grid/cabinetdoors.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 4
+    },
+    "dependsOn": [{ "modid": "zeekea" }]
+  }
+]

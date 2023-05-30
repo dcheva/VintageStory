@@ -17,7 +17,8 @@
     "modDbUrl": "https://mods.vintagestory.at/",
     "playeruid": "dmytrocheva",
     "playername": "Dee",
-    "currentHandbookCategoryCode": "stack"
+    "currentHandbookCategoryCode": "stack",
+    "audioDevice": "Line 1 (Virtual Audio Cable)"
   },
   "intSettings": {
     "mipmapLevel": 3,
@@ -39,7 +40,7 @@
     "soundLevel": 100,
     "ambientSoundLevel": 100,
     "weatherSoundLevel": 100,
-    "musicLevel": 25,
+    "musicLevel": 35,
     "screenWidth": 1280,
     "screenHeight": 850,
     "gameWindowMode": 1,

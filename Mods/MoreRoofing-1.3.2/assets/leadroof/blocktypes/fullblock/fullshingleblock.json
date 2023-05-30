@@ -1,0 +1,35 @@
+{
+	"code": "fullroofblock",
+	"variantgroups": [
+		{ "code": "material", "states": ["lead","zinc","copper","molybdochalkos"] }
+	],
+	"drawtype": "cube",
+	"sidesolid": { "all": true },
+	"sideopaque": { "all": true },
+	"blockmaterial": "Metal",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"] },
+	"replaceable": 300,
+	"resistance": 2,
+	"lightAbsorption": 1,
+	"emitSideAo": {
+		"all": false
+	},
+	"textures": {
+		"all": { 
+			"base": "block/metal/shingles/{material}1", 
+			"alternates": [{ "base": "block/metal/shingles/{material}2"}, { "base": "block/metal/shingles/{material}3" }]
+		}
+	},
+	"vertexFlags": {
+		"reflective": true,
+		"windDataByType": {
+			"*": 1
+		}			
+	},
+	"sounds": {
+		"place": "game:block/chute",
+		"break": "game:block/chute",
+		"hit": "game:block/chute",
+		"walk": "game:walk/stone"
+	}
+}

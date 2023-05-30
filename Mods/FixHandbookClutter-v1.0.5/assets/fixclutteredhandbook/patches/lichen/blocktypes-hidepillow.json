@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "file": "lichen:blocktypes/hidepillow.json",
+    "value": {},
+    "dependsOn": [{"modid": "lichen"}],
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "file": "lichen:blocktypes/hidepillow.json",
+    "value": { "groupBy": ["hidepillow-*"] },
+    "dependsOn": [{"modid": "lichen"}],
+    "side": "server"
+  }
+]

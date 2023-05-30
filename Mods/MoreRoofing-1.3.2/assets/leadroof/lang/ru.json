@@ -1,0 +1,73 @@
+{
+"block-slantedroofing-lead-*": "Скат свинцовой кровли",
+	
+"block-slantedroofingridge-lead-*": "Конёк свинцовой кровли",
+	
+"block-slantedroofingtip-lead-*": "Край свинцовой кровли",
+	
+"block-slantedroofingcornerinner-lead-*": "Угол свинцовой кровли (внутренний)",
+	
+"block-slantedroofingcornerouter-lead-*": "Угол свинцовой кровли (наружный)",
+	
+"block-slantedroofing-zinc-*": "Скат цинковой кровли",
+	
+"block-slantedroofingridge-zinc-*": "Конёк цинковой кровли",
+	
+"block-slantedroofingtip-zinc-*": "Край цинковой кровли",
+	
+"block-slantedroofingcornerinner-zinc-*": "Угол цинковой кровли (внутренний)",
+	
+"block-slantedroofingcornerouter-zinc-*": "Угол цинковой кровли (наружный)",
+
+"block-slantedroofing-molybdochalkos-*": "Скат молибдохалкоса кровли",
+	
+"block-slantedroofingridge-molybdochalkos-*": "Конёк молибдохалкоса кровли",
+	
+"block-slantedroofingtip-molybdochalkos-*": "Край молибдохалкоса кровли",
+	
+"block-slantedroofingcornerinner-molybdochalkos-*": "Угол молибдохалкоса кровли (внутренний)",
+	
+"block-slantedroofingcornerouter-molybdochalkos-*": "Угол молибдохалкоса кровли (наружный)",
+	
+	
+"block-sheetroofingmain-copper-*": "Скат плоской медной кровли",
+	
+"block-sheetroofingridge-copper-*": "Конёк плоской медной кровли",
+	
+"block-sheetroofingtip-copper-*": "Край плоской медной кровли",
+	
+"block-sheetroofingcornerinner-copper-*": "Угол плоской медной кровли (внутренний)",
+	
+"block-sheetroofingcornerouter-copper-*": "Угол плоской медной кровли (наружный)",
+	
+"block-sheetroofingmain-lead-*": "Скат плоской свинцовой кровли",
+	
+"block-sheetroofingridge-lead-*": "Конёк плоской свинцовой кровли",
+	
+"block-sheetroofingtip-lead-*": "Край плоской свинцовой кровли",
+	
+"block-sheetroofingcornerinner-lead-*": "Угол плоской свинцовой кровли (внутренний)",
+	
+"block-sheetroofingcornerouter-lead-*": "Угол плоской свинцовой кровли (наружный)",
+	
+"block-sheetroofingmain-zinc-*": "Скат плоской цинковой кровли",
+	
+"block-sheetroofingridge-zinc-*": "Конёк плоской цинковой кровли",
+	
+"block-sheetroofingtip-zinc-*": "Край плоской цинковой кровли",
+	
+"block-sheetroofingcornerinner-zinc-*": "Угол плоской цинковой кровли (внутренний)",
+	
+"block-sheetroofingcornerouter-zinc-*": "Угол плоской цинковой кровли (наружный)"
+
+"block-sheetroofingmain-molybdochalkos-*": "Скат плоской молибдохалкоса кровли",
+	
+"block-sheetroofingridge-molybdochalkos-*": "Конёк плоской молибдохалкоса кровли",
+	
+"block-sheetroofingtip-molybdochalkos-*": "Край плоской молибдохалкоса кровли",
+	
+"block-sheetroofingcornerinner-molybdochalkos-*": "Угол плоской молибдохалкоса кровли (внутренний)",
+	
+"block-sheetroofingcornerouter-molybdochalkos-*": "Угол плоской молибдохалкоса кровли (наружный)"
+
+}

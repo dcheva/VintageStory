@@ -1,0 +1,9 @@
+AMFinder
+— A mod for finding a block within a certain radius of the player!
+
+The mod adds two client commands:
+.findblock <(string) NameBlockID> <(int) Size> — Searches for all blocks in a cube of the corresponding size.
+.checkblock — Shows the ID of the block you are looking at.
+
+Example:
+.findblock rock-limestone 11

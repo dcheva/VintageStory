@@ -1,0 +1,16 @@
+{
+	"type": "code",
+	"name": "SinglePause",
+	"modid": "singlepause",
+	"version": "1.0.3",
+	
+	"description" : "A quick mod made to pause the game when you open handbook on single player.",
+	"website": "https://github.com/Llama3013/vsmod-singlepause",
+	"authors": [ "llama3013" ],
+	"RequiredOnClient": true,
+    "IconPath": "modicon.png",
+	
+	"dependencies": {
+		"game": "1.8.0"
+	}
+}

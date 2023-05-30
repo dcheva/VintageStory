@@ -1,0 +1,96 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/C",
+    "file": "bettercrates:recipes/grid/bettercrate.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 8
+    },
+    "dependsOn": [{ "modid": "bettercrates" }]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "bettercrates:recipes/grid/bettercrate2.json",
+    "value": false,
+    "dependsOn": [{ "modid": "bettercrates" }]
+  },
+
+  {
+    "op": "replace",
+    "path": "/ingredients/C",
+    "file": "bettercrates:recipes/grid/upgradebronze.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 8
+    },
+    "dependsOn": [{ "modid": "bettercrates" }]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "bettercrates:recipes/grid/upgradebronze2.json",
+    "value": false,
+    "dependsOn": [{ "modid": "bettercrates" }]
+  },
+
+  {
+    "op": "replace",
+    "path": "/ingredients/C",
+    "file": "bettercrates:recipes/grid/upgradecopper.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 8
+    },
+    "dependsOn": [{ "modid": "bettercrates" }]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "bettercrates:recipes/grid/upgradecopper2.json",
+    "value": false,
+    "dependsOn": [{ "modid": "bettercrates" }]
+  },
+
+  {
+    "op": "replace",
+    "path": "/ingredients/C",
+    "file": "bettercrates:recipes/grid/upgradeiron.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 8
+    },
+    "dependsOn": [{ "modid": "bettercrates" }]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "bettercrates:recipes/grid/upgradeiron2.json",
+    "value": false,
+    "dependsOn": [{ "modid": "bettercrates" }]
+  },
+
+  {
+    "op": "replace",
+    "path": "/ingredients/C",
+    "file": "bettercrates:recipes/grid/upgradesteel.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 8
+    },
+    "dependsOn": [{ "modid": "bettercrates" }]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "bettercrates:recipes/grid/upgradesteel2.json",
+    "value": false,
+    "dependsOn": [{ "modid": "bettercrates" }]
+  }
+]

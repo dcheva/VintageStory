@@ -1,0 +1,60 @@
+{
+    "code": "villagergear",
+    "class": "ItemVillagerGear",
+    "maxstacksize": 1,
+    "attributes": {
+        "weaponAssetLocationByType": {
+            "*-spear-gold": "spear-ornate-gold",
+            "*-spear-silver": "spear-ornate-silver",
+            "*-scrap-spear": "spear-scrap",
+            "*-scrap-blade": "blade-curved-scrap",
+            "*-scrap-axe": "axe-scrap",
+            "*-scrap-club": "woodenclub-scrap",
+            "*-scrap-mace": "woodenclub-scrapmace",
+            "*-dagger": "knife-meteoriciron",
+            "*-sword-blackguard": "blade-short-blackguard",
+            "*": "{name}"
+        },
+        "wearableAttachment": true,
+        "handbook": {
+            "exclude": true
+        }
+    },
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "weapon"
+            ]
+        },
+        {
+            "code": "name",
+            "states": [
+                "bow",
+                "dagger",
+                "spear-silver",
+                "spear-gold",
+                "scrap-spear",
+                "scrap-blade",
+                "scrap-axe",
+                "scrap-club",
+                "scrap-mace",
+                "sword-blackguard",
+                "bow-simple",
+                "bow-recurve",
+                "bow-long"
+            ]
+        }
+    ],
+    "shapeByType": {
+        "*-bow": {
+            "base": "game:entity/humanoid/traderaccessories/tools/bow"
+        },
+        "*-dagger": {
+            "base": "game:entity/humanoid/traderaccessories/tools/dagger"
+        },
+        "*": {
+            "base": "villagergear/{name}"
+        }
+    }
+}

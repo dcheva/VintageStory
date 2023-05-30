@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["elephantpack-*"] },
+    "file": "packanimals:itemtypes/elephantpack.json",
+    "dependsOn": [{ "modid": "packanimals" }],
+    "side": "server"
+  }
+]

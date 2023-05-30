@@ -1,0 +1,17 @@
+[
+	{
+		"op": "remove",
+		"path": "/attributes/handbook",
+		"file": "blocks:blocktypes/rooftypes/roof.json",
+		"dependsOn":[{"modid":"shinglesandthethings"}],
+    "side": "server"
+	},
+	{
+		"op": "add",
+		"path": "/attributes/handbook",
+		"file": "blocks:blocktypes/rooftypes/roof.json",
+		"value": { "groupBy": ["roof-{type}-*"] },
+		"dependsOn":[{"modid":"shinglesandthethings"}],
+    "side": "server"
+	}
+]

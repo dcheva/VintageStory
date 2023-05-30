@@ -1,0 +1,18 @@
+[
+  {
+		"op": "add",
+		"path": "/attributes",
+		"file": "zeekea:blocktypes/armchair.json",
+    "value": {},
+		"dependsOn": [{"modid": "zeekea"}],
+    "side": "server"
+	},
+  {
+		"op": "add",
+		"path": "/attributes/handbook",
+		"file": "zeekea:blocktypes/armchair.json",
+		"value": { "groupBy": ["armchair-*"] },
+		"dependsOn": [{"modid": "zeekea"}],
+    "side": "server"
+	}
+]

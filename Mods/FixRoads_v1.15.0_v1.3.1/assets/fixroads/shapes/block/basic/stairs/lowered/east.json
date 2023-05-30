@@ -1,0 +1,39 @@
+{
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {},
+  "textures": {},
+  "elements": [
+    {
+      "name": "Base",
+      "from": [-0.001, -1.0, -0.001],
+      "to": [16.001, 7.0, 16.001],
+      "faces": {
+        "north": { "texture": "#north", "uv": [0.0, 0.0, 16.0, 7.0] },
+        "east": { "texture": "#east", "uv": [0.0, 0.0, 16.0, 7.0] },
+        "south": { "texture": "#south", "uv": [0.0, 0.0, 16.0, 7.0] },
+        "west": { "texture": "#west", "uv": [0.0, 0.0, 16.0, 7.0] },
+        "up": { "texture": "#up", "uv": [0.0, 0.0, 16.0, 16.0] },
+        "down": { "texture": "#down", "uv": [0.0, 0.0, 16.0, 16.0] }
+      }
+    },
+    {
+      "name": "Step",
+      "from": [8.0, 7.0, -0.001],
+      "to": [16.001, 15.0, 16.001],
+      "rotationOrigin": [0.0, -1.0, 0.0],
+      "faces": {
+        "north": { "texture": "#north", "uv": [0.0, 0.0, 8.0, 8.0] },
+        "east": { "texture": "#east", "uv": [0.0, 0.0, 16.0, 8.0] },
+        "south": { "texture": "#south", "uv": [0.0, 0.0, 8.0, 8.0] },
+        "west": { "texture": "#west", "uv": [0.0, 0.0, 16.0, 8.0] },
+        "up": { "texture": "#up", "uv": [0.0, 0.0, 8.0, 16.0] },
+        "down": { "texture": "#down", "uv": [0.0, 0.0, 8.0, 16.0] }
+      }
+    }
+  ]
+}

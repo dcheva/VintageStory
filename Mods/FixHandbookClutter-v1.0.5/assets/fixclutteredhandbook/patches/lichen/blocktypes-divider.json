@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "file": "lichen:blocktypes/divider.json",
+    "value": {},
+    "dependsOn": [{"modid": "lichen"}],
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/handbook",
+    "file": "lichen:blocktypes/divider.json",
+    "value": { "groupBy": ["shojiscreen-*"] },
+    "dependsOn": [{"modid": "lichen"}],
+    "side": "server"
+  }
+]

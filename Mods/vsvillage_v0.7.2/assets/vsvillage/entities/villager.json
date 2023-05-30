@@ -1,0 +1,322 @@
+{
+	"code": "humanoid-villager",
+	"class": "EntityVillager",
+	"canClimb": true,
+	"eyeHeight": 1.4,
+	"hitboxSize": { "x": 0.6, "y": 1.75 },
+	"deadHitboxSize": { "x": 0.75, "y": 0.5 },
+	"attributesByType": {
+		"*-soldier": {
+			"profession": "soldier",
+			"validGear": {
+				"arms": ["armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "bandage-left", "bandage-right"],
+				"back": [],
+				"belt": [],
+				"beltslot": ["jewelry-pouch", "jewelry-pouch-copper", "sack", "spyglass"],
+				"chest": ["armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "bandage"],
+				"feet": ["armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "bandage-left", "bandage-right", "knife"],
+				"head": ["armor", "armor", "armor", "armor", "armor", "armor-hallowcroft", "bandage", "bandage-eye", "bandage-eye"],
+				"shoulders": ["armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "bandage-left", "bandage-right"],
+				"thigh": ["armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "bandage-left", "bandage-right"],
+				"weapon": ["spear-silver", "spear-gold", "scrap-spear", "scrap-blade", "scrap-axe", "scrap-club", "scrap-mace", "sword-blackguard"]
+			}
+		},
+		"*-archer": {
+			"profession": "soldier",
+			"validGear": {
+				"arms": ["armor", "armor-hallowcroft", "armor"],
+				"back": [],
+				"belt": [],
+				"beltslot": ["jewelry-pouch", "jewelry-pouch-copper", "sack", "spyglass"],
+				"chest": [],
+				"feet": ["armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "bandage-left", "bandage-right"],
+				"head": ["armor"],
+				"shoulders": [],
+				"thigh": ["armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "armor", "armor-hallowcroft", "bandage-left", "bandage-right"],
+				"weapon": ["bow-simple", "bow-long", "bow-recurve"]
+			}
+		},
+		"*-smith": {
+			"profession": "smith",
+			"validGear": {
+				"arms": ["gloves"],
+				"back": ["pickaxe"],
+				"belt": ["jewelry-girdle", "jewelry-girdle-copper"],
+				"beltslot": ["hammer"],
+				"chest": ["apron", "apron-cloth", "apron-fancy"],
+				"feet": [],
+				"head": ["miner-hat"],
+				"shoulders": ["jewelry-necklace", "jewelry-necklace-copper", "jewelry-necklace-gold", "scarf"],
+				"thigh": [],
+				"weapon": []
+			}
+		},
+		"*-farmer": {
+			"profession": "farmer",
+			"validGear": {
+				"arms": ["jewelry-left-bracelet", "jewelry-right-bracelet", "jewelry-left-bracelet-copper", "jewelry-right-bracelet-copper", "jewelry-left-bracelet-gold", "jewelry-right-bracelet-gold", "jewelry-left-rings", "jewelry-right-rings", "jewelry-left-rings-copper", "jewelry-right-rings-copper", "jewelry-left-rings-gold", "jewelry-right-rings-gold","gloves"],
+				"back": [],
+				"belt": [],
+				"beltslot": [],
+				"chest": [],
+				"feet": ["boots"],
+				"head": ["beret", "fez"],
+				"shoulders": [],
+				"thigh": [],
+				"weapon": []
+			}
+		},
+		"*-shepherd": {
+			"profession": "shepherd",
+			"validGear": {
+				"arms": ["jewelry-left-bracelet", "jewelry-right-bracelet", "jewelry-left-bracelet-copper", "jewelry-right-bracelet-copper", "jewelry-left-bracelet-gold", "jewelry-right-bracelet-gold", "jewelry-left-rings", "jewelry-right-rings", "jewelry-left-rings-copper", "jewelry-right-rings-copper", "jewelry-left-rings-gold", "jewelry-right-rings-gold","gloves"],
+				"back": [],
+				"belt": ["jewelry-girdle", "jewelry-girdle-copper"],
+				"beltslot": [],
+				"chest": [],
+				"feet": ["boots"],
+				"head": ["keffiyeh"],
+				"shoulders": ["scarf"],
+				"thigh": [],
+				"weapon": []
+			}
+		},
+		"*-herbalist": {
+			"profession": "herbalist",
+			"validGear": {
+				"arms": [],
+				"back": ["backpack"],
+				"belt": [],
+				"beltslot": ["magnifying-glass", "jewelry-pouch", "jewelry-pouch-copper", "jewelry-pouch-gold", "sack"],
+				"chest": ["waterskin"],
+				"feet": ["knife"],
+				"head": ["chaperon"],
+				"shoulders": [],
+				"thigh": [],
+				"weapon": []
+			}
+		},
+		"*-mayor": {
+			"profession": "mayor",
+			"validGear": {
+				"arms": ["jewelry-left-bracelet", "jewelry-right-bracelet", "jewelry-left-bracelet-copper", "jewelry-right-bracelet-copper", "jewelry-left-bracelet-gold", "jewelry-right-bracelet-gold", "jewelry-left-rings", "jewelry-right-rings", "jewelry-left-rings-copper", "jewelry-right-rings-copper", "jewelry-left-rings-gold", "jewelry-right-rings-gold"],
+				"back": [],
+				"belt": ["jewelry-girdle", "jewelry-girdle-copper", "jewelry-girdle-gold"],
+				"beltslot": ["magnifying-glass"],
+				"chest": ["jewelry-pin", "jewelry-pin-copper", "jewelry-pin-gold"],
+				"feet": [],
+				"head": ["jewelry-monocle",	"jewelry-monocle-copper", "jewelry-monocle-gold"],
+				"shoulders": ["jewelry-necklace", "jewelry-necklace-copper", "jewelry-necklace-gold"],
+				"thigh": [],
+				"weapon": []
+			}
+		}
+	},
+	"variantGroups": [{"code": "sex", "states": ["male", "female"]}, {"code": "profession", "states": ["soldier", "smith", "farmer", "shepherd", "herbalist", "mayor", "archer"]}],
+	"client": {
+		"renderer": "Shape",
+		"shape": { "base": "villager" },
+		"textures": { 
+			"hair": { "baseByType": {"*-male-*": "body/hair1", "*-female-*": "body/hair-old-woman1"}, 
+				"alternatesByType": {	"*-male-*": [ { "base": "body/hair2" }, { "base": "body/hair3" }, { "base": "body/hair4" }, { "base": "body/hair5" }, { "base": "body/hair6" }, { "base": "body/hair7" }, { "base": "body/hair-old-woman1" }, { "base": "body/hair-old-woman2" }, { "base": "body/hair-old-woman3" }, { "base": "body/hair-old-woman4" }, { "base": "body/hair-old-woman5" }, { "base": "body/hair-old-woman6" }, { "base": "body/hair-old-woman7" }, { "base": "body/hair-old-woman8" }, { "base": "body/hair-old-woman9" }], 
+										"*-female-*": [ { "base": "body/hair-old-woman2" }, { "base": "body/hair-old-woman3" }, { "base": "body/hair-old-woman4" }, { "base": "body/hair-old-woman5" }, { "base": "body/hair-old-woman6" }, { "base": "body/hair-old-woman7" }, { "base": "body/hair-old-woman8" }, { "base": "body/hair-old-woman9" }, { "base": "body/hair-young-woman1" }, { "base": "body/hair-young-woman2" }, { "base": "body/hair-young-woman3" }, { "base": "body/hair-young-woman4" }, { "base": "body/hair-young-woman5" }, { "base": "body/hair-young-woman6" }, { "base": "body/hair-young-woman7" }]}},
+			"skin": { "base": "body/skin1", "alternates": [ { "base": "body/skin2" }, { "base": "body/skin3" }, { "base": "body/skin4" }, { "base": "body/skin-old" }  ] },
+			"shirt": { "base": "clothes/upperbody/shirt1", "alternates": [ { "base": "clothes/upperbody/shirt2" }, { "base": "clothes/upperbody/shirt3" }, { "base": "clothes/upperbody/shirt4" }, { "base": "clothes/upperbody/shirt5" }, { "base": "clothes/upperbody/shirt6" }, { "base": "clothes/upperbody/shirt7" }, { "base": "clothes/upperbody/shirt8" }, { "base": "clothes/upperbody/shirt9" }, { "base": "clothes/upperbody/shirt10" }, { "base": "clothes/upperbody/shirt11" }, { "base": "clothes/upperbody/shirt12" }, { "base": "clothes/upperbody/shirt13" }, { "base": "clothes/upperbody/shirt14" } ] },
+			"boots": { "base": "clothes/foot/boots1", "alternates": [ { "base": "clothes/foot/boots2" }, { "base": "clothes/foot/boots3" } ] },
+			"pants": { "base": "clothes/lowerbody/pants1", "alternates": [ { "base": "clothes/lowerbody/pants2" }, { "base": "clothes/lowerbody/pants3" }, { "base": "clothes/lowerbody/pants4" }, { "base": "clothes/lowerbody/pants5" }, { "base": "clothes/lowerbody/pants6" } ] },
+			"face": { "base": "body/face1", "alternates": [ { "base": "body/face2" }, { "base": "body/face3" }, { "base": "body/face-old-woman" }, { "base": "body/face-young-woman" }  ] }
+		},
+		"behaviors": [
+			{ "code": "nametag", "showtagonlywhentargeted": true },
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics", "stepHeight": 1.01 },
+			{ "code": "interpolateposition" }
+		],
+		"animations": [
+			{
+				"code": "die",
+				"animation": "die",
+				"animationSpeed": 1.75,
+				"weight": 10,
+				"blendMode": "AddAverage"
+			},
+			{
+				"code": "hurt",
+				"animation": "hurt",
+				"animationSpeed": 2,
+				"blendMode": "AddAverage"
+			},
+            { "code": "rowdywelcome", "animation": "rowdywelcome", "blendMode": "AddAverage" },
+            { "code": "lazywelcome", "animation": "lazywelcome", "blendMode": "AddAverage" },
+            { "code": "lazynod", "animation": "lazynod", "blendMode": "AddAverage" }
+		]
+	},
+	"server": {
+		"attributes": {
+			"pathfinder": {
+				"minTurnAnglePerSec": 720,
+				"maxTurnAnglePerSec": 1440
+			}
+
+		},
+		"behaviors": [
+			{ "code": "nametag", "showtagonlywhentargeted": true, "selectFromRandomNameByType": {"*-male-*": ["Aphid", "Erik", "Adachi", "Farhad", "Pegalesharro", "Floyd", "Temper", "En Repos", "Alanus", "Baldrich", "Cuno", "Dominicus", "Ludwig", "Lambert", "Geralt", "Richard", "Wolfram", "Zachäus", "Pippin", "Frodo", "Baggins", "Rudolf", "Marcus", "Benjamin", "Cronos", "Timoleon", "Leonidas", "Xerxes", "Brutus", "William", "Maurinus", "Hubertus"], "*-female-*": ["Anne", "Agnes", "Adachi", "Farhad", "Bianca", "Hedwig", "Demud", "Imagina", "Johanna", "Judith", "Magdalena", "Philippa", "Methild", "Violante", "Walpurga", "Josephine", "Joana", "Yvonne", "Lisbeth", "Dione", "Diana", "Olivia", "Hermine", "Triss", "Yennefer", "Lucia", "Mirella", "Bernadetta", "Tacia"]}},
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics", "stepHeight": 1.01 },
+			{ "code": "health", "currenthealthByType": {"*-smith": 30, "*-soldier": 40, "*": 20 }, "maxhealthByType": {"*-smith": 30, "*-soldier": 40, "*": 20}},
+			{
+				"code": "emotionstates",
+				"states": [
+					{ "code": "aggressiveondamage", "duration": 6, "chance": 0.6, "slot": 0, "priority": 2, "accumType": "noaccum" },
+					{ "code": "fleeondamage", "duration": 10, "chance": 0.4, "slot": 0, "priority": 1, "whenHealthRelBelow": 0.3, "accumType": "max" }
+				]
+			},
+			{ "code": "AlternatePathTraverser" },
+            {
+                "code": "deaddecay",
+                "hoursToDecay": 96,
+                "decayedBlock": "drycarcass-humanoid1"
+            },
+			{
+				"code": "taskai",
+				"aitasks": [
+					{
+						"codeByType": { "*-archer": "villagerrangedattack", "*": "villagermeleeattack" },
+						"entityCodes": ["drifter-*", "locust-*", "bear-*", "wolf-male", "wolf-female", "looter", "hound-*", "bandit-*", "poacher-*", "yeoman-archer"],
+						"priority": 2,
+						"damageByType": { "*-soldier": 12, "*-archer": 6, "*": 1 },
+						"damageTier": 3,
+						"mincooldown": 1500,
+						"maxcooldown": 2500,
+						"attackDurationMs": 900,
+						"damagePlayerAtMs": 300,
+						"animationByType": { "*-archer": "BowAim", "*": "Attack" },
+						"stabanimation": "SpearStab",
+						"stabanimationspeed": 0.7,
+						"slashanimation": "SwordHit",
+						"slashanimationspeed": 0.7,
+						"animationSpeedByType": { "*-archer": 1, "*":  2 },
+						"durationMs": 1300,
+						"releaseAtMs": 1000,
+						"seekingRange": 25,
+						"animationRelase": "BowHit",
+						"drawingsound": "game:sounds/bow-draw.ogg",
+						"shootingsound": "game:sounds/bow-release.ogg",
+						"projectile": "game:arrow-iron"
+					},
+					{
+						"code": "villagerseekentity",
+						"entityCodesByType": {
+							"*-soldier": ["drifter-*", "locust-*", "bear-*", "wolf-male", "wolf-female", "looter", "hound-*", "bandit-*", "poacher-*", "yeoman-archer"],
+							"*": []
+						},
+						"priority": 1.6,
+						"mincooldown": 1000,
+						"maxcooldown": 1500,
+						"seekingRange": 20,
+						"minRangeByType": { "*-archer": 8, "*": 0 },
+						"movespeed": 0.035,
+						"animation": "RowdyRun",
+						"animationSpeed": 1.75
+					},
+					{
+						"code": "fleeentity",
+						"entityCodesByType": {
+							"*-soldier": [],
+							"*": ["drifter-*", "locust-*", "bear-*", "wolf-male", "wolf-female", "looter", "hound-*", "bandit-*", "poacher-*", "yeoman-archer"]
+						},
+						"priority": 1.5,
+						"movespeed": 0.035,
+						"seekingRangeByType": { "*-archer": 7, "*": 12 },
+						"animationByType": { "*-archer": "BalancedRun", "*": "FormalRun" },
+						"animationSpeed": 1.75
+					},
+					{
+						"code": "idle",
+						"priority": 1.2,
+						"minduration": 2500,
+						"maxduration": 2500,
+						"mincooldown": 2000,
+						"maxcooldown": 10000,
+						"animation": "laugh"
+					},
+					{
+						"code": "idle",
+						"priority": 1.2,
+						"minduration": 2500,
+						"maxduration": 2500,
+						"mincooldown": 5000,
+						"maxcooldown": 30000,
+						"animation": "idle2"
+					},
+					{
+						"code": "wander",
+						"priority": 1.0,
+						"movespeed": 0.01,
+						"animation": "Walk",
+						"wanderChance": 0.005,
+						"wanderRangeMin": 1,
+						"wanderRangeMax": 3,
+						"teleportWhenOutOfRange": false,
+						"teleportInGameHours": 1
+					},
+					{
+						"code": "villagergotowork",
+						"priority": 1.4,
+						"movespeed": 0.01,
+						"animation": "Walk",
+						"mincooldown": 30000,
+						"maxcooldown": 60000,
+						"duringDayTimeFrames": [ { "fromHour": 7, "toHour": 16 } ],
+						"maxdistance": 75
+					},
+					{
+						"code": "villagergotogather",
+						"priority": 1.4,
+						"movespeed": 0.01,
+						"animation": "Walk",
+						"mincooldown": 30000,
+						"maxcooldown": 60000,
+						"duringDayTimeFrames": [ { "fromHour": 17, "toHour": 21 } ],
+						"maxdistance": 75
+					},
+					{
+						"code": "villagersleep",
+						"priority": 1.4,
+						"movespeed": 0.01,
+						"animation": "Walk",
+						"duringDayTimeFrames": [ { "fromHour": 22, "toHour": 25 }, { "fromHour": -1, "toHour": 6 } ]
+					},
+					{
+						"code": "villagersocialize",
+						"priority": 1.3,
+						"mincooldown": 10000,
+						"maxcooldown": 30000,
+						"movespeed": 0.01,
+						"animation": "Walk",
+						"interact": "welcome"
+					},
+					{
+						"code": "lookaround",
+						"priority": 0.5
+					},
+					{
+						"codeByType":{ "*-shepherd": "villagerfilltrough", "*-farmer": "villagercultivatecrops", "@.*-(soldier|archer)": "villagerstayclose", "*-herbalist": "villagerhealwounded", "*": "villagerflipweapon"},
+						"weaponByType":{ "*-smith": "hammer", "*": "sword" },
+						"minduration": 3500,
+						"maxduration": 3500,
+						"mincooldownByType": {"*-herbalist": 10000, "*": 60000},
+						"maxcooldownByType": {"*-herbalist": 20000, "*": 120000},
+						"maxdistanceByType": { "@.*-(soldier|archer)": 5, "*-herbalist": 25, "*": 10 },
+						"animationByType": { "*-shepherd": "walk", "*-farmer": "walk", "*-herbalist": "walk", "@.*-(soldier|archer)": "BalancedRun", "*": "hammerflip" },
+						"animationSpeedByType": { "@.*-(soldier|archer)": 1.75, "*": 1 },
+						"priorityByType": { "@.*-(soldier|archer)": 1.5, "*": 1.4 },
+						"movespeedByType": { "@.*-(soldier|archer)": 0.035, "*": 0.01 }
+					}
+				]
+			}
+		]
+	},
+	"sounds": {
+	}
+}

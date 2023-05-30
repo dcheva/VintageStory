@@ -1,0 +1,48 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/C",
+    "file": "extrachests:recipes/grid/copper-chest.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 8
+    },
+    "dependsOn": [{ "modid": "extrachests" }]
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/C",
+    "file": "extrachests:recipes/grid/copper-labeledchest.json",
+    "value": {
+      "type": "item",
+      "code": "game:plank-*",
+      "quantity": 10
+    },
+    "dependsOn": [{ "modid": "extrachests" }]
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/S",
+    "file": "extrachests:recipes/grid/copper-labeledchest.json",
+    "value": {
+      "type": "item",
+      "code": "game:stick"
+    },
+    "dependsOn": [{ "modid": "extrachests" }]
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "file": "extrachests:recipes/grid/copper-labeledchest.json",
+    "value": "CPS",
+    "dependsOn": [{ "modid": "extrachests" }]
+  },
+  {
+    "op": "replace",
+    "path": "/0/width",
+    "file": "extrachests:recipes/grid/copper-labeledchest.json",
+    "value": 3,
+    "dependsOn": [{ "modid": "extrachests" }]
+  }
+]

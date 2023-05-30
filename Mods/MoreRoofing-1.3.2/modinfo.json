@@ -1,0 +1,19 @@
+{
+  "Type": 1,
+  "TextureSize": 32,
+  "Name": "More Roofing",
+  "Version": "1.3.2",
+  "NetworkVersion": null,
+  "Description": "Adds new metal shingle and flat sheet roofing, wooden shake roofing, and copper, lead and zinc flat sheet roofing.",
+  "Website": "",
+  "ModID": "leadroof",
+  "Authors": [
+    "Catasteroid",
+    "macoto_hino"
+  ],
+  "Contributors": [],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}

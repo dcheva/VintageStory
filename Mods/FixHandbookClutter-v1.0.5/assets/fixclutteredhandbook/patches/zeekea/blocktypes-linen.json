@@ -1,0 +1,10 @@
+[
+  {
+		"op": "add",
+		"path": "/attributes/handbook",
+		"file": "zeekea:blocktypes/linen.json",
+		"value": { "groupBy": ["linen-*"] },
+		"dependsOn": [{"modid": "zeekea"}],
+    "side": "server"
+	}
+]

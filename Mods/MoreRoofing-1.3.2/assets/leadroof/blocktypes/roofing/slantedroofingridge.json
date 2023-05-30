@@ -1,0 +1,55 @@
+{
+	"code": "slantedroofingridge",
+	"behaviors": [{ "name": "NWOrientable"}],	
+	"variantgroups": [
+		{ "code": "material", "states": ["lead","zinc","molybdochalkos"] },
+		{ "code":"orientation", "states": ["ns", "we"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"shapeByType": { 
+		"*-ns-*": { "base": "block/roofing/ridge/shingles-slate-{material}-{cover}", "rotateY": 0 },
+		"*-we-*": { "base": "block/roofing/ridge/shingles-slate-{material}-{cover}", "rotateY": 90 }
+	},
+	"texturesByType": {
+		"*-lead-*": {
+			"material": { "base": "block/metal/shingles/lead*" }
+		},
+		"*-zinc-*": {
+			"material": { "base": "block/metal/shingles/zinc*" }
+		},
+		"*-molybdochalkos-*": {
+			"material": { "base": "block/metal/shingles/molybdochalkos*" }
+		}
+	},
+	"drawtype": "json",
+	"faceCullMode": "neverCull",
+	"renderpass": "OpaqueNoCull",
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false},
+	"blockmaterialByType": {
+		"*-lead-*": "Metal",
+		"*-zinc-*": "Metal",
+		"*-molybdochalkos-*": "Metal"
+	},
+	"creativeinventory": { "general": ["*-ns-free"], "decorative": ["*-ns-free"] },
+	"replaceable": 300,
+	"resistance": 2,
+	"lightAbsorption": 99,
+	"emitSideAo": {
+		"all": true
+	},
+	"collisionSelectionBox": {
+		"x1": 0.1875, "y1": 0, "z1": 0, "x2": 1, "y2": 0.5625, "z2": 1
+	},
+	"sounds": {
+		"place": "game:block/chute",
+		"break": "game:block/chute",
+		"hit": "game:block/chute",
+		"walk": "game:walk/stone"
+	},
+	"guiTransform": {
+			"rotation": { "x": -22.6, "y": -40, "z": 0 },
+			"origin": { "x": 0.29, "y": 0.45, "z": 0.44 },
+			"scale": 0.85
+	}
+}
