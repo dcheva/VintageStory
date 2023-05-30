@@ -5,3 +5,5 @@
 *.ogg
 *.png
 *.svg
+client-*.txt
+server-*.txt
