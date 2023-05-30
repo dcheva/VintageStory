@@ -5,5 +5,5 @@
 *.ogg
 *.png
 *.svg
-client-*.txt
-server-*.txt
+VintagestoryData/Logs/client-*.txt
+VintagestoryData/Logs/server-*.txt
