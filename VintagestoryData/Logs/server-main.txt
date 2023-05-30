@@ -1,237 +1,252 @@
-30.5.2023 08:35:49 [Notification] Server logger started.
-30.5.2023 08:35:49 [Notification] Game Version: v1.18.5 (Stable)
-30.5.2023 08:35:49 [Event] Launching server...
-30.5.2023 08:35:49 [Event] Server v1.18.5, network v1.18.6, api v1.7.0
-30.5.2023 08:35:49 [Notification] Entering runphase Initialization
-30.5.2023 08:35:49 [Event] Loading configuration...
-30.5.2023 08:35:49 [Notification] Entering runphase Configuration
-30.5.2023 08:35:49 [Notification] Loading savegame
-30.5.2023 08:35:49 [Notification] Create new save game data. Playstyle: surviveandbuild
-30.5.2023 08:35:49 [Notification] Default spawn was set in serverconfig, resetting for safety.
-30.5.2023 08:35:49 [Notification] Savegame C:\Users\Dmytro\AppData\Roaming\VintagestoryData\Saves\dees cave world.vcdbs loaded
-30.5.2023 08:35:49 [Notification] World size = 1024000 256 1024000
-30.5.2023 08:35:49 [Notification] Start discovering assets
-30.5.2023 08:35:49 [Notification] Found 1 base assets in category blocktypes
-30.5.2023 08:35:49 [Notification] Found 0 base assets in category itemtypes
-30.5.2023 08:35:49 [Notification] Found 22 base assets in category lang
-30.5.2023 08:35:49 [Notification] Found 0 base assets in category patches
-30.5.2023 08:35:49 [Notification] Found 22 base assets in category config
-30.5.2023 08:35:49 [Notification] Found 0 base assets in category worldproperties
-30.5.2023 08:35:49 [Notification] Found 46 base assets in category sounds
-30.5.2023 08:35:49 [Notification] Found 97 base assets in category shapes
-30.5.2023 08:35:49 [Notification] Found 131 base assets in category textures
-30.5.2023 08:35:49 [Notification] Found 0 base assets in category recipes
-30.5.2023 08:35:49 [Notification] Found 0 base assets in category worldgen
-30.5.2023 08:35:49 [Notification] Found 2 base assets in category entities
-30.5.2023 08:35:49 [Notification] Found 0 base assets in category compatibility
-30.5.2023 08:35:49 [Notification] Found 321 base assets in total
-30.5.2023 08:35:49 [Event] Building assets...
-30.5.2023 08:35:49 [Notification] Entering runphase AssetsReady
-30.5.2023 08:35:49 [Notification] Will search the following paths for mods:
-30.5.2023 08:35:49 [Notification]     C:\Projects\VintageStory\Mods
-30.5.2023 08:35:49 [Notification]     C:\Users\Dmytro\AppData\Roaming\VintagestoryData\Mods
-30.5.2023 08:35:49 [Notification] Found 8 mods (0 disabled)
-30.5.2023 08:35:49 [Notification] Mods, sorted by dependency: AMFinder, game, hudclock, medievalexpansion, medievalmap, creative, survival, tradercamps
-30.5.2023 08:35:49 [Notification] Instantiated 103 mod systems from 5 enabled mods
-30.5.2023 08:35:49 [Notification] External Origins in load order: modorigin@C:\Projects\VintageStory\assets\creative\, modorigin@C:\Projects\VintageStory\assets\survival\, mod@medievalexpansion-3.9.2, mod@cob_tradercamps_1.0.5
-30.5.2023 08:35:49 [Notification] Found 424 external assets in category blocktypes
-30.5.2023 08:35:49 [Notification] Found 242 external assets in category itemtypes
-30.5.2023 08:35:49 [Notification] Found 8 external assets in category lang
-30.5.2023 08:35:49 [Notification] Found 14 external assets in category patches
-30.5.2023 08:35:49 [Notification] Found 57 external assets in category config
-30.5.2023 08:35:49 [Notification] Found 25 external assets in category worldproperties
-30.5.2023 08:35:49 [Notification] Found 355 external assets in category sounds
-30.5.2023 08:35:49 [Notification] Found 3259 external assets in category shapes
-30.5.2023 08:35:49 [Notification] Found 5317 external assets in category textures
-30.5.2023 08:35:49 [Notification] Found 375 external assets in category recipes
-30.5.2023 08:35:49 [Notification] Found 426 external assets in category worldgen
-30.5.2023 08:35:49 [Notification] Found 65 external assets in category entities
-30.5.2023 08:35:49 [Notification] Found 0 external assets in category compatibility
-30.5.2023 08:35:49 [Notification] Reloaded lang file with mod assets
-30.5.2023 08:35:49 [Event] Medieval Expansion Mod v3.9.1 loading
-30.5.2023 08:35:49 [Notification] Compatibility lib: 0 assets added, 0 assets replaced.
-30.5.2023 08:35:49 [Notification] JsonPatch Loader: 28 патчей всего, успешно применено 28 патчей, невыполненны условия в 5 патчах, нет проблем
-30.5.2023 08:35:50 [Notification] Loaded 3052 unique items
-30.5.2023 08:35:54 [Notification] Loaded 12818 unique blocks
-30.5.2023 08:35:54 [Notification] Loaded 389 unique entities
-30.5.2023 08:35:54 [Notification] BlockLoader: Entities, Blocks and Items loaded
-30.5.2023 08:35:54 [Event] Remapping blocks and items...
-30.5.2023 08:35:54 [Event] 6 cooking recipes loaded
-30.5.2023 08:35:54 [Event] 690 crafting recipes loaded from 248 files
-30.5.2023 08:35:54 [Event] 9 metal alloys loaded
-30.5.2023 08:35:54 [Event] 240 smithing recipes loaded
-30.5.2023 08:35:54 [Event] 55 clay forming recipes loaded
-30.5.2023 08:35:54 [Event] 36 knapping recipes loaded
-30.5.2023 08:35:54 [Event] 140 barrel recipes loaded
-30.5.2023 08:35:54 [Notification] Entering runphase AssetsFinalize
-30.5.2023 08:35:55 [Event] Server assets loaded, parsed, registered and finalized
-30.5.2023 08:35:55 [Event] Initialising systems...
-30.5.2023 08:35:55 [Notification] Entering runphase LoadGamePre
-30.5.2023 08:35:55 [Notification] Reloaded 19 weather patterns, 5 wind patterns and 5 weather events
-30.5.2023 08:35:55 [Notification] Started 90 systems on Server:
-30.5.2023 08:35:55 [Notification]     Mod 'VSEssentials.dll' (game):
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.Core
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.EntityPartitioning
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ErrorReporter
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.ModCompatiblityUtil
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.NoObf.ModJsonPatchLoader
-30.5.2023 08:35:55 [Notification]         Vintagestory.Essentials.PathfindSystem
-30.5.2023 08:35:55 [Notification]         Vintagestory.Essentials.PathFindDebug
-30.5.2023 08:35:55 [Notification]         Vintagestory.Essentials.PathfindingAsync
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.JsonExport
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.ModBasicBlocksLoader
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemDormancyStateChecker
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemEmotes
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.LeafBlockDecay
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.POIRegistry
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.RoomRegistry
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.WeatherSystemCommands
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.WeatherSystemServer
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.WorldMapManager
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.NoObf.ModRegistryObjectTypeLoader
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.LoadColorMaps
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ClothManager
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GridRecipeLoader
-30.5.2023 08:35:55 [Notification]     Mod 'VSSurvivalMod.dll' (survival):
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenSnowLayer
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenTerra
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemControlPoints
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.SurvivalCoreSystem
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenTerraPostProcess
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.ModSystemDetailModeSync
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.ModSystemTiledDungeonGenerator
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenHotSprings
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.ChiselBlockBulkSetMaterial
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenFromHeightmap
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenRockStrataNew
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.NpcControl
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenCreatures
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenMaps
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.WgenCommands
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.DebugSystem
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.UpgradeTasks
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemCorpseReturnTeleporter
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ClutterBookshelfUtil
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemResoArchiveCommands
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.Core
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemSupportBeamPlacer
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ScreenshakeToClientModSystem
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemCatchCreature
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemGliding
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.MyceliumSystem
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemAuction
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.DialogueSystem
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemTutorial
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.LiquidItemStackRenderer
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemStructureLocator
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.CharacterSystem
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.FruitingSystem
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemRifts
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemRiftWeather
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModTemperature
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ResoArchivesSpawnConditions
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.SystemTemporalStability
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModsystemButterflySpawnCondsExtra
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemWearableStats
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemBlockReinforcement
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.TemporalStabilityEffects
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModJournal
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModLootRandomizer
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSleeping
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.TeleporterManager
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.ModSystemEditableBook
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.Mechanics.MechanicalPowerMod
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenDungeons
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenDeposits
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.GenStoryStructures
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenStructures
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenCaves
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenBlockLayers
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenPonds
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenStructuresPosPass
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenVegetationAndPatches
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.RecipeRegistrySystem
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenRivulets
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenLightSurvival
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.RecipeLoader
-30.5.2023 08:35:55 [Notification]         Vintagestory.GameContent.TraderOutfits
-30.5.2023 08:35:55 [Notification]     Mod 'VSCreativeMod.dll' (creative):
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.Core
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.WorldEdit.WorldEdit
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenBlockLayersFlat
-30.5.2023 08:35:55 [Notification]         Vintagestory.ServerMods.GenLightCreative
-30.5.2023 08:35:55 [Notification]     Mod 'medievalexpansion-3.9.2' (medievalexpansion):
-30.5.2023 08:35:55 [Notification]         gates.src.MedievalExpansionMod
-30.5.2023 08:35:55 [Notification]     Mod 'cob_tradercamps_1.0.5' (tradercamps):
-30.5.2023 08:35:55 [Notification]         CoB.Mod.CoB
-30.5.2023 08:35:55 [Notification] Sending server identification with remap False.  Server control privilege is True
-30.5.2023 08:35:56 [Notification] Server map set
-30.5.2023 08:35:56 [Notification] Entering runphase GameReady
-30.5.2023 08:35:56 [Event] Starting world generators...
-30.5.2023 08:35:56 [Notification] Entering runphase WorldReady
-30.5.2023 08:35:57 [Notification] Reloaded 35 tree generators
-30.5.2023 08:35:57 [Event] Loading 7x7x8 spawn chunks...
-30.5.2023 08:35:57 [Event] 0% (49 in queue)
-30.5.2023 08:35:59 [Event] 0% (49 in queue)
-30.5.2023 08:36:00 [Event] 0% (81 in queue)
-30.5.2023 08:36:02 [Event] 0% (121 in queue)
-30.5.2023 08:36:03 [Notification] Tried to get block outside generating chunks! Set RuntimeEnv.DebugOutOfRangeBlockAccess to debug.
-30.5.2023 08:36:03 [Event] 0% (160 in queue)
-30.5.2023 08:36:05 [Event] 0% (157 in queue)
-30.5.2023 08:36:06 [Event] 0% (187 in queue)
-30.5.2023 08:36:07 [Event] Begin game ticking...
-30.5.2023 08:36:07 [Notification] Entering runphase RunGame
-30.5.2023 08:36:07 [Notification] Starting server threads
-30.5.2023 08:36:07 [Event] Сервер для одиночной игры now running!
-30.5.2023 08:36:07 [Notification] All clients disconnected, pausing game calendar.
-30.5.2023 08:36:07 [Notification] A Client attempts connecting via Dummy connection, assigning client id 1
-30.5.2023 08:36:07 [Notification] Client uid dmytrocheva attempting identification. Name: Dee
-30.5.2023 08:36:07 [Notification] Upped server view distance because player is locally connected
-30.5.2023 08:36:07 [Notification] Placing player at 512000.5 118 512000.5
-30.5.2023 08:36:09 [Event] Dee 127.0.0.1 joins.
-30.5.2023 08:36:10 [Notification] Server ticking has been suspended
-30.5.2023 08:36:36 [Notification] Server ticking has been resumed
-30.5.2023 08:36:36 [Notification] A client reconnected, resuming game calendar.
-30.5.2023 08:37:32 [Notification] Tried to get block outside generating chunks! Set RuntimeEnv.DebugOutOfRangeBlockAccess to debug.
-30.5.2023 08:41:16 [Notification] Server ticking has been suspended
-30.5.2023 08:41:16 [Notification] Autosaving game world. Notifying mods, then systems of save...
-30.5.2023 08:41:16 [Notification] Defragmented listener lists
-30.5.2023 08:41:16 [Event] Mods and systems notified, now saving everything...
-30.5.2023 08:41:16 [Event] Will do offthread savegamedata saving...
-30.5.2023 08:41:16 [Event] Saved player world data...
-30.5.2023 08:41:16 [Event] Saved map regions...
-30.5.2023 08:41:16 [Event] Saved map chunks...
-30.5.2023 08:41:16 [Event] World saved! Saved 0 chunks, 0 mapchunks, 4 mapregions.
-30.5.2023 08:41:16 [Notification] A client reconnected, resuming game calendar.
-30.5.2023 08:41:16 [Notification] Server ticking has been resumed
-30.5.2023 08:41:16 [Event] Saved 300 chunks...
-30.5.2023 08:41:17 [Event] Saved 600 chunks...
-30.5.2023 08:41:17 [Event] Saved 900 chunks...
-30.5.2023 08:41:17 [Event] Saved 1200 chunks...
-30.5.2023 08:41:17 [Event] Saved 1500 chunks...
-30.5.2023 08:41:17 [Event] Saved 1800 chunks...
-30.5.2023 08:41:17 [Event] Offthread save of 1872 chunks done.
-30.5.2023 08:41:17 [Event] Saved 300 generating chunks...
-30.5.2023 08:41:17 [Event] Saved 600 generating chunks...
-30.5.2023 08:41:17 [Notification] Offthread save of 736 generating chunks done.
-30.5.2023 08:41:17 [Event] Offthread save of 340 map chunks done.
-30.5.2023 08:41:17 [Event] Offthread save of savegame done.
-30.5.2023 08:42:37 [Notification] Server ticking has been suspended
-30.5.2023 08:43:05 [Notification] Last player disconnected, compacting large object heap...
-30.5.2023 08:43:09 [Event] Игрок Dee исключен. Причина: Server shutting down - Exit request by client
-30.5.2023 08:43:09 [Notification] Server stop requested, begin shutdown sequence. Stop reason: Exit request by client
-30.5.2023 08:43:09 [Notification] Entering runphase Shutdown
-30.5.2023 08:43:09 [Notification] Defragmented listener lists
-30.5.2023 08:43:09 [Event] Mods and systems notified, now saving everything...
-30.5.2023 08:43:09 [Event] Saved player world data...
-30.5.2023 08:43:09 [Event] Saved map regions...
-30.5.2023 08:43:09 [Event] Saved map chunks...
-30.5.2023 08:43:09 [Event] Saved loaded chunks...
-30.5.2023 08:43:09 [Event] Saved generating chunks...
-30.5.2023 08:43:09 [Event] Saved savegamedata...2
-30.5.2023 08:43:09 [Event] World saved! Saved 138 chunks, 248 mapchunks, 4 mapregions.
-30.5.2023 08:43:09 [Event] Shutting down 5 server threads... 
-30.5.2023 08:43:09 [Event] Killed console thread
-30.5.2023 08:43:09 [Event] All threads gracefully shut down
-30.5.2023 08:43:09 [Event] Doing last tick...
-30.5.2023 08:43:09 [Event] Stopped the server!
+30.5.2023 09:31:11 [Notification] Server logger started.
+30.5.2023 09:31:11 [Notification] Game Version: v1.18.5 (Stable)
+30.5.2023 09:31:11 [Event] Launching server...
+30.5.2023 09:31:11 [Event] Server v1.18.5, network v1.18.6, api v1.7.0
+30.5.2023 09:31:11 [Notification] Entering runphase Initialization
+30.5.2023 09:31:11 [Event] Loading configuration...
+30.5.2023 09:31:11 [Notification] Entering runphase Configuration
+30.5.2023 09:31:11 [Notification] Loading savegame
+30.5.2023 09:31:11 [Notification] Loaded existing save game data. Playstyle: surviveandbuild, Playstyle Lang code: preset-surviveandbuild, WorldType: preset-surviveandbuild
+30.5.2023 09:31:11 [Notification] Savegame C:\Users\Dmytro\AppData\Roaming\VintagestoryData\Saves\dees cave world.vcdbs loaded
+30.5.2023 09:31:11 [Notification] World size = 1024000 256 1024000
+30.5.2023 09:31:11 [Notification] Start discovering assets
+30.5.2023 09:31:11 [Notification] Found 1 base assets in category blocktypes
+30.5.2023 09:31:11 [Notification] Found 0 base assets in category itemtypes
+30.5.2023 09:31:11 [Notification] Found 22 base assets in category lang
+30.5.2023 09:31:11 [Notification] Found 0 base assets in category patches
+30.5.2023 09:31:11 [Notification] Found 22 base assets in category config
+30.5.2023 09:31:11 [Notification] Found 0 base assets in category worldproperties
+30.5.2023 09:31:11 [Notification] Found 46 base assets in category sounds
+30.5.2023 09:31:11 [Notification] Found 97 base assets in category shapes
+30.5.2023 09:31:11 [Notification] Found 131 base assets in category textures
+30.5.2023 09:31:11 [Notification] Found 0 base assets in category recipes
+30.5.2023 09:31:11 [Notification] Found 0 base assets in category worldgen
+30.5.2023 09:31:11 [Notification] Found 2 base assets in category entities
+30.5.2023 09:31:11 [Notification] Found 0 base assets in category compatibility
+30.5.2023 09:31:11 [Notification] Found 321 base assets in total
+30.5.2023 09:31:11 [Event] Building assets...
+30.5.2023 09:31:11 [Notification] Entering runphase AssetsReady
+30.5.2023 09:31:11 [Notification] Will search the following paths for mods:
+30.5.2023 09:31:11 [Notification]     C:\Projects\VintageStory\Mods
+30.5.2023 09:31:11 [Notification]     C:\Users\Dmytro\AppData\Roaming\VintagestoryData\Mods
+30.5.2023 09:31:11 [Notification] Found 8 mods (0 disabled)
+30.5.2023 09:31:11 [Notification] Mods, sorted by dependency: AMFinder, game, hudclock, medievalexpansion, medievalmap, creative, survival, tradercamps
+30.5.2023 09:31:11 [Notification] Instantiated 103 mod systems from 5 enabled mods
+30.5.2023 09:31:11 [Notification] External Origins in load order: modorigin@C:\Projects\VintageStory\assets\creative\, modorigin@C:\Projects\VintageStory\assets\survival\, mod@medievalexpansion-3.9.2, mod@cob_tradercamps_1.0.5
+30.5.2023 09:31:11 [Notification] Found 424 external assets in category blocktypes
+30.5.2023 09:31:11 [Notification] Found 242 external assets in category itemtypes
+30.5.2023 09:31:11 [Notification] Found 8 external assets in category lang
+30.5.2023 09:31:11 [Notification] Found 14 external assets in category patches
+30.5.2023 09:31:11 [Notification] Found 57 external assets in category config
+30.5.2023 09:31:11 [Notification] Found 25 external assets in category worldproperties
+30.5.2023 09:31:11 [Notification] Found 355 external assets in category sounds
+30.5.2023 09:31:11 [Notification] Found 3259 external assets in category shapes
+30.5.2023 09:31:12 [Notification] Found 5317 external assets in category textures
+30.5.2023 09:31:12 [Notification] Found 375 external assets in category recipes
+30.5.2023 09:31:12 [Notification] Found 426 external assets in category worldgen
+30.5.2023 09:31:12 [Notification] Found 65 external assets in category entities
+30.5.2023 09:31:12 [Notification] Found 0 external assets in category compatibility
+30.5.2023 09:31:12 [Notification] Reloaded lang file with mod assets
+30.5.2023 09:31:12 [Event] Medieval Expansion Mod v3.9.1 loading
+30.5.2023 09:31:12 [Notification] Compatibility lib: 0 assets added, 0 assets replaced.
+30.5.2023 09:31:12 [Notification] JsonPatch Loader: 28 патчей всего, успешно применено 28 патчей, невыполненны условия в 5 патчах, нет проблем
+30.5.2023 09:31:12 [Notification] Loaded 3052 unique items
+30.5.2023 09:31:15 [Notification] Loaded 12818 unique blocks
+30.5.2023 09:31:15 [Notification] Loaded 389 unique entities
+30.5.2023 09:31:15 [Notification] BlockLoader: Entities, Blocks and Items loaded
+30.5.2023 09:31:15 [Event] Remapping blocks and items...
+30.5.2023 09:31:15 [Event] 6 cooking recipes loaded
+30.5.2023 09:31:16 [Event] 690 crafting recipes loaded from 248 files
+30.5.2023 09:31:16 [Event] 9 metal alloys loaded
+30.5.2023 09:31:16 [Event] 240 smithing recipes loaded
+30.5.2023 09:31:16 [Event] 55 clay forming recipes loaded
+30.5.2023 09:31:16 [Event] 36 knapping recipes loaded
+30.5.2023 09:31:16 [Event] 140 barrel recipes loaded
+30.5.2023 09:31:16 [Notification] Entering runphase AssetsFinalize
+30.5.2023 09:31:16 [Event] Server assets loaded, parsed, registered and finalized
+30.5.2023 09:31:16 [Event] Initialising systems...
+30.5.2023 09:31:16 [Notification] Entering runphase LoadGamePre
+30.5.2023 09:31:16 [Notification] Reloaded 19 weather patterns, 5 wind patterns and 5 weather events
+30.5.2023 09:31:16 [Notification] Started 90 systems on Server:
+30.5.2023 09:31:16 [Notification]     Mod 'VSEssentials.dll' (game):
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.Core
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.EntityPartitioning
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ErrorReporter
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.ModCompatiblityUtil
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.NoObf.ModJsonPatchLoader
+30.5.2023 09:31:16 [Notification]         Vintagestory.Essentials.PathfindSystem
+30.5.2023 09:31:16 [Notification]         Vintagestory.Essentials.PathFindDebug
+30.5.2023 09:31:16 [Notification]         Vintagestory.Essentials.PathfindingAsync
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.JsonExport
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.ModBasicBlocksLoader
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemDormancyStateChecker
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemEmotes
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.LeafBlockDecay
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.POIRegistry
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.RoomRegistry
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.WeatherSystemCommands
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.WeatherSystemServer
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.WorldMapManager
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.NoObf.ModRegistryObjectTypeLoader
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.LoadColorMaps
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ClothManager
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GridRecipeLoader
+30.5.2023 09:31:16 [Notification]     Mod 'VSSurvivalMod.dll' (survival):
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenSnowLayer
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenTerra
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemControlPoints
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.SurvivalCoreSystem
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenTerraPostProcess
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.ModSystemDetailModeSync
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.ModSystemTiledDungeonGenerator
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenHotSprings
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.ChiselBlockBulkSetMaterial
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenFromHeightmap
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenRockStrataNew
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.NpcControl
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenCreatures
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenMaps
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.WgenCommands
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.DebugSystem
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.UpgradeTasks
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemCorpseReturnTeleporter
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ClutterBookshelfUtil
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemResoArchiveCommands
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.Core
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemSupportBeamPlacer
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ScreenshakeToClientModSystem
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemCatchCreature
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemGliding
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.MyceliumSystem
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemAuction
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.DialogueSystem
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemTutorial
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.LiquidItemStackRenderer
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemStructureLocator
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.CharacterSystem
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.FruitingSystem
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemRifts
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemRiftWeather
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModTemperature
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ResoArchivesSpawnConditions
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.SystemTemporalStability
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModsystemButterflySpawnCondsExtra
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemWearableStats
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemBlockReinforcement
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.TemporalStabilityEffects
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModJournal
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModLootRandomizer
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSleeping
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.TeleporterManager
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.ModSystemEditableBook
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.Mechanics.MechanicalPowerMod
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenDungeons
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenDeposits
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.GenStoryStructures
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenStructures
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenCaves
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenBlockLayers
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenPonds
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenStructuresPosPass
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenVegetationAndPatches
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.RecipeRegistrySystem
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenRivulets
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenLightSurvival
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.RecipeLoader
+30.5.2023 09:31:16 [Notification]         Vintagestory.GameContent.TraderOutfits
+30.5.2023 09:31:16 [Notification]     Mod 'VSCreativeMod.dll' (creative):
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.Core
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.WorldEdit.WorldEdit
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenBlockLayersFlat
+30.5.2023 09:31:16 [Notification]         Vintagestory.ServerMods.GenLightCreative
+30.5.2023 09:31:16 [Notification]     Mod 'medievalexpansion-3.9.2' (medievalexpansion):
+30.5.2023 09:31:16 [Notification]         gates.src.MedievalExpansionMod
+30.5.2023 09:31:16 [Notification]     Mod 'cob_tradercamps_1.0.5' (tradercamps):
+30.5.2023 09:31:16 [Notification]         CoB.Mod.CoB
+30.5.2023 09:31:17 [Notification] Sending server identification with remap False.  Server control privilege is True
+30.5.2023 09:31:17 [Notification] Server map set
+30.5.2023 09:31:17 [Notification] Entering runphase GameReady
+30.5.2023 09:31:17 [Event] Starting world generators...
+30.5.2023 09:31:17 [Notification] Entering runphase WorldReady
+30.5.2023 09:31:20 [Notification] Reloaded 35 tree generators
+30.5.2023 09:31:20 [Event] Loading 7x7x8 spawn chunks...
+30.5.2023 09:31:20 [Event] 0% (49 in queue)
+30.5.2023 09:31:20 [Event] Begin game ticking...
+30.5.2023 09:31:20 [Notification] Entering runphase RunGame
+30.5.2023 09:31:20 [Notification] Successfully loaded 0 waypoints
+30.5.2023 09:31:20 [Notification] Starting server threads
+30.5.2023 09:31:20 [Event] Сервер для одиночной игры now running!
+30.5.2023 09:31:20 [Notification] All clients disconnected, pausing game calendar.
+30.5.2023 09:31:22 [Notification] A Client attempts connecting via Dummy connection, assigning client id 1
+30.5.2023 09:31:22 [Notification] Client uid dmytrocheva attempting identification. Name: Dee
+30.5.2023 09:31:22 [Notification] Upped server view distance because player is locally connected
+30.5.2023 09:31:22 [Notification] Placing player at 511924.936386621 109 511962.728640625
+30.5.2023 09:31:24 [Event] Dee 127.0.0.1 joins.
+30.5.2023 09:31:24 [Notification] A client reconnected, resuming game calendar.
+30.5.2023 09:36:13 [Notification] Server ticking has been suspended
+30.5.2023 09:36:13 [Notification] Autosaving game world. Notifying mods, then systems of save...
+30.5.2023 09:36:13 [Notification] Defragmented listener lists
+30.5.2023 09:36:13 [Event] Mods and systems notified, now saving everything...
+30.5.2023 09:36:13 [Event] Will do offthread savegamedata saving...
+30.5.2023 09:36:13 [Event] Saved player world data...
+30.5.2023 09:36:13 [Event] Saved map regions...
+30.5.2023 09:36:13 [Event] Saved map chunks...
+30.5.2023 09:36:13 [Event] World saved! Saved 0 chunks, 0 mapchunks, 4 mapregions.
+30.5.2023 09:36:13 [Notification] A client reconnected, resuming game calendar.
+30.5.2023 09:36:13 [Notification] Server ticking has been resumed
+30.5.2023 09:36:13 [Event] Offthread save of 183 chunks done.
+30.5.2023 09:36:13 [Notification] Offthread save of 0 generating chunks done.
+30.5.2023 09:36:13 [Event] Offthread save of 239 map chunks done.
+30.5.2023 09:36:13 [Event] Offthread save of savegame done.
+30.5.2023 09:38:20 [Notification] Client Dee tried to place a block but rejected because OnPlaceBlock returns false. Failure code entityintersecting
+30.5.2023 09:41:14 [Notification] Server ticking has been suspended
+30.5.2023 09:41:14 [Notification] Autosaving game world. Notifying mods, then systems of save...
+30.5.2023 09:41:14 [Notification] Defragmented listener lists
+30.5.2023 09:41:14 [Event] Mods and systems notified, now saving everything...
+30.5.2023 09:41:14 [Event] Will do offthread savegamedata saving...
+30.5.2023 09:41:14 [Event] Saved player world data...
+30.5.2023 09:41:14 [Event] Saved map regions...
+30.5.2023 09:41:14 [Event] Saved map chunks...
+30.5.2023 09:41:14 [Event] World saved! Saved 0 chunks, 0 mapchunks, 4 mapregions.
+30.5.2023 09:41:14 [Notification] A client reconnected, resuming game calendar.
+30.5.2023 09:41:14 [Notification] Server ticking has been resumed
+30.5.2023 09:41:14 [Event] Offthread save of 176 chunks done.
+30.5.2023 09:41:14 [Notification] Offthread save of 0 generating chunks done.
+30.5.2023 09:41:14 [Event] Offthread save of 239 map chunks done.
+30.5.2023 09:41:14 [Event] Offthread save of savegame done.
+30.5.2023 09:43:28 [Notification] Client Dee tried to place a block but rejected because OnPlaceBlock returns false. Failure code entityintersecting
+30.5.2023 09:44:52 [Notification] Client Dee tried to place a block but rejected because OnPlaceBlock returns false. Failure code entityintersecting
+30.5.2023 09:46:15 [Notification] Server ticking has been suspended
+30.5.2023 09:46:15 [Notification] Autosaving game world. Notifying mods, then systems of save...
+30.5.2023 09:46:15 [Notification] Defragmented listener lists
+30.5.2023 09:46:15 [Event] Mods and systems notified, now saving everything...
+30.5.2023 09:46:15 [Event] Will do offthread savegamedata saving...
+30.5.2023 09:46:15 [Event] Saved player world data...
+30.5.2023 09:46:15 [Event] Saved map regions...
+30.5.2023 09:46:15 [Event] Saved map chunks...
+30.5.2023 09:46:15 [Event] World saved! Saved 0 chunks, 0 mapchunks, 4 mapregions.
+30.5.2023 09:46:15 [Notification] A client reconnected, resuming game calendar.
+30.5.2023 09:46:15 [Notification] Server ticking has been resumed
+30.5.2023 09:46:15 [Event] Offthread save of 175 chunks done.
+30.5.2023 09:46:15 [Notification] Offthread save of 0 generating chunks done.
+30.5.2023 09:46:15 [Event] Offthread save of 239 map chunks done.
+30.5.2023 09:46:15 [Event] Offthread save of savegame done.
+30.5.2023 09:48:04 [Notification] Server ticking has been suspended
+30.5.2023 09:48:06 [Notification] Last player disconnected, compacting large object heap...
+30.5.2023 09:48:08 [Event] Игрок Dee исключен. Причина: Server shutting down - Exit request by client
+30.5.2023 09:48:08 [Notification] Server stop requested, begin shutdown sequence. Stop reason: Exit request by client
+30.5.2023 09:48:08 [Notification] Entering runphase Shutdown
+30.5.2023 09:48:08 [Notification] Defragmented listener lists
+30.5.2023 09:48:08 [Event] Mods and systems notified, now saving everything...
+30.5.2023 09:48:08 [Event] Saved player world data...
+30.5.2023 09:48:08 [Event] Saved map regions...
+30.5.2023 09:48:08 [Event] Saved map chunks...
+30.5.2023 09:48:08 [Event] Saved loaded chunks...
+30.5.2023 09:48:08 [Event] Saved generating chunks...
+30.5.2023 09:48:08 [Event] Saved savegamedata...2
+30.5.2023 09:48:08 [Event] World saved! Saved 145 chunks, 239 mapchunks, 4 mapregions.
+30.5.2023 09:48:08 [Event] Shutting down 5 server threads... 
+30.5.2023 09:48:08 [Event] Killed console thread
+30.5.2023 09:48:08 [Event] All threads gracefully shut down
+30.5.2023 09:48:08 [Event] Doing last tick...
+30.5.2023 09:48:08 [Event] Stopped the server!
