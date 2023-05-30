@@ -16,7 +16,8 @@
     "masterserverUrl": "https://masterserver.vintagestory.at/api/v1/servers/",
     "modDbUrl": "https://mods.vintagestory.at/",
     "playeruid": "dmytrocheva",
-    "playername": "Dee"
+    "playername": "Dee",
+    "currentHandbookCategoryCode": "stack"
   },
   "intSettings": {
     "mipmapLevel": 3,
