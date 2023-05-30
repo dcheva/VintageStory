@@ -1,0 +1,892 @@
+30.5.2023 06:59:03 [Debug] Creating game window with window mode Fullscreen
+30.5.2023 06:59:03.501 [VerboseDebug] Loadsounds, found 46 sounds
+30.5.2023 06:59:03.814 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 1
+#define SSAOLEVEL 1
+#define NORMALVIEW 0
+#define BLOOM 1
+#define AMBIENTBLOOMLEVEL 20
+#define GODRAYS 0
+#define FOAMEFFECT 1
+#define SHINYEFFECT 1
+#define SHADOWQUALITY 1
+#define DYNLIGHTS 25
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	outColor = color * 2;  - night vision 
+}
+30.5.2023 06:59:03.975 [VerboseDebug] [VSCreativeMod.dll] Check for mod systems in mod C:\Games\VintageStory\Mods\VSCreativeMod.dll
+30.5.2023 06:59:03.978 [VerboseDebug] [VSCreativeMod.dll] Loaded assembly C:\Games\VintageStory\Mods\VSCreativeMod.dll
+30.5.2023 06:59:03.993 [VerboseDebug] [VSEssentials.dll] Check for mod systems in mod C:\Games\VintageStory\Mods\VSEssentials.dll
+30.5.2023 06:59:03.993 [VerboseDebug] [VSEssentials.dll] Loaded assembly C:\Games\VintageStory\Mods\VSEssentials.dll
+30.5.2023 06:59:03.995 [VerboseDebug] [VSSurvivalMod.dll] Check for mod systems in mod C:\Games\VintageStory\Mods\VSSurvivalMod.dll
+30.5.2023 06:59:03.996 [VerboseDebug] [VSSurvivalMod.dll] Loaded assembly C:\Games\VintageStory\Mods\VSSurvivalMod.dll
+30.5.2023 06:59:04.155 [VerboseDebug] Left bottom main menu text is at 13/1027.6890625 w/h 300,44.3109375
+30.5.2023 06:59:07.875 [VerboseDebug] Lang key not found: game:worldattribute-landformScale
+30.5.2023 06:59:09 [Debug] GuiScreenConnectingToServer constructed
+30.5.2023 06:59:16.786 [VerboseDebug] Received server assets packet; waiting on light levels packet before decoding.
+30.5.2023 06:59:16.817 [VerboseDebug] Handling ServerIdentification packet; requires remapping is False
+30.5.2023 06:59:16.823 [VerboseDebug] Received world meta data
+30.5.2023 06:59:16.828 [VerboseDebug] Received server assets
+30.5.2023 06:59:16.833 [VerboseDebug] [VSCreativeMod.dll] Check for mod systems in mod C:\Games\VintageStory\Mods\VSCreativeMod.dll
+30.5.2023 06:59:16.834 [VerboseDebug] [VSCreativeMod.dll] Loaded assembly C:\Games\VintageStory\Mods\VSCreativeMod.dll
+30.5.2023 06:59:16.835 [VerboseDebug] [VSEssentials.dll] Check for mod systems in mod C:\Games\VintageStory\Mods\VSEssentials.dll
+30.5.2023 06:59:16.835 [VerboseDebug] [VSEssentials.dll] Loaded assembly C:\Games\VintageStory\Mods\VSEssentials.dll
+30.5.2023 06:59:16.837 [VerboseDebug] [VSSurvivalMod.dll] Check for mod systems in mod C:\Games\VintageStory\Mods\VSSurvivalMod.dll
+30.5.2023 06:59:16.837 [VerboseDebug] [VSSurvivalMod.dll] Loaded assembly C:\Games\VintageStory\Mods\VSSurvivalMod.dll
+30.5.2023 06:59:16.860 [VerboseDebug] [AMFinder] Check for mod systems in mod C:\Games\VintageStory\Mods\AMFinder_1.3.1\AMFinder.dll
+30.5.2023 06:59:16.860 [VerboseDebug] [AMFinder] Loaded assembly C:\Games\VintageStory\Mods\AMFinder_1.3.1\AMFinder.dll
+30.5.2023 06:59:16.860 [VerboseDebug] [hudclock] Check for mod systems in mod C:\Games\VintageStory\Mods\hudclock-3.1.0\hudclock.dll
+30.5.2023 06:59:16.860 [VerboseDebug] [hudclock] Loaded assembly C:\Games\VintageStory\Mods\hudclock-3.1.0\hudclock.dll
+30.5.2023 06:59:16.860 [VerboseDebug] [medievalexpansion] Check for mod systems in mod C:\Games\VintageStory\Mods\medievalexpansion-3.9.2\medievalexpansion.dll
+30.5.2023 06:59:16.860 [VerboseDebug] [medievalexpansion] Loaded assembly C:\Games\VintageStory\Mods\medievalexpansion-3.9.2\medievalexpansion.dll
+30.5.2023 06:59:16.860 [VerboseDebug] [medievalmap] Check for mod systems in mod C:\Games\VintageStory\Mods\medievalmap\medievalmap.dll
+30.5.2023 06:59:16.860 [VerboseDebug] [medievalmap] Loaded assembly C:\Games\VintageStory\Mods\medievalmap\medievalmap.dll
+30.5.2023 06:59:16.860 [VerboseDebug] [tradercamps] Check for mod systems in mod C:\Games\VintageStory\Mods\cob_tradercamps_1.0.5\tcconfig.dll
+30.5.2023 06:59:16.861 [VerboseDebug] [tradercamps] Loaded assembly C:\Games\VintageStory\Mods\cob_tradercamps_1.0.5\tcconfig.dll
+30.5.2023 06:59:16.861 [VerboseDebug] 8 assemblies loaded
+30.5.2023 06:59:16.861 [VerboseDebug] Instantiate mod systems for AMFinder
+30.5.2023 06:59:16.862 [VerboseDebug] Instantiate mod systems for game
+30.5.2023 06:59:16.862 [VerboseDebug] Instantiate mod systems for hudclock
+30.5.2023 06:59:16.862 [VerboseDebug] Instantiate mod systems for medievalexpansion
+30.5.2023 06:59:16.862 [VerboseDebug] Instantiate mod systems for medievalmap
+30.5.2023 06:59:16.863 [VerboseDebug] Instantiate mod systems for creative
+30.5.2023 06:59:16.863 [VerboseDebug] Instantiate mod systems for survival
+30.5.2023 06:59:16.863 [VerboseDebug] Instantiate mod systems for tradercamps
+30.5.2023 06:59:16.867 [VerboseDebug] Single player game - starting mods on the client-side
+30.5.2023 06:59:16.896 [VerboseDebug] Server assets - done step 1, next steps off-thread
+30.5.2023 06:59:16.898 [VerboseDebug] Searching file system (including mods) for asset files
+30.5.2023 06:59:16.944 [VerboseDebug] Populated 389 EntityTypes from server
+30.5.2023 06:59:17.104 [VerboseDebug] Populated 3053 ItemTypes from server, highest ItemID is 3052
+30.5.2023 06:59:17.201 [VerboseDebug] Finished the search for asset files
+30.5.2023 06:59:17.282 [VerboseDebug] Loaded lang file: ru
+30.5.2023 06:59:17.305 [VerboseDebug] Patch 0 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 1 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 2 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 3 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 4 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 5 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 6 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 7 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 8 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 9 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 10 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 11 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 12 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 13 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 14 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 15 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 16 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 17 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 0 in medievalexpansion:patches/p370.json: File medievalexpansion:recipes/grid/icemix.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 1 in medievalexpansion:patches/p370.json: File medievalexpansion:recipes/grid/icemix.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 0 in game:patches/traders.json: File game:worldgen/structures.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 1 in game:patches/traders.json: File game:worldgen/structures.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 2 in game:patches/traders.json: File game:worldgen/structures.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 3 in game:patches/traders.json: File game:worldgen/structures.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch 0 in game:patches/worldgen-structures.json: File game:worldgen/structures.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 06:59:17.306 [VerboseDebug] Patch file game:patches/worldgen-structures.json, patch 1: Unmet IsValue condition (2!=1)
+30.5.2023 06:59:17.306 [VerboseDebug] Patch file game:patches/worldgen-structures.json, patch 2: Unmet IsValue condition (3!=1)
+30.5.2023 06:59:17.306 [VerboseDebug] Patch file game:patches/worldgen-structures.json, patch 3: Unmet IsValue condition (4!=1)
+30.5.2023 06:59:17.306 [VerboseDebug] Patch file game:patches/worldgen-structures.json, patch 4: Unmet IsValue condition (5!=1)
+30.5.2023 06:59:17.306 [VerboseDebug] Patch file game:patches/worldgen-structures.json, patch 5: Unmet IsValue condition (6!=1)
+30.5.2023 06:59:17.306 [VerboseDebug] Patchloader finished
+30.5.2023 06:59:17.322 [VerboseDebug] All client-side assets loaded and patched; configs, shapes, textures and sounds are now available for loading
+30.5.2023 06:59:17.324 [VerboseDebug] Starting to load entity shapes
+30.5.2023 06:59:17.325 [VerboseDebug] Starting to load item shapes
+30.5.2023 06:59:17.326 [VerboseDebug] Entity shape loading starting ...
+30.5.2023 06:59:17.337 [VerboseDebug] [LoadShapes] Searched through items...
+30.5.2023 06:59:17.887 [VerboseDebug] Entity shape loading completed
+30.5.2023 06:59:17.931 [VerboseDebug] Loaded 23 ColorMap textures
+30.5.2023 06:59:17.931 [VerboseDebug] Loadsounds, found 401 sounds
+30.5.2023 06:59:18.231 [VerboseDebug] Server assets - composing entity texture atlas on main thread
+30.5.2023 06:59:18.315 [VerboseDebug] Server assets - done entity textures composition
+30.5.2023 06:59:18.317 [VerboseDebug] Server assets - done entity textures mipmap creation
+30.5.2023 06:59:18.335 [VerboseDebug] Server assets - done entity textures random and average color collection
+30.5.2023 06:59:18.429 [VerboseDebug] Populated 12820 BlockTypes from server, highest BlockID is 12819
+30.5.2023 06:59:18.429 [VerboseDebug] Starting to load block shapes
+30.5.2023 06:59:18.455 [VerboseDebug] Resolved blocks and items stacks and drops
+30.5.2023 06:59:18.459 [VerboseDebug] [LoadShapes] Searching through blocks...
+30.5.2023 06:59:18.526 [VerboseDebug] [LoadShapes] parsed 679 shapes from JSON for items
+30.5.2023 06:59:18.733 [VerboseDebug] [LoadShapes] Searched through 12820 blocks
+30.5.2023 06:59:18.733 [VerboseDebug] [LoadShapes] Starting to parse block shapes...
+30.5.2023 06:59:18.837 [VerboseDebug] [LoadShapes] loaded 2 block shapes in obj and gltf formats
+30.5.2023 06:59:18.843 [VerboseDebug] Server assets - composing item texture atlas on main thread
+30.5.2023 06:59:18.919 [VerboseDebug] Server assets - done item textures composition
+30.5.2023 06:59:18.920 [VerboseDebug] Server assets - done item textures mipmap creation
+30.5.2023 06:59:18.947 [VerboseDebug] Server assets - done item textures random and average color collection
+30.5.2023 06:59:18.958 [VerboseDebug] Waiting for block shape loading
+30.5.2023 06:59:19.450 [VerboseDebug] [LoadShapes] parsed 686 shapes from JSON (2nd block loading thread)
+30.5.2023 06:59:19.452 [VerboseDebug] [LoadShapes] parsed 502 shapes from JSON for 12820 blocks, some others done offthread
+30.5.2023 06:59:19.455 [VerboseDebug] BlockTextureAtlas start collecting textures (already holds 23 colormap textures)
+30.5.2023 06:59:19.460 [VerboseDebug] Done block shape loading
+30.5.2023 06:59:20.080 [VerboseDebug] Server assets - done item tesselation spread over 9 frames
+30.5.2023 06:59:20.693 [VerboseDebug] --- Server started ---
+30.5.2023 06:59:20.961 [VerboseDebug] Starting to load sounds fully
+30.5.2023 06:59:20.982 [VerboseDebug] Server assets - composing block texture atlas on main thread
+30.5.2023 06:59:21.047 [VerboseDebug] Server assets - done block textures composition
+30.5.2023 06:59:21.050 [VerboseDebug] Server assets - done block textures mipmap creation
+30.5.2023 06:59:21.067 [VerboseDebug] Server assets - done block textures random and average color collection
+30.5.2023 06:59:21.185 [VerboseDebug] Server assets - done step 9
+30.5.2023 06:59:21 [Debug] Opening socket to server...
+30.5.2023 06:59:21.357 [VerboseDebug] Server assets - done texture atlas frame buffer
+30.5.2023 06:59:21.543 [VerboseDebug] Handling ServerReady packet
+30.5.2023 06:59:21.543 [VerboseDebug] Starting system: Core
+30.5.2023 06:59:21.544 [VerboseDebug] Starting system: EntityPartitioning
+30.5.2023 06:59:21.544 [VerboseDebug] Starting system: ErrorReporter
+30.5.2023 06:59:21.551 [VerboseDebug] Starting system: ModSystemControlPoints
+30.5.2023 06:59:21.552 [VerboseDebug] Starting system: Core
+30.5.2023 06:59:21.552 [VerboseDebug] Starting system: SurvivalCoreSystem
+30.5.2023 06:59:21.566 [VerboseDebug] Starting system: ModCompatiblityUtil
+30.5.2023 06:59:21.566 [VerboseDebug] Starting system: ModJsonPatchLoader
+30.5.2023 06:59:21.566 [VerboseDebug] Starting system: AmFinderMod
+30.5.2023 06:59:21.577 [VerboseDebug] Starting system: ModSystemDormancyStateChecker
+30.5.2023 06:59:21.577 [VerboseDebug] Starting system: ModSystemItemRendererOptimizer
+30.5.2023 06:59:21.586 [VerboseDebug] Starting system: FallingBlockParticlesModSystem
+30.5.2023 06:59:21.586 [VerboseDebug] Starting system: CharacterExtraDialogs
+30.5.2023 06:59:21.588 [VerboseDebug] Starting system: EntityNameTagRendererRegistry
+30.5.2023 06:59:21.589 [VerboseDebug] Starting system: POIRegistry
+30.5.2023 06:59:21.589 [VerboseDebug] Starting system: RoomRegistry
+30.5.2023 06:59:21.589 [VerboseDebug] Starting system: WeatherSystemCommands
+30.5.2023 06:59:21.589 [VerboseDebug] Starting system: WeatherSystemClient
+30.5.2023 06:59:21.607 [VerboseDebug] Starting system: WorldMapManager
+30.5.2023 06:59:21.613 [VerboseDebug] Starting system: HUDClockMod
+30.5.2023 06:59:21.613 [VerboseDebug] Starting system: MedievalExpansionMod
+30.5.2023 06:59:21.613 [VerboseDebug] Starting system: MedievalMapSystem
+30.5.2023 06:59:21.661 [VerboseDebug] Starting system: WorldEdit
+30.5.2023 06:59:21.669 [VerboseDebug] Starting system: ModSystemBossHealthBars
+30.5.2023 06:59:21.670 [VerboseDebug] Starting system: ModSystemDetailModeSync
+30.5.2023 06:59:21.670 [VerboseDebug] Starting system: ModSystemTiledDungeonGenerator
+30.5.2023 06:59:21.671 [VerboseDebug] Starting system: GenFromHeightmap
+30.5.2023 06:59:21.671 [VerboseDebug] Starting system: GenMaps
+30.5.2023 06:59:21.671 [VerboseDebug] Starting system: DebugSystem
+30.5.2023 06:59:21.671 [VerboseDebug] Starting system: UpgradeTasks
+30.5.2023 06:59:21.672 [VerboseDebug] Starting system: ModSystemNightVision
+30.5.2023 06:59:21.674 [VerboseDebug] Starting system: ModSystemMeasuringRope
+30.5.2023 06:59:21.674 [VerboseDebug] Starting system: Core
+30.5.2023 06:59:21.674 [VerboseDebug] Starting system: ModSystemBoatingSound
+30.5.2023 06:59:21.675 [VerboseDebug] Starting system: ModSystemSupportBeamPlacer
+30.5.2023 06:59:21.675 [VerboseDebug] Starting system: ScreenshakeToClientModSystem
+30.5.2023 06:59:21.675 [VerboseDebug] Starting system: ModSystemCatchCreature
+30.5.2023 06:59:21.675 [VerboseDebug] Starting system: ModSystemGliding
+30.5.2023 06:59:21.675 [VerboseDebug] Starting system: MyceliumSystem
+30.5.2023 06:59:21.675 [VerboseDebug] Starting system: ModSystemAuction
+30.5.2023 06:59:21.681 [VerboseDebug] Starting system: DialogueSystem
+30.5.2023 06:59:21.681 [VerboseDebug] Starting system: ModSystemHandbook
+30.5.2023 06:59:21.683 [VerboseDebug] Starting system: ModSystemTutorial
+30.5.2023 06:59:21.698 [VerboseDebug] Starting system: LiquidItemStackRenderer
+30.5.2023 06:59:21.699 [VerboseDebug] Starting system: ModSystemStructureLocator
+30.5.2023 06:59:21.699 [VerboseDebug] Starting system: CharacterSystem
+30.5.2023 06:59:21.701 [VerboseDebug] Starting system: FruitingSystem
+30.5.2023 06:59:21.701 [VerboseDebug] Starting system: ModSystemRifts
+30.5.2023 06:59:21.710 [VerboseDebug] Starting system: ModSystemRiftWeather
+30.5.2023 06:59:21.711 [VerboseDebug] Starting system: ModTemperature
+30.5.2023 06:59:21.711 [VerboseDebug] Starting system: ResoArchivesSpawnConditions
+30.5.2023 06:59:21.712 [VerboseDebug] Starting system: SystemTemporalStability
+30.5.2023 06:59:21.713 [VerboseDebug] Starting system: MealMeshCache
+30.5.2023 06:59:21.713 [VerboseDebug] Starting system: ModSystemWearableStats
+30.5.2023 06:59:21.713 [VerboseDebug] Starting system: ModSystemBlockReinforcement
+30.5.2023 06:59:21.716 [VerboseDebug] Starting system: MicroBlockModelCache
+30.5.2023 06:59:21.717 [VerboseDebug] Starting system: TemporalStabilityEffects
+30.5.2023 06:59:21.725 [VerboseDebug] Starting system: ModJournal
+30.5.2023 06:59:21.733 [VerboseDebug] Starting system: ModLootRandomizer
+30.5.2023 06:59:21.734 [VerboseDebug] Starting system: ModSleeping
+30.5.2023 06:59:21.739 [VerboseDebug] Starting system: TeleporterManager
+30.5.2023 06:59:21.745 [VerboseDebug] Starting system: ModSystemEditableBook
+30.5.2023 06:59:21.745 [VerboseDebug] Starting system: MechanicalPowerMod
+30.5.2023 06:59:21.745 [VerboseDebug] Starting system: CoB
+30.5.2023 06:59:21.745 [VerboseDebug] Starting system: TradeHandbookInfo
+30.5.2023 06:59:21.745 [VerboseDebug] Starting system: LoadColorMaps
+30.5.2023 06:59:21.745 [VerboseDebug] Starting system: ClothManager
+30.5.2023 06:59:21.750 [VerboseDebug] Starting system: RecipeRegistrySystem
+30.5.2023 06:59:21.750 [VerboseDebug] Starting system: TraderOutfits
+30.5.2023 06:59:21.937 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 1
+#define SSAOLEVEL 1
+#define NORMALVIEW 0
+#define BLOOM 1
+#define AMBIENTBLOOMLEVEL 20
+#define GODRAYS 0
+#define FOAMEFFECT 1
+#define SHINYEFFECT 1
+#define SHADOWQUALITY 1
+#define DYNLIGHTS 25
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	outColor = color * 2;  - night vision 
+}
+30.5.2023 06:59:22.031 [VerboseDebug] Sending request to join server
+30.5.2023 06:59:22.084 [VerboseDebug] World configs received and block tesselation complete
+30.5.2023 06:59:22.112 [VerboseDebug] Trigger mod event OnBlockTexturesLoaded
+30.5.2023 06:59:22.170 [VerboseDebug] Slow to load clientSystem modhandler
+30.5.2023 06:59:22.238 [VerboseDebug] Loading sound file may stutter game:sounds/environment/underwater.ogg
+30.5.2023 06:59:22.382 [VerboseDebug] Slow to load clientSystem plso
+30.5.2023 06:59:22.538 [VerboseDebug] Done client systems OnLoaded
+30.5.2023 06:59:22.635 [VerboseDebug] Slow to load blocks (>1ms) game:egg-chicken-broken,game:pie-raw,game:pie-partbaked,game:pie-perfect
+30.5.2023 06:59:22.895 [VerboseDebug] Slow to load blocks (>1ms) game:flower-redtopgrass-snow,game:fruittree-stem,game:fruittree-branch,game:fruittree-cutting
+30.5.2023 06:59:23.265 [VerboseDebug] Done blocks OnLoaded
+30.5.2023 06:59:23.396 [VerboseDebug] Slow to load items (>1ms) game:ore-medium-hematite-limestone,game:ore-rich-hematite-limestone,game:ore-poor-malachite-limestone,game:ore-medium-malachite-limestone
+30.5.2023 06:59:23.519 [VerboseDebug] Server assets - done block tesselation
+30.5.2023 06:59:23.645 [VerboseDebug] Slow to load items (>1ms) game:bullets-lead,game:chisel-copper,game:chisel-tinbronze,game:chisel-bismuthbronze
+30.5.2023 06:59:23.722 [VerboseDebug] Loaded highest priority sound assets
+30.5.2023 06:59:23.879 [VerboseDebug] Done items OnLoaded
+30.5.2023 06:59:24.024 [VerboseDebug] All clientside asset loading complete, game launch can proceed
+30.5.2023 06:59:24.132 [VerboseDebug] Loading sound file may stutter game:sounds/voice/saxophone.ogg
+30.5.2023 06:59:24.185 [VerboseDebug] Received player data for playeruid dmytrocheva
+30.5.2023 06:59:24.314 [VerboseDebug] Lang key not found: game:entitlement-
+30.5.2023 06:59:24.316 [VerboseDebug] Received inventory contents hotbar-dmytrocheva
+30.5.2023 06:59:24.319 [VerboseDebug] Received inventory contents creative-dmytrocheva
+30.5.2023 06:59:24.393 [VerboseDebug] Received inventory contents backpack-dmytrocheva
+30.5.2023 06:59:24.394 [VerboseDebug] Received inventory contents ground-dmytrocheva
+30.5.2023 06:59:24.394 [VerboseDebug] Received inventory contents mouse-dmytrocheva
+30.5.2023 06:59:24.394 [VerboseDebug] Received inventory contents craftinggrid-dmytrocheva
+30.5.2023 06:59:24.410 [VerboseDebug] Received inventory contents character-dmytrocheva
+30.5.2023 06:59:24.410 [VerboseDebug] Informing clientsystems playerdata received
+30.5.2023 06:59:24.427 [VerboseDebug] GuiDialogInventory: starting composeGUI
+30.5.2023 06:59:24.451 [VerboseDebug] GuiDialogInventory: done composeGUI
+30.5.2023 06:59:24.525 [VerboseDebug] Lang key not found: hudclock:hudclock-open-mod-settings
+30.5.2023 06:59:24 [Debug] Rift weather value: high
+30.5.2023 06:59:24 [Debug] RiftController loaded
+30.5.2023 06:59:24.782 [VerboseDebug] Lang key not found: hudclock:hudclock-keybind-time-title
+30.5.2023 06:59:24.787 [VerboseDebug] Lang key not found: hudclock:hudclock-keybind-storm-title
+30.5.2023 06:59:24 [Debug] Hide claim info
+30.5.2023 06:59:24.788 [VerboseDebug] Done handling playerdata packet
+30.5.2023 06:59:24.793 [VerboseDebug] Received level finalize
+30.5.2023 06:59:24.794 [VerboseDebug] Handling LevelFinalize packet; requires remapping is False
+30.5.2023 06:59:24.802 [VerboseDebug] Done level finalize clientsystems
+30.5.2023 06:59:24.840 [VerboseDebug] Done init WeatherSystemClient
+30.5.2023 06:59:24.921 [VerboseDebug] Loading sound file may stutter game:sounds/raft-moving.ogg
+30.5.2023 06:59:24.978 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-aged
+30.5.2023 06:59:24.979 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-aged
+30.5.2023 06:59:24.979 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-aged
+30.5.2023 06:59:24.979 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-aged
+30.5.2023 06:59:24.980 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-birch
+30.5.2023 06:59:24.980 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-birch
+30.5.2023 06:59:24.981 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-birch
+30.5.2023 06:59:24.981 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-birch
+30.5.2023 06:59:24.981 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-oak
+30.5.2023 06:59:24.981 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-oak
+30.5.2023 06:59:24.981 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-oak
+30.5.2023 06:59:24.982 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-oak
+30.5.2023 06:59:24.982 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-maple
+30.5.2023 06:59:24.982 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-maple
+30.5.2023 06:59:24.983 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-maple
+30.5.2023 06:59:24.983 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-maple
+30.5.2023 06:59:24.984 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-pine
+30.5.2023 06:59:24.984 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-pine
+30.5.2023 06:59:24.984 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-pine
+30.5.2023 06:59:24.984 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-pine
+30.5.2023 06:59:24.984 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-acacia
+30.5.2023 06:59:24.984 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-acacia
+30.5.2023 06:59:24.985 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-acacia
+30.5.2023 06:59:24.985 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-acacia
+30.5.2023 06:59:24.986 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-kapok
+30.5.2023 06:59:24.986 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-kapok
+30.5.2023 06:59:24.986 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-kapok
+30.5.2023 06:59:24.986 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-kapok
+30.5.2023 06:59:24.989 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-baldcypress
+30.5.2023 06:59:24.990 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-baldcypress
+30.5.2023 06:59:24.990 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-baldcypress
+30.5.2023 06:59:24.991 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-baldcypress
+30.5.2023 06:59:24.991 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-larch
+30.5.2023 06:59:24.991 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-larch
+30.5.2023 06:59:24.992 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-larch
+30.5.2023 06:59:24.992 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-larch
+30.5.2023 06:59:24.992 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-redwood
+30.5.2023 06:59:24.992 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-redwood
+30.5.2023 06:59:24.992 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-redwood
+30.5.2023 06:59:24.993 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-redwood
+30.5.2023 06:59:24.993 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-ebony
+30.5.2023 06:59:24.994 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-ebony
+30.5.2023 06:59:24.994 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-ebony
+30.5.2023 06:59:24.995 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-ebony
+30.5.2023 06:59:24.995 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-walnut
+30.5.2023 06:59:24.995 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-walnut
+30.5.2023 06:59:24.995 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-walnut
+30.5.2023 06:59:24.995 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-walnut
+30.5.2023 06:59:24.996 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-2x3gate-purpleheart
+30.5.2023 06:59:24.996 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x3gate-purpleheart
+30.5.2023 06:59:24.996 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x4gate-purpleheart
+30.5.2023 06:59:24.997 [VerboseDebug] Lang key not found: medievalexpansion:block-extended-door-3x5gate-purpleheart
+30.5.2023 06:59:25.087 [VerboseDebug] Loading sound file may stutter game:sounds/raft-idle.ogg
+30.5.2023 06:59:25.333 [VerboseDebug] Starting initialising handbook
+30.5.2023 06:59:25.385 [VerboseDebug] <strong>Производство стали</strong><br><i>В изобилии раскалены печи, явные признаки промышленности</i><br><br>Самая ранняя форма стали, необработанная сталь, требует строительства печи для цементации. Эта структура используется для медленного обогащения железа углеродом (науглероживание).<br><br><strong>Строительство</strong><br>Для строительства печи для цементации требуется около 65 блоков огнеупорного кирпича, которые бывают 3-х различных уровней: <a href="handbook://block-refractorybricks-good-tier1">уровень 1</a>, <a href="handbook://block-refractorybricks-good-tier2">уровень 2</a> и <a href="handbook://block-refractorybricks-good-tier3">уровень 3</a>. Каждый уровень более устойчив к тепловому повреждению, чем предыдущий. Вам также понадобятся 6 <a href="handbook://block-refractorybrickgrating-tier1">решеток из огнеупорного кирпича</a> и <a href="handbook://block-irondoor-north-down-closed-left">железная дверь</a>. Соберите две <a href="handbook://block-stonecoffinsection-granite-north">каменные секции саркофага</a> и <a href="handbook://block-stonecoffinlid-granite">две крышки каменных саркофагов</а> из гранита, андезита, базальта или перидотита. Поместите настил 3x2 решетки. Посередине поместите обе секции каменного саркофага в противоположных направлениях, чтобы создать большой контейнер. <hk>shift</hk> + ПКМ кликните по каменному саркофагу, вы увидите контур, показывающий, где вы должны разместить оставшиеся огнеупорные кирпичи и железную дверь. Вы можете добавить дополнительные огнеупорные кирпичи снаружи конструкции, если хотите, но следите за тем, чтобы воздушные пути внутри конструкции были чистыми.<br><br><strong>Обжиг</strong><br>После этого, заполните каменный саркофаг доверху 16 железными слитками и древесным углем или коксом. Затем выкопайте пустое пространство двумя блоками ниже каждой секции каменного саркофага — здесь вы должны разместить 2 кучи любого угля или кокса, чтобы разжечь печь. Вы можете использовать долото, чтобы построить небольшую подпорную стенку, чтобы уголь не падал в стороны при укладке. Когда все будет готово, подожгите угольные кучи.<br><br>Вы можете убедиться, что печь работает, заглянув в нее через дверь (но мы не рекомендуем вам заходить туда, там довольно жарко!) Частицы огня должны исходить от горящих углей, а дым должен выходить из трубы. Вам нужно будет пополнять и заново зажигать угольные кучи под печью примерно раз в день, но оставьте каменный саркофаг закрытым. В общей сложности обжиг займет около недели, после чего вы сможете разбить каменный саркофаг, чтобы получить <a href="handbook://item-ingot-blistersteel">необработаную сталь</a>.<br><br><strong >Переработка</strong><br>необработаная сталь должна быть обработана на железной наковальне, чтобы создать сталь. Вы можете создать железную наковальню, выковав верхнюю и нижнюю части на бронзовой наковальне. Поместите части на землю друг на друга с небольшим количеством флюса между ними, затем несколько раз ударьте молотком, чтобы создать железную наковальню.
+30.5.2023 06:59:25.441 [VerboseDebug] Lang key not found: game:Search...
+30.5.2023 06:59:25.441 [VerboseDebug] Done creating handbook index GUI
+30.5.2023 06:59:25.441 [VerboseDebug] Done initialising handbook
+30.5.2023 06:59:25.455 [VerboseDebug] Done scanning for liquid containers 
+30.5.2023 06:59:25.455 [VerboseDebug] Done wearable stats
+30.5.2023 06:59:25.457 [VerboseDebug] Lang key not found: game:loretype-
+30.5.2023 06:59:25.506 [VerboseDebug] Done init huge gears
+30.5.2023 06:59:25.520 [VerboseDebug] Done traders handbook stuff
+30.5.2023 06:59:25.522 [VerboseDebug] Done level finalize
+30.5.2023 06:59:25.952 [VerboseDebug] Lang key not found: medievalexpansion:item-aurochsfood
+30.5.2023 06:59:29.803 [VerboseDebug] Lang key not found: hudclock:hudclock-caption-season-spring
+30.5.2023 06:59:29.804 [VerboseDebug] Lang key not found: hudclock:hudclock-caption-temp-degrees
+30.5.2023 06:59:29.806 [VerboseDebug] Lang key not found: hudclock:hudclock-caption-wind-3
+30.5.2023 06:59:29.806 [VerboseDebug] Lang key not found: hudclock:hudclock-caption-wind-prefix
+30.5.2023 06:59:29 [Debug] Rift weather value: high
+30.5.2023 06:59:29.821 [VerboseDebug] Lang key not found: hudclock:hudclock-caption-temp-storm-far-away
+30.5.2023 06:59:46.518 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 1
+#define SSAOLEVEL 1
+#define NORMALVIEW 0
+#define BLOOM 1
+#define AMBIENTBLOOMLEVEL 100
+#define GODRAYS 0
+#define FOAMEFFECT 1
+#define SHINYEFFECT 1
+#define SHADOWQUALITY 1
+#define DYNLIGHTS 25
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	outColor = color * 2;  - night vision 
+}
+30.5.2023 06:59:48.977 [VerboseDebug] Back to game clicked
+30.5.2023 06:59:48.977 [VerboseDebug] Escape menu closed
+30.5.2023 06:59:49 [Debug] Rift weather value: high
+30.5.2023 06:59:56.196 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 1
+#define SSAOLEVEL 1
+#define NORMALVIEW 0
+#define BLOOM 1
+#define AMBIENTBLOOMLEVEL 100
+#define GODRAYS 0
+#define FOAMEFFECT 1
+#define SHINYEFFECT 1
+#define SHADOWQUALITY 1
+#define DYNLIGHTS 25
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	outColor = color * 2;  - night vision 
+}
+30.5.2023 07:00:04 [Debug] Rift weather value: high
+30.5.2023 07:01:52 [Debug] Rift weather value: high
+30.5.2023 07:01:57.133 [VerboseDebug] Lang key not found: hudclock:hudclock-caption-wind-5
+30.5.2023 07:01:57 [Debug] Rift weather value: high
+30.5.2023 07:02:02.136 [VerboseDebug] Lang key not found: hudclock:hudclock-caption-wind-4
+30.5.2023 07:02:02 [Debug] Rift weather value: high
+30.5.2023 07:02:07 [Debug] Rift weather value: high
+30.5.2023 07:02:12 [Debug] Rift weather value: high
+30.5.2023 07:02:17 [Debug] Rift weather value: high
+30.5.2023 07:02:22 [Debug] Rift weather value: high
+30.5.2023 07:02:27 [Debug] Rift weather value: high
+30.5.2023 07:02:31.717 [VerboseDebug] Received player data for playeruid dmytrocheva
+30.5.2023 07:02:31.718 [VerboseDebug] Done handling playerdata packet
+30.5.2023 07:02:32 [Debug] Rift weather value: high
+30.5.2023 07:02:36.169 [VerboseDebug] Entities and pool locations removed. Removing from chunk dict
+30.5.2023 07:02:37 [Debug] Rift weather value: high
+30.5.2023 07:03:01.884 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 1
+#define SSAOLEVEL 1
+#define NORMALVIEW 0
+#define BLOOM 1
+#define AMBIENTBLOOMLEVEL 40
+#define GODRAYS 0
+#define FOAMEFFECT 1
+#define SHINYEFFECT 1
+#define SHADOWQUALITY 1
+#define DYNLIGHTS 25
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	outColor = color * 2;  - night vision 
+}
+30.5.2023 07:03:13.060 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 1
+#define SSAOLEVEL 1
+#define NORMALVIEW 0
+#define BLOOM 1
+#define AMBIENTBLOOMLEVEL 40
+#define GODRAYS 0
+#define FOAMEFFECT 1
+#define SHINYEFFECT 1
+#define SHADOWQUALITY 1
+#define DYNLIGHTS 25
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	outColor = color * 2;  - night vision 
+}
+30.5.2023 07:03:24.929 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 0
+#define SSAOLEVEL 0
+#define NORMALVIEW 0
+#define BLOOM 1
+#define AMBIENTBLOOMLEVEL 40
+#define GODRAYS 0
+#define FOAMEFFECT 1
+#define SHINYEFFECT 1
+#define SHADOWQUALITY 1
+#define DYNLIGHTS 25
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	outColor = color * 2;  - night vision 
+}
+30.5.2023 07:03:27.995 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 0
+#define SSAOLEVEL 0
+#define NORMALVIEW 0
+#define BLOOM 0
+#define AMBIENTBLOOMLEVEL 0
+#define GODRAYS 0
+#define FOAMEFFECT 0
+#define SHINYEFFECT 0
+#define SHADOWQUALITY 0
+#define DYNLIGHTS 1
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	outColor = color * 2;  - night vision 
+}
+30.5.2023 07:03:33.324 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 1
+#define SSAOLEVEL 1
+#define NORMALVIEW 0
+#define BLOOM 0
+#define AMBIENTBLOOMLEVEL 0
+#define GODRAYS 0
+#define FOAMEFFECT 0
+#define SHINYEFFECT 0
+#define SHADOWQUALITY 0
+#define DYNLIGHTS 1
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	outColor = color * 2;  - night vision 
+}
+30.5.2023 07:03:34.382 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 1
+#define SSAOLEVEL 1
+#define NORMALVIEW 0
+#define BLOOM 1
+#define AMBIENTBLOOMLEVEL 40
+#define GODRAYS 0
+#define FOAMEFFECT 1
+#define SHINYEFFECT 1
+#define SHADOWQUALITY 1
+#define DYNLIGHTS 25
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	outColor = color * 2;  - night vision 
+}
+30.5.2023 07:03:41.441 [VerboseDebug] Lang key not found: hudclock:hudclock-caption-wind-2
+30.5.2023 07:03:41 [Debug] Rift weather value: high
+30.5.2023 07:03:47 [Debug] TimeDialogController::onLeaveWorld
+30.5.2023 07:03:49 [Debug] GuiScreenConnectingToServer constructed
+30.5.2023 07:03:50.258 [VerboseDebug] Left bottom main menu text is at 13/1027.6890625 w/h 300,44.3109375
+30.5.2023 07:11:50 [Debug] GuiScreenConnectingToServer constructed
+30.5.2023 07:11:56.479 [VerboseDebug] Received server assets packet; waiting on light levels packet before decoding.
+30.5.2023 07:11:56.504 [VerboseDebug] Handling ServerIdentification packet; requires remapping is False
+30.5.2023 07:11:56.504 [VerboseDebug] Received world meta data
+30.5.2023 07:11:56.517 [VerboseDebug] Received server assets
+30.5.2023 07:11:56.521 [VerboseDebug] [VSCreativeMod.dll] Check for mod systems in mod C:\Games\VintageStory\Mods\VSCreativeMod.dll
+30.5.2023 07:11:56.521 [VerboseDebug] [VSCreativeMod.dll] Loaded assembly C:\Games\VintageStory\Mods\VSCreativeMod.dll
+30.5.2023 07:11:56.522 [VerboseDebug] [VSEssentials.dll] Check for mod systems in mod C:\Games\VintageStory\Mods\VSEssentials.dll
+30.5.2023 07:11:56.522 [VerboseDebug] [VSEssentials.dll] Loaded assembly C:\Games\VintageStory\Mods\VSEssentials.dll
+30.5.2023 07:11:56.524 [VerboseDebug] [VSSurvivalMod.dll] Check for mod systems in mod C:\Games\VintageStory\Mods\VSSurvivalMod.dll
+30.5.2023 07:11:56.524 [VerboseDebug] [VSSurvivalMod.dll] Loaded assembly C:\Games\VintageStory\Mods\VSSurvivalMod.dll
+30.5.2023 07:11:56.545 [VerboseDebug] [AMFinder] Check for mod systems in mod C:\Games\VintageStory\Mods\AMFinder_1.3.1\AMFinder.dll
+30.5.2023 07:11:56.545 [VerboseDebug] [AMFinder] Loaded assembly C:\Games\VintageStory\Mods\AMFinder_1.3.1\AMFinder.dll
+30.5.2023 07:11:56.545 [VerboseDebug] [hudclock] Check for mod systems in mod C:\Games\VintageStory\Mods\hudclock-3.1.0\hudclock.dll
+30.5.2023 07:11:56.546 [VerboseDebug] [hudclock] Loaded assembly C:\Games\VintageStory\Mods\hudclock-3.1.0\hudclock.dll
+30.5.2023 07:11:56.546 [VerboseDebug] [medievalexpansion] Check for mod systems in mod C:\Games\VintageStory\Mods\medievalexpansion-3.9.2\medievalexpansion.dll
+30.5.2023 07:11:56.546 [VerboseDebug] [medievalexpansion] Loaded assembly C:\Games\VintageStory\Mods\medievalexpansion-3.9.2\medievalexpansion.dll
+30.5.2023 07:11:56.546 [VerboseDebug] [medievalmap] Check for mod systems in mod C:\Games\VintageStory\Mods\medievalmap\medievalmap.dll
+30.5.2023 07:11:56.546 [VerboseDebug] [medievalmap] Loaded assembly C:\Games\VintageStory\Mods\medievalmap\medievalmap.dll
+30.5.2023 07:11:56.546 [VerboseDebug] [tradercamps] Check for mod systems in mod C:\Games\VintageStory\Mods\cob_tradercamps_1.0.5\tcconfig.dll
+30.5.2023 07:11:56.546 [VerboseDebug] [tradercamps] Loaded assembly C:\Games\VintageStory\Mods\cob_tradercamps_1.0.5\tcconfig.dll
+30.5.2023 07:11:56.546 [VerboseDebug] 8 assemblies loaded
+30.5.2023 07:11:56.546 [VerboseDebug] Instantiate mod systems for AMFinder
+30.5.2023 07:11:56.546 [VerboseDebug] Instantiate mod systems for game
+30.5.2023 07:11:56.546 [VerboseDebug] Instantiate mod systems for hudclock
+30.5.2023 07:11:56.546 [VerboseDebug] Instantiate mod systems for medievalexpansion
+30.5.2023 07:11:56.546 [VerboseDebug] Instantiate mod systems for medievalmap
+30.5.2023 07:11:56.546 [VerboseDebug] Instantiate mod systems for creative
+30.5.2023 07:11:56.546 [VerboseDebug] Instantiate mod systems for survival
+30.5.2023 07:11:56.546 [VerboseDebug] Instantiate mod systems for tradercamps
+30.5.2023 07:11:56.550 [VerboseDebug] Single player game - starting mods on the client-side
+30.5.2023 07:11:56.555 [VerboseDebug] Server assets - done step 1, next steps off-thread
+30.5.2023 07:11:56.555 [VerboseDebug] Searching file system (including mods) for asset files
+30.5.2023 07:11:56.601 [VerboseDebug] Populated 389 EntityTypes from server
+30.5.2023 07:11:56.731 [VerboseDebug] Populated 3053 ItemTypes from server, highest ItemID is 3052
+30.5.2023 07:11:56.896 [VerboseDebug] Finished the search for asset files
+30.5.2023 07:11:57.004 [VerboseDebug] Loaded lang file: ru
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 0 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 1 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 2 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 3 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 4 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 5 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 6 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 7 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 8 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 9 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 10 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 11 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 12 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 13 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 14 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 15 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 16 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 17 in medievalexpansion:patches/p361.json: File game:blocktypes/wood/trough-large.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 0 in medievalexpansion:patches/p370.json: File medievalexpansion:recipes/grid/icemix.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 1 in medievalexpansion:patches/p370.json: File medievalexpansion:recipes/grid/icemix.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 0 in game:patches/traders.json: File game:worldgen/structures.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 1 in game:patches/traders.json: File game:worldgen/structures.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 2 in game:patches/traders.json: File game:worldgen/structures.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 3 in game:patches/traders.json: File game:worldgen/structures.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch 0 in game:patches/worldgen-structures.json: File game:worldgen/structures.json not found. Hint: This asset is usually only loaded Server side
+30.5.2023 07:11:57.012 [VerboseDebug] Patch file game:patches/worldgen-structures.json, patch 1: Unmet IsValue condition (2!=1)
+30.5.2023 07:11:57.012 [VerboseDebug] Patch file game:patches/worldgen-structures.json, patch 2: Unmet IsValue condition (3!=1)
+30.5.2023 07:11:57.012 [VerboseDebug] Patch file game:patches/worldgen-structures.json, patch 3: Unmet IsValue condition (4!=1)
+30.5.2023 07:11:57.012 [VerboseDebug] Patch file game:patches/worldgen-structures.json, patch 4: Unmet IsValue condition (5!=1)
+30.5.2023 07:11:57.012 [VerboseDebug] Patch file game:patches/worldgen-structures.json, patch 5: Unmet IsValue condition (6!=1)
+30.5.2023 07:11:57.012 [VerboseDebug] Patchloader finished
+30.5.2023 07:11:57.027 [VerboseDebug] All client-side assets loaded and patched; configs, shapes, textures and sounds are now available for loading
+30.5.2023 07:11:57.027 [VerboseDebug] Starting to load entity shapes
+30.5.2023 07:11:57.028 [VerboseDebug] Starting to load item shapes
+30.5.2023 07:11:57.028 [VerboseDebug] Entity shape loading starting ...
+30.5.2023 07:11:57.030 [VerboseDebug] [LoadShapes] Searched through items...
+30.5.2023 07:11:57.689 [VerboseDebug] Entity shape loading completed
+30.5.2023 07:11:57.731 [VerboseDebug] Loaded 23 ColorMap textures
+30.5.2023 07:11:57.731 [VerboseDebug] Loadsounds, found 401 sounds
+30.5.2023 07:11:57.773 [VerboseDebug] Populated 12820 BlockTypes from server, highest BlockID is 12819
+30.5.2023 07:11:57.773 [VerboseDebug] Starting to load block shapes
+30.5.2023 07:11:57.793 [VerboseDebug] Resolved blocks and items stacks and drops
+30.5.2023 07:11:57.793 [VerboseDebug] [LoadShapes] Searching through blocks...
+30.5.2023 07:11:57.910 [VerboseDebug] Server assets - composing entity texture atlas on main thread
+30.5.2023 07:11:57.959 [VerboseDebug] Server assets - done entity textures composition
+30.5.2023 07:11:57.960 [VerboseDebug] Server assets - done entity textures random and average color collection
+30.5.2023 07:11:57.960 [VerboseDebug] Server assets - done entity textures mipmap creation
+30.5.2023 07:11:58.118 [VerboseDebug] [LoadShapes] Searched through 12820 blocks
+30.5.2023 07:11:58.118 [VerboseDebug] [LoadShapes] Starting to parse block shapes...
+30.5.2023 07:11:58.119 [VerboseDebug] [LoadShapes] loaded 2 block shapes in obj and gltf formats
+30.5.2023 07:11:58.198 [VerboseDebug] [LoadShapes] parsed 679 shapes from JSON for items
+30.5.2023 07:11:58.580 [VerboseDebug] Server assets - composing item texture atlas on main thread
+30.5.2023 07:11:58.614 [VerboseDebug] Server assets - done item textures composition
+30.5.2023 07:11:58.615 [VerboseDebug] Server assets - done item textures mipmap creation
+30.5.2023 07:11:58.637 [VerboseDebug] Server assets - done item textures random and average color collection
+30.5.2023 07:11:58.638 [VerboseDebug] Waiting for block shape loading
+30.5.2023 07:11:58.801 [VerboseDebug] [LoadShapes] parsed 596 shapes from JSON for 12820 blocks, some others done offthread
+30.5.2023 07:11:58.825 [VerboseDebug] [LoadShapes] parsed 592 shapes from JSON (2nd block loading thread)
+30.5.2023 07:11:58.837 [VerboseDebug] BlockTextureAtlas start collecting textures (already holds 23 colormap textures)
+30.5.2023 07:11:58.851 [VerboseDebug] Done block shape loading
+30.5.2023 07:11:58.853 [VerboseDebug] --- Server started ---
+30.5.2023 07:11:59.361 [VerboseDebug] Server assets - done item tesselation spread over 8 frames
+30.5.2023 07:12:00.176 [VerboseDebug] Starting to load sounds fully
+30.5.2023 07:12:00.177 [VerboseDebug] Server assets - composing block texture atlas on main thread
+30.5.2023 07:12:00.224 [VerboseDebug] Server assets - done block textures composition
+30.5.2023 07:12:00.225 [VerboseDebug] Server assets - done block textures mipmap creation
+30.5.2023 07:12:00.242 [VerboseDebug] Server assets - done block textures random and average color collection
+30.5.2023 07:12:00.346 [VerboseDebug] Server assets - done step 9
+30.5.2023 07:12:00 [Debug] Opening socket to server...
+30.5.2023 07:12:00.512 [VerboseDebug] Server assets - done texture atlas frame buffer
+30.5.2023 07:12:00.682 [VerboseDebug] Handling ServerReady packet
+30.5.2023 07:12:00.682 [VerboseDebug] Starting system: Core
+30.5.2023 07:12:00.682 [VerboseDebug] Starting system: EntityPartitioning
+30.5.2023 07:12:00.682 [VerboseDebug] Starting system: ErrorReporter
+30.5.2023 07:12:00.682 [VerboseDebug] Starting system: ModSystemControlPoints
+30.5.2023 07:12:00.682 [VerboseDebug] Starting system: Core
+30.5.2023 07:12:00.682 [VerboseDebug] Starting system: SurvivalCoreSystem
+30.5.2023 07:12:00.700 [VerboseDebug] Starting system: ModCompatiblityUtil
+30.5.2023 07:12:00.700 [VerboseDebug] Starting system: ModJsonPatchLoader
+30.5.2023 07:12:00.700 [VerboseDebug] Starting system: AmFinderMod
+30.5.2023 07:12:00.701 [VerboseDebug] Starting system: ModSystemDormancyStateChecker
+30.5.2023 07:12:00.701 [VerboseDebug] Starting system: ModSystemItemRendererOptimizer
+30.5.2023 07:12:00.701 [VerboseDebug] Starting system: FallingBlockParticlesModSystem
+30.5.2023 07:12:00.701 [VerboseDebug] Starting system: CharacterExtraDialogs
+30.5.2023 07:12:00.701 [VerboseDebug] Starting system: EntityNameTagRendererRegistry
+30.5.2023 07:12:00.701 [VerboseDebug] Starting system: POIRegistry
+30.5.2023 07:12:00.701 [VerboseDebug] Starting system: RoomRegistry
+30.5.2023 07:12:00.701 [VerboseDebug] Starting system: WeatherSystemCommands
+30.5.2023 07:12:00.701 [VerboseDebug] Starting system: WeatherSystemClient
+30.5.2023 07:12:00.708 [VerboseDebug] Starting system: WorldMapManager
+30.5.2023 07:12:00.709 [VerboseDebug] Starting system: HUDClockMod
+30.5.2023 07:12:00.709 [VerboseDebug] Starting system: MedievalExpansionMod
+30.5.2023 07:12:00.709 [VerboseDebug] Starting system: MedievalMapSystem
+30.5.2023 07:12:00.718 [VerboseDebug] Starting system: WorldEdit
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemBossHealthBars
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemDetailModeSync
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemTiledDungeonGenerator
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: GenFromHeightmap
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: GenMaps
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: DebugSystem
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: UpgradeTasks
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemNightVision
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemMeasuringRope
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: Core
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemBoatingSound
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemSupportBeamPlacer
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ScreenshakeToClientModSystem
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemCatchCreature
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemGliding
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: MyceliumSystem
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemAuction
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: DialogueSystem
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemHandbook
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemTutorial
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: LiquidItemStackRenderer
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemStructureLocator
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: CharacterSystem
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: FruitingSystem
+30.5.2023 07:12:00.719 [VerboseDebug] Starting system: ModSystemRifts
+30.5.2023 07:12:00.725 [VerboseDebug] Starting system: ModSystemRiftWeather
+30.5.2023 07:12:00.725 [VerboseDebug] Starting system: ModTemperature
+30.5.2023 07:12:00.725 [VerboseDebug] Starting system: ResoArchivesSpawnConditions
+30.5.2023 07:12:00.725 [VerboseDebug] Starting system: SystemTemporalStability
+30.5.2023 07:12:00.725 [VerboseDebug] Starting system: MealMeshCache
+30.5.2023 07:12:00.725 [VerboseDebug] Starting system: ModSystemWearableStats
+30.5.2023 07:12:00.725 [VerboseDebug] Starting system: ModSystemBlockReinforcement
+30.5.2023 07:12:00.725 [VerboseDebug] Starting system: MicroBlockModelCache
+30.5.2023 07:12:00.725 [VerboseDebug] Starting system: TemporalStabilityEffects
+30.5.2023 07:12:00.728 [VerboseDebug] Starting system: ModJournal
+30.5.2023 07:12:00.728 [VerboseDebug] Starting system: ModLootRandomizer
+30.5.2023 07:12:00.728 [VerboseDebug] Starting system: ModSleeping
+30.5.2023 07:12:00.734 [VerboseDebug] Starting system: TeleporterManager
+30.5.2023 07:12:00.734 [VerboseDebug] Starting system: ModSystemEditableBook
+30.5.2023 07:12:00.734 [VerboseDebug] Starting system: MechanicalPowerMod
+30.5.2023 07:12:00.734 [VerboseDebug] Starting system: CoB
+30.5.2023 07:12:00.734 [VerboseDebug] Starting system: TradeHandbookInfo
+30.5.2023 07:12:00.734 [VerboseDebug] Starting system: LoadColorMaps
+30.5.2023 07:12:00.734 [VerboseDebug] Starting system: ClothManager
+30.5.2023 07:12:00.734 [VerboseDebug] Starting system: RecipeRegistrySystem
+30.5.2023 07:12:00.734 [VerboseDebug] Starting system: TraderOutfits
+30.5.2023 07:12:00.882 [VerboseDebug] #version 330 core
+#define RADEONHDFIX 0
+#define FXAA 1
+#define SSAOLEVEL 1
+#define NORMALVIEW 0
+#define BLOOM 1
+#define AMBIENTBLOOMLEVEL 40
+#define GODRAYS 0
+#define FOAMEFFECT 1
+#define SHINYEFFECT 1
+#define SHADOWQUALITY 1
+#define DYNLIGHTS 25
+
+uniform sampler2D colorTex;
+uniform sampler2D glowTex;
+uniform float extraBloom;
+
+in vec2 texcoord;
+
+out vec4 outColor;
+
+void main(void)
+{
+	vec4 color = texture(colorTex, texcoord);
+	float glowLevel = texture(glowTex, texcoord).r * color.a;
+	float bloomIntensity = AMBIENTBLOOMLEVEL / 100.0 + 3*glowLevel + extraBloom;
+	
+	outColor = color * bloomIntensity;
+	;outColor = color * 2;  - night vision 
+}
+30.5.2023 07:12:00.973 [VerboseDebug] Sending request to join server
+30.5.2023 07:12:01.022 [VerboseDebug] World configs received and block tesselation complete
+30.5.2023 07:12:01.044 [VerboseDebug] Trigger mod event OnBlockTexturesLoaded
+30.5.2023 07:12:01.095 [VerboseDebug] Loading sound file may stutter game:sounds/environment/underwater.ogg
+30.5.2023 07:12:01.300 [VerboseDebug] Slow to load clientSystem plso
+30.5.2023 07:12:01.318 [VerboseDebug] Done client systems OnLoaded
+30.5.2023 07:12:01.660 [VerboseDebug] Slow to load blocks (>1ms) game:flower-redtopgrass-snow,game:fruittree-stem,game:fruittree-branch,game:fruittree-cutting
+30.5.2023 07:12:01.799 [VerboseDebug] Slow to load blocks (>1ms) game:firepit-cold,game:fruitpress-ns,game:fruitpress-we,game:fruitpresstop-ns
+30.5.2023 07:12:01.951 [VerboseDebug] Done blocks OnLoaded
+30.5.2023 07:12:02.281 [VerboseDebug] Done items OnLoaded
+30.5.2023 07:12:02.315 [VerboseDebug] Server assets - done block tesselation
+30.5.2023 07:12:02.469 [VerboseDebug] All clientside asset loading complete, game launch can proceed
+30.5.2023 07:12:02.578 [VerboseDebug] Loading sound file may stutter game:sounds/voice/saxophone.ogg
+30.5.2023 07:12:02.603 [VerboseDebug] Received player data for playeruid dmytrocheva
+30.5.2023 07:12:02.764 [VerboseDebug] Received inventory contents hotbar-dmytrocheva
+30.5.2023 07:12:02.764 [VerboseDebug] Received inventory contents creative-dmytrocheva
+30.5.2023 07:12:03.202 [VerboseDebug] Received inventory contents backpack-dmytrocheva
+30.5.2023 07:12:03.209 [VerboseDebug] Received inventory contents ground-dmytrocheva
+30.5.2023 07:12:03.209 [VerboseDebug] Received inventory contents mouse-dmytrocheva
+30.5.2023 07:12:03.209 [VerboseDebug] Received inventory contents craftinggrid-dmytrocheva
+30.5.2023 07:12:03.210 [VerboseDebug] Received inventory contents character-dmytrocheva
+30.5.2023 07:12:03.210 [VerboseDebug] Informing clientsystems playerdata received
+30.5.2023 07:12:03.221 [VerboseDebug] GuiDialogInventory: starting composeGUI
+30.5.2023 07:12:03.228 [VerboseDebug] GuiDialogInventory: done composeGUI
+30.5.2023 07:12:03 [Debug] Rift weather value: high
+30.5.2023 07:12:03 [Debug] RiftController loaded
+30.5.2023 07:12:03 [Debug] Hide claim info
+30.5.2023 07:12:03.243 [VerboseDebug] Done handling playerdata packet
+30.5.2023 07:12:03.243 [VerboseDebug] Received level finalize
+30.5.2023 07:12:03.244 [VerboseDebug] Handling LevelFinalize packet; requires remapping is False
+30.5.2023 07:12:03.248 [VerboseDebug] Done level finalize clientsystems
+30.5.2023 07:12:03.248 [VerboseDebug] Loading sound file may stutter game:sounds/weather/tracks/verylowtremble.ogg
+30.5.2023 07:12:03.290 [VerboseDebug] Loading sound file may stutter game:sounds/weather/wind-leafy.ogg
+30.5.2023 07:12:03.396 [VerboseDebug] Loading sound file may stutter game:sounds/weather/wind-leafless.ogg
+30.5.2023 07:12:03.533 [VerboseDebug] Done init WeatherSystemClient
+30.5.2023 07:12:03.575 [VerboseDebug] Loading sound file may stutter game:sounds/raft-moving.ogg
+30.5.2023 07:12:03.827 [VerboseDebug] Loading sound file may stutter game:sounds/raft-idle.ogg
+30.5.2023 07:12:03.873 [VerboseDebug] Loaded highest priority sound assets
+30.5.2023 07:12:04.050 [VerboseDebug] Starting initialising handbook
+30.5.2023 07:12:04.077 [VerboseDebug] <strong>Производство стали</strong><br><i>В изобилии раскалены печи, явные признаки промышленности</i><br><br>Самая ранняя форма стали, необработанная сталь, требует строительства печи для цементации. Эта структура используется для медленного обогащения железа углеродом (науглероживание).<br><br><strong>Строительство</strong><br>Для строительства печи для цементации требуется около 65 блоков огнеупорного кирпича, которые бывают 3-х различных уровней: <a href="handbook://block-refractorybricks-good-tier1">уровень 1</a>, <a href="handbook://block-refractorybricks-good-tier2">уровень 2</a> и <a href="handbook://block-refractorybricks-good-tier3">уровень 3</a>. Каждый уровень более устойчив к тепловому повреждению, чем предыдущий. Вам также понадобятся 6 <a href="handbook://block-refractorybrickgrating-tier1">решеток из огнеупорного кирпича</a> и <a href="handbook://block-irondoor-north-down-closed-left">железная дверь</a>. Соберите две <a href="handbook://block-stonecoffinsection-granite-north">каменные секции саркофага</a> и <a href="handbook://block-stonecoffinlid-granite">две крышки каменных саркофагов</а> из гранита, андезита, базальта или перидотита. Поместите настил 3x2 решетки. Посередине поместите обе секции каменного саркофага в противоположных направлениях, чтобы создать большой контейнер. <hk>shift</hk> + ПКМ кликните по каменному саркофагу, вы увидите контур, показывающий, где вы должны разместить оставшиеся огнеупорные кирпичи и железную дверь. Вы можете добавить дополнительные огнеупорные кирпичи снаружи конструкции, если хотите, но следите за тем, чтобы воздушные пути внутри конструкции были чистыми.<br><br><strong>Обжиг</strong><br>После этого, заполните каменный саркофаг доверху 16 железными слитками и древесным углем или коксом. Затем выкопайте пустое пространство двумя блоками ниже каждой секции каменного саркофага — здесь вы должны разместить 2 кучи любого угля или кокса, чтобы разжечь печь. Вы можете использовать долото, чтобы построить небольшую подпорную стенку, чтобы уголь не падал в стороны при укладке. Когда все будет готово, подожгите угольные кучи.<br><br>Вы можете убедиться, что печь работает, заглянув в нее через дверь (но мы не рекомендуем вам заходить туда, там довольно жарко!) Частицы огня должны исходить от горящих углей, а дым должен выходить из трубы. Вам нужно будет пополнять и заново зажигать угольные кучи под печью примерно раз в день, но оставьте каменный саркофаг закрытым. В общей сложности обжиг займет около недели, после чего вы сможете разбить каменный саркофаг, чтобы получить <a href="handbook://item-ingot-blistersteel">необработаную сталь</a>.<br><br><strong >Переработка</strong><br>необработаная сталь должна быть обработана на железной наковальне, чтобы создать сталь. Вы можете создать железную наковальню, выковав верхнюю и нижнюю части на бронзовой наковальне. Поместите части на землю друг на друга с небольшим количеством флюса между ними, затем несколько раз ударьте молотком, чтобы создать железную наковальню.
+30.5.2023 07:12:04.105 [VerboseDebug] Done creating handbook index GUI
+30.5.2023 07:12:04.105 [VerboseDebug] Done initialising handbook
+30.5.2023 07:12:04.118 [VerboseDebug] Done scanning for liquid containers 
+30.5.2023 07:12:04.118 [VerboseDebug] Done wearable stats
+30.5.2023 07:12:04.155 [VerboseDebug] Done init huge gears
+30.5.2023 07:12:04.167 [VerboseDebug] Done traders handbook stuff
+30.5.2023 07:12:04.167 [VerboseDebug] Done level finalize
+30.5.2023 07:12:08 [Debug] Rift weather value: high
+30.5.2023 07:12:13 [Debug] Rift weather value: high
+30.5.2023 07:12:18 [Debug] Rift weather value: high
+30.5.2023 07:12:23 [Debug] Rift weather value: high
+30.5.2023 07:12:28 [Debug] Rift weather value: high
+30.5.2023 07:12:33 [Debug] Rift weather value: high
+30.5.2023 07:12:38 [Debug] Rift weather value: high
+30.5.2023 07:12:43 [Debug] Rift weather value: high
+30.5.2023 07:12:48 [Debug] Rift weather value: high
+30.5.2023 07:12:53 [Debug] Rift weather value: high
+30.5.2023 07:12:58 [Debug] Rift weather value: high
+30.5.2023 07:13:03 [Debug] Rift weather value: high
+30.5.2023 07:13:09 [Debug] TimeDialogController::onLeaveWorld
+30.5.2023 07:13:12 [Debug] GuiScreenConnectingToServer constructed
+30.5.2023 07:13:13.141 [VerboseDebug] Left bottom main menu text is at 13/1027.6890625 w/h 300,44.3109375
