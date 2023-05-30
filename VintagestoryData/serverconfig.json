@@ -330,8 +330,8 @@
   "AntiAbuse": 0,
   "WorldConfig": {
     "Seed": null,
-    "SaveFileLocation": "C:\\Users\\Dmytro\\AppData\\Roaming\\VintagestoryData\\Saves\\medieval world.vcdbs",
-    "WorldName": "Medieval World",
+    "SaveFileLocation": "C:\\Users\\Dmytro\\AppData\\Roaming\\VintagestoryData\\Saves\\dees cave world.vcdbs",
+    "WorldName": "Dees Cave World",
     "AllowCreativeMode": true,
     "PlayStyle": "surviveandbuild",
     "PlayStyleLangCode": "preset-surviveandbuild",

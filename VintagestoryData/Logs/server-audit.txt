@@ -1,10 +1,10 @@
-30.5.2023 07:12:00 [Audit] Dee joined.
-30.5.2023 07:12:01 [Audit] Dee opened inventory hotbar-dmytrocheva
-30.5.2023 07:12:01 [Audit] Dee opened inventory creative-dmytrocheva
-30.5.2023 07:12:01 [Audit] Dee opened inventory creative-dmytrocheva
-30.5.2023 07:12:01 [Audit] Dee opened inventory backpack-dmytrocheva
-30.5.2023 07:12:01 [Audit] Dee opened inventory ground-dmytrocheva
-30.5.2023 07:12:01 [Audit] Dee opened inventory mouse-dmytrocheva
-30.5.2023 07:12:01 [Audit] Dee opened inventory craftinggrid-dmytrocheva
-30.5.2023 07:12:01 [Audit] Dee opened inventory character-dmytrocheva
-30.5.2023 07:13:10 [Audit] Client Dee got removed: 'Server shutting down - Exit request by client' (Server shutting down - Exit request by client)
+30.5.2023 08:36:07 [Audit] Dee joined.
+30.5.2023 08:36:08 [Audit] Dee opened inventory hotbar-dmytrocheva
+30.5.2023 08:36:08 [Audit] Dee opened inventory creative-dmytrocheva
+30.5.2023 08:36:08 [Audit] Dee opened inventory creative-dmytrocheva
+30.5.2023 08:36:08 [Audit] Dee opened inventory backpack-dmytrocheva
+30.5.2023 08:36:08 [Audit] Dee opened inventory ground-dmytrocheva
+30.5.2023 08:36:08 [Audit] Dee opened inventory mouse-dmytrocheva
+30.5.2023 08:36:08 [Audit] Dee opened inventory craftinggrid-dmytrocheva
+30.5.2023 08:36:08 [Audit] Dee opened inventory character-dmytrocheva
+30.5.2023 08:43:05 [Audit] Client Dee got removed: 'Server shutting down - Exit request by client' (Server shutting down - Exit request by client)

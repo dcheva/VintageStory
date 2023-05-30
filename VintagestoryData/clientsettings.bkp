@@ -21,7 +21,7 @@
   "intSettings": {
     "mipmapLevel": 3,
     "musicFrequency": 2,
-    "graphicsPresetId": 6,
+    "graphicsPresetId": 11,
     "webRequestTimeout": 10,
     "maxAnimatedElements": 36,
     "shadowMapQuality": 1,
@@ -30,8 +30,8 @@
     "viewDistance": 256,
     "fieldOfView": 70,
     "maxFps": 75,
-    "particleLevel": 100,
-    "maxDynamicLights": 25,
+    "particleLevel": 60,
+    "maxDynamicLights": 10,
     "weirdMacOSMouseYOffset": 5,
     "screenshotExifDataMode": 0,
     "chunkVerticesUploadRateLimiter": 3,
@@ -108,7 +108,7 @@
     "startupErrorDialog": false,
     "hasGameServer": false,
     "showMinimapHud": true,
-    "chatdialogvisible": true,
+    "chatdialogvisible": false,
     "noHandbookPause": false
   },
   "floatSettings": {
