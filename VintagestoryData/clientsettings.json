@@ -110,7 +110,7 @@
     "startupErrorDialog": false,
     "hasGameServer": false,
     "showMinimapHud": true,
-    "chatdialogvisible": true,
+    "chatdialogvisible": false,
     "noHandbookPause": false
   },
   "floatSettings": {
