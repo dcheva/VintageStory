@@ -40,7 +40,7 @@
     "soundLevel": 100,
     "ambientSoundLevel": 100,
     "weatherSoundLevel": 100,
-    "musicLevel": 35,
+    "musicLevel": 25,
     "screenWidth": 1280,
     "screenHeight": 850,
     "gameWindowMode": 1,
