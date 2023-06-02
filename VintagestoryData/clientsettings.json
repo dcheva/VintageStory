@@ -1,5 +1,510 @@
 {
-  "keyMapping": {},
+  "keyMapping": {
+    "walkforward": {
+      "KeyCode": 105,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "walkbackward": {
+      "KeyCode": 101,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "walkleft": {
+      "KeyCode": 83,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "walkright": {
+      "KeyCode": 86,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "sneak": {
+      "KeyCode": 1,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "sprint": {
+      "KeyCode": 3,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "shift": {
+      "KeyCode": 1,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "ctrl": {
+      "KeyCode": 3,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "jump": {
+      "KeyCode": 51,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "sitdown": {
+      "KeyCode": 89,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "inventorydialog": {
+      "KeyCode": 87,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "characterdialog": {
+      "KeyCode": 85,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "dropitem": {
+      "KeyCode": 99,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "dropitems": {
+      "KeyCode": 99,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "toolmodeselect": {
+      "KeyCode": 88,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "coordinateshud": {
+      "KeyCode": 104,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "blockinfohud": {
+      "KeyCode": 84,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "blockinteractionhelp": {
+      "KeyCode": 96,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "escapemenudialog": {
+      "KeyCode": 50,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "togglehud": {
+      "KeyCode": 13,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "cyclecamera": {
+      "KeyCode": 14,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "zoomout": {
+      "KeyCode": 120,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "zoomin": {
+      "KeyCode": 121,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "togglemousecontrol": {
+      "KeyCode": 5,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "beginchat": {
+      "KeyCode": 102,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "beginclientcommand": {
+      "KeyCode": 127,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "beginservercommand": {
+      "KeyCode": 128,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "chatdialog": {
+      "KeyCode": 52,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "macroeditor": {
+      "KeyCode": 95,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "togglefullscreen": {
+      "KeyCode": 20,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "screenshot": {
+      "KeyCode": 21,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "megascreenshot": {
+      "KeyCode": 21,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "fliphandslots": {
+      "KeyCode": 106,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot1": {
+      "KeyCode": 110,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot2": {
+      "KeyCode": 111,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot3": {
+      "KeyCode": 112,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot4": {
+      "KeyCode": 113,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot5": {
+      "KeyCode": 114,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot6": {
+      "KeyCode": 115,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot7": {
+      "KeyCode": 116,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot8": {
+      "KeyCode": 117,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot9": {
+      "KeyCode": 118,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot10": {
+      "KeyCode": 109,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot11": {
+      "KeyCode": 110,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot12": {
+      "KeyCode": 111,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot13": {
+      "KeyCode": 112,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "hotbarslot14": {
+      "KeyCode": 113,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "decspeed": {
+      "KeyCode": 10,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "incspeed": {
+      "KeyCode": 11,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "decspeedfrac": {
+      "KeyCode": 10,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": true
+    },
+    "incspeedfrac": {
+      "KeyCode": 11,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": true
+    },
+    "cycleflymodes": {
+      "KeyCode": 12,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "fly": {
+      "KeyCode": 51,
+      "SecondKeyCode": 51,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "rendermetablocks": {
+      "KeyCode": 13,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "fpsgraph": {
+      "KeyCode": 12,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": true,
+      "Shift": false
+    },
+    "debugscreenandgraph": {
+      "KeyCode": 12,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "reloadworld": {
+      "KeyCode": 10,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "reloadshaders": {
+      "KeyCode": 10,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": true,
+      "Shift": false
+    },
+    "reloadtextures": {
+      "KeyCode": 11,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": true,
+      "Shift": false
+    },
+    "compactheap": {
+      "KeyCode": 17,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": true,
+      "Shift": false
+    },
+    "recomposeallguis": {
+      "KeyCode": 18,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": true,
+      "Shift": false
+    },
+    "cycledialogoutlines": {
+      "KeyCode": 19,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": true,
+      "Shift": false
+    },
+    "tickprofiler": {
+      "KeyCode": 19,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "creativesearch": {
+      "KeyCode": 88,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "worldedit": {
+      "KeyCode": 119,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "handbook": {
+      "KeyCode": 90,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "journal": {
+      "KeyCode": 92,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "worldmaphud": {
+      "KeyCode": 15,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "worldmapdialog": {
+      "KeyCode": 95,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": false
+    },
+    "modSettingsDialog": {
+      "KeyCode": 97,
+      "SecondKeyCode": null,
+      "Ctrl": false,
+      "Alt": false,
+      "Shift": true
+    },
+    "TimeDialog": {
+      "KeyCode": 103,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    },
+    "StormDialog": {
+      "KeyCode": 91,
+      "SecondKeyCode": null,
+      "Ctrl": true,
+      "Alt": false,
+      "Shift": false
+    }
+  },
   "dialogPositions": {},
   "stringSettings": {
     "settingsVersion": "1.6",
@@ -40,7 +545,7 @@
     "soundLevel": 100,
     "ambientSoundLevel": 100,
     "weatherSoundLevel": 100,
-    "musicLevel": 15,
+    "musicLevel": 0,
     "screenWidth": 1280,
     "screenHeight": 850,
     "gameWindowMode": 1,
