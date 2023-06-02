@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/enabled",
+    "file": "vanvar:recipes/grid/chest-labeled.json",
+    "value": false,
+    "dependsOn": [{ "modid": "vanvar" }]
+  }
+]

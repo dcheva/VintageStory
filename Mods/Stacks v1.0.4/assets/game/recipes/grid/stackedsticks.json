@@ -1,0 +1,11 @@
+[
+	{
+		ingredientPattern: "S",
+		ingredients: {
+			"S": { type: "item", code: "stick", quantity: 64 }
+		},
+		width: 1,
+		height: 1,
+    	output: { type: "block", code: "stackedsticks-ud", quantity: 1  }
+	}
+]

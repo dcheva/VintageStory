@@ -1,0 +1,24 @@
+[
+	{	_Comment: "Use KNIFE for cut Hunter Backpack to hide pelt large",
+		ingredientPattern: "_K_,_B_,___",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10  },
+			"B": { type: "item",  code: "game:hunterbackpack" }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "item", code: "game:hide-pelt-large"}
+	},
+	{	_Comment: "Use KNIFE for cut Linen Backpack to linen",
+		ingredientPattern: "_K_,_B_,___",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10  },
+			"B": { type: "item",  code: "game:linensack" }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "block", code: "game:linen-normal-down"}
+	}
+]

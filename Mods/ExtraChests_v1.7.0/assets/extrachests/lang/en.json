@@ -1,0 +1,39 @@
+{
+  "block-copper-chest-*": "Copper Chest",
+  "block-tinbronze-chest-*": "Tin Bronze Chest",
+  "block-bismuthbronze-chest-*": "Bismuth Bronze Chest",
+  "block-blackbronze-chest-*": "Black Bronze Chest",
+  "block-iron-chest-*": "Iron Chest",
+  "block-steel-chest-*": "Steel Chest",
+
+  "block-copper-labeledchest-*": "Labeled Copper Chest",
+  "block-tinbronze-labeledchest-*": "Labeled Tin Bronze Chest",
+  "block-bismuthbronze-labeledchest-*": "Labeled Bismuth Bronze Chest",
+  "block-blackbronze-labeledchest-*": "Labeled Black Bronze Chest",
+  "block-iron-labeledchest-*": "Labeled Iron Chest",
+  "block-steel-labeledchest-*": "Labeled Steel Chest",
+
+  "item-chestupgrade-copper": "Wooden to Copper Chest Upgrade",
+  "itemdesc-chestupgrade-copper": "Upgrades a Wooden Chest to a Copper Chest.",
+  "item-handbooktext-*chestupgrade-copper*": "<strong>How to use</strong>\r\n<strong>Sneak + Right mouse click.",
+
+  "item-chestupgrade-tinbronze": "Copper to Tin Bronze Chest Upgrade",
+  "itemdesc-chestupgrade-tinbronze": "Upgrades a Copper Chest to a Tin Bronze Chest.",
+  "item-handbooktext-*chestupgrade-tinbronze*": "<strong>How to use</strong>\r\n<strong>Sneak + Right mouse click.",
+
+  "item-chestupgrade-bismuthbronze": "Copper to Bismuth Bronze Chest Upgrade",
+  "itemdesc-chestupgrade-bismuthbronze": "Upgrades a Copper Chest to a Bismuth Bronze Chest.",
+  "item-handbooktext-*chestupgrade-bismuthbronze*": "<strong>How to use</strong>\r\n<strong>Sneak + Right mouse click.",
+
+  "item-chestupgrade-blackbronze": "Copper to Black Bronze Chest Upgrade",
+  "itemdesc-chestupgrade-blackbronze": "Upgrades a Copper Chest to a Black Bronze Chest.",
+  "item-handbooktext-*chestupgrade-blackbronze*": "<strong>How to use</strong>\r\n<strong>Sneak + Right mouse click.",
+
+  "item-chestupgrade-iron": "Bronze to Iron Chest Upgrade",
+  "itemdesc-chestupgrade-iron": "Upgrades any Bronze Chest to an Iron Chest.",
+  "item-handbooktext-*chestupgrade-iron*": "<strong>How to use</strong>\r\n<strong>Sneak + Right mouse click.",
+
+  "item-chestupgrade-steel": "Iron to Steel Chest Upgrade",
+  "itemdesc-chestupgrade-steel": "Upgrades an Iron Chest to a Steel Chest.",
+  "item-handbooktext-*chestupgrade-steel*": "<strong>How to use</strong>\r\n<strong>Sneak + Right mouse click."
+}

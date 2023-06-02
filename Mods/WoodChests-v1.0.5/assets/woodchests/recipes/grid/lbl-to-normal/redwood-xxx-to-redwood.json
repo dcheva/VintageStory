@@ -1,0 +1,223 @@
+[
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-acacia" },
+        "returnedStack": { "type": "item", "code": "game:plank-acacia", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-aged" },
+        "returnedStack": { "type": "item", "code": "game:plank-aged", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-baldcypress" },
+        "returnedStack": { "type": "item", "code": "game:plank-baldcypress", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-birch" },
+        "returnedStack": { "type": "item", "code": "game:plank-birch", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-ebony" },
+        "returnedStack": { "type": "item", "code": "game:plank-ebony", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-kapok" },
+        "returnedStack": { "type": "item", "code": "game:plank-kapok", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-larch" },
+        "returnedStack": { "type": "item", "code": "game:plank-larch", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-maple" },
+        "returnedStack": { "type": "item", "code": "game:plank-maple", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-oak" },
+        "returnedStack": { "type": "item", "code": "game:plank-oak", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-pine" },
+        "returnedStack": { "type": "item", "code": "game:plank-pine", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-purpleheart" },
+        "returnedStack": { "type": "item", "code": "game:plank-purpleheart", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-redwood" },
+        "returnedStack": { "type": "item", "code": "game:plank-redwood", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "wlabeledchest-east",
+        "attributes": { "type": "redwood-walnut" },
+        "returnedStack": { "type": "item", "code": "game:plank-walnut", "quantity": 2 }
+      },
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "recipeGroup": 3,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } }
+  }
+]

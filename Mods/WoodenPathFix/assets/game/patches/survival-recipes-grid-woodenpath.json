@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/P/quantity",
+    "value": 8,
+    "file": "recipes/grid/woodenpath.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/P/code",
+    "value": "plank-*",
+    "file": "recipes/grid/woodenpath.json"
+  }
+]

@@ -1,0 +1,40 @@
+{
+	"game:tabname-ABCSR": "ABSC Reborn",
+	
+	"item-minibackpack": "Mini Linen Backpack",
+	"itemdesc-minibackpack": "Mini backpack made from a basket, rope, twine or cloth.",
+	
+	"item-tallbackpack": "Tall Linen Backpack",
+	"itemdesc-tallbackpack": "Upgraded Mini backpack with a large bottom pocket.",
+	
+	"item-basicbackpack": "Basic Linen Backpack",
+	"itemdesc-basicbackpack": "Upgraded Tall backpack with two top side pockets and one large bottom pocket.",
+	
+	"item-superbackpack": "Super Linen Backpack",
+	"itemdesc-superbackpack": "Upgraded Basic backpack with a large bottom pocket.",
+
+	"item-megabackpack": "Mega Linen Backpack",
+	"itemdesc-megabackpack": "Upgraded Super backpack with 2 large side pockets.",
+
+	"item-ultrabackpack": "Ultra Linen Backpack",
+	"itemdesc-ultrabackpack": "Upgraded Mega backpack with 3 large pockets.",
+	
+
+	"item-minileather": "Mini Leather Backpack",
+	"itemdesc-minileather": "Upgraded Standart leather backpack",
+	
+	"item-tallleather": "Tall Leather Backpack",
+	"itemdesc-tallleather": "Upgraded Mini leather backpack with 4 small side pockets",
+	
+	"item-basicleather": "Basic Leather Backpack",
+	"itemdesc-basicleather": "Upgraded Tall leather backpack with 2 front pockets",
+	
+	"item-superleather": "Super Leather Backpack",
+	"itemdesc-superleather": "Upgraded Basic leather backpack with 2 front pockets and top pocket",
+	
+	"item-megaleather": "Mega Leather Backpack",
+	"itemdesc-megaleather": "Upgraded Super leather backpack with 2 front pockets, top pocket and 2 side pockets",
+	
+	"item-ultraleather": "Ultra Leather Backpack",
+	"itemdesc-ultraleather": "Upgraded Mega leather backpack with 2 front pockets, top pocket, 2 side pockets and one large front pocket"
+}

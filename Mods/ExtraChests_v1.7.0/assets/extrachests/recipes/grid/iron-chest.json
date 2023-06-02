@@ -1,0 +1,80 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "tinbronze" }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "chest-east",
+      "attributes": { "type": "iron" }
+    }
+  },
+
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "bismuthbronze" }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+    },
+    "width": 3,
+    "height": 3,   
+    "output": {
+      "type": "block",
+      "code": "chest-east",
+      "attributes": { "type": "iron" }
+    }
+  },
+
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "blackbronze" }
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+    },
+    "width": 3,
+    "height": 3,    
+    "output": {
+      "type": "block",
+      "code": "chest-east",
+      "attributes": { "type": "iron" }
+    }
+  }
+]
+

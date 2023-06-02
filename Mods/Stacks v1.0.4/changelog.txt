@@ -1,0 +1,7 @@
+Stacks
+
+Version 1.0.4
+	- maximum of 10 stacks of sticks per inventory slot
+
+Version 1.0.3
+	- added higher-res texture

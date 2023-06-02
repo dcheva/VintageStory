@@ -1,0 +1,10 @@
+{
+    "ingredientPattern": "_W,WW,NW",
+    "ingredients": {
+        "W": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 2 },
+        "N": { "type": "item", "code": "game:metalnailsandstrips-*" }
+    },
+    "width": 2,
+    "height": 3,
+    "output": { "type": "block", "code": "wchest-east", "attributes": { "type": "{wood}" } }
+}

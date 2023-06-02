@@ -1,0 +1,265 @@
+{
+  "code": "chest",
+  "class": "BlockGenericTypedContainer",
+  "entityclass": "GenericTypedContainer",
+  "attributes": {
+    "partialAttachable": true,
+    "inventoryClassName": "chest",
+    "defaultType": "copper",
+    "types": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "steel" ],
+
+    "rotatatableInterval": {
+      "copper": "22.5degnot45deg",
+      "tinbronze": "22.5degnot45deg",
+      "bismuthbronze": "22.5degnot45deg",
+      "blackbronze": "22.5degnot45deg",
+      "iron": "22.5degnot45deg",
+      "steel": "22.5degnot45deg"
+    },
+
+    "drop": {
+      "copper": true,
+      "tinbronze": true,
+      "bismuthbronze": true,
+      "blackbronze": true,
+      "iron": true,
+      "steel": true
+    },
+
+    "quantitySlots": {
+      "copper": 24,
+      "tinbronze": 32,
+      "bismuthbronze": 32,
+      "blackbronze": 32,
+      "iron": 40,
+      "steel": 48
+    },
+
+    "quantityColumns": {
+      "copper": 6,
+      "tinbronze": 8,
+      "bismuthbronze": 8,
+      "blackbronze": 8,
+      "iron": 10,
+      "steel": 12
+    },
+
+
+    "dialogTitleLangCode": {
+      "copper": "chestcontents",
+      "tinbronze": "chestcontents",
+      "bismuthbronze": "chestcontents",
+      "blackbronze": "chestcontents",
+      "iron": "chestcontents",
+      "steel": "chestcontents"
+    },
+
+    "storageType": {
+      "copper": 189,
+      "tinbronze": 189,
+      "bismuthbronze": 189,
+      "blackbronze": 189,
+      "iron": 189,
+      "steel": 189
+    },
+
+    "retrieveOnly": {
+      "copper": false,
+      "tinbronze": false,
+      "bismuthbronze": false,
+      "blackbronze": false,
+      "iron": false,
+      "steel": false
+    },
+
+    "shape": {
+      "copper": "game:block/chest/normal-copper",
+      "tinbronze": "game:block/chest/normal-tinbronze",
+      "bismuthbronze": "game:block/chest/normal-bismuthbronze",
+      "blackbronze": "game:block/chest/normal-blackbronze",
+      "iron": "game:block/chest/normal-iron",
+      "steel": "game:block/chest/normal-steel"
+    },
+
+    "typedOpenSound": {
+      "copper": "game:sounds/block/largechestopen",
+      "tinbronze": "game:sounds/block/largechestopen",
+      "bismuthbronze": "game:sounds/block/largechestopen",
+      "blackbronze": "game:sounds/block/largechestopen",
+      "iron": "game:sounds/block/largechestopen",
+      "steel": "game:sounds/block/largechestopen"
+    },
+
+    "typedCloseSound": {
+      "copper": "game:sounds/block/largechestclose",
+      "tinbronze": "game:sounds/block/largechestclose",
+      "bismuthbronze": "game:sounds/block/largechestclose",
+      "blackbronze": "game:sounds/block/largechestclose",
+      "iron": "game:sounds/block/largechestclose",
+      "steel": "game:sounds/block/largechestclose"
+    },
+
+    "variantByGroup": "side",
+    "variantByGroupInventory": null
+  },
+
+  "behaviors": [
+    { "name": "Lockable" },
+    { "name": "Container" }   
+  ],
+
+  "entityBehaviors": [ { "name": "Animatable" } ],
+
+  "variantgroups": [
+    {
+      "code": "side",
+      "loadFromProperties": "game:abstract/horizontalorientation"
+    }
+  ],
+
+  "creativeinventory": {},
+  "creativeinventoryStacksByType": {
+    "*-east": [
+      {
+        "tabs": [ "general", "decorative" ],
+        "stacks": [
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "copper" }
+          },
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "tinbronze" }
+          },
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "bismuthbronze" }
+          },
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "blackbronze" }
+          },
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "iron" }
+          },
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "steel" }
+          }
+        ]
+      }
+    ]
+  },
+  "heldTpIdleAnimation": "holdunderarm",
+  "shapeInventory": {
+    "base": "game:block/wood/chest/normal",
+    "rotateY": 270
+  },
+  "shapeByType": {
+    "*-north": {
+      "base": "game:block/wood/chest/normal",
+      "rotateY": 0
+    },
+    "*-east": {
+      "base": "game:block/wood/chest/normal",
+      "rotateY": 270
+    },
+    "*-west": {
+      "base": "game:block/wood/chest/normal",
+      "rotateY": 90
+    },
+    "*-south": {
+      "base": "game:block/wood/chest/normal",
+      "rotateY": 180
+    }
+  },
+  "_comment": "Must declare textures so they get added to the block texture atlas",
+  "textures": {
+    "copper-sides2": { "base": "block/chest/copper/sides" },
+    "copper-lid": { "base": "block/chest/copper/lid" },
+    "copper-accessories": { "base": "block/chest/copper/accessories" },
+
+    "tinbronze-sides2": { "base": "block/chest/tinbronze/sides" },
+    "tinbronze-lid": { "base": "block/chest/tinbronze/lid" },
+    "tinbronze-accessories": { "base": "block/chest/tinbronze/accessories" },
+
+    "bismuthbronze-sides2": { "base": "block/chest/bismuthbronze/sides" },
+    "bismuthbronze-lid": { "base": "block/chest/bismuthbronze/lid" },
+    "bismuthbronze-accessories": { "base": "block/chest/bismuthbronze/accessories" },
+
+    "blackbronze-sides2": { "base": "block/chest/blackbronze/sides" },
+    "blackbronze-lid": { "base": "block/chest/blackbronze/lid" },
+    "blackbronze-accessories": { "base": "block/chest/blackbronze/accessories" },
+
+    "iron-sides2": { "base": "block/chest/iron/sides" },
+    "iron-lid": { "base": "block/chest/iron/lid" },
+    "iron-accessories": { "base": "block/chest/iron/accessories" },
+
+    "steel-sides2": { "base": "block/chest/steel/sides" },
+    "steel-lid": { "base": "block/chest/steel/lid" },
+    "steel-accessories": { "base": "block/chest/steel/accessories" }
+  },
+
+  "blockmaterial": "Wood",
+  "replaceable": 900,
+  "resistance": 3,
+  "lightAbsorption": 0,
+  "sideAo": { "all": false },
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "collisionbox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.8125,
+    "z2": 0.9375
+  },
+  "selectionbox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.8125,
+    "z2": 0.9375
+  },
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "materialDensity": 600,
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.9,
+      "y": -0.5,
+      "z": -0.3
+    },
+    "rotation": {
+      "x": 0,
+      "y": 90,
+      "z": -102
+    },
+    "scale": 0.56
+  },
+  "guiTransform": {
+    "origin": {
+      "x": 0.5,
+      "y": 0.4,
+      "z": 0.5
+    },
+    "scale": 1.16
+  }
+}

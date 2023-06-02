@@ -1,0 +1,18 @@
+{
+  "Type": 1,
+  "TextureSize": 32,
+  "Name": "Wooden Path Fix",
+  "Version": "1.0.0",
+  "NetworkVersion": null,
+  "Description": "Allows Wooden Path to be made with any wooden board and balances its recipe",
+  "Website": "",
+  "ModID": "WoodenPathFix",
+  "Authors": [
+    "Zaldaryon"
+  ],
+  "Contributors": [],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}

@@ -1,0 +1,87 @@
+[
+	{	_Comment: "MINI to TALL use cloth plain",
+		ingredientPattern: "SFN,TBT,_L_",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"N": { type: "item", code: "game:sewingkit" },
+			
+			"L": { type: "item", code: "game:cloth-plain" },
+			"T": { type: "item",  code: "game:flaxtwine"},
+			"B": { type: "item",  code: "minibackpack" }
+		},
+		width: 3,	
+		height: 3,
+		recipeGroup: 1,		
+		name: "tallbackpack", 
+		output: { type: "item", code: "tallbackpack"  }
+	},
+	{	_Comment: "TALL to BASIC use 2 cloth plain",
+		ingredientPattern: "SFN,LBL,_T_",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"N": { type: "item", code: "game:sewingkit" },
+			
+			"L": { type: "item", code: "game:cloth-plain", quantity: "2" },
+			"T": { type: "item",  code: "game:flaxtwine", quantity: "4" },
+			"B": { type: "item",  code: "tallbackpack" }
+		},
+		width: 3,	
+		height: 3,
+		recipeGroup: 1,			
+		name: "basicbackpack", 
+		output: { type: "item", code: "basicbackpack"  }
+	},
+	{	__comment: "BASIC to SUPER use cloth black",
+		ingredientPattern: "SFN,LBL,_T_",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"N": { type: "item", code: "game:sewingkit" },
+			
+			"T": { type: "item",  code: "game:flaxtwine", quantity: "4" },
+			"L": { type: "item", code: "game:cloth-brown", quantity: "2"},
+			"B": { type: "item",  code: "basicbackpack" }
+		},
+		width: 3,	
+		height: 3,
+		recipeGroup: 1,			
+		name: "superbackpack", 
+		output: { type: "item", code: "superbackpack"  }
+	},
+	{	__comment: "SUPER to MEGA use cloth black",
+		ingredientPattern: "SFN,LBL,T_T",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"N": { type: "item", code: "game:sewingkit" },
+			
+			"T": { type: "item",  code: "game:flaxtwine", quantity: "4" },
+			"L": { type: "item", code: "game:cloth-black", quantity: "2" },
+			"B": { type: "item",  code: "superbackpack" }
+		},
+		width: 3,	
+		height: 3,
+		recipeGroup: 1,	
+		name: "megabackpack", 
+		output: { type: "item", code: "megabackpack"  }
+	},
+	{	__comment: "MEGA to ULTRA use cloth white",
+		ingredientPattern: "SFN,LBL,T_T",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"N": { type: "item", code: "game:sewingkit" },
+			
+			"T": { type: "item",  code: "game:flaxtwine", quantity: "8" },
+			"L": { type: "item", code: "game:cloth-white", quantity: "4" },
+			"B": { type: "item",  code: "megabackpack" }
+		},
+		width: 3,	
+		height: 3,
+		recipeGroup: 1,	
+		name: "ultrabackpack", 
+		output: { type: "item", code: "ultrabackpack"  }
+	}
+]

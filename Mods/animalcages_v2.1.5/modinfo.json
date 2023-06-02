@@ -1,0 +1,14 @@
+{
+    "type": "code",
+    "modid": "animalcages",
+    "name": "Animal cages",
+    "side": "universal",
+    "authors": [
+        "G3rste"
+    ],
+    "description": "Mod that adds cages for animals so you can catch, transport and display them.",
+    "version": "2.1.5",
+    "dependencies": {
+        "game": "1.18.0"
+    }
+}

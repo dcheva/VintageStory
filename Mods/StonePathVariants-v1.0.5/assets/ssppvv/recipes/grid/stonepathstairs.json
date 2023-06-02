@@ -1,0 +1,11 @@
+{
+	"ingredientPattern": "LM,S_",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:stone-*", "name": "rock", "quantity": 3, "allowedVariants": ["andesite","basalt","bauxite","chalk","chert","claystone","conglomerate","granite","greenmarble","halite","kimberlite","limestone","obsidian","peridotite","phyllite","redmarble","sandstone","scoria","shale","slate","suevite","tuff","whitemarble"] },
+		"M": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["andesite","basalt","bauxite","chalk","chert","claystone","conglomerate","granite","greenmarble","halite","kimberlite","limestone","obsidian","peridotite","phyllite","redmarble","sandstone","scoria","shale","slate","suevite","tuff","whitemarble"] },
+		"S": { "type": "block", "code": "game:soil-*" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "block", "code": "stonepathstairs-{rock}-up-north-free" }
+}

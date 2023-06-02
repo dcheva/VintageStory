@@ -1,0 +1,15 @@
+{
+  "block-copper-chest-*": "Coffre en cuivre",
+  "block-tinbronze-chest-*": "Coffre en bronze-\u00e9tain",
+  "block-bismuthbronze-chest-*": "Coffre en bronze bismuth",
+  "block-blackbronze-chest-*": "Coffre en bronze noir",
+  "block-iron-chest-*": "Coffre en fer",
+  "block-steel-chest-*": "Coffre en acier",
+
+  "block-copper-labeledchest-*": "Coffre en cuivre \u00e9tiquet\u00e9",
+  "block-tinbronze-labeledchest-*": "Coffre en bronze-\u00e9tain \u00e9tiquet\u00e9",
+  "block-bismuthbronze-labeledchest-*": "Coffre en bronze bismuth \u00e9tiquet\u00e9",
+  "block-blackbronze-labeledchest-*": "Coffre en bronze noir \u00e9tiquet\u00e9",
+  "block-iron-labeledchest-*": "Coffre en fer \u00e9tiquet\u00e9",
+  "block-steel-labeledchest-*": "Coffre en acier \u00e9tiquet\u00e9"
+}

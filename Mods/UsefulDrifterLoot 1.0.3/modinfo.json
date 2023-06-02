@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "usefuldrifterloot",
+  "name": "Useful Drifter Loot",
+  "description" : "Adds some more drops to all drifter loot tables, mostly aims at making lower tier drifters actually worthwhile to cut open.",
+  "authors": ["Ketrai"],
+  "version": "1.0.3",
+  "dependencies": {},
+  "website": "https://mods.vintagestory.at/usefuldrifterloot"
+}

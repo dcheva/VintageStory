@@ -1,0 +1,49 @@
+[
+    {
+        "op": "addeach",
+        "path": "/server/behaviors/10/aitasks/1/entityCodes/-",
+        "value": [
+            "dog-wolf-male",
+            "dog-wolf-female",
+            "dog-hunting-male",
+            "dog-hunting-female"
+        ],
+        "file": "game:entities/land/chicken-rooster.json"
+    },
+    {
+        "op": "addeach",
+        "path": "/server/behaviors/10/aitasks/2/entityCodes/-",
+        "value": [
+            "dog-wolf-male",
+            "dog-wolf-female",
+            "dog-hunting-male",
+            "dog-hunting-female"
+        ],
+        "file": "game:entities/land/chicken-rooster.json"
+    },
+    {
+        "op": "addeach",
+        "path": "/server/behaviors/10/aitasks/4/entityCodes/-",
+        "value": [
+            "dog-wolf-male",
+            "dog-wolf-female",
+            "dog-hunting-male",
+            "dog-hunting-female"
+        ],
+        "file": "game:entities/land/chicken-rooster.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/10/aitasks/-",
+        "value": {
+            "code": "stayclosetoshepherd",
+            "priority": 1.4,
+            "entityCode": "dog-shepherd-*",
+            "movespeed": 0.015,
+            "maxDistance": 15,
+            "searchRange": 20,
+            "animation": "Run"
+        },
+        "file": "game:entities/land/chicken-rooster.json"
+    }
+]

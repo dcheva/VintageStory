@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "recipes/grid/vanvar/normal-to-lbl/walnut-to-walnut-xxx.json",
+    "value": false,
+    "dependsOn": [{ "modid": "vanvar", "invert": true }]
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "recipes/grid/vanvar/normal-to-lbl/walnut-to-walnut-xxx.json",
+    "value": false,
+    "dependsOn": [{ "modid": "vanvar", "invert": true }]
+  }
+]

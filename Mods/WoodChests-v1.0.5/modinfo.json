@@ -1,0 +1,10 @@
+{
+    "type": "code",
+    "modid": "woodchests",
+    "name": "Wood Chests",
+    "authors": ["Craluminum2413"],
+    "version": "1.0.5",
+    "dependencies": {
+        "game": "1.18.0-pre.5"
+    }
+}

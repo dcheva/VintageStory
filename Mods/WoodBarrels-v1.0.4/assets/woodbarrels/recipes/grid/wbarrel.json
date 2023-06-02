@@ -1,0 +1,10 @@
+{
+    "ingredientPattern": "SPS,__P,SPS",
+    "ingredients": {
+        "S": { "type": "item", "code": "game:stick" },
+        "P": { "type": "item", "code": "game:plank-*", "name": "wood" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "wbarrel-{wood}" }
+}

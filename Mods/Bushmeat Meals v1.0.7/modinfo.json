@@ -1,0 +1,14 @@
+{
+  "type": "content",
+  "modid": "bushmeat_meals",
+  "name": "Bushmeat Meals",
+  "description": "Allows Bushmeat ingredient in meals",
+  "version": "1.0.7",
+  "networkversion": null,
+  "website": "",
+  "authors": [ "ozBillo" ],
+  "contributors": [],
+  "side": "Universal",
+  "requiredonclient": true,
+  "dependencies": {}
+}

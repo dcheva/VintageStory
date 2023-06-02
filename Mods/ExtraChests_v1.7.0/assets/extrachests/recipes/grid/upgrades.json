@@ -1,0 +1,125 @@
+[
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "chestupgrade-copper"
+    }
+  },
+
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-tinbronze"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "chestupgrade-tinbronze"
+    }
+  },
+
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-blackbronze"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "chestupgrade-blackbronze"
+    }
+  },
+
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-bismuthbronze"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "chestupgrade-bismuthbronze"
+    }
+  },
+
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "chestupgrade-iron"
+    }
+  },
+
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-steel"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "chestupgrade-steel"
+    }
+  }
+
+
+
+
+]

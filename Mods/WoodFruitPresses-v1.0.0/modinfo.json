@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "woodfp",
+  "name": "Wood Fruit Presses",
+  "authors": ["Craluminum2413"],
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.16.0"
+  }
+}

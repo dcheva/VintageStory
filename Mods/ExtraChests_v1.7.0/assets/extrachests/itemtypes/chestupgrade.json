@@ -1,0 +1,49 @@
+{
+  "code": "chestupgrade",
+  "class": "ChestUpgrade",
+  "attributes": {
+    "handbook": { "groupBy": [ "upgrade-*" ] },
+    "requiredTier": {
+      "copper": "normal",
+      "tinbronze": "copper",
+      "bismuthbronze": "copper",
+      "blackbronze": "copper",
+      "iron": "bronze",
+      "steel": "iron"
+    }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "steel" ]
+    }
+  ],
+  "texture": { "base": "item/chestupgrade/{type}" },
+  "maxstacksize": 16,
+  "materialDensity": 500,
+
+  "fpHandTransform": {
+    "translation": {
+      "x": 0.05,
+      "y": -0.1,
+      "z": 0.1
+    }
+  },
+
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.45,
+      "y": -1.8,
+      "z": -1.4
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": -180
+    }
+  }
+}

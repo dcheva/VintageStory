@@ -1,0 +1,9 @@
+{
+	ingredientPattern: "PP	PP",
+	ingredients: {
+		"P": { type: "item", code: "usefuldrifterloot:gearpiece", quantity: 2 }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "game:gear-rusty"  }
+}

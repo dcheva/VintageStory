@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/backpack/quantitySlots",
+    "value": 4,
+    "file": "itemtypes/bag/linensack.json"
+  },
+  {
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 1,
+    "file": "itemtypes/bag/linensack.json"
+  }
+]

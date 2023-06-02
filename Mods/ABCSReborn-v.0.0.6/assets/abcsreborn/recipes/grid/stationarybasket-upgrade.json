@@ -1,0 +1,16 @@
+{
+	ingredientPattern: "LLL	CBC	CCC",
+	ingredients: {
+		"L": { type: "item", code: "game:cattailtops", quantity: 3 },
+		"C": { type: "item", code: "game:cattailtops", quantity: 1 },
+		"B": { type: "item", code: "game:basket" }
+	},
+	name: "stationarybasketupgrade",
+	width: 3,
+	height: 3,
+	output: { 
+		type: "block", 
+		code: "game:stationarybasket-east", 
+		attributes: { type: "reed" }  
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"ingredientPattern": "LSL",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["andesite","basalt","bauxite","chalk","chert","claystone","conglomerate","granite","greenmarble","halite","kimberlite","limestone","obsidian","peridotite","phyllite","redmarble","sandstone","scoria","shale","slate","suevite","tuff","whitemarble"] },
+		"S": { "type": "block", "code": "game:soil-*" }
+	},
+	"width": 3,
+	"height": 1,
+	"output": { "type": "block", "code": "stonepathslab-{rock}-free" }
+}

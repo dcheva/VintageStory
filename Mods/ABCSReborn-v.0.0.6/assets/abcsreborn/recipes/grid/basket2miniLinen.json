@@ -1,0 +1,36 @@
+[
+	{	_Comment: "BASKET to MINI using linen and flax",
+		ingredientPattern: "KLF,RBR,_T_",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10 },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			
+			"R": { type: "item",  code: "game:rope", quantity: "3"},
+			"L": { type: "block", code: "game:linen-*" },
+			"T": { type: "item",  code: "game:flaxtwine", quantity: "2" },
+			"B": { type: "item", code: "game:basket" }
+		},
+		width: 3,	
+		height: 3,
+		recipeGroup: 1,		
+		name: "minibackpack", 
+		output: { type: "item", code: "minibackpack"  }
+	},
+		{	_Comment: "BASKET to MINI  using Linen Sack",
+			ingredientPattern: "KSF,RBR,_T_",
+			ingredients: {
+				"K": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10 },
+				"F": { type: "item", code: "game:firewood", quantity: 2 },
+				
+				"R": { type: "item",  code: "game:rope", quantity: "3" },
+				"S": { type: "item",  code: "game:linensack" },
+				"T": { type: "item",  code: "game:flaxtwine"},
+				"B": { type: "item", code: "game:basket" }
+			},
+			width: 3,	
+			height: 3,
+			recipeGroup: 2,			
+			name: "minibackpack", 
+			output: { type: "item", code: "minibackpack"  }
+		}	
+]

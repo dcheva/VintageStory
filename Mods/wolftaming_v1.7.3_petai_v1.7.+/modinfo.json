@@ -1,0 +1,15 @@
+{
+    "type": "code",
+    "modid": "wolftaming",
+    "name": "Wolf taming",
+    "side": "universal",
+    "authors": [
+        "G3rste"
+    ],
+    "description": "Mod that focuses on making wolves tameable and usable by the player.",
+    "version": "1.7.3",
+    "dependencies": {
+        "game": "1.18.0",
+        "petai": "1.7.0"
+    }
+}

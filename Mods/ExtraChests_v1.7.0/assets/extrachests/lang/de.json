@@ -1,0 +1,15 @@
+{
+  "block-copper-chest-*": "Kupfer Truhe",
+  "block-tinbronze-chest-*": "Zinnbronze Truhe",
+  "block-bismuthbronze-chest-*": "Wismutbronze Truhe",
+  "block-blackbronze-chest-*": "Schwarzbronze Truhe",
+  "block-iron-chest-*": "Eisen Truhe",
+  "block-steel-chest-*": "Stahl Truhe",
+
+  "block-copper-labeledchest-*": "Beschriftete Kupfer Truhe",
+  "block-tinbronze-labeledchest-*": "Beschriftete Zinnbronze Truhe",
+  "block-bismuthbronze-labeledchest-*": "Beschriftete Wismutbronze Truhe",
+  "block-blackbronze-labeledchest-*": "Beschriftete Schwarzbronze Truhe",
+  "block-iron-labeledchest-*": "Beschriftete Eisen Truhe",
+  "block-steel-labeledchest-*": "Beschriftete Stahl Truhe"
+}

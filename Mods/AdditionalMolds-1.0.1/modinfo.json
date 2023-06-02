@@ -1,0 +1,20 @@
+{
+
+  "type": "content",
+  "texturesize": 32,
+  "name": "AdditionalMolds",
+  "modid": "additionalmolds",
+  "version": "1.0.1",
+
+  "description": "A simple mod that adds more clay molds.",
+  "website": "N/A",
+  "authors": [ "IronFractal" ],
+
+  "dependencies": 
+  {
+
+    "game": "1.15.1"
+    
+  }
+  
+}

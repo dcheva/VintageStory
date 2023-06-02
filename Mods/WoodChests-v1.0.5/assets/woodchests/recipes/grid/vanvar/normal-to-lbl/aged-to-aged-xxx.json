@@ -1,0 +1,26 @@
+[
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "S": { "type": "block", "code": "vanvar:sign-*-ground-north", "name": "swood" },
+      "C": { "type": "block", "code": "wchest-east", "attributes": { "type": "aged" } }
+    },
+    "recipeGroup": 2,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wlabeledchest-east", "attributes": { "type": "aged-{swood}" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "S": { "type": "block", "code": "game:sign-ground-north" },
+      "C": { "type": "block", "code": "wchest-east", "attributes": { "type": "aged" } }
+    },
+    "recipeGroup": 2,
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "wlabeledchest-east", "attributes": { "type": "aged-oak" } }
+  }
+]

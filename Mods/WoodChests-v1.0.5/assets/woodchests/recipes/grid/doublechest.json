@@ -1,0 +1,132 @@
+[
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "acacia" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "acacia" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "aged" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "aged" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "baldcypress" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "baldcypress" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "birch" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "birch" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "ebony" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "ebony" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "kapok" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "kapok" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "larch" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "larch" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "maple" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "maple" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "oak" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "oak" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "pine" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "pine" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "purpleheart" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "purpleheart" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "redwood" } }
+    },
+    {
+        "ingredientPattern": "WW",
+        "ingredients": { "W": { "type": "block", "code": "wchest-east", "attributes": { "type": "walnut" } } },
+        "recipeGroup": 2,
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "W",
+        "output": { "type": "block", "code": "wtrunk-east", "attributes": { "type": "walnut" } }
+    }
+]

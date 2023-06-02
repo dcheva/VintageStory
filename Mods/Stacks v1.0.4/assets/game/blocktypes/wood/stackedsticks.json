@@ -1,0 +1,67 @@
+{
+	code: "stackedsticks",
+	behaviors: [{name: "UnstableFalling"}, {name: "Pillar"}],
+	attributes: {
+		handbook: {
+			groupBy: ["stackedsticks-*"]
+		},
+		allowUnstablePlacement: true
+	},
+	variantgroups: [
+		{ code: "rotation", states: ["ud", "ns", "we"] },
+	],
+	creativeinventory: { "general": ["*-we"], "construction": ["*-we"] },
+	shape: { base: "block/basic/cube" },
+	blockmaterial: "Wood",
+	drawtype: "cube",
+	textures: {
+	},
+	texturesByType: {
+		"*-ud": {
+			north: { base: "block/wood/sticks/side", rotation: 90 },
+			east: { base: "block/wood/sticks/top" },
+			west: { base: "block/wood/sticks/top" },
+			south: { base: "block/wood/sticks/side", rotation: 90 },
+			up: { base: "block/wood/sticks/side", rotation: 90 },
+			down: { base: "block/wood/sticks/side", rotation: 90 }
+		},
+		"*-ns": {
+			north: { base: "block/wood/sticks/top" },
+			east: { base: "block/wood/sticks/side", rotation: 90 },
+			west: { base: "block/wood/sticks/side", rotation: 90 },
+			south: { base: "block/wood/sticks/top" },
+			up: { base: "block/wood/sticks/side" },
+			down: { base: "block/wood/sticks/side" }
+		},
+		"*-we": {
+			north: { base: "block/wood/sticks/side", rotation: 90 },
+			east: { base: "block/wood/sticks/top" },
+			west: { base: "block/wood/sticks/top" },
+			south: { base: "block/wood/sticks/side", rotation: 90 },
+			up: { base: "block/wood/sticks/side", rotation: 90 },
+			down: { base: "block/wood/sticks/side", rotation: 90 }
+		},
+	},
+	
+	
+	resistance: 1,
+	sounds: {
+		"place": "block/planks",
+		"walk": "walk/wood"
+	},
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 24,
+	},
+	maxStackSize: 10,
+	materialDensity: 400,
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.2, y: -1.1, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.37
+	},
+	drops: [
+		{ type: "item", code: "stick", quantity: { avg: 64, var: 0 } }
+	],
+}

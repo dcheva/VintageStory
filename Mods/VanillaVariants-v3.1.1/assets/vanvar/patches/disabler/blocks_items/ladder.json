@@ -1,0 +1,10 @@
+[
+  {
+    "file": "vanvar:recipes/grid/ladder.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "condition": { "when": "VVLadderEnabled", "isValue": "false" },
+    "side": "server"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "extrachests",
+  "name": "Extra Chests",
+  "authors": [ "Dauron" ],
+  "description": "Adds additional storage chests.",
+  "version": "1.7.0",
+  "dependency": {
+    "game": "1.18.0"
+  }
+}

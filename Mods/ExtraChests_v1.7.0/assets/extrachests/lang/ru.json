@@ -1,0 +1,15 @@
+﻿{
+  "block-copper-chest-*": "Медный сундук",
+  "block-tinbronze-chest-*": "Сундук из оловянной бронзы",
+  "block-bismuthbronze-chest-*": "Сундук из висмутовой бронзы",
+  "block-blackbronze-chest-*": "Сундук из черной бронзы",
+  "block-iron-chest-*": "Железный сундук",
+  "block-steel-chest-*": "Стальной сундук",
+
+  "block-copper-labeledchest-*": "Медный сундук с этикеткой",
+  "block-tinbronze-labeledchest-*": "Сундук из оловянной бронзы с этикеткой",
+  "block-bismuthbronze-labeledchest-*": "Сундук из висмутовой бронзы с этикеткой",
+  "block-blackbronze-labeledchest-*": "Сундук из черной бронзы с этикеткой",
+  "block-iron-labeledchest-*": "Железный сундук с этикеткой",
+  "block-steel-labeledchest-*": "Стальной сундук с этикеткой"
+}

@@ -1,0 +1,58 @@
+[
+	{	_Comment: "_Hunter Backpack upgrade to standart Backpack whith hide-pelt-huge",
+		ingredientPattern: "KFR,LBL",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10 },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 2 },
+			"B": { type: "item",  code: "game:hunterbackpack" },
+			"L": { type: "item", code: "game:hide-pelt-huge"}
+		},
+		width: 3,
+		height: 2,
+		recipeGroup: 2,	
+		output: { type: "item", code: "game:backpack"}
+	},
+	{	_Comment: "_Hunter Backpack upgrade to standart Backpack whith hide-pelt-large",
+		ingredientPattern: "KFR,LBL,_L_",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 2 },
+			"B": { type: "item",  code: "game:hunterbackpack" },
+			"L": { type: "item", code: "game:hide-pelt-large"}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 2,	
+		output: { type: "item", code: "game:backpack"}
+	},
+	{	_Comment: "_Hunter Backpack upgrade to standart Backpack whith hide-pelt-medium",
+		ingredientPattern: "KFR,LBL,LLL",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 2 },
+			"B": { type: "item",  code: "game:hunterbackpack" },
+			"L": { type: "item", code: "game:hide-pelt-medium"}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 2,	
+		output: { type: "item", code: "game:backpack"}
+	},
+	{	_Comment: "_Hunter Backpack upgrade to standart Backpack whith hide-pelt-small",
+		ingredientPattern: "KFR,LBL,LLL",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 2 },
+			"B": { type: "item",  code: "game:hunterbackpack" },
+			"L": { type: "item", code: "game:hide-pelt-small", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 2,	
+		output: { type: "item", code: "game:backpack"}
+	}
+]

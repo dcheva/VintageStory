@@ -1,0 +1,74 @@
+{
+    "code": "smallanimalcage",
+    "class": "blocksmallanimalcage",
+    "entityclass": "blockentitysmallanimalcage",
+    "creativeinventory": {
+        "general": [
+            "*-opened"
+        ]
+    },
+    "heldTpIdleAnimation": "holdbothhands",
+    "heldTpHitAnimation": "twohandplaceblock",
+    "behaviors": [
+        {
+            "name": "RightClickPickup"
+        }
+    ],
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.4,
+            "y": -0.2,
+            "z": -0.3
+        },
+        "rotation": {
+            "x": -149,
+            "y": -22,
+            "z": -98
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 0.4
+    },
+    "maxstacksize": 1,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "closed",
+                "opened"
+            ]
+        }
+    ],
+    "shapebytype": {
+        "*-closed": {
+            "base": "game:block/wood/cage/closed"
+        },
+        "*-opened": {
+            "base": "game:block/wood/cage/opened"
+        }
+    },
+    "drops": [
+        {
+            "type": "block",
+            "code": "smallanimalcage-opened"
+        }
+    ],
+    "blockmaterial": "Wood",
+    "resistance": 1.5,
+    "materialDensity": 400,
+    "sidesolid": {
+        "all": false
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "hit": "game:block/planks",
+        "break": "game:block/planks",
+        "walk": "game:walk/wood"
+    }
+}

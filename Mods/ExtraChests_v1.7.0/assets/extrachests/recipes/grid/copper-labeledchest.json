@@ -1,0 +1,55 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "C": {
+        "type": "block",
+        "code": "game:labeledchest-east",
+        "attributes": { "type": "normal-labeled" }
+
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      }
+
+    },
+    "width": 3,
+    "height": 3,   
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "copper" }
+    }
+  },
+
+  {
+    "ingredientPattern": "SC",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      },
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "copper" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "copper" }
+    }
+  }
+
+
+
+]

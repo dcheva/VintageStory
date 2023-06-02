@@ -1,0 +1,108 @@
+[
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "tinbronze" }
+
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+
+    },
+    "width": 3,
+    "height": 3,    
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "iron" }
+    }
+  },
+
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "bismuthbronze" }
+
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+
+    },
+    "width": 3,
+    "height": 3,  
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "iron" }
+    }
+  },
+
+  {
+    "ingredientPattern": "_P_,SCS,_S_",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:plank-*"
+      },
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "blackbronze" }
+
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+
+    },
+    "width": 3,
+    "height": 3,   
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "iron" }
+    }
+  },
+
+  {
+    "ingredientPattern": "SC",
+    "ingredients": {
+      "S": {
+        "type": "block",
+        "code": "game:sign-ground-north"
+      },
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "iron" }
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-east",
+      "attributes": { "type": "iron" }
+    }
+  }
+]

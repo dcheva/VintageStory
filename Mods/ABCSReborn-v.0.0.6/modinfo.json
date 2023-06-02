@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "abcsreborn",
+  "name": "ABCSReborn",
+  "authors": ["Jobediah","Sp0wN"],
+  "description": "Advanced Backpack Construction System this is construction system for Linen and Leather backpacks",
+  "version": "0.0.6",
+  "dependencies": {
+    "game": "1.18.0",
+  }
+}

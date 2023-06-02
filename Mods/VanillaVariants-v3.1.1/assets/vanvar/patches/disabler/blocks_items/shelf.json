@@ -1,0 +1,10 @@
+[
+  {
+    "file": "vanvar:recipes/grid/shelf.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "condition": { "when": "VVShelfEnabled", "isValue": "false" },
+    "side": "server"
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "type": "code",
+    "modid": "woodbarrels",
+    "name": "Wood Barrels",
+    "authors": ["Craluminum2413"],
+    "version": "1.0.4",
+    "dependencies": {
+        "game": "1.17.0-rc.1"
+    }
+}

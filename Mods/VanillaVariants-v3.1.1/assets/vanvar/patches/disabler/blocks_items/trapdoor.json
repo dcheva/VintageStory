@@ -1,0 +1,18 @@
+[
+  {
+    "file": "vanvar:blocktypes/wood/trapdoor.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "condition": { "when": "VVTrapdoorEnabled", "isValue": "false" },
+    "side": "server"
+  },
+  {
+    "file": "vanvar:recipes/grid/trapdoor.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "condition": { "when": "VVTrapdoorEnabled", "isValue": "false" },
+    "side": "server"
+  }
+]

@@ -1,0 +1,102 @@
+[
+	{	_Comment: "Standart in Mini with gray leather",
+		ingredientPattern: "SFR,LBL,_L_",
+		ingredients: {
+			
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 4 },
+			
+			"L": { type: "item", code: "game:leather-plain", quantity: 4},
+			"B": { type: "item",  code: "game:backpack" }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "item", code: "minileather"}
+	},
+	{	_Comment: "Mini in Tall with gray leather",
+		ingredientPattern: "SFR,LBL,_L_",
+		ingredients: {
+			
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 4 },
+			
+			"L": { type: "item", code: "game:leather-gray", quantity: 4},
+			"B": { type: "item",  code: "abcsreborn:minileather" }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "item", code: "tallleather"}
+	},
+	{	_Comment: "Tall in Basic whith black leather",
+		ingredientPattern: "SFR,LBL,GLG",
+		ingredients: {
+			
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 4 },
+			
+			"L": { type: "item", code: "game:leather-black", quantity: 4},
+			"B": { type: "item",  code: "abcsreborn:tallleather" },
+			"G": { type: "item", code: "game:metallamellae-molybdochalkos", quantity: 3 }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "item", code: "basicleather"}
+	},	
+	{	_Comment: "Basic in Super whith orange leather",
+		ingredientPattern: "SFR,LBL,GLG",
+		ingredients: {
+			
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 4 },
+			
+			"L": { type: "item", code: "game:leather-orange", quantity: 4},
+			"B": { type: "item",  code: "abcsreborn:basicleather" },
+			"G": { type: "item", code: "game:metallamellae-blackbronze", quantity: 3 },
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "item", code: "superleather"}
+	},
+	{	_Comment: "Super in Mega whith purple leather",
+		ingredientPattern: "SFR,LBL,GLG",
+		ingredients: {
+			
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 4 },
+			
+			"L": { type: "item", code: "game:leather-purple", quantity: 4},
+			"B": { type: "item",  code: "abcsreborn:superleather" },
+			"G": { type: "item", code: "game:metallamellae-iron", quantity: 3 },
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "item", code: "megaleather"}
+	},
+	{	_Comment: "Mega in Ultra whith white leather",
+		ingredientPattern: "SFR,LBL,GLG",
+		ingredients: {
+			
+			"S": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 10  },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"R": { type: "item",  code: "game:rope", quantity: 4 },
+			
+			"L": { type: "item", code: "game:leather-white", quantity: 4},
+			"B": { type: "item",  code: "abcsreborn:megaleather" },
+			"G": { type: "item", code: "game:metallamellae-steel", quantity: 3 },
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,	
+		output: { type: "item", code: "ultraleather"}
+	}
+]

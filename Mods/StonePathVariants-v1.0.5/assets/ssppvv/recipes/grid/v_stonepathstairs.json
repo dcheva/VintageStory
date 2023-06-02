@@ -1,0 +1,11 @@
+{
+  "ingredientPattern": "B_,SS,E_",
+  "ingredients": {
+    "E": { "type": "item", "code": "game:stone-*", "quantity": 2 },
+    "S": { "type": "item", "code": "game:stone-*" },
+    "B": { "type": "block", "code": "game:soil-*" }
+  },
+  "width": 2,
+  "height": 3,
+  "output": { "type": "block", "code": "game:stonepathstairs-up-north-free" }
+}

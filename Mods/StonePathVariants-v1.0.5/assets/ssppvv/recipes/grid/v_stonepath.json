@@ -1,0 +1,10 @@
+{
+  "ingredientPattern": "B_,SS,SS",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:stone-*" },
+    "B": { "type": "block", "code": "game:soil-*" }
+  },
+  "width": 2,
+  "height": 3,
+  "output": { "type": "block", "code": "game:stonepath-free" }
+}

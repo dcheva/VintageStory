@@ -1,0 +1,96 @@
+[
+    {
+        "op": "add",
+        "path": "/behaviors/-",
+        "file": "blocktypes/chests.json",
+        "value": {
+            "name": "Carryable",
+            "properties": {
+                "translation": [0.0625, 0, 0],
+                "rotation": [0, 180, 0],
+                "slots": { "Hands": {}, "Back": {} }
+            }
+        },
+        "dependsOn": [{ "modid": "carrycapacity" }]
+    },
+    {
+        "op": "add",
+        "path": "/behaviors/-",
+        "file": "blocktypes/labeledchests.json",
+        "value": {
+            "name": "Carryable",
+            "properties": {
+                "translation": [0.0625, 0, 0],
+                "rotation": [0, 180, 0],
+                "slots": { "Hands": {}, "Back": {} }
+            }
+        },
+        "dependsOn": [{ "modid": "carrycapacity" }]
+    },
+    {
+        "op": "add",
+        "path": "/behaviors/-",
+        "file": "blocktypes/trunks.json",
+        "value": {
+            "name": "Carryable",
+            "properties": {
+                "translation": [0.0625, 0, -0.5],
+                "rotation": [0, 0, 0],
+                "slots": {
+                    "Hands": {
+                        "animation": "carryon:holdheavy",
+                        "walkSpeedModifier": -0.5
+                    }
+                }
+            }
+        },
+        "dependsOn": [{ "modid": "carrycapacity" }]
+    },
+    {
+        "op": "add",
+        "path": "/behaviors/-",
+        "file": "blocktypes/chests.json",
+        "value": {
+            "name": "Carryable",
+            "properties": {
+                "translation": [0.0625, 0, 0],
+                "rotation": [0, 180, 0],
+                "slots": { "Hands": {}, "Back": {} }
+            }
+        },
+        "dependsOn": [{ "modid": "carryon" }]
+    },
+    {
+        "op": "add",
+        "path": "/behaviors/-",
+        "file": "blocktypes/labeledchests.json",
+        "value": {
+            "name": "Carryable",
+            "properties": {
+                "translation": [0.0625, 0, 0],
+                "rotation": [0, 180, 0],
+                "slots": { "Hands": {}, "Back": {} }
+            }
+        },
+        "dependsOn": [{ "modid": "carryon" }]
+    },
+    {
+        "op": "add",
+        "path": "/behaviors/-",
+        "file": "blocktypes/trunks.json",
+        "value": {
+            "name": "Carryable",
+            "properties": {
+                "translation": [0.0625, 0, -0.5],
+                "rotation": [0, 0, 0],
+                "slots": {
+                    "Hands": {
+                        "animation": "carryon:holdheavy",
+                        "walkSpeedModifier": -0.5
+                    }
+                }
+            }
+        },
+        "dependsOn": [{ "modid": "carryon" }]
+    }
+]

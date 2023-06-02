@@ -1,0 +1,15 @@
+{
+  "block-copper-chest-*": "Cofre de cobre",
+  "block-tinbronze-chest-*": "Cofre de bronce de esta\u00f1o",
+  "block-bismuthbronze-chest-*": "Cofre de bronce bismuto",
+  "block-blackbronze-chest-*": "Cofre de bronce negro",
+  "block-iron-chest-*": "Cofre de hierro",
+  "block-steel-chest-*": "Cofre de acero",
+
+  "block-copper-labeledchest-*": "Cofre de cobre etiquetado",
+  "block-tinbronze-labeledchest-*": "Cofre de bronce de esta\u00f1o etiquetado",
+  "block-bismuthbronze-labeledchest-*": "Cofre de bronce bismuto etiquetado",
+  "block-blackbronze-labeledchest-*": "Cofre de bronce negro etiquetado",
+  "block-iron-labeledchest-*": "Cofre de hierro etiquetado",
+  "block-steel-labeledchest-*": "Cofre de acero etiquetado"
+}

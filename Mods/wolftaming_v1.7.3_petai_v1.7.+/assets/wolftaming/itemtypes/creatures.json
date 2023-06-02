@@ -1,0 +1,165 @@
+{
+    "code": "creature",
+    "class": "ItemCreature",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "tame-wolf-male",
+                "tame-wolf-female",
+                "tame-wolf-pup",
+                "dog-hunting-male",
+                "dog-hunting-female",
+                "dog-hunting-pup",
+                "dog-wolf-male",
+                "dog-wolf-female",
+                "dog-wolf-pup",
+                "dog-shepherd-male",
+                "dog-shepherd-female",
+                "dog-shepherd-pup"
+            ]
+        }
+    ],
+    "shape": {
+        "baseByType": {
+            "*-wolf-male": "game:entity/land/wolf-male",
+            "*-wolf-female": "game:entity/land/wolf-male",
+            "*-hunting-male": "entity/dog-hunting",
+            "*-hunting-female": "entity/dog-hunting",
+            "*-shepherd-male": "entity/dog-shepherd",
+            "*-shepherd-female": "entity/dog-shepherd",
+            "*-shepherd-pup": "entity/dog-shepherd-pup",
+            "*-hunting-pup": "entity/dog-hunting-pup",
+            "*-pup": "game:entity/land/wolf-pup"
+        }
+    },
+    "textures": {
+        "skin": {
+            "baseByType": {
+                "*-wolf-male": "game:entity/wolf/wolf1",
+                "*-wolf-female": "game:entity/wolf/wolf1",
+                "*-hunting-male": "entity/dog-hunting-black",
+                "*-hunting-female": "entity/dog-hunting-brown",
+                "*-shepherd-male": "entity/dog-shepherd-1",
+                "*-shepherd-female": "entity/dog-shepherd-2",
+                "*-shepherd-pup": "entity/dog-shepherd-pup",
+                "*-hunting-pup": "entity/dog-hunting-pup",
+                "*-pup": "game:entity/wolf/wolf-pup1"
+            }
+        }
+    },
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "creatures": [
+            "*"
+        ]
+    },
+    "materialDensity": 600,
+    "guiTransformByType": {
+        "*-pup": {
+            "rotate": true,
+            "translation": {
+                "x": 3,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -12,
+                "y": -48,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.3,
+                "z": 0.5
+            },
+            "scale": 2.18
+        },
+        "*": {
+            "rotate": true,
+            "translation": {
+                "x": 2,
+                "y": 1,
+                "z": 0
+            },
+            "rotation": {
+                "x": 4,
+                "y": -59,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "scale": 1.16
+        }
+    },
+    "tpHandTransformByType": {
+        "*-pup": {
+            "translation": {
+                "x": -0.4,
+                "y": 0,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": -160,
+                "y": -26,
+                "z": -90
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.1,
+                "z": 0.5
+            },
+            "scale": 0.92
+        },
+        "*": {
+            "translation": {
+                "x": -1,
+                "y": -0.6,
+                "z": -0.7
+            },
+            "rotation": {
+                "x": -180,
+                "y": 0,
+                "z": -156
+            },
+            "scale": 0.5
+        }
+    },
+    "fpHandTransformByType": {
+        "*-pup": {
+            "translation": {
+                "x": 0.4,
+                "y": 0.1,
+                "z": 0
+            },
+            "rotation": {
+                "x": -180,
+                "y": -78,
+                "z": -180
+            },
+            "scale": 1.21
+        },
+        "*": {
+            "translation": {
+                "x": 0.4,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -180,
+                "y": -96,
+                "z": -180
+            },
+            "scale": 1.16
+        }
+    }
+}

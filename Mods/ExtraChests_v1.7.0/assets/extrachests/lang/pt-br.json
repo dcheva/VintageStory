@@ -1,0 +1,15 @@
+{
+  "block-copper-chest-*": "Baú de cobre",
+  "block-tinbronze-chest-*": "Baú de bronze de estanho",
+  "block-bismuthbronze-chest-*": "Baú de bronze bismuto",
+  "block-blackbronze-chest-*": "Baú de bronze negro",
+  "block-iron-chest-*": "Baú de ferro",
+  "block-steel-chest-*": "Baú de aço",
+
+  "block-copper-labeledchest-*": "Baú de cobre etiquetado",
+  "block-tinbronze-labeledchest-*": "Baú de bronze de estanho etiquetado",
+  "block-bismuthbronze-labeledchest-*": "Baú de bronze bismuto etiquetado",
+  "block-blackbronze-labeledchest-*": "Baú de bronze negro etiquetado",
+  "block-iron-labeledchest-*": "Baú de ferro etiquetado",
+  "block-steel-labeledchest-*": "Baú de aço etiquetado"
+}

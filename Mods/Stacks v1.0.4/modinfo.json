@@ -1,0 +1,14 @@
+{
+  "type": "content",
+  "modid": "stacks",
+  "name": "Stacks",
+  "description": "Adds stacks of things",
+  "version": "1.0.4",
+  "networkversion": null,
+  "website": "",
+  "authors": [ "ozBillo" ],
+  "contributors": [],
+  "side": "Universal",
+  "requiredonclient": true,
+  "dependencies": {}
+}

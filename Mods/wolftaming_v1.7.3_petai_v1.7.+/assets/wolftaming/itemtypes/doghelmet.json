@@ -1,0 +1,144 @@
+{
+	"code": "doghelmet",
+	"class": "ItemPetAccessory",
+	"shapeByType": {
+		"*-iron": {
+			"base": "armor/helmet/doghelmet-{type}-inventory"
+		},
+		"*": {
+			"base": "armor/helmet/dog-wolf/doghelmet-{type}"
+		}
+	},
+	"attributes": {
+		"shapes": {
+			"dog-wolf-male": {
+				"base": "wolftaming:armor/helmet/dog-wolf/doghelmet-{type}"
+			},
+			"dog-wolf-female": {
+				"base": "wolftaming:armor/helmet/dog-wolf/doghelmet-{type}"
+			},
+			"dog-shepherd-male": {
+				"base": "wolftaming:armor/helmet/dog-shepherd/doghelmet-{type}"
+			},
+			"dog-shepherd-female": {
+				"base": "wolftaming:armor/helmet/dog-shepherd/doghelmet-{type}"
+			},
+			"dog-hunting-male": {
+				"base": "wolftaming:armor/helmet/dog-hunting/doghelmet-{type}"
+			},
+			"dog-hunting-female": {
+				"base": "wolftaming:armor/helmet/dog-hunting/doghelmet-{type}"
+			}
+		},
+		"damageReductionByType": {
+			"*-basic": 0.3,
+			"*-tinbronze": 0.4,
+			"*-iron": 0.5
+		},
+		"wearableAttachment": true,
+		"cothingType": "HEAD",
+		"validPets": [
+			"dog-wolf-male",
+			"dog-wolf-female",
+			"dog-hunting-male",
+			"dog-hunting-female",
+			"dog-shepherd-male",
+			"dog-shepherd-female"
+		]
+	},
+	"maxstacksize": 1,
+	"heldTpIdleAnimation": "holdunderarm",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"basic",
+				"tinbronze",
+				"iron"
+			]
+		}
+	],
+	"creativeinventory": {
+		"general": [
+			"*"
+		],
+		"items": [
+			"*"
+		],
+		"clothing": [
+			"*"
+		]
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 0.1,
+			"y": -4,
+			"z": 0.3
+		},
+		"rotation": {
+			"x": 120,
+			"y": -60,
+			"z": -45
+		},
+		"origin": {
+			"x": 0.1,
+			"y": 0.3,
+			"z": 0.3
+		},
+		"scale": 2.52
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 270
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 3.5
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -2,
+			"y": 50,
+			"z": 1
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 2.41
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.1,
+			"y": 0.3,
+			"z": -0.05
+		},
+		"rotation": {
+			"x": 21,
+			"y": -170,
+			"z": 22
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 0.65
+	}
+}

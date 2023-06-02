@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/tpHandTransform/scale",
+    "value": 0.44,
+    "file": "game:blocktypes/wood/barrel.json",
+    "side": "server"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/textures/bwood",
+    "value": {
+      "base": "block/wood/oak"
+    },
+    "file": "blocktypes/wood/fruitpress.json"
+  }
+]

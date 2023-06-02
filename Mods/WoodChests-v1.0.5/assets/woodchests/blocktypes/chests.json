@@ -1,0 +1,289 @@
+{
+    "code": "wchest",
+    "class": "WoodChests_BlockWoodChest",
+    "entityclass": "GenericTypedContainer",
+    "attributes": {
+        "handbook": {
+            "groupBy": ["wchest-*"]
+        },
+        "partialAttachable": true,
+        "inventoryClassName": "chest",
+        "defaultType": "acacia",
+        "types": ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"],
+        "rotatatableInterval": {
+            "acacia": "22.5degnot45deg",
+            "aged": "22.5degnot45deg",
+            "baldcypress": "22.5degnot45deg",
+            "birch": "22.5degnot45deg",
+            "ebony": "22.5degnot45deg",
+            "kapok": "22.5degnot45deg",
+            "larch": "22.5degnot45deg",
+            "maple": "22.5degnot45deg",
+            "oak": "22.5degnot45deg",
+            "pine": "22.5degnot45deg",
+            "purpleheart": "22.5degnot45deg",
+            "redwood": "22.5degnot45deg",
+            "walnut": "22.5degnot45deg"
+        },
+        "drop": {
+            "acacia": true,
+            "aged": true,
+            "baldcypress": true,
+            "birch": true,
+            "ebony": true,
+            "kapok": true,
+            "larch": true,
+            "maple": true,
+            "oak": true,
+            "pine": true,
+            "purpleheart": true,
+            "redwood": true,
+            "walnut": true
+        },
+        "quantitySlots": {
+            "acacia": 16,
+            "aged": 16,
+            "baldcypress": 16,
+            "birch": 16,
+            "ebony": 16,
+            "kapok": 16,
+            "larch": 16,
+            "maple": 16,
+            "oak": 16,
+            "pine": 16,
+            "purpleheart": 16,
+            "redwood": 16,
+            "walnut": 16
+        },
+        "dialogTitleLangCode": {
+            "acacia": "chestcontents",
+            "aged": "chestcontents",
+            "baldcypress": "chestcontents",
+            "birch": "chestcontents",
+            "ebony": "chestcontents",
+            "kapok": "chestcontents",
+            "larch": "chestcontents",
+            "maple": "chestcontents",
+            "oak": "chestcontents",
+            "pine": "chestcontents",
+            "purpleheart": "chestcontents",
+            "redwood": "chestcontents",
+            "walnut": "chestcontents"
+        },
+        "storageType": {
+            "acacia": 189,
+            "aged": 189,
+            "baldcypress": 189,
+            "birch": 189,
+            "ebony": 189,
+            "kapok": 189,
+            "larch": 189,
+            "maple": 189,
+            "oak": 189,
+            "pine": 189,
+            "purpleheart": 189,
+            "redwood": 189,
+            "walnut": 189
+        },
+        "retrieveOnly": {
+            "acacia": false,
+            "aged": false,
+            "baldcypress": false,
+            "birch": false,
+            "ebony": false,
+            "kapok": false,
+            "larch": false,
+            "maple": false,
+            "oak": false,
+            "pine": false,
+            "purpleheart": false,
+            "redwood": false,
+            "walnut": false
+        },
+        "shape": {
+            "acacia": "game:block/wood/chest/normal",
+            "aged": "game:block/wood/chest/normal",
+            "baldcypress": "game:block/wood/chest/normal",
+            "birch": "game:block/wood/chest/normal",
+            "ebony": "game:block/wood/chest/normal",
+            "kapok": "game:block/wood/chest/normal",
+            "larch": "game:block/wood/chest/normal",
+            "maple": "game:block/wood/chest/normal",
+            "oak": "game:block/wood/chest/normal",
+            "pine": "game:block/wood/chest/normal",
+            "purpleheart": "game:block/wood/chest/normal",
+            "redwood": "game:block/wood/chest/normal",
+            "walnut": "game:block/wood/chest/normal"
+        },
+        "typedOpenSound": {
+            "acacia": "game:sounds/block/largechestopen",
+            "aged": "game:sounds/block/largechestopen",
+            "baldcypress": "game:sounds/block/largechestopen",
+            "birch": "game:sounds/block/largechestopen",
+            "ebony": "game:sounds/block/largechestopen",
+            "kapok": "game:sounds/block/largechestopen",
+            "larch": "game:sounds/block/largechestopen",
+            "maple": "game:sounds/block/largechestopen",
+            "oak": "game:sounds/block/largechestopen",
+            "pine": "game:sounds/block/largechestopen",
+            "purpleheart": "game:sounds/block/largechestopen",
+            "redwood": "game:sounds/block/largechestopen",
+            "walnut": "game:sounds/block/largechestopen"
+        },
+        "typedCloseSound": {
+            "acacia": "game:sounds/block/largechestclose",
+            "aged": "game:sounds/block/largechestclose",
+            "baldcypress": "game:sounds/block/largechestclose",
+            "birch": "game:sounds/block/largechestclose",
+            "ebony": "game:sounds/block/largechestclose",
+            "kapok": "game:sounds/block/largechestclose",
+            "larch": "game:sounds/block/largechestclose",
+            "maple": "game:sounds/block/largechestclose",
+            "oak": "game:sounds/block/largechestclose",
+            "pine": "game:sounds/block/largechestclose",
+            "purpleheart": "game:sounds/block/largechestclose",
+            "redwood": "game:sounds/block/largechestclose",
+            "walnut": "game:sounds/block/largechestclose"
+        },
+        "variantByGroup": "side",
+        "variantByGroupInventory": null
+    },
+    "behaviors": [{ "name": "Lockable" }, { "name": "Container" }],
+    "entityBehaviors": [{ "name": "Animatable" }],
+    "variantgroups": [{ "code": "side", "loadFromProperties": "game:abstract/horizontalorientation" }],
+    "creativeinventory": {},
+    "creativeinventoryStacksByType": {
+        "*-east": [
+            {
+                "tabs": ["cralwv"],
+                "stacks": [
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "acacia" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "aged" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "baldcypress" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "birch" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "ebony" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "kapok" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "larch" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "maple" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "oak" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "pine" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "purpleheart" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "redwood" } },
+                    { "type": "block", "code": "wchest-east", "attributes": { "type": "walnut" } }
+                ]
+            }
+        ]
+    },
+    "heldTpIdleAnimation": "holdunderarm",
+    "shapeInventory": { "base": "game:block/wood/chest/normal", "rotateY": 270 },
+    "shapeByType": {
+        "*-north": { "rotateY": 0 },
+        "*-east": { "rotateY": 270 },
+        "*-west": { "rotateY": 90 },
+        "*-south": { "rotateY": 180 }
+    },
+    "textures": {
+        "acacia-sides2": { "base": "game:block/wood/debarked/acacia", "overlays": ["block/chest/sides"] },
+        "acacia-lid": { "base": "game:block/wood/debarked/acacia" },
+        "acacia-accessories": { "base": "game:block/wood/debarked/acacia", "overlays": ["block/chest/accessories"] },
+
+        "aged-sides2": { "base": "game:block/wood/debarked/aged", "overlays": ["block/chest/sides"] },
+        "aged-lid": { "base": "game:block/wood/debarked/aged" },
+        "aged-accessories": { "base": "game:block/wood/debarked/aged", "overlays": ["block/chest/accessories"] },
+
+        "baldcypress-sides2": { "base": "game:block/wood/debarked/baldcypress", "overlays": ["block/chest/sides"] },
+        "baldcypress-lid": { "base": "game:block/wood/debarked/baldcypress" },
+        "baldcypress-accessories": { "base": "game:block/wood/debarked/baldcypress", "overlays": ["block/chest/accessories"] },
+
+        "birch-sides2": { "base": "game:block/wood/debarked/birch", "overlays": ["block/chest/sides"] },
+        "birch-lid": { "base": "game:block/wood/debarked/birch" },
+        "birch-accessories": { "base": "game:block/wood/debarked/birch", "overlays": ["block/chest/accessories"] },
+
+        "ebony-sides2": { "base": "game:block/wood/debarked/ebony", "overlays": ["block/chest/sides"] },
+        "ebony-lid": { "base": "game:block/wood/debarked/ebony" },
+        "ebony-accessories": { "base": "game:block/wood/debarked/ebony", "overlays": ["block/chest/accessories"] },
+
+        "kapok-sides2": { "base": "game:block/wood/debarked/kapok", "overlays": ["block/chest/sides"] },
+        "kapok-lid": { "base": "game:block/wood/debarked/kapok" },
+        "kapok-accessories": { "base": "game:block/wood/debarked/kapok", "overlays": ["block/chest/accessories"] },
+
+        "larch-sides2": { "base": "game:block/wood/debarked/larch", "overlays": ["block/chest/sides"] },
+        "larch-lid": { "base": "game:block/wood/debarked/larch" },
+        "larch-accessories": { "base": "game:block/wood/debarked/larch", "overlays": ["block/chest/accessories"] },
+
+        "maple-sides2": { "base": "game:block/wood/debarked/maple", "overlays": ["block/chest/sides"] },
+        "maple-lid": { "base": "game:block/wood/debarked/maple" },
+        "maple-accessories": { "base": "game:block/wood/debarked/maple", "overlays": ["block/chest/accessories"] },
+
+        "oak-sides2": { "base": "game:block/wood/debarked/oak", "overlays": ["block/chest/sides"] },
+        "oak-lid": { "base": "game:block/wood/debarked/oak" },
+        "oak-accessories": { "base": "game:block/wood/debarked/oak", "overlays": ["block/chest/accessories"] },
+
+        "pine-sides2": { "base": "game:block/wood/debarked/pine", "overlays": ["block/chest/sides"] },
+        "pine-lid": { "base": "game:block/wood/debarked/pine" },
+        "pine-accessories": { "base": "game:block/wood/debarked/pine", "overlays": ["block/chest/accessories"] },
+
+        "purpleheart-sides2": { "base": "game:block/wood/debarked/purpleheart", "overlays": ["block/chest/sides"] },
+        "purpleheart-lid": { "base": "game:block/wood/debarked/purpleheart" },
+        "purpleheart-accessories": { "base": "game:block/wood/debarked/purpleheart", "overlays": ["block/chest/accessories"] },
+
+        "redwood-sides2": { "base": "game:block/wood/debarked/redwood", "overlays": ["block/chest/sides"] },
+        "redwood-lid": { "base": "game:block/wood/debarked/redwood" },
+        "redwood-accessories": { "base": "game:block/wood/debarked/redwood", "overlays": ["block/chest/accessories"] },
+
+        "walnut-sides2": { "base": "game:block/wood/debarked/walnut", "overlays": ["block/chest/sides"] },
+        "walnut-lid": { "base": "game:block/wood/debarked/walnut" },
+        "walnut-accessories": { "base": "game:block/wood/debarked/walnut", "overlays": ["block/chest/accessories"] }
+    },
+    "blockmaterial": "Wood",
+    "replaceable": 900,
+    "resistance": 3,
+    "lightAbsorption": 0,
+    "sideAo": { "all": false },
+    "sidesolid": {
+        "all": false
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "collisionSelectionBox": {
+        "x1": 0.0625,
+        "y1": 0,
+        "z1": 0.0625,
+        "x2": 0.9375,
+        "y2": 0.8125,
+        "z2": 0.9375
+    },
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 35
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "hit": "game:block/planks",
+        "break": "game:block/planks",
+        "walk": "game:walk/wood"
+    },
+    "materialDensity": 600,
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.9,
+            "y": -0.5,
+            "z": -0.3
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": -102
+        },
+        "scale": 0.56
+    },
+    "guiTransform": {
+        "origin": {
+            "x": 0.5,
+            "y": 0.4,
+            "z": 0.5
+        },
+        "scale": 1.16
+    }
+}
