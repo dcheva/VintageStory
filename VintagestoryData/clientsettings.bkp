@@ -31,7 +31,7 @@
     "ssaoQuality": 1,
     "viewDistance": 256,
     "fieldOfView": 70,
-    "maxFps": 62,
+    "maxFps": 60,
     "particleLevel": 24,
     "maxDynamicLights": 24,
     "weirdMacOSMouseYOffset": 5,
